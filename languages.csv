@@ -102,7 +102,7 @@ gez;Ge'ez;2;n != 1
 gl;Galician;2;n != 1
 gn;Guarani;2;n != 1
 gsw;Swiss German;2;n != 1
-gu;Gujarati;2;n != 1
+gu;Gujarati;2;n > 1
 gun;Gun;2;n > 1
 guw;Gun;2;n > 1
 gv;Manx;4;(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))
@@ -123,12 +123,12 @@ ia;Interlingua;2;n != 1
 id;Indonesian;1;0
 ie;Occidental;2;n != 1
 ig;Igbo;1;0
-ii;Nuosu;2;n != 1
+ii;Nuosu;1;0
 ik;Inupiaq;2;n != 1
 io;Ido;2;n != 1
 is;Icelandic;2;n % 10 != 1 || n % 100 == 11
 it;Italian;2;n != 1
-iu;Inuktitut;2;n != 1
+iu;Inuktitut;3;(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 ja;Japanese;1;0
 jam;Jamaican Patois;2;n != 1
 jbo;Lojban;1;0
@@ -185,7 +185,7 @@ ml;Malayalam;2;n != 1
 mn;Mongolian;2;n != 1
 mni;Manipuri;2;n != 1
 mnk;Mandinka;3;n==0 ? 0 : n==1 ? 1 : 2
-mo;Moldovan;2;n != 1
+mo;Moldavian;3;(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
 mr;Marathi;2;n > 1
 ms;Malay;1;0
 mt;Maltese;4;n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3
@@ -215,14 +215,14 @@ oj;Ojibwe;2;n != 1
 om;Oromo;2;n != 1
 or;Odia;2;n != 1
 os;Ossetian;2;n != 1
-pa;Punjabi;2;n != 1
+pa;Punjabi;2;n > 1
 pap;Papiamento;2;n != 1
 pi;Pali;2;n != 1
 pl;Polish;3;n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 pms;Piemontese;2;n != 1
 pr;Pirate;2;n != 1
 prg;Prussian;3;(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
-ps;Pushto;2;n != 1
+ps;Pashto;2;n != 1
 pt;Portuguese;2;n > 1
 pt_BR;Portuguese (Brazil);2;n > 1
 pt_PT;Portuguese (Portugal);2;n > 1
@@ -269,7 +269,7 @@ sr_Cyrl;Serbian (cyrillic);3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n
 sr_Latn;Serbian (latin);3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 ss;Swati;2;n != 1
 ssy;Saho;2;n != 1
-st;Sotho;2;n != 1
+st;Southern Sotho;2;n != 1
 su;Sundanese;1;0
 sv;Swedish;2;n != 1
 sw;Swahili;2;n != 1
@@ -284,7 +284,7 @@ th;Thai;1;0
 ti;Tigrinya;2;n > 1
 tig;Tigre;2;n != 1
 tk;Turkmen;2;n != 1
-tl;Tagalog;1;0
+tl;Tagalog;2;n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
 tlh-qaak;Klingon (pIqaD);1;0
 tlh;Klingon;1;0
 tn;Tswana;2;n != 1
@@ -295,7 +295,7 @@ tt;Tatar;1;0
 tw;Twi;2;n != 1
 ty;Tahitian;2;n != 1
 tzm;Central Atlas Tamazight;2;n >= 2 && (n < 11 || n > 99)
-ug;Uighur;1;0
+ug;Uyghur;2;n != 1
 uk;Ukrainian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 ur;Urdu;2;n != 1
 ur_PK;Urdu (Pakistan);2;n != 1
@@ -311,7 +311,7 @@ wa;Walloon;2;n > 1
 wae;Walser German;2;n != 1
 wal;Wolaytta;2;n != 1
 wen;Sorbian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-wo;Wolof;2;n != 1
+wo;Wolof;1;0
 xh;Xhosa;2;n != 1
 xog;Soga;2;n != 1
 yi;Yiddish;2;n != 1
