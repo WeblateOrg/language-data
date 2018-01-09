@@ -23,3 +23,9 @@ for code in set(CLDR) & set(LANGUAGES):
         print('Gettext:', LANGUAGES[code])
         print('CLDR:', CLDR[code])
         print()
+
+# List missing ones
+for code in set(CLDR) - set(LANGUAGES):
+    print('Defintion for {} missing in gettext:'.format(code))
+    print('CLDR:', CLDR[code])
+    print()
