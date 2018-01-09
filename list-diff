@@ -1,0 +1,25 @@
+#! /usr/bin/env python3
+#
+# Copyright © 2018 Michal Čihař <michal@cihar.com>
+#
+# This file is part of Weblate <https://weblate.org/>
+#
+
+import csv
+
+# Read the definitions
+def parse_csv(name):
+    with open(name, 'r') as csvfile:
+        reader = csv.reader(csvfile, delimiter=';')
+        return dict([(x[0], x) for x in reader])
+
+LANGUAGES = parse_csv('languages.csv')
+CLDR = parse_csv('cldr.csv')
+
+# Iterate over common languages
+for code in set(CLDR) & set(LANGUAGES):
+    if CLDR[code] != LANGUAGES[code]:
+        print('Defintion for {} differs:'.format(code))
+        print('Gettext:', LANGUAGES[code])
+        print('CLDR:', CLDR[code])
+        print()
