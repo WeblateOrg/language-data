@@ -5,6 +5,8 @@
 # This file is part of Weblate <https://weblate.org/>
 #
 
+OLDCODES = set(('in', 'iw', 'jw', 'ji', 'no'))
+
 import csv
 
 # Read the definitions
@@ -31,7 +33,7 @@ for code in sorted(set(CLDR) & set(LANGUAGES)):
         print()
 
 # List missing ones
-for code in sorted(set(CLDR) - set(LANGUAGES)):
+for code in sorted(set(CLDR) - set(LANGUAGES) - OLDCODES):
     print('Defintion for {} missing in gettext:'.format(code))
     print('CLDR:', CLDR[code])
     print()
