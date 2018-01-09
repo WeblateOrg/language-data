@@ -9,15 +9,21 @@ import csv
 
 # Read the definitions
 def parse_csv(name):
+    result = {}
     with open(name, 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=';')
-        return dict([(x[0], x) for x in reader])
+        for data in reader:
+            if data[0] in result:
+                print('Duplicate {} in {}!'.format(data[0], name))
+                continue
+            result[data[0]] = data
+    return result
 
 LANGUAGES = parse_csv('languages.csv')
 CLDR = parse_csv('cldr.csv')
 
 # Iterate over common languages
-for code in set(CLDR) & set(LANGUAGES):
+for code in sorted(set(CLDR) & set(LANGUAGES)):
     if CLDR[code] != LANGUAGES[code]:
         print('Defintion for {} differs:'.format(code))
         print('Gettext:', LANGUAGES[code])
@@ -25,7 +31,7 @@ for code in set(CLDR) & set(LANGUAGES):
         print()
 
 # List missing ones
-for code in set(CLDR) - set(LANGUAGES):
+for code in sorted(set(CLDR) - set(LANGUAGES)):
     print('Defintion for {} missing in gettext:'.format(code))
     print('CLDR:', CLDR[code])
     print()
