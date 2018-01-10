@@ -39,9 +39,19 @@ for lang in glob.glob('cldr-core/common/main/*.xml'):
     locale = lang.rsplit('/', 1)[1].split('.')[0]
 
     with open('languages-po/{}.po'.format(locale), 'w') as handle:
-        handle.write('''# CLDR language names for {}
+        handle.write('''# CLDR language names for {0}
 # Automatically generated using tools available at
 # https://github.com/WeblateOrg/language-data
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Weblate\\n"
+"Language: {0}\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"X-Generator: Weblate\\n"
+
 '''.format(locale))
         for key in sorted(result):
             handle.write('''
