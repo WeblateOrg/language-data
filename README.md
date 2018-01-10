@@ -1,6 +1,6 @@
 # language-data
 
-Language definitions used by [Weblate](https://weblate.org/) and free to use by others.
+Language definitions used by [Weblate][w] and free to use by others.
 
 ## Generic file format
 
@@ -11,8 +11,11 @@ Language definitions used by [Weblate](https://weblate.org/) and free to use by 
 
 * Based on Gettext definitions
 * Imported from translate-toolkit and Weblate
+* Used by [Weblate][w] for language definitions
 
 ## cldr.csv
 
-* Based on the CLDR data
+* Based purely on the CLDR data
 * Generated using https://github.com/mlocati/cldr-to-gettext-plural-rules
+
+[w]: https://weblate.org/
