@@ -18,4 +18,9 @@ Language definitions used by [Weblate][w] and free to use by others.
 * Based purely on the CLDR data
 * Generated using https://github.com/mlocati/cldr-to-gettext-plural-rules
 
+## languages-po
+
+* Directory containing PO files with langauge names translations
+* Extracted from CLDR data
+
 [w]: https://weblate.org/
