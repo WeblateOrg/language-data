@@ -77,6 +77,7 @@ id;Indonesian;1;0
 ig;Igbo;1;0
 ii;Sichuan Yi;1;0
 in;Indonesian;1;0
+io;Ido;2;n != 1
 is;Icelandic;2;n % 10 != 1 || n % 100 == 11
 it;Italian;2;n != 1
 iu;Inuktitut;3;(n == 1) ? 0 : ((n == 2) ? 1 : 2)
@@ -150,7 +151,7 @@ prg;Prussian;3;(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 ==
 ps;Pashto;2;n != 1
 pt;Portuguese;2;n > 1
 pt_BR;Brazilian Portuguese;2;n > 1
-pt_PT;European Portuguese;2;n > 1
+pt_PT;European Portuguese;2;n != 1
 rm;Romansh;2;n != 1
 ro;Romanian;3;(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
 ro_MD;Moldavian;3;(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
@@ -159,6 +160,7 @@ ru;Russian;3;(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 &
 rwk;Rwa;2;n != 1
 sah;Sakha;1;0
 saq;Samburu;2;n != 1
+sd;Sindhi;2;n != 1
 sdh;Southern Kurdish;2;n != 1
 se;Northern Sami;3;(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 seh;Sena;2;n != 1
