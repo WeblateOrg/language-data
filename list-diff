@@ -11,7 +11,7 @@ import csv
 import gettext
 
 def fmt_plural(data):
-    return 'nplurals={}; plural={};'.format(data[2], data[3])
+    return 'nplurals={}; plural={};'.format(data[2], data[3]).replace('|', '\\|')
 
 def compare_definition(first, second, meta=True):
     if meta and (first[0] != second[0] or first[1] != second[1] or first[2] != second[2]):
