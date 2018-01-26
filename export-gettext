@@ -3,13 +3,11 @@
 # Export Gettext builtin plurals
 
 import re
-from urllib.request import urlopen
 
-URL = 'http://git.savannah.gnu.org/cgit/gettext.git/plain/gettext-tools/src/plural-table.c'
 MATCH = re.compile(r'\s*{\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)"\s*},?\s*')
 
-with urlopen(URL) as handle:
-    content = handle.read().decode('utf-8')
+with open('modules/gettext/gettext-tools/src/plural-table.c') as handle:
+    content = handle.read()
 
 output = []
 state = 0
