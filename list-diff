@@ -104,12 +104,21 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | L10n guide | Translate 
         if code in CLDR and not compare_definition(LANGUAGES[code], CLDR[code], False):
             handle.write(fmt_plural(CLDR[code]))
         handle.write(' | ')
-        if code in GETTEXT and not compare_definition(LANGUAGES[code], GETTEXT[code], False):
-            handle.write(fmt_plural(GETTEXT[code]))
+        if code in GETTEXT:
+            if not compare_definition(LANGUAGES[code], GETTEXT[code], False):
+                handle.write(fmt_plural(GETTEXT[code]))
+            else:
+                handle.write('✔')
         handle.write(' | ')
-        if code in L10N and not compare_definition(LANGUAGES[code], L10N[code], False):
-            handle.write(fmt_plural(L10N[code]))
+        if code in L10N:
+            if not compare_definition(LANGUAGES[code], L10N[code], False):
+                handle.write(fmt_plural(L10N[code]))
+            else:
+                handle.write('✔')
         handle.write(' | ')
-        if code in TRANSLATE and not compare_definition(LANGUAGES[code], TRANSLATE[code], False):
-            handle.write(fmt_plural(TRANSLATE[code]))
+        if code in TRANSLATE:
+            if not compare_definition(LANGUAGES[code], TRANSLATE[code], False):
+                handle.write(fmt_plural(TRANSLATE[code]))
+            else:
+                handle.write('✔')
         handle.write('\n')
