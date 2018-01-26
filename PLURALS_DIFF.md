@@ -68,7 +68,7 @@ de | German | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 de\_AT | Austrian German | nplurals=2; plural=n != 1; | ✔ |  |  | 
 de\_CH | Swiss High German | nplurals=2; plural=n != 1; | ✔ |  |  | 
 doi | Dogri | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
-dsb | Lower Sorbian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 \|\| n % 100 == 4) ? 2 : 3)); |  |  | 
+dsb | Lower Sorbian | nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 \|\| n % 100 == 4) ? 2 : 3)); | ✔ |  |  | 
 dv | Dhivehi | nplurals=2; plural=n != 1; | ✔ |  |  | 
 dz | Dzongkha | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 ee | Ewe | nplurals=2; plural=n != 1; | ✔ |  |  | 
@@ -116,13 +116,13 @@ guw | Gun | nplurals=2; plural=n > 1; | ✔ |  |  |
 gv | Manx | nplurals=4; plural=(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 \|\| n % 100 == 20 \|\| n % 100 == 40 \|\| n % 100 == 60 \|\| n % 100 == 80) ? 2 : 3)); | ✔ |  |  | 
 ha | Hausa | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 haw | Hawaiian | nplurals=2; plural=n != 1; | ✔ |  |  | 
-he | Hebrew | nplurals=2; plural=n != 1; | nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3)); | ✔ | ✔ | ✔
+he | Hebrew | nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3)); | ✔ | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 hi | Hindi | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 hil | Hiligaynon | nplurals=2; plural=n != 1; |  |  |  | 
 hne | Chhattisgarhi | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 ho | Hiri Motu | nplurals=2; plural=n != 1; |  |  |  | 
 hr | Croatian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | ✔ | ✔ | ✔ | ✔
-hsb | Upper Sorbian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 \|\| n % 100 == 4) ? 2 : 3)); |  |  | 
+hsb | Upper Sorbian | nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 \|\| n % 100 == 4) ? 2 : 3)); | ✔ |  |  | 
 ht | Haitian | nplurals=2; plural=n != 1; |  |  |  | ✔
 hu | Hungarian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 hy | Armenian | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=1; plural=0;
@@ -166,7 +166,7 @@ ksb | Shambala | nplurals=2; plural=n != 1; | ✔ |  |  |
 ksh | Colognian | nplurals=3; plural=n==0 ? 0 : n==1 ? 1 : 2; | ✔ |  |  | 
 ku | Kurdish | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 kv | Komi | nplurals=2; plural=n != 1; |  |  |  | 
-kw | Cornish | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3; | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); |  | ✔ | ✔
+kw | Cornish | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3; | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3;
 ky | Kyrgyz | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 la | Latin | nplurals=2; plural=n != 1; |  |  |  | 
 lag | Langi | nplurals=3; plural=(n == 0) ? 0 : ((n == 1) ? 1 : 2); | ✔ |  |  | 
@@ -176,9 +176,9 @@ li | Limburgish | nplurals=2; plural=n != 1; |  |  |  |
 lkt | Lakota | nplurals=1; plural=0; | ✔ |  |  | 
 ln | Lingala | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
 lo | Lao | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
-lt | Lithuanian | nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 \|\| n%100>=20) ? 1 : n%10==0 \|\| (n%100>10 && n%100<20) ? 2 : 3; | nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 \|\| n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 \|\| n % 100 > 19)) ? 1 : 2); | nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 \|\| n%100>=20) ? 1 : 2); | nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 \|\| n%100>=20) ? 1 : 2); | nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 \|\| n%100>=20) ? 1 : 2);
+lt | Lithuanian | nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 \|\| n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 \|\| n % 100 > 19)) ? 1 : 2); | ✔ | ✔ | ✔ | ✔
 lu | Luba-Katanga | nplurals=2; plural=n != 1; |  |  |  | 
-lv | Latvian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2; | nplurals=3; plural=(n % 10 == 0 \|\| n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2); | ✔ | ✔ | ✔
+lv | Latvian | nplurals=3; plural=(n % 10 == 0 \|\| n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2); | ✔ | nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2); | nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2); | nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);
 mai | Maithili | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 mas | Masai | nplurals=2; plural=n != 1; | ✔ |  |  | 
 me | Montenegrin | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  | ✔ | ✔

@@ -60,7 +60,7 @@ de;German;2;n != 1
 de_AT;Austrian German;2;n != 1
 de_CH;Swiss High German;2;n != 1
 doi;Dogri;2;n != 1
-dsb;Lower Sorbian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+dsb;Lower Sorbian;4;(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 dv;Dhivehi;2;n != 1
 dz;Dzongkha;1;0
 ee;Ewe;2;n != 1
@@ -108,13 +108,13 @@ guw;Gun;2;n > 1
 gv;Manx;4;(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))
 ha;Hausa;2;n != 1
 haw;Hawaiian;2;n != 1
-he;Hebrew;2;n != 1
+he;Hebrew;4;(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 hi;Hindi;2;n > 1
 hil;Hiligaynon;2;n != 1
 hne;Chhattisgarhi;2;n != 1
 ho;Hiri Motu;2;n != 1
 hr;Croatian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-hsb;Upper Sorbian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+hsb;Upper Sorbian;4;(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 ht;Haitian;2;n != 1
 hu;Hungarian;2;n != 1
 hy;Armenian;2;n > 1
@@ -158,7 +158,7 @@ ksb;Shambala;2;n != 1
 ksh;Colognian;3;n==0 ? 0 : n==1 ? 1 : 2
 ku;Kurdish;2;n != 1
 kv;Komi;2;n != 1
-kw;Cornish;4;(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3
+kw;Cornish;3;(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 ky;Kyrgyz;2;n != 1
 la;Latin;2;n != 1
 lag;Langi;3;(n == 0) ? 0 : ((n == 1) ? 1 : 2)
@@ -168,9 +168,9 @@ li;Limburgish;2;n != 1
 lkt;Lakota;1;0
 ln;Lingala;2;n > 1
 lo;Lao;1;0
-lt;Lithuanian;4;n==1 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3
+lt;Lithuanian;3;(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2)
 lu;Luba-Katanga;2;n != 1
-lv;Latvian;3;n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2
+lv;Latvian;3;(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 mai;Maithili;2;n != 1
 mas;Masai;2;n != 1
 me;Montenegrin;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
