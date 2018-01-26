@@ -77,6 +77,14 @@ for code in sorted(set(GETTEXT) - set(LANGUAGES) - OLDCODES):
 
 with open('PLURALS_DIFF.md', 'w') as handle:
     handle.write('''
+## Difference in plurals
+
+This table lists differences in plurals between various sources.
+
+* The Plurals column lists data in languages.csv used in Weblate
+* CLDR are differences in plurals contained in the CLDR
+* Gettext are differences in plurals contained in the Gettext sources
+
 Code | Name | Plurals | CLDR plurals | Gettext plurals
 ---- | ---- | --------| ------------ | ---------------
 ''')
@@ -87,17 +95,9 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals
         handle.write(' | ')
         handle.write(fmt_plural(LANGUAGES[code]))
         handle.write(' | ')
-        if code in CLDR:
-            if not compare_definition(LANGUAGES[code], CLDR[code], False):
-                hl = '**'
-            else:
-                hl = ''
-            handle.write('{0}{1}{0}'.format(hl, fmt_plural(CLDR[code])))
+        if code in CLDR and not compare_definition(LANGUAGES[code], CLDR[code], False):
+            handle.write(fmt_plural(CLDR[code]))
         handle.write(' | ')
-        if code in GETTEXT:
-            if not compare_definition(LANGUAGES[code], GETTEXT[code], False):
-                hl = '**'
-            else:
-                hl = ''
-            handle.write('{0}{1}{0}'.format(hl, fmt_plural(GETTEXT[code])))
+        if code in GETTEXT and not compare_definition(LANGUAGES[code], GETTEXT[code], False):
+            handle.write(fmt_plural(GETTEXT[code]))
         handle.write('\n')
