@@ -6,7 +6,7 @@ import re
 from urllib.request import urlopen
 
 URL = 'http://git.savannah.gnu.org/cgit/gettext.git/plain/gettext-tools/src/plural-table.c'
-MATCH = re.compile(r'\s*{\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)"\s*},\s*')
+MATCH = re.compile(r'\s*{\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)"\s*},?\s*')
 
 with urlopen(URL) as handle:
     content = handle.read().decode('utf-8')

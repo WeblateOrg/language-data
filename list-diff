@@ -5,7 +5,7 @@
 # This file is part of Weblate <https://weblate.org/>
 #
 
-OLDCODES = set(('in', 'iw', 'jw', 'ji', 'no'))
+OLDCODES = set(('in', 'iw', 'jw', 'ji', 'no', 'es_ES', 'mo', 'sh', 'es_419', 'ar_001'))
 
 import csv
 import gettext
