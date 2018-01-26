@@ -8,6 +8,25 @@
 OLDCODES = set(('in', 'iw', 'jw', 'ji', 'no'))
 
 import csv
+import gettext
+
+def compare_definition(first, second, meta=True):
+    if meta and (first[0] != second[0] or first[1] != second[1] or first[2] != second[2]):
+        return False
+    # Convert formulas to functions
+    ours = gettext.c2py(first[3])
+    theirs = gettext.c2py(second[3])
+
+    # Compare equation results
+    # It would be better to compare formulas,
+    # but this was easier to implement and the performance
+    # is still okay.
+    for i in range(-10, 200):
+        if ours(i) != theirs(i):
+            return False
+
+    return True
+
 
 # Read the definitions
 def parse_csv(name):
@@ -27,28 +46,28 @@ GETTEXT = parse_csv('gettext.csv')
 
 # Iterate over common languages
 for code in sorted(set(CLDR) & set(LANGUAGES)):
-    if CLDR[code] != LANGUAGES[code]:
-        print('Defintion for {} differs:'.format(code))
+    if not compare_definition(CLDR[code], LANGUAGES[code]):
+        print('Definition for {} differs:'.format(code))
         print('Languages:', LANGUAGES[code])
         print('CLDR:', CLDR[code])
         print()
 
 # Iterate over common languages
 for code in sorted(set(GETTEXT) & set(LANGUAGES)):
-    if GETTEXT[code] != LANGUAGES[code]:
-        print('Defintion for {} differs:'.format(code))
+    if not compare_definition(GETTEXT[code], LANGUAGES[code]):
+        print('Definition for {} differs:'.format(code))
         print('Languages:', LANGUAGES[code])
         print('Gettext:', GETTEXT[code])
         print()
 
 # List missing ones
 for code in sorted(set(CLDR) - set(LANGUAGES) - OLDCODES):
-    print('Defintion for {} missing in languages:'.format(code))
+    print('Definition for {} missing in languages:'.format(code))
     print('CLDR:', CLDR[code])
     print()
 
 # List missing ones
 for code in sorted(set(GETTEXT) - set(LANGUAGES) - OLDCODES):
-    print('Defintion for {} missing in languages:'.format(code))
+    print('Definition for {} missing in languages:'.format(code))
     print('Gettext:', GETTEXT[code])
     print()
