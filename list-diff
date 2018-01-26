@@ -5,7 +5,13 @@
 # This file is part of Weblate <https://weblate.org/>
 #
 
-OLDCODES = set(('in', 'iw', 'jw', 'ji', 'no', 'es_ES', 'mo', 'sh', 'es_419', 'ar_001'))
+IGNOREDCODES = set((
+    # Obsolete language codes
+    'in', 'iw', 'jw', 'ji', 'no', 'es_ES', 'mo', 'sh',
+    'zh_TW', 'zh_HK', 'zh_CN',
+    # Ignore some variants
+    'es_419', 'ar_001',
+))
 
 import csv
 import gettext
@@ -52,6 +58,13 @@ def show_diff(name, data):
             print(name, ':', data[code])
             print()
 
+def show_missing(name, data):
+    for code in sorted(set(data) - set(LANGUAGES) - IGNOREDCODES):
+        print('Definition for {} missing in languages:'.format(code))
+        print(name, ':', data[code])
+        print()
+
+
 
 LANGUAGES = parse_csv('languages.csv')
 CLDR = parse_csv('cldr.csv')
@@ -66,16 +79,10 @@ show_diff('L10n guide', L10N)
 show_diff('Translate', TRANSLATE)
 
 # List missing ones
-for code in sorted(set(CLDR) - set(LANGUAGES) - OLDCODES):
-    print('Definition for {} missing in languages:'.format(code))
-    print('CLDR:', CLDR[code])
-    print()
-
-# List missing ones
-for code in sorted(set(GETTEXT) - set(LANGUAGES) - OLDCODES):
-    print('Definition for {} missing in languages:'.format(code))
-    print('Gettext:', GETTEXT[code])
-    print()
+show_missing('CLDR', CLDR)
+show_missing('Gettext', GETTEXT)
+show_missing('L10n guide', L10N)
+show_missing('Translate', TRANSLATE)
 
 with open('PLURALS_DIFF.md', 'w') as handle:
     handle.write('''
