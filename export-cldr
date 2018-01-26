@@ -3,7 +3,7 @@
 import json
 import os
 
-os.system('./cldr-to-gettext-plural-rules/bin/export-plural-rules --reduce=no --output=cldr.json json')
+os.system('./modules/cldr-to-gettext-plural-rules/bin/export-plural-rules --reduce=no --output=cldr.json json')
 
 with open('cldr.json', 'rb') as handle:
     LANGUAGES = json.load(handle)
