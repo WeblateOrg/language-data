@@ -1,0 +1,144 @@
+ach;Acholi;2;(n > 1)
+af;Afrikaans;2;(n != 1)
+ak;Akan;2;(n > 1)
+am;Amharic;2;(n > 1)
+an;Aragonese;2;(n != 1)
+anp;Angika;2;(n != 1)
+ar;Arabic;6;(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5)
+arn;Mapudungun;2;(n > 1)
+as;Assamese;2;(n != 1)
+ast;Asturian;2;(n != 1)
+ay;Aymará;1;0
+az;Azerbaijani;2;(n != 1)
+be;Belarusian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+bg;Bulgarian;2;(n != 1)
+bn;Bengali;2;(n != 1)
+bo;Tibetan;1;0
+br;Breton;2;(n > 1)
+brx;Bodo;2;(n != 1)
+bs;Bosnian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+ca;Catalan;2;(n != 1)
+cgg;Chiga;1;0
+cs;Czech;3;(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
+csb;Kashubian;3;(n==1) ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+cy;Welsh;4;(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3
+da;Danish;2;(n != 1)
+de;German;2;(n != 1)
+doi;Dogri;2;(n != 1)
+dz;Dzongkha;1;0
+el;Greek;2;(n != 1)
+en;English;2;(n != 1)
+eo;Esperanto;2;(n != 1)
+es;Spanish;2;(n != 1)
+es_AR;Argentinean Spanish;2;(n != 1)
+et;Estonian;2;(n != 1)
+eu;Basque;2;(n != 1)
+fa;Persian;2;(n > 1)
+ff;Fulah;2;(n != 1)
+fi;Finnish;2;(n != 1)
+fil;Filipino;2;(n > 1)
+fo;Faroese;2;(n != 1)
+fr;French;2;(n > 1)
+fur;Friulian;2;(n != 1)
+fy;Frisian;2;(n != 1)
+ga;Irish;5;n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4
+gd;Scottish Gaelic;4;(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3
+gl;Galician;2;(n != 1)
+gu;Gujarati;2;(n != 1)
+gun;Gun;2;(n > 1)
+ha;Hausa;2;(n != 1)
+he;Hebrew;2;(n != 1)
+hi;Hindi;2;(n != 1)
+hne;Chhattisgarhi;2;(n != 1)
+hr;Croatian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+hu;Hungarian;2;(n != 1)
+hy;Armenian;2;(n != 1)
+ia;Interlingua;2;(n != 1)
+id;Indonesian;1;0
+is;Icelandic;2;(n%10!=1 || n%100==11)
+it;Italian;2;(n != 1)
+ja;Japanese;1;0
+jbo;Lojban;1;0
+jv;Javanese;2;(n != 0)
+ka;Georgian;1;0
+kk;Kazakh;2;(n != 1)
+kl;Greenlandic;2;(n != 1)
+km;Khmer;1;0
+kn;Kannada;2;(n != 1)
+ko;Korean;1;0
+ku;Kurdish;2;(n != 1)
+kw;Cornish;4;(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3
+ky;Kyrgyz;2;(n != 1)
+lb;Letzeburgesch;2;(n != 1)
+ln;Lingala;2;(n > 1)
+lo;Lao;1;0
+lt;Lithuanian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)
+lv;Latvian;3;(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)
+mai;Maithili;2;(n != 1)
+me;Montenegro;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+mfe;Mauritian Creole;2;(n > 1)
+mg;Malagasy;2;(n > 1)
+mi;Maori;2;(n > 1)
+mk;Macedonian;2; n==1 || n%10==1 ? 0 : 1; *Can't be correct needs a 2 somewhere*
+ml;Malayalam;2;(n != 1)
+mn;Mongolian;2;(n != 1)
+mni;Manipuri;2;(n != 1)
+mnk;Mandinka;3;(n==0 ? 0 : n==1 ? 1 : 2)
+mr;Marathi;2;(n != 1)
+ms;Malay;1;0
+mt;Maltese;4;(n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3)
+my;Burmese;1;0
+nah;Nahuatl;2;(n != 1)
+nap;Neapolitan;2;(n != 1)
+nb;Norwegian Bokmal;2;(n != 1)
+ne;Nepali;2;(n != 1)
+nl;Dutch;2;(n != 1)
+nn;Norwegian Nynorsk;2;(n != 1)
+no;Norwegian (old code);2;(n != 1)
+nso;Northern Sotho;2;(n != 1)
+oc;Occitan;2;(n > 1)
+or;Oriya;2;(n != 1)
+pa;Punjabi;2;(n != 1)
+pap;Papiamento;2;(n != 1)
+pl;Polish;3;(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+pms;Piemontese;2;(n != 1)
+ps;Pashto;2;(n != 1)
+pt;Portuguese;2;(n != 1)
+pt_BR;Brazilian Portuguese;2;(n > 1)
+rm;Romansh;2;(n != 1)
+ro;Romanian;3;(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2)
+ru;Russian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+rw;Kinyarwanda;2;(n != 1)
+sah;Yakut;1;0
+sat;Santali;2;(n != 1)
+sco;Scots;2;(n != 1)
+sd;Sindhi;2;(n != 1)
+se;Northern Sami;2;(n != 1)
+si;Sinhala;2;(n != 1)
+sk;Slovak;3;(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
+sl;Slovenian;4;(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)
+so;Somali;2;(n != 1)
+son;Songhay;2;(n != 1)
+sq;Albanian;2;(n != 1)
+sr;Serbian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+su;Sundanese;1;0
+sv;Swedish;2;(n != 1)
+sw;Swahili;2;(n != 1)
+ta;Tamil;2;(n != 1)
+te;Telugu;2;(n != 1)
+tg;Tajik;2;(n > 1)
+th;Thai;1;0
+ti;Tigrinya;2;(n > 1)
+tk;Turkmen;2;(n != 1)
+tr;Turkish;2;(n > 1)
+tt;Tatar;1;0
+ug;Uyghur;1;0
+uk;Ukrainian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+ur;Urdu;2;(n != 1)
+uz;Uzbek;2;(n > 1)
+vi;Vietnamese;1;0
+wa;Walloon;2;(n > 1)
+wo;Wolof;1;0
+yo;Yoruba;2;(n != 1)
+zh;Chinese;1;0
+zh;Chinese;2;(n > 1)
