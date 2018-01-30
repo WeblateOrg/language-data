@@ -6,6 +6,7 @@ dsb;Lower Sorbian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 |
 fil;Filipino;2;(n > 1)
 ga;Irish;3;n==1 ? 0 : n==2 ? 1 : 2
 he;Hebrew;2;(n != 1)
+he;Hebrew;3;n==1 ? 0 : n==2 ? 2 : 1
 hsb;Upper Sorbian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 jv;Javanese;2;(n != 1)
 ka;Georgian;1;0
