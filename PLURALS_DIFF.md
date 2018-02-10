@@ -10,6 +10,7 @@ aa | Afar | nplurals=2; plural=n != 1; |  |  |  |
 ab | Abkhazian | nplurals=2; plural=n != 1; |  |  |  | 
 ace | Acehnese | nplurals=1; plural=0; |  |  |  | 
 ach | Acholi | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
+ady | Adyghe | nplurals=2; plural=n > 1; |  |  |  | 
 ae | Avestan | nplurals=2; plural=n != 1; |  |  |  | 
 af | Afrikaans | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 ak | Akan | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
@@ -55,6 +56,7 @@ ch | Chamorro | nplurals=2; plural=n != 1; |  |  |  |
 chm | Mari | nplurals=2; plural=n != 1; |  |  |  | 
 chr | Cherokee | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ckb | Sorani | nplurals=2; plural=n != 1; | ✔ |  |  | 
+cmn | Chinese (Mandarin) | nplurals=1; plural=0; |  |  |  | 
 co | Corsican | nplurals=2; plural=n != 1; |  |  |  | 
 cr | Cree | nplurals=2; plural=n != 1; |  |  |  | 
 crh | Crimean Tatar | nplurals=1; plural=0; |  |  |  | 
