@@ -51,6 +51,7 @@ byn | Bilen | nplurals=2; plural=n != 1; |  |  |  |
 ca | Catalan | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 ca@valencia | Valencian | nplurals=2; plural=n != 1; |  |  |  | ✔
 ce | Chechen | nplurals=2; plural=n != 1; | ✔ |  |  | 
+ceb | Cebuano | nplurals=2; plural=n != 1; |  |  |  | 
 cgg | Chiga | nplurals=2; plural=n != 1; | ✔ |  | nplurals=1; plural=0; | nplurals=1; plural=0;
 ch | Chamorro | nplurals=2; plural=n != 1; |  |  |  | 
 chm | Mari | nplurals=2; plural=n != 1; |  |  |  | 
