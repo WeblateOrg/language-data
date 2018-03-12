@@ -174,7 +174,7 @@ ky | Kyrgyz | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 la | Latin | nplurals=2; plural=n != 1; |  |  |  | 
 lag | Langi | nplurals=3; plural=(n == 0) ? 0 : ((n == 1) ? 1 : 2); | ✔ |  |  | 
 lb | Luxembourgish | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
-lg | Ganda | nplurals=2; plural=n != 1; | ✔ |  |  | 
+lg | Luganda | nplurals=2; plural=n != 1; | ✔ |  |  | 
 li | Limburgish | nplurals=2; plural=n != 1; |  |  |  | 
 lkt | Lakota | nplurals=1; plural=0; | ✔ |  |  | 
 ln | Lingala | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
