@@ -11,6 +11,12 @@ with open('/usr/share/iso-codes/json/iso_639-2.json', 'r') as handle:
             if value in item:
                 names[item[value]] = item['name']
 
+with open('/usr/share/iso-codes/json/iso_639-3.json', 'r') as handle:
+    for item in json.load(handle)['639-3']:
+        for value in ('alpha_2', 'alpha_3'):
+            if value in item:
+                names[item[value]] = item['name']
+
 with open('languages.csv', 'r') as handle:
     lines = handle.readlines()
 
