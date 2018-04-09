@@ -117,6 +117,7 @@ hil;Hiligaynon;2;n != 1
 hne;Chhattisgarhi;2;n != 1
 ho;Hiri Motu;2;n != 1
 hr;Croatian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+hrx;Hunsrik;2;n != 1
 hsb;Upper Sorbian;4;(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 ht;Haitian;2;n != 1
 hu;Hungarian;2;n != 1
