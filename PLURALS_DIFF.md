@@ -125,6 +125,7 @@ hil | Hiligaynon | nplurals=2; plural=n != 1; |  |  |  |
 hne | Chhattisgarhi | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 ho | Hiri Motu | nplurals=2; plural=n != 1; |  |  |  | 
 hr | Croatian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | ✔ | ✔ | ✔ | ✔
+hrx | Hunsrik | nplurals=2; plural=n != 1; |  |  |  | 
 hsb | Upper Sorbian | nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 \|\| n % 100 == 4) ? 2 : 3)); | ✔ |  |  | 
 ht | Haitian | nplurals=2; plural=n != 1; |  |  |  | ✔
 hu | Hungarian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
@@ -205,7 +206,6 @@ nah | Nahuatl | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 nap | Neapolitan | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 naq | Nama | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  |  | 
 nb | Norwegian Bokmål | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
-nb\_NO | Norwegian Bokmål | nplurals=2; plural=n != 1; |  |  |  | 
 nd | North Ndebele | nplurals=2; plural=n != 1; | ✔ |  |  | 
 nds | Low German | nplurals=2; plural=n != 1; |  |  |  | 
 ne | Nepali | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
