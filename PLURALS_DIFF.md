@@ -81,6 +81,7 @@ en\_AU | English (Australia) | nplurals=2; plural=n != 1; | ✔ |  |  |
 en\_CA | English (Canada) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 en\_GB | English (United Kingdom) | nplurals=2; plural=n != 1; | ✔ |  |  | ✔
 en\_IE | English (Ireland) | nplurals=2; plural=n != 1; |  |  |  | 
+en\_NZ | English (New Zealand) | nplurals=2; plural=n != 1; |  |  |  | 
 en\_PH | English (Philippines) | nplurals=2; plural=n != 1; |  |  |  | 
 en\_US | English (United States) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 en\_ZA | English (South Africa) | nplurals=2; plural=n != 1; |  |  |  | ✔
@@ -137,7 +138,7 @@ ie | Occidental | nplurals=2; plural=n != 1; |  |  |  |
 ig | Igbo | nplurals=1; plural=0; | ✔ |  |  | 
 ii | Nuosu | nplurals=1; plural=0; | ✔ |  |  | 
 ik | Inupiaq | nplurals=2; plural=n != 1; |  |  |  | 
-io | Ido | nplurals=2; plural=n != 1; | ✔ |  |  | 
+io | Ido | nplurals=2; plural=n != 1; |  |  |  | 
 is | Icelandic | nplurals=2; plural=n % 10 != 1 \|\| n % 100 == 11; | ✔ |  | ✔ | nplurals=2; plural=(n != 1);
 it | Italian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 iu | Inuktitut | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  |  | 
@@ -235,7 +236,7 @@ prg | Prussian | nplurals=3; plural=(n % 10 == 0 \|\| n % 100 >= 11 && n % 100 <
 ps | Pashto | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 pt | Portuguese | nplurals=2; plural=n > 1; | ✔ | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 pt\_BR | Portuguese (Brazil) | nplurals=2; plural=n > 1; | ✔ | ✔ | ✔ | ✔
-pt\_PT | Portuguese (Portugal) | nplurals=2; plural=n != 1; | ✔ |  |  | 
+pt\_PT | Portuguese (Portugal) | nplurals=2; plural=n > 1; | ✔ |  |  | 
 qu | Quechua | nplurals=2; plural=n != 1; |  |  |  | 
 rm | Romansh | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 rn | Rundi | nplurals=2; plural=n != 1; |  |  |  | 
@@ -252,7 +253,7 @@ saq | Samburu | nplurals=2; plural=n != 1; | ✔ |  |  |
 sat | Santali | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 sc | Sardinian | nplurals=2; plural=n != 1; |  |  |  | 
 sco | Scots | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
-sd | Sindhi | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
+sd | Sindhi | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 sdh | Southern Kurdish | nplurals=2; plural=n != 1; | ✔ |  |  | 
 se | Northern Sami | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 seh | Sena | nplurals=2; plural=n != 1; | ✔ |  |  | 
