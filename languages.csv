@@ -227,6 +227,7 @@ pr;Pirate;2;n != 1
 prg;Prussian;3;(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 ps;Pashto;2;n != 1
 pt;Portuguese;2;n > 1
+pt_AO;Portuguese (Angola);2;n > 1
 pt_BR;Portuguese (Brazil);2;n > 1
 pt_PT;Portuguese (Portugal);2;n > 1
 qu;Quechua;2;n != 1
