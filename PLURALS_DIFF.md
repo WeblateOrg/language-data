@@ -19,6 +19,8 @@ an | Aragonese | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 anp | Angika | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 ar | Arabic | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; | ✔ |  | ✔ | ✔
 ar\_DZ | Arabic (Algeria) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
+ar\_EG | Arabic (Egypt) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
+ar\_KW | Arabic (Kuwait) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_MA | Arabic (Morocco) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 arn | Mapudungun | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
 ars | Najdi Arabic | nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5)))); | ✔ |  |  | 
@@ -57,7 +59,6 @@ ch | Chamorro | nplurals=2; plural=n != 1; |  |  |  |
 chm | Mari | nplurals=2; plural=n != 1; |  |  |  | 
 chr | Cherokee | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ckb | Sorani | nplurals=2; plural=n != 1; | ✔ |  |  | 
-cmn | Chinese (Mandarin) | nplurals=1; plural=0; |  |  |  | 
 co | Corsican | nplurals=2; plural=n != 1; |  |  |  | 
 cr | Cree | nplurals=2; plural=n != 1; |  |  |  | 
 crh | Crimean Tatar | nplurals=1; plural=0; |  |  |  | 
@@ -143,6 +144,7 @@ is | Icelandic | nplurals=2; plural=n % 10 != 1 \|\| n % 100 == 11; | ✔ |  | �
 it | Italian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 iu | Inuktitut | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  |  | 
 ja | Japanese | nplurals=1; plural=0; | ✔ | ✔ | ✔ | ✔
+ja\_KS | Japanese (Kansai) | nplurals=1; plural=0; |  |  |  | 
 jam | Jamaican Patois | nplurals=2; plural=n != 1; |  |  |  | 
 jbo | Lojban | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 jgo | Ngomba | nplurals=2; plural=n != 1; | ✔ |  |  | 
@@ -206,7 +208,7 @@ na | Nauru | nplurals=2; plural=n != 1; |  |  |  |
 nah | Nahuatl | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 nap | Neapolitan | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 naq | Nama | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  |  | 
-nb | Norwegian Bokmål | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
+nb\_NO | Norwegian Bokmål | nplurals=2; plural=n != 1; |  |  |  | 
 nd | North Ndebele | nplurals=2; plural=n != 1; | ✔ |  |  | 
 nds | Low German | nplurals=2; plural=n != 1; |  |  |  | 
 ne | Nepali | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
@@ -235,6 +237,7 @@ pr | Pirate | nplurals=2; plural=n != 1; |  |  |  |
 prg | Prussian | nplurals=3; plural=(n % 10 == 0 \|\| n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2); | ✔ |  |  | 
 ps | Pashto | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 pt | Portuguese | nplurals=2; plural=n > 1; | ✔ | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
+pt\_AO | Portuguese (Angola) | nplurals=2; plural=n > 1; |  |  |  | 
 pt\_BR | Portuguese (Brazil) | nplurals=2; plural=n > 1; | ✔ | ✔ | ✔ | ✔
 pt\_PT | Portuguese (Portugal) | nplurals=2; plural=n > 1; | ✔ |  |  | 
 qu | Quechua | nplurals=2; plural=n != 1; |  |  |  | 
@@ -302,6 +305,7 @@ to | Tongan | nplurals=1; plural=0; | ✔ |  |  |
 tr | Turkish | nplurals=2; plural=n != 1; | ✔ | ✔ | nplurals=2; plural=(n > 1); | ✔
 ts | Tsonga | nplurals=2; plural=n != 1; | ✔ |  |  | 
 tt | Tatar | nplurals=1; plural=0; |  |  | ✔ | ✔
+tt@iqtelif | Tatar (IQTElif) | nplurals=1; plural=0; |  |  |  | 
 tw | Twi | nplurals=2; plural=n != 1; |  |  |  | 
 ty | Tahitian | nplurals=2; plural=n != 1; |  |  |  | 
 tzm | Central Atlas Tamazight | nplurals=2; plural=n >= 2 && (n < 11 \|\| n > 99); | ✔ |  |  | 
@@ -328,7 +332,6 @@ yi | Yiddish | nplurals=2; plural=n != 1; | ✔ |  |  |
 yo | Yoruba | nplurals=1; plural=0; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 yue | Yue | nplurals=1; plural=0; | ✔ |  |  | ✔
 za | Zhuang | nplurals=2; plural=n != 1; |  |  |  | 
-zh | Chinese | nplurals=1; plural=0; | ✔ |  | ✔ | 
 zh\_Hans | Chinese (Simplified) | nplurals=1; plural=0; | ✔ |  |  | 
 zh\_Hant | Chinese (Traditional) | nplurals=1; plural=0; | ✔ |  |  | 
 zh\_Hant\_HK | Chinese (Hong Kong) | nplurals=1; plural=0; |  |  |  | 
