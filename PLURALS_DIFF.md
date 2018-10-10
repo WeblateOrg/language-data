@@ -22,6 +22,7 @@ ar\_DZ | Arabic (Algeria) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : 
 ar\_EG | Arabic (Egypt) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_KW | Arabic (Kuwait) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_MA | Arabic (Morocco) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
+ar\_SA | Arabic (Saudi Arabia) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 arn | Mapudungun | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
 ars | Najdi Arabic | nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5)))); | ✔ |  |  | 
 as | Assamese | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
@@ -82,6 +83,7 @@ en\_AU | English (Australia) | nplurals=2; plural=n != 1; | ✔ |  |  |
 en\_CA | English (Canada) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 en\_GB | English (United Kingdom) | nplurals=2; plural=n != 1; | ✔ |  |  | ✔
 en\_IE | English (Ireland) | nplurals=2; plural=n != 1; |  |  |  | 
+en\_IN | English (India) | nplurals=2; plural=n != 1; |  |  |  | 
 en\_NZ | English (New Zealand) | nplurals=2; plural=n != 1; |  |  |  | 
 en\_PH | English (Philippines) | nplurals=2; plural=n != 1; |  |  |  | 
 en\_US | English (United States) | nplurals=2; plural=n != 1; | ✔ |  |  | 
@@ -92,6 +94,7 @@ es\_AR | Spanish (Argentina) | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 es\_CL | Spanish (Chile) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_EC | Spanish (Ecuador) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_MX | Spanish (Mexico) | nplurals=2; plural=n != 1; | ✔ |  |  | 
+es\_PE | Spanish (Peru) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_PR | Spanish (Puerto Rico) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_US | Spanish (American) | nplurals=2; plural=n != 1; |  |  |  | 
 et | Estonian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
@@ -104,6 +107,7 @@ fil | Filipino | nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 \
 fj | Fijian | nplurals=2; plural=n != 1; |  |  |  | 
 fo | Faroese | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 fr | French | nplurals=2; plural=n > 1; | ✔ | ✔ | ✔ | ✔
+fr\_BE | French (Belgium) | nplurals=2; plural=n > 1; |  |  |  | 
 fr\_CA | French (Canada) | nplurals=2; plural=n > 1; | ✔ |  |  | 
 fr\_CH | French (Switzerland) | nplurals=2; plural=n > 1; | ✔ |  |  | 
 frp | Franco-Provençal | nplurals=2; plural=n > 1; |  |  |  | 
@@ -290,6 +294,7 @@ sw\_CD | Congo Swahili | nplurals=2; plural=n != 1; | ✔ |  |  |
 syr | Syriac | nplurals=2; plural=n != 1; | ✔ |  |  | 
 szl | Silesian | nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  |  | ✔
 ta | Tamil | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
+ta\_LK | Tamil (Sri Lanka) | nplurals=2; plural=n != 1; |  |  |  | 
 te | Telugu | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 teo | Teso | nplurals=2; plural=n != 1; | ✔ |  |  | 
 tg | Tajik | nplurals=1; plural=0; |  |  | nplurals=2; plural=(n > 1); | ✔
