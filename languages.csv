@@ -285,6 +285,7 @@ sw_CD;Congo Swahili;2;n != 1
 syr;Syriac;2;n != 1
 szl;Silesian;3;n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 ta;Tamil;2;n != 1
+ta_LK;Tamil (Sri Lanka);2;n != 1
 te;Telugu;2;n != 1
 teo;Teso;2;n != 1
 tg;Tajik;1;0
