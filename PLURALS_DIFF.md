@@ -90,8 +90,10 @@ en\_US | English (United States) | nplurals=2; plural=n != 1; | ✔ |  |  |
 en\_ZA | English (South Africa) | nplurals=2; plural=n != 1; |  |  |  | ✔
 eo | Esperanto | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 es | Spanish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
+es\_419 | Spanish (Latin America) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 es\_AR | Spanish (Argentina) | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 es\_CL | Spanish (Chile) | nplurals=2; plural=n != 1; |  |  |  | 
+es\_DO | Spanish (Dominican Republic) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_EC | Spanish (Ecuador) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_MX | Spanish (Mexico) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 es\_PE | Spanish (Peru) | nplurals=2; plural=n != 1; |  |  |  | 
@@ -137,13 +139,13 @@ ht | Haitian | nplurals=2; plural=n != 1; |  |  |  | ✔
 hu | Hungarian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 hy | Armenian | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=1; plural=0;
 hz | Herero | nplurals=2; plural=n != 1; |  |  |  | 
-ia | Interlingua | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
+ia | Interlingua | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 id | Indonesian | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 ie | Occidental | nplurals=2; plural=n != 1; |  |  |  | 
 ig | Igbo | nplurals=1; plural=0; | ✔ |  |  | 
 ii | Nuosu | nplurals=1; plural=0; | ✔ |  |  | 
 ik | Inupiaq | nplurals=2; plural=n != 1; |  |  |  | 
-io | Ido | nplurals=2; plural=n != 1; |  |  |  | 
+io | Ido | nplurals=2; plural=n != 1; | ✔ |  |  | 
 is | Icelandic | nplurals=2; plural=n % 10 != 1 \|\| n % 100 == 11; | ✔ |  | ✔ | nplurals=2; plural=(n != 1);
 it | Italian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 iu | Inuktitut | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  |  | 
@@ -199,7 +201,7 @@ mgo | Metaʼ | nplurals=2; plural=n != 1; | ✔ |  |  |
 mh | Marshallese | nplurals=2; plural=n != 1; |  |  |  | 
 mhr | Meadow Mari | nplurals=2; plural=n != 1; |  |  |  | 
 mi | Maori | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
-mk | Macedonian | nplurals=2; plural=n==1 \|\| n%10==1 ? 0 : 1; | ✔ |  | ✔ | ✔
+mk | Macedonian | nplurals=2; plural=n==1 \|\| n%10==1 ? 0 : 1; | nplurals=2; plural=n % 10 != 1 \|\| n % 100 == 11; |  | ✔ | ✔
 ml | Malayalam | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 mn | Mongolian | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 mni | Manipuri | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
@@ -243,7 +245,7 @@ ps | Pashto | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 pt | Portuguese | nplurals=2; plural=n > 1; | ✔ | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 pt\_AO | Portuguese (Angola) | nplurals=2; plural=n > 1; |  |  |  | 
 pt\_BR | Portuguese (Brazil) | nplurals=2; plural=n > 1; | ✔ | ✔ | ✔ | ✔
-pt\_PT | Portuguese (Portugal) | nplurals=2; plural=n > 1; | ✔ |  |  | 
+pt\_PT | Portuguese (Portugal) | nplurals=2; plural=n > 1; | nplurals=2; plural=n != 1; |  |  | 
 qu | Quechua | nplurals=2; plural=n != 1; |  |  |  | 
 rm | Romansh | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 rn | Rundi | nplurals=2; plural=n != 1; |  |  |  | 
@@ -258,9 +260,9 @@ sa | Sanskrit | nplurals=3; plural=n==1 ? 0 : n==2 ? 1 : 2; |  |  |  | ✔
 sah | Yakut | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 saq | Samburu | nplurals=2; plural=n != 1; | ✔ |  |  | 
 sat | Santali | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
-sc | Sardinian | nplurals=2; plural=n != 1; |  |  |  | 
+sc | Sardinian | nplurals=2; plural=n != 1; | ✔ |  |  | 
 sco | Scots | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
-sd | Sindhi | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
+sd | Sindhi | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 sdh | Southern Kurdish | nplurals=2; plural=n != 1; | ✔ |  |  | 
 se | Northern Sami | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 seh | Sena | nplurals=2; plural=n != 1; | ✔ |  |  | 
