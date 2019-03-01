@@ -201,6 +201,7 @@ mgo | Metaʼ | nplurals=2; plural=n != 1; | ✔ |  |  |
 mh | Marshallese | nplurals=2; plural=n != 1; |  |  |  | 
 mhr | Meadow Mari | nplurals=2; plural=n != 1; |  |  |  | 
 mi | Maori | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
+mia | Miami | nplurals=2; plural=n > 1; |  |  |  | 
 mk | Macedonian | nplurals=2; plural=n==1 \|\| n%10==1 ? 0 : 1; | nplurals=2; plural=n % 10 != 1 \|\| n % 100 == 11; |  | ✔ | ✔
 ml | Malayalam | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 mn | Mongolian | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
