@@ -5,28 +5,25 @@ import sys
 
 names = {}
 
-with open('/usr/share/iso-codes/json/iso_639-2.json', 'r') as handle:
-    for item in json.load(handle)['639-2']:
-        for value in ('alpha_2', 'alpha_3'):
+with open("/usr/share/iso-codes/json/iso_639-2.json", "r") as handle:
+    for item in json.load(handle)["639-2"]:
+        for value in ("alpha_2", "alpha_3"):
             if value in item:
-                names[item[value]] = item['name']
+                names[item[value]] = item["name"]
 
-with open('/usr/share/iso-codes/json/iso_639-3.json', 'r') as handle:
-    for item in json.load(handle)['639-3']:
-        for value in ('alpha_2', 'alpha_3'):
+with open("/usr/share/iso-codes/json/iso_639-3.json", "r") as handle:
+    for item in json.load(handle)["639-3"]:
+        for value in ("alpha_2", "alpha_3"):
             if value in item:
-                names[item[value]] = item['name']
+                names[item[value]] = item["name"]
 
-with open('languages.csv', 'r') as handle:
+with open("languages.csv", "r") as handle:
     lines = handle.readlines()
 
 for code in sys.argv[1:]:
-    lines.append('{};{};{};{}\n'.format(
-        code, 
-        names[code].split(';')[-1].strip(),
-        2,
-        'n != 1',
-    ))
+    lines.append(
+        "{};{};{};{}\n".format(code, names[code].split(";")[-1].strip(), 2, "n != 1")
+    )
 
-with open('languages.csv', 'w') as handle:
+with open("languages.csv", "w") as handle:
     handle.writelines(sorted(lines))

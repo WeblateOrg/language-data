@@ -3,19 +3,18 @@
 import json
 import os
 
-os.system('./modules/cldr-to-gettext-plural-rules/bin/export-plural-rules --reduce=no --output=cldr.json json')
+os.system(
+    "./modules/cldr-to-gettext-plural-rules/bin/export-plural-rules --reduce=no --output=cldr.json json"
+)
 
-with open('cldr.json', 'rb') as handle:
+with open("cldr.json", "rb") as handle:
     LANGUAGES = json.load(handle)
 
-os.unlink('cldr.json')
+os.unlink("cldr.json")
 
-with open('cldr.csv', 'w') as handle:
+with open("cldr.csv", "w") as handle:
     for code in sorted(LANGUAGES):
         data = LANGUAGES[code]
-        handle.write('{};{};{};{}\n'.format(
-            code,
-            data['name'],
-            data['plurals'],
-            data['formula'],
-        ))
+        handle.write(
+            "{};{};{};{}\n".format(code, data["name"], data["plurals"], data["formula"])
+        )

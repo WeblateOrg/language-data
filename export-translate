@@ -4,19 +4,14 @@
 
 import sys
 
-sys.path.insert(0, './modules/translate/')
+sys.path.insert(0, "./modules/translate/")
 
 from translate.lang.data import languages
 
 output = []
 state = 0
 for code, data in languages.items():
-    output.append('{};{};{};{}\n'.format(
-        code,
-        data[0].split(';')[0],
-        data[1],
-        data[2],
-    ))
+    output.append("{};{};{};{}\n".format(code, data[0].split(";")[0], data[1], data[2]))
 
-with open('translate.csv', 'w') as handle:
+with open("translate.csv", "w") as handle:
     handle.writelines(sorted(output))

@@ -10,10 +10,10 @@ import pprint
 
 result = {}
 
-tree = ElementTree.parse('cldr-core/common/supplemental/plurals.xml')
-for item in tree.iter('pluralRules'):
-    locales = item.get('locales').split()
-    rules = [x.get('count') for x in item.iter('pluralRule') if '@integer' in x.text]
+tree = ElementTree.parse("cldr-core/common/supplemental/plurals.xml")
+for item in tree.iter("pluralRules"):
+    locales = item.get("locales").split()
+    rules = [x.get("count") for x in item.iter("pluralRule") if "@integer" in x.text]
     for locale in locales:
         result[locale] = rules
 

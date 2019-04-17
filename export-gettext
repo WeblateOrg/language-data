@@ -6,24 +6,26 @@ import re
 
 MATCH = re.compile(r'\s*{\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)"\s*},?\s*')
 
-with open('modules/gettext/gettext-tools/src/plural-table.c') as handle:
+with open("modules/gettext/gettext-tools/src/plural-table.c") as handle:
     content = handle.read()
 
 output = []
 state = 0
 for line in content.splitlines():
-    if 'plural_table' in line:
+    if "plural_table" in line:
         state = 1
         continue
     if state == 1:
         matches = MATCH.match(line)
         if matches:
-            output.append('{};{};{};{}\n'.format(
-                matches[1],
-                matches[2],
-                int(matches[3].split(';', 1)[0].split('=')[1]),
-                matches[3].split(';', 1)[1].split('=', 1)[1].rstrip(';'),
-            ))
+            output.append(
+                "{};{};{};{}\n".format(
+                    matches[1],
+                    matches[2],
+                    int(matches[3].split(";", 1)[0].split("=")[1]),
+                    matches[3].split(";", 1)[1].split("=", 1)[1].rstrip(";"),
+                )
+            )
 
-with open('gettext.csv', 'w') as handle:
+with open("gettext.csv", "w") as handle:
     handle.writelines(sorted(output))
