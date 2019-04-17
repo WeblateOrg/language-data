@@ -1,0 +1,23 @@
+#! /usr/bin/env python3
+
+import csv
+
+def parse_csv(name):
+    result = {}
+    with open(name, 'r') as csvfile:
+        reader = csv.reader(csvfile, delimiter=';')
+        for data in reader:
+            if data[0] == '#':
+                continue
+            if data[0] in result:
+                raise Exception('Duplicate {} in {}!'.format(data[0], name))
+            result[data[0]] = data
+    return result
+
+
+languages = parse_csv('languages.csv')
+aliases = parse_csv('aliases.csv')
+
+overlap = set(languages.keys()) & set(aliases.keys())
+if overlap:
+    raise Exception('Overlaping languages and aliases: {}'.format(overlap))
