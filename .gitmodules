@@ -10,3 +10,6 @@
 [submodule "modules/translate"]
 	path = modules/translate
 	url = https://github.com/translate/translate.git
+[submodule "modules/cldr-localenames-full"]
+	path = modules/cldr-localenames-full
+	url = https://github.com/unicode-cldr/cldr-localenames-full.git

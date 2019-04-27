@@ -3,42 +3,43 @@
 # Export CLDR language names into po file
 
 import glob
-from xml.etree import ElementTree
+import json
+import re
 
-BASE = "cldr-core/common/main/en.xml"
+BASE = "modules/cldr-localenames-full/main/en/languages.json"
+
+def extract_names(date):
+    for code, langs in data["main"].items():
+        return code, langs["localeDisplayNames"]["languages"]
 
 # Parse language names
-names = {}
-tree = ElementTree.parse(BASE)
-for item in tree.find("localeDisplayNames").find("languages").iter("language"):
-    names[item.get("type")] = item.text
+with open(BASE, 'r') as handle:
+    data = json.load(handle)
+names = extract_names(data)[1]
 
 # Process translations
-for lang in glob.glob("cldr-core/common/main/*.xml"):
+for lang in glob.glob("modules/cldr-localenames-full/main/*/languages.json"):
     if lang == BASE:
         continue
 
+    with open(lang, 'r') as handle:
+        data = json.load(handle)
+
     result = {}
 
-    tree = ElementTree.parse(lang)
-    displaynames = tree.find("localeDisplayNames")
-    if displaynames is None:
-        continue
-    languages = displaynames.find("languages")
-    if languages is None:
-        continue
-    for item in languages.iter("language"):
-        try:
-            result[names[item.get("type")]] = item.text
-        except KeyError:
+    language_code, language_names = extract_names(data)
+
+    for code, name in language_names.items():
+        if code == name or code not in names:
+            continue
+        name_tokens = set(re.findall(r"\w+", name))
+        code_tokens = set(code.split('-alt')[0].split('-'))
+        if name_tokens & code_tokens:
             continue
 
-    if not result:
-        continue
+        result[names[code]] = name
 
-    locale = lang.rsplit("/", 1)[1].split(".")[0]
-
-    with open("languages-po/{}.po".format(locale), "w") as handle:
+    with open("languages-po/{}.po".format(language_code), "w") as handle:
         handle.write(
             """# CLDR language names for {0}
 # Automatically generated using tools available at
@@ -53,16 +54,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\\n"
 "X-Generator: Weblate\\n"
 
-""".format(
-                locale
-            )
+""".format(language_code)
         )
-        for key in sorted(result):
+        for msgid, msgstr in sorted(result.items()):
             handle.write(
                 """
 msgid "{}"
 msgstr "{}"
-""".format(
-                    key, result[key]
-                )
+""".format(msgid, msgstr)
             )
