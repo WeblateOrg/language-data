@@ -18,11 +18,13 @@ am | Amharic | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
 an | Aragonese | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 anp | Angika | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 ar | Arabic | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; | ✔ |  | ✔ | ✔
+ar\_BH | Arabic (Bahrain) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_DZ | Arabic (Algeria) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_EG | Arabic (Egypt) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_KW | Arabic (Kuwait) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_MA | Arabic (Morocco) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_SA | Arabic (Saudi Arabia) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
+ar\_YE | Arabic (Yemen) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 arn | Mapudungun | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
 ars | Najdi Arabic | nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5)))); | ✔ |  |  | 
 as | Assamese | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
