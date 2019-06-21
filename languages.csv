@@ -30,6 +30,7 @@ bar;Bavarian;2;n != 1
 be;Belarusian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 be_Latn;Belarusian (latin);3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 bem;Bemba;2;n != 1
+ber;Berber languages;2;n != 1
 bez;Bena;2;n != 1
 bg;Bulgarian;2;n != 1
 bh;Bihari;2;n > 1
@@ -84,6 +85,7 @@ en_US;English (United States);2;n != 1
 en_ZA;English (South Africa);2;n != 1
 eo;Esperanto;2;n != 1
 es;Spanish;2;n != 1
+es_419;Spanish (Latin America);2;n != 1
 es_AR;Spanish (Argentina);2;n != 1
 es_CL;Spanish (Chile);2;n != 1
 es_DO;Spanish (Dominican Republic);2;n != 1
@@ -92,7 +94,6 @@ es_MX;Spanish (Mexico);2;n != 1
 es_PE;Spanish (Peru);2;n != 1
 es_PR;Spanish (Puerto Rico);2;n != 1
 es_US;Spanish (American);2;n != 1
-es_419;Spanish (Latin America);2;n != 1
 et;Estonian;2;n != 1
 eu;Basque;2;n != 1
 fa;Persian;2;n > 1
@@ -207,6 +208,7 @@ mt;Maltese;4;n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<
 my;Burmese;1;0
 na;Nauru;2;n != 1
 nah;Nahuatl;2;n != 1
+nan;Min Nan Chinese;2;n != 1
 nap;Neapolitan;2;n != 1
 naq;Nama;3;(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 nb_NO;Norwegian Bokmål;2;n != 1
