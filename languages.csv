@@ -18,7 +18,7 @@ ar_MA;Arabic (Morocco);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 
 ar_SA;Arabic (Saudi Arabia);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_YE;Arabic (Yemen);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 arn;Mapudungun;2;n > 1
-ars;Najdi Arabic;6;(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ars;Arabic (Najdi);6;(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 as;Assamese;2;n > 1
 asa;Asu;2;n != 1
 ast;Asturian;2;n != 1
@@ -65,8 +65,8 @@ cv;Chuvash;2;n != 1
 cy;Welsh;6;(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5
 da;Danish;2;n != 1
 de;German;2;n != 1
-de_AT;Austrian German;2;n != 1
-de_CH;Swiss High German;2;n != 1
+de_AT;German (Austria);2;n != 1
+de_CH;German (Swiss High);2;n != 1
 doi;Dogri;2;n != 1
 dsb;Lower Sorbian;4;(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 dv;Dhivehi;2;n != 1
@@ -115,7 +115,7 @@ gd;Gaelic;4;(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 
 gez;Ge'ez;2;n != 1
 gl;Galician;2;n != 1
 gn;Guarani;2;n != 1
-gsw;Swiss German;2;n != 1
+gsw;German (Swiss);2;n != 1
 gu;Gujarati;2;n > 1
 gun;Gun;2;n > 1
 guw;Gun;2;n > 1
@@ -213,7 +213,7 @@ nap;Neapolitan;2;n != 1
 naq;Nama;3;(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 nb_NO;Norwegian Bokmål;2;n != 1
 nd;North Ndebele;2;n != 1
-nds;Low German;2;n != 1
+nds;German (Low);2;n != 1
 ne;Nepali;2;n != 1
 ng;Ndonga;2;n != 1
 nl;Dutch;2;n != 1
@@ -289,7 +289,7 @@ st;Southern Sotho;2;n != 1
 su;Sundanese;1;0
 sv;Swedish;2;n != 1
 sw;Swahili;2;n != 1
-sw_CD;Congo Swahili;2;n != 1
+sw_CD;Swahili (Congo);2;n != 1
 syr;Syriac;2;n != 1
 szl;Silesian;3;n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 ta;Tamil;2;n != 1
@@ -326,7 +326,7 @@ vls;West Flemish;2;n != 1
 vo;Volapük;2;n != 1
 vun;Vunjo;2;n != 1
 wa;Walloon;2;n > 1
-wae;Walser German;2;n != 1
+wae;German (Walser);2;n != 1
 wal;Wolaytta;2;n != 1
 wen;Sorbian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 wo;Wolof;1;0
