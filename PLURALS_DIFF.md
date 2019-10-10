@@ -26,7 +26,7 @@ ar\_MA | Arabic (Morocco) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : 
 ar\_SA | Arabic (Saudi Arabia) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 ar\_YE | Arabic (Yemen) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
 arn | Mapudungun | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
-ars | Najdi Arabic | nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5)))); | ✔ |  |  | 
+ars | Arabic (Najdi) | nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5)))); | ✔ |  |  | 
 as | Assamese | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 asa | Asu | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ast | Asturian | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
@@ -38,6 +38,7 @@ bar | Bavarian | nplurals=2; plural=n != 1; |  |  |  |
 be | Belarusian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | ✔ | ✔ | ✔ | ✔
 be\_Latn | Belarusian (latin) | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  |  | 
 bem | Bemba | nplurals=2; plural=n != 1; | ✔ |  |  | 
+ber | Berber | nplurals=2; plural=n != 1; |  |  |  | 
 bez | Bena | nplurals=2; plural=n != 1; | ✔ |  |  | 
 bg | Bulgarian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 bh | Bihari | nplurals=2; plural=n > 1; | ✔ |  |  | 
@@ -72,8 +73,8 @@ cv | Chuvash | nplurals=2; plural=n != 1; |  |  |  |
 cy | Welsh | nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5; | ✔ |  | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3; | nplurals=2; plural=(n==2) ? 1 : 0;
 da | Danish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 de | German | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
-de\_AT | Austrian German | nplurals=2; plural=n != 1; | ✔ |  |  | 
-de\_CH | Swiss High German | nplurals=2; plural=n != 1; | ✔ |  |  | 
+de\_AT | German (Austria) | nplurals=2; plural=n != 1; | ✔ |  |  | 
+de\_CH | German (Swiss High) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 doi | Dogri | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 dsb | Lower Sorbian | nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 \|\| n % 100 == 4) ? 2 : 3)); | ✔ |  |  | 
 dv | Dhivehi | nplurals=2; plural=n != 1; | ✔ |  |  | 
@@ -111,6 +112,7 @@ fil | Filipino | nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 \
 fj | Fijian | nplurals=2; plural=n != 1; |  |  |  | 
 fo | Faroese | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 fr | French | nplurals=2; plural=n > 1; | ✔ | ✔ | ✔ | ✔
+fr\_AG | French (Antigua and Barbuda) | nplurals=2; plural=n > 1; |  |  |  | 
 fr\_BE | French (Belgium) | nplurals=2; plural=n > 1; |  |  |  | 
 fr\_CA | French (Canada) | nplurals=2; plural=n > 1; | ✔ |  |  | 
 fr\_CH | French (Switzerland) | nplurals=2; plural=n > 1; | ✔ |  |  | 
@@ -122,7 +124,7 @@ gd | Gaelic | nplurals=4; plural=(n==1 \|\| n==11) ? 0 : (n==2 \|\| n==12) ? 1 :
 gez | Ge'ez | nplurals=2; plural=n != 1; |  |  |  | 
 gl | Galician | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 gn | Guarani | nplurals=2; plural=n != 1; |  |  |  | 
-gsw | Swiss German | nplurals=2; plural=n != 1; | ✔ |  |  | 
+gsw | German (Swiss) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 gu | Gujarati | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 gun | Gun | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
 guw | Gun | nplurals=2; plural=n > 1; | ✔ |  |  | 
@@ -215,11 +217,12 @@ mt | Maltese | nplurals=4; plural=n==1 ? 0 : n==0 \|\| ( n%100>1 && n%100<11) ? 
 my | Burmese | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 na | Nauru | nplurals=2; plural=n != 1; |  |  |  | 
 nah | Nahuatl | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
+nan | Chinese (Min Nan) | nplurals=2; plural=n != 1; |  |  |  | 
 nap | Neapolitan | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 naq | Nama | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  |  | 
 nb\_NO | Norwegian Bokmål | nplurals=2; plural=n != 1; |  |  |  | 
 nd | North Ndebele | nplurals=2; plural=n != 1; | ✔ |  |  | 
-nds | Low German | nplurals=2; plural=n != 1; |  |  |  | 
+nds | German (Low) | nplurals=2; plural=n != 1; |  |  |  | 
 ne | Nepali | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 ng | Ndonga | nplurals=2; plural=n != 1; |  |  |  | 
 nl | Dutch | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
@@ -237,6 +240,7 @@ oj | Ojibwe | nplurals=2; plural=n != 1; |  |  |  |
 om | Oromo | nplurals=2; plural=n != 1; | ✔ |  |  | 
 or | Odia | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 os | Ossetian | nplurals=2; plural=n != 1; | ✔ |  |  | 
+otk | Kokturk | nplurals=2; plural=n != 1; |  |  |  | 
 pa | Punjabi | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 pap | Papiamento | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 pi | Pali | nplurals=2; plural=n != 1; |  |  |  | 
@@ -256,6 +260,7 @@ ro | Romanian | nplurals=3; plural=n==1 ? 0 : (n==0 \|\| (n%100 > 0 && n%100 < 2
 ro\_MD | Moldavian | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2); | ✔ |  |  | 
 rof | Rombo | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ru | Russian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | ✔ | ✔ | ✔ | ✔
+ru\_UA | Russian (Ukraine) | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  |  | 
 rue | Rusyn | nplurals=2; plural=n != 1; |  |  |  | 
 rw | Kinyarwanda | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 rwk | Rwa | nplurals=2; plural=n != 1; | ✔ |  |  | 
@@ -264,6 +269,7 @@ sah | Yakut | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 saq | Samburu | nplurals=2; plural=n != 1; | ✔ |  |  | 
 sat | Santali | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 sc | Sardinian | nplurals=2; plural=n != 1; | ✔ |  |  | 
+scn | Sicilian | nplurals=2; plural=n != 1; | ✔ |  |  | 
 sco | Scots | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 sd | Sindhi | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 sdh | Southern Kurdish | nplurals=2; plural=n != 1; | ✔ |  |  | 
@@ -284,7 +290,7 @@ smn | Inari Sami | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |
 sms | Skolt Sami | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  |  | 
 sn | Shona | nplurals=2; plural=n != 1; | ✔ |  |  | 
 so | Somali | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
-son | Songhai languages | nplurals=1; plural=0; |  |  | nplurals=2; plural=(n != 1); | ✔
+son | Songhai | nplurals=1; plural=0; |  |  | nplurals=2; plural=(n != 1); | ✔
 sq | Albanian | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 sr | Serbian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | ✔ | ✔ | ✔ | ✔
 sr\_Cyrl | Serbian (cyrillic) | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  |  | 
@@ -295,7 +301,7 @@ st | Southern Sotho | nplurals=2; plural=n != 1; | ✔ |  |  | ✔
 su | Sundanese | nplurals=1; plural=0; |  |  | ✔ | ✔
 sv | Swedish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 sw | Swahili | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
-sw\_CD | Congo Swahili | nplurals=2; plural=n != 1; | ✔ |  |  | 
+sw\_CD | Swahili (Congo) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 syr | Syriac | nplurals=2; plural=n != 1; | ✔ |  |  | 
 szl | Silesian | nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  |  | ✔
 ta | Tamil | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
@@ -332,7 +338,7 @@ vls | West Flemish | nplurals=2; plural=n != 1; |  |  |  |
 vo | Volapük | nplurals=2; plural=n != 1; | ✔ |  |  | 
 vun | Vunjo | nplurals=2; plural=n != 1; | ✔ |  |  | 
 wa | Walloon | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
-wae | Walser German | nplurals=2; plural=n != 1; | ✔ |  |  | 
+wae | German (Walser) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 wal | Wolaytta | nplurals=2; plural=n != 1; |  |  |  | 
 wen | Sorbian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  |  | 
 wo | Wolof | nplurals=1; plural=0; | ✔ |  | ✔ | nplurals=2; plural=(n != 1);
@@ -343,6 +349,7 @@ yo | Yoruba | nplurals=1; plural=0; | ✔ |  | nplurals=2; plural=(n != 1); | np
 yue | Yue | nplurals=1; plural=0; | ✔ |  |  | ✔
 za | Zhuang | nplurals=2; plural=n != 1; |  |  |  | 
 zh\_Hans | Chinese (Simplified) | nplurals=1; plural=0; | ✔ |  |  | 
+zh\_Hans\_SG | Chinese (Simplified, Singapore) | nplurals=1; plural=0; |  |  |  | 
 zh\_Hant | Chinese (Traditional) | nplurals=1; plural=0; | ✔ |  |  | 
-zh\_Hant\_HK | Chinese (Hong Kong) | nplurals=1; plural=0; |  |  |  | 
+zh\_Hant\_HK | Chinese (Traditional, Hong Kong) | nplurals=1; plural=0; |  |  |  | 
 zu | Zulu | nplurals=2; plural=n > 1; | ✔ |  |  | nplurals=2; plural=(n != 1);
