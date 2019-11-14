@@ -75,6 +75,7 @@ da | Danish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 de | German | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 de\_AT | German (Austria) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 de\_CH | German (Swiss High) | nplurals=2; plural=n != 1; | ✔ |  |  | 
+de\_LU | German (Luxembourg) | nplurals=2; plural=n != 1; |  |  |  | 
 doi | Dogri | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 dsb | Lower Sorbian | nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 \|\| n % 100 == 4) ? 2 : 3)); | ✔ |  |  | 
 dv | Dhivehi | nplurals=2; plural=n != 1; | ✔ |  |  | 
@@ -95,6 +96,7 @@ eo | Esperanto | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 es | Spanish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 es\_419 | Spanish (Latin America) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 es\_AR | Spanish (Argentina) | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
+es\_BO | Spanish (Bolivia) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_CL | Spanish (Chile) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_DO | Spanish (Dominican Republic) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_EC | Spanish (Ecuador) | nplurals=2; plural=n != 1; |  |  |  | 
@@ -102,6 +104,7 @@ es\_MX | Spanish (Mexico) | nplurals=2; plural=n != 1; | ✔ |  |  |
 es\_PE | Spanish (Peru) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_PR | Spanish (Puerto Rico) | nplurals=2; plural=n != 1; |  |  |  | 
 es\_US | Spanish (American) | nplurals=2; plural=n != 1; |  |  |  | 
+es\_VE | Spanish (Venezuela) | nplurals=2; plural=n != 1; |  |  |  | 
 et | Estonian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 eu | Basque | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 fa | Persian | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
@@ -116,6 +119,7 @@ fr\_AG | French (Antigua and Barbuda) | nplurals=2; plural=n > 1; |  |  |  |
 fr\_BE | French (Belgium) | nplurals=2; plural=n > 1; |  |  |  | 
 fr\_CA | French (Canada) | nplurals=2; plural=n > 1; | ✔ |  |  | 
 fr\_CH | French (Switzerland) | nplurals=2; plural=n > 1; | ✔ |  |  | 
+fr\_LU | French (Luxembourg) | nplurals=2; plural=n > 1; |  |  |  | 
 frp | Franco-Provençal | nplurals=2; plural=n > 1; |  |  |  | 
 fur | Friulian | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 fy | Frisian | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
@@ -126,12 +130,14 @@ gl | Galician | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 gn | Guarani | nplurals=2; plural=n != 1; |  |  |  | 
 gsw | German (Swiss) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 gu | Gujarati | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
+gu\_IN | Gujarati (India) | nplurals=2; plural=n > 1; |  |  |  | 
 gun | Gun | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
 guw | Gun | nplurals=2; plural=n > 1; | ✔ |  |  | 
 gv | Manx | nplurals=4; plural=(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 \|\| n % 100 == 20 \|\| n % 100 == 40 \|\| n % 100 == 60 \|\| n % 100 == 80) ? 2 : 3)); | ✔ |  |  | 
 ha | Hausa | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 haw | Hawaiian | nplurals=2; plural=n != 1; | ✔ |  |  | 
 he | Hebrew | nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3)); | ✔ | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
+he\_IL | Hebrew (Israel) | nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3)); |  |  |  | 
 hi | Hindi | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 hil | Hiligaynon | nplurals=2; plural=n != 1; |  |  |  | 
 hne | Chhattisgarhi | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
