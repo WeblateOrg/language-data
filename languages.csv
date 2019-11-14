@@ -119,6 +119,7 @@ gl;Galician;2;n != 1
 gn;Guarani;2;n != 1
 gsw;German (Swiss);2;n != 1
 gu;Gujarati;2;n > 1
+gu_IN;Gujarati (India);2;n > 1
 gun;Gun;2;n > 1
 guw;Gun;2;n > 1
 gv;Manx;4;(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))
