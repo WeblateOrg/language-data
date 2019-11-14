@@ -125,6 +125,7 @@ gv;Manx;4;(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 
 ha;Hausa;2;n != 1
 haw;Hawaiian;2;n != 1
 he;Hebrew;4;(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
+he_IL;Hebrew (Israel);4;(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 hi;Hindi;2;n > 1
 hil;Hiligaynon;2;n != 1
 hne;Chhattisgarhi;2;n != 1
