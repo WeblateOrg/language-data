@@ -13,6 +13,17 @@ Language definitions used by [Weblate][w] and free to use by others.
 * Used by [Weblate][w] for language definitions
 * Manually edited
 
+## aliases.csv
+
+* Language aliases to map non standard or legacy locales to ones in `languages.csv`
+* Manually edited
+
+## default_countries.csv
+
+* List of default country specific locales
+* Used to map them to ones in `languages.csv`
+* Manually edited
+
 ## extraplurals.csv
 
 * Additional plural variants for some languages
