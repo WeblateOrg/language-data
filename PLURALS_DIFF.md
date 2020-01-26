@@ -15,7 +15,7 @@ ae | Avestan | nplurals=2; plural=n != 1; |  |  |  |
 af | Afrikaans | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 ak | Akan | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
 am | Amharic | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
-an | Aragonese | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
+an | Aragonese | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 anp | Angika | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 ar | Arabic | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; | ✔ |  | ✔ | ✔
 ar\_BH | Arabic (Bahrain) | nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5; |  |  |  | 
@@ -41,7 +41,7 @@ bem | Bemba | nplurals=2; plural=n != 1; | ✔ |  |  |
 ber | Berber | nplurals=2; plural=n != 1; |  |  |  | 
 bez | Bena | nplurals=2; plural=n != 1; | ✔ |  |  | 
 bg | Bulgarian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
-bh | Bihari | nplurals=2; plural=n > 1; | ✔ |  |  | 
+bh | Bihari | nplurals=2; plural=n > 1; |  |  |  | 
 bi | Bislama | nplurals=2; plural=n != 1; |  |  |  | 
 bm | Bambara | nplurals=1; plural=0; | ✔ |  |  | 
 bn | Bengali | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
@@ -57,7 +57,7 @@ byn | Bilen | nplurals=2; plural=n != 1; |  |  |  |
 ca | Catalan | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 ca@valencia | Valencian | nplurals=2; plural=n != 1; |  |  |  | ✔
 ce | Chechen | nplurals=2; plural=n != 1; | ✔ |  |  | 
-ceb | Cebuano | nplurals=2; plural=n != 1; |  |  |  | 
+ceb | Cebuano | nplurals=2; plural=n != 1; | nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 \|\| n % 10 == 6 \|\| n % 10 == 9); |  |  | 
 cgg | Chiga | nplurals=2; plural=n != 1; | ✔ |  | nplurals=1; plural=0; | nplurals=1; plural=0;
 ch | Chamorro | nplurals=2; plural=n != 1; |  |  |  | 
 chm | Mari | nplurals=2; plural=n != 1; |  |  |  | 
@@ -107,6 +107,7 @@ es\_US | Spanish (American) | nplurals=2; plural=n != 1; |  |  |  |
 es\_VE | Spanish (Venezuela) | nplurals=2; plural=n != 1; |  |  |  | 
 et | Estonian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 eu | Basque | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
+ext | Extremadurian | nplurals=2; plural=n != 1; |  |  |  | 
 fa | Persian | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
 fa\_AF | Dari | nplurals=2; plural=n > 1; | ✔ |  |  | 
 ff | Fulah | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
@@ -189,7 +190,7 @@ ksb | Shambala | nplurals=2; plural=n != 1; | ✔ |  |  |
 ksh | Colognian | nplurals=3; plural=n==0 ? 0 : n==1 ? 1 : 2; | ✔ |  |  | 
 ku | Kurdish | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 kv | Komi | nplurals=2; plural=n != 1; |  |  |  | 
-kw | Cornish | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3; | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3;
+kw | Cornish | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : (((n % 100 == 2 \|\| n % 100 == 22 \|\| n % 100 == 42 \|\| n % 100 == 62 \|\| n % 100 == 82) \|\| n % 1000 == 0 && (n % 100000 >= 1000 && n % 100000 <= 20000 \|\| n % 100000 == 40000 \|\| n % 100000 == 60000 \|\| n % 100000 == 80000) \|\| n != 0 && n % 1000000 == 100000) ? 2 : ((n % 100 == 3 \|\| n % 100 == 23 \|\| n % 100 == 43 \|\| n % 100 == 63 \|\| n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 \|\| n % 100 == 21 \|\| n % 100 == 41 \|\| n % 100 == 61 \|\| n % 100 == 81)) ? 4 : 5)))); |  | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3; | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3;
 ky | Kyrgyz | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 la | Latin | nplurals=2; plural=n != 1; |  |  |  | 
 lag | Langi | nplurals=3; plural=(n == 0) ? 0 : ((n == 1) ? 1 : 2); | ✔ |  |  | 
@@ -217,7 +218,7 @@ ml | Malayalam | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 mn | Mongolian | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 mni | Manipuri | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 mnk | Mandinka | nplurals=3; plural=n==0 ? 0 : n==1 ? 1 : 2; |  |  | ✔ | ✔
-mr | Marathi | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
+mr | Marathi | nplurals=2; plural=n > 1; | nplurals=2; plural=n != 1; |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 ms | Malay | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 mt | Maltese | nplurals=4; plural=n==1 ? 0 : n==0 \|\| ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3; | ✔ |  | ✔ | ✔
 my | Burmese | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
@@ -262,8 +263,8 @@ pt\_PT | Portuguese (Portugal) | nplurals=2; plural=n > 1; | nplurals=2; plural=
 qu | Quechua | nplurals=2; plural=n != 1; |  |  |  | 
 rm | Romansh | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 rn | Rundi | nplurals=2; plural=n != 1; |  |  |  | 
-ro | Romanian | nplurals=3; plural=n==1 ? 0 : (n==0 \|\| (n%100 > 0 && n%100 < 20)) ? 1 : 2; | ✔ | ✔ | ✔ | ✔
-ro\_MD | Moldavian | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2); | ✔ |  |  | 
+ro | Romanian | nplurals=3; plural=n==1 ? 0 : (n==0 \|\| (n%100 > 0 && n%100 < 20)) ? 1 : 2; | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n % 100 >= 2 && n % 100 <= 19) ? 1 : 2); | ✔ | ✔ | ✔
+ro\_MD | Moldavian | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2); | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n % 100 >= 2 && n % 100 <= 19) ? 1 : 2); |  |  | 
 rof | Rombo | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ru | Russian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | ✔ | ✔ | ✔ | ✔
 ru\_UA | Russian (Ukraine) | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  |  | 
@@ -275,7 +276,7 @@ sah | Yakut | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 saq | Samburu | nplurals=2; plural=n != 1; | ✔ |  |  | 
 sat | Santali | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 sc | Sardinian | nplurals=2; plural=n != 1; | ✔ |  |  | 
-scn | Sicilian | nplurals=2; plural=n != 1; | ✔ |  |  | 
+scn | Sicilian | nplurals=2; plural=n != 1; | ✔ |  |  | ✔
 sco | Scots | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 sd | Sindhi | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 sdh | Southern Kurdish | nplurals=2; plural=n != 1; | ✔ |  |  | 
@@ -304,7 +305,7 @@ sr\_Latn | Serbian (latin) | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>
 ss | Swati | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ssy | Saho | nplurals=2; plural=n != 1; | ✔ |  |  | 
 st | Southern Sotho | nplurals=2; plural=n != 1; | ✔ |  |  | ✔
-su | Sundanese | nplurals=1; plural=0; |  |  | ✔ | ✔
+su | Sundanese | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 sv | Swedish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 sw | Swahili | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 sw\_CD | Swahili (Congo) | nplurals=2; plural=n != 1; | ✔ |  |  | 

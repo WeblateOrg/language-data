@@ -1,6 +1,7 @@
 af;Afrikaans;2;n != 1
 ak;Akan;2;n > 1
 am;Amharic;2;n > 1
+an;Aragonese;2;n != 1
 ar;Arabic;6;(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 ar_001;Modern Standard Arabic;6;(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 ars;Najdi Arabic;6;(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
@@ -12,7 +13,7 @@ be;Belarusian;3;(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 
 bem;Bemba;2;n != 1
 bez;Bena;2;n != 1
 bg;Bulgarian;2;n != 1
-bh;Bihari;2;n > 1
+bho;Bhojpuri;2;n > 1
 bm;Bambara;1;0
 bn;Bangla;2;n > 1
 bo;Tibetan;1;0
@@ -21,6 +22,7 @@ brx;Bodo;2;n != 1
 bs;Bosnian;3;(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 ca;Catalan;2;n != 1
 ce;Chechen;2;n != 1
+ceb;Cebuano;2;n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
 cgg;Chiga;2;n != 1
 chr;Cherokee;2;n != 1
 ckb;Central Kurdish;2;n != 1
@@ -106,7 +108,7 @@ ks;Kashmiri;2;n != 1
 ksb;Shambala;2;n != 1
 ksh;Colognian;3;(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 ku;Kurdish;2;n != 1
-kw;Cornish;3;(n == 1) ? 0 : ((n == 2) ? 1 : 2)
+kw;Cornish;6;(n == 0) ? 0 : ((n == 1) ? 1 : (((n % 100 == 2 || n % 100 == 22 || n % 100 == 42 || n % 100 == 62 || n % 100 == 82) || n % 1000 == 0 && (n % 100000 >= 1000 && n % 100000 <= 20000 || n % 100000 == 40000 || n % 100000 == 60000 || n % 100000 == 80000) || n != 0 && n % 1000000 == 100000) ? 2 : ((n % 100 == 3 || n % 100 == 23 || n % 100 == 43 || n % 100 == 63 || n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 || n % 100 == 21 || n % 100 == 41 || n % 100 == 61 || n % 100 == 81)) ? 4 : 5))))
 ky;Kyrgyz;2;n != 1
 lag;Langi;3;(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 lb;Luxembourgish;2;n != 1
@@ -122,8 +124,8 @@ mgo;Metaʼ;2;n != 1
 mk;Macedonian;2;n % 10 != 1 || n % 100 == 11
 ml;Malayalam;2;n != 1
 mn;Mongolian;2;n != 1
-mo;Moldavian;3;(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
-mr;Marathi;2;n > 1
+mo;Moldavian;3;(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2)
+mr;Marathi;2;n != 1
 ms;Malay;1;0
 mt;Maltese;4;(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 10) ? 1 : ((n % 100 >= 11 && n % 100 <= 19) ? 2 : 3))
 my;Burmese;1;0
@@ -145,6 +147,7 @@ nyn;Nyankole;2;n != 1
 om;Oromo;2;n != 1
 or;Odia;2;n != 1
 os;Ossetic;2;n != 1
+osa;Osage;1;0
 pa;Punjabi;2;n > 1
 pap;Papiamento;2;n != 1
 pl;Polish;3;(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
@@ -154,8 +157,8 @@ pt;Portuguese;2;n > 1
 pt_BR;Brazilian Portuguese;2;n > 1
 pt_PT;European Portuguese;2;n != 1
 rm;Romansh;2;n != 1
-ro;Romanian;3;(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
-ro_MD;Moldavian;3;(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
+ro;Romanian;3;(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2)
+ro_MD;Moldavian;3;(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2)
 rof;Rombo;2;n != 1
 ru;Russian;3;(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 rwk;Rwa;2;n != 1
@@ -187,6 +190,7 @@ sr_ME;Montenegrin;3;(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10
 ss;Swati;2;n != 1
 ssy;Saho;2;n != 1
 st;Southern Sotho;2;n != 1
+su;Sundanese;1;0
 sv;Swedish;2;n != 1
 sw;Swahili;2;n != 1
 sw_CD;Congo Swahili;2;n != 1

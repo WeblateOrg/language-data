@@ -4,7 +4,7 @@ import json
 import os
 
 os.system(
-    "./modules/cldr-to-gettext-plural-rules/bin/export-plural-rules --reduce=no --output=cldr.json json"
+    "php ./modules/cldr-to-gettext-plural-rules/bin/export-plural-rules --reduce=no --output=cldr.json json"
 )
 
 with open("cldr.json", "rb") as handle:
