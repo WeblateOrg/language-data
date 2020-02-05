@@ -42,6 +42,7 @@ ber | Berber | nplurals=2; plural=n != 1; |  |  |  |
 bez | Bena | nplurals=2; plural=n != 1; | ✔ |  |  | 
 bg | Bulgarian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 bh | Bihari | nplurals=2; plural=n > 1; |  |  |  | 
+bho | Bhojpuri | nplurals=2; plural=n > 1; | ✔ |  |  | 
 bi | Bislama | nplurals=2; plural=n != 1; |  |  |  | 
 bm | Bambara | nplurals=1; plural=0; | ✔ |  |  | 
 bn | Bengali | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
@@ -63,6 +64,8 @@ ch | Chamorro | nplurals=2; plural=n != 1; |  |  |  |
 chm | Mari | nplurals=2; plural=n != 1; |  |  |  | 
 chr | Cherokee | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ckb | Sorani | nplurals=2; plural=n != 1; | ✔ |  |  | 
+ckb\_IN | Sorani (Iran) | nplurals=2; plural=n != 1; |  |  |  | 
+ckb\_IQ | Sorani (Iraq) | nplurals=2; plural=n != 1; |  |  |  | 
 co | Corsican | nplurals=2; plural=n != 1; |  |  |  | 
 cr | Cree | nplurals=2; plural=n != 1; |  |  |  | 
 crh | Crimean Tatar | nplurals=1; plural=0; |  |  |  | 
@@ -107,7 +110,7 @@ es\_US | Spanish (American) | nplurals=2; plural=n != 1; |  |  |  |
 es\_VE | Spanish (Venezuela) | nplurals=2; plural=n != 1; |  |  |  | 
 et | Estonian | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 eu | Basque | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
-ext | Extremadurian | nplurals=2; plural=n != 1; |  |  |  | 
+ext | Extremaduran | nplurals=2; plural=n != 1; |  |  |  | 
 fa | Persian | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
 fa\_AF | Dari | nplurals=2; plural=n > 1; | ✔ |  |  | 
 ff | Fulah | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
@@ -247,6 +250,7 @@ oj | Ojibwe | nplurals=2; plural=n != 1; |  |  |  |
 om | Oromo | nplurals=2; plural=n != 1; | ✔ |  |  | 
 or | Odia | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 os | Ossetian | nplurals=2; plural=n != 1; | ✔ |  |  | 
+osa | Osage | nplurals=1; plural=0; | ✔ |  |  | 
 otk | Kokturk | nplurals=2; plural=n != 1; |  |  |  | 
 pa | Punjabi | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 pap | Papiamento | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
