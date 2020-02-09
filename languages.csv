@@ -69,7 +69,7 @@ cy;Welsh;6;(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5
 da;Danish;2;n != 1
 de;German;2;n != 1
 de_AT;German (Austria);2;n != 1
-de_CH;German (Swiss High);2;n != 1
+de_CH;German (Switzerland);2;n != 1
 de_LU;German (Luxembourg);2;n != 1
 doi;Dogri;2;n != 1
 dsb;Lower Sorbian;4;(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
@@ -124,7 +124,7 @@ gd;Gaelic;4;(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 
 gez;Ge'ez;2;n != 1
 gl;Galician;2;n != 1
 gn;Guarani;2;n != 1
-gsw;German (Swiss);2;n != 1
+gsw;Alemannic;2;n != 1
 gu;Gujarati;2;n > 1
 gu_IN;Gujarati (India);2;n > 1
 gun;Gun;2;n > 1
