@@ -221,7 +221,7 @@ ml | Malayalam | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 mn | Mongolian | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 mni | Manipuri | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 mnk | Mandinka | nplurals=3; plural=n==0 ? 0 : n==1 ? 1 : 2; |  |  | ✔ | ✔
-mr | Marathi | nplurals=2; plural=n > 1; | nplurals=2; plural=n != 1; |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
+mr | Marathi | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 ms | Malay | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
 mt | Maltese | nplurals=4; plural=n==1 ? 0 : n==0 \|\| ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3; | ✔ |  | ✔ | ✔
 my | Burmese | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
