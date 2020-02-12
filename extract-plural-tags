@@ -5,16 +5,21 @@
 # This file is part of Weblate <https://weblate.org/>
 #
 
-from xml.etree import ElementTree
+import json
 import pprint
+
+BASE = "modules/cldr-core/supplemental/plurals.json"
 
 result = {}
 
-tree = ElementTree.parse("cldr-core/common/supplemental/plurals.xml")
-for item in tree.iter("pluralRules"):
-    locales = item.get("locales").split()
-    rules = [x.get("count") for x in item.iter("pluralRule") if "@integer" in x.text]
-    for locale in locales:
-        result[locale] = rules
+with open(BASE, "r") as handle:
+    data = json.load(handle)
+
+for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
+    result[locale] = [
+        name.replace("pluralRule-count-", "")
+        for name, rule in rules.items()
+        if "@integer" in rule
+    ]
 
 print(pprint.pformat(result))
