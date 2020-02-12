@@ -58,14 +58,14 @@ byn | Bilen | nplurals=2; plural=n != 1; |  |  |  |
 ca | Catalan | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 ca@valencia | Valencian | nplurals=2; plural=n != 1; |  |  |  | ✔
 ce | Chechen | nplurals=2; plural=n != 1; | ✔ |  |  | 
-ceb | Cebuano | nplurals=2; plural=n != 1; | nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 \|\| n % 10 == 6 \|\| n % 10 == 9); |  |  | 
+ceb | Cebuano | nplurals=2; plural=n != 1 && n != 2 && n != 3 && (n % 10 == 4 \|\| n % 10 == 6 \|\| n % 10 == 9); | ✔ |  |  | 
 cgg | Chiga | nplurals=2; plural=n != 1; | ✔ |  | nplurals=1; plural=0; | nplurals=1; plural=0;
 ch | Chamorro | nplurals=2; plural=n != 1; |  |  |  | 
 chm | Mari | nplurals=2; plural=n != 1; |  |  |  | 
 chr | Cherokee | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ckb | Sorani | nplurals=2; plural=n != 1; | ✔ |  |  | 
-ckb\_IN | Sorani (Iran) | nplurals=2; plural=n != 1; |  |  |  | 
 ckb\_IQ | Sorani (Iraq) | nplurals=2; plural=n != 1; |  |  |  | 
+ckb\_IR | Sorani (Iran) | nplurals=2; plural=n != 1; |  |  |  | 
 co | Corsican | nplurals=2; plural=n != 1; |  |  |  | 
 cr | Cree | nplurals=2; plural=n != 1; |  |  |  | 
 crh | Crimean Tatar | nplurals=1; plural=0; |  |  |  | 
@@ -77,7 +77,7 @@ cy | Welsh | nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 
 da | Danish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 de | German | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 de\_AT | German (Austria) | nplurals=2; plural=n != 1; | ✔ |  |  | 
-de\_CH | German (Swiss High) | nplurals=2; plural=n != 1; | ✔ |  |  | 
+de\_CH | German (Switzerland) | nplurals=2; plural=n != 1; | ✔ |  |  | 
 de\_LU | German (Luxembourg) | nplurals=2; plural=n != 1; |  |  |  | 
 doi | Dogri | nplurals=2; plural=n != 1; |  |  | ✔ | ✔
 dsb | Lower Sorbian | nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 \|\| n % 100 == 4) ? 2 : 3)); | ✔ |  |  | 
@@ -132,7 +132,7 @@ gd | Gaelic | nplurals=4; plural=(n==1 \|\| n==11) ? 0 : (n==2 \|\| n==12) ? 1 :
 gez | Ge'ez | nplurals=2; plural=n != 1; |  |  |  | 
 gl | Galician | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 gn | Guarani | nplurals=2; plural=n != 1; |  |  |  | 
-gsw | German (Swiss) | nplurals=2; plural=n != 1; | ✔ |  |  | 
+gsw | Alemannic | nplurals=2; plural=n != 1; | ✔ |  |  | 
 gu | Gujarati | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 gu\_IN | Gujarati (India) | nplurals=2; plural=n > 1; |  |  |  | 
 gun | Gun | nplurals=2; plural=n > 1; |  |  | ✔ | ✔
@@ -193,7 +193,7 @@ ksb | Shambala | nplurals=2; plural=n != 1; | ✔ |  |  |
 ksh | Colognian | nplurals=3; plural=n==0 ? 0 : n==1 ? 1 : 2; | ✔ |  |  | 
 ku | Kurdish | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 kv | Komi | nplurals=2; plural=n != 1; |  |  |  | 
-kw | Cornish | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : (((n % 100 == 2 \|\| n % 100 == 22 \|\| n % 100 == 42 \|\| n % 100 == 62 \|\| n % 100 == 82) \|\| n % 1000 == 0 && (n % 100000 >= 1000 && n % 100000 <= 20000 \|\| n % 100000 == 40000 \|\| n % 100000 == 60000 \|\| n % 100000 == 80000) \|\| n != 0 && n % 1000000 == 100000) ? 2 : ((n % 100 == 3 \|\| n % 100 == 23 \|\| n % 100 == 43 \|\| n % 100 == 63 \|\| n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 \|\| n % 100 == 21 \|\| n % 100 == 41 \|\| n % 100 == 61 \|\| n % 100 == 81)) ? 4 : 5)))); |  | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3; | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3;
+kw | Cornish | nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : (((n % 100 == 2 \|\| n % 100 == 22 \|\| n % 100 == 42 \|\| n % 100 == 62 \|\| n % 100 == 82) \|\| n % 1000 == 0 && (n % 100000 >= 1000 && n % 100000 <= 20000 \|\| n % 100000 == 40000 \|\| n % 100000 == 60000 \|\| n % 100000 == 80000) \|\| n != 0 && n % 1000000 == 100000) ? 2 : ((n % 100 == 3 \|\| n % 100 == 23 \|\| n % 100 == 43 \|\| n % 100 == 63 \|\| n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 \|\| n % 100 == 21 \|\| n % 100 == 41 \|\| n % 100 == 61 \|\| n % 100 == 81)) ? 4 : 5)))); | ✔ |  | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3; | nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3;
 ky | Kyrgyz | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 la | Latin | nplurals=2; plural=n != 1; |  |  |  | 
 lag | Langi | nplurals=3; plural=(n == 0) ? 0 : ((n == 1) ? 1 : 2); | ✔ |  |  | 
@@ -268,7 +268,7 @@ qu | Quechua | nplurals=2; plural=n != 1; |  |  |  |
 rm | Romansh | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 rn | Rundi | nplurals=2; plural=n != 1; |  |  |  | 
 ro | Romanian | nplurals=3; plural=n==1 ? 0 : (n==0 \|\| (n%100 > 0 && n%100 < 20)) ? 1 : 2; | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n % 100 >= 2 && n % 100 <= 19) ? 1 : 2); | ✔ | ✔ | ✔
-ro\_MD | Moldavian | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2); | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n % 100 >= 2 && n % 100 <= 19) ? 1 : 2); |  |  | 
+ro\_MD | Moldavian | nplurals=3; plural=(n == 1) ? 0 : ((n == 0 \|\| n % 100 >= 2 && n % 100 <= 19) ? 1 : 2); | ✔ |  |  | 
 rof | Rombo | nplurals=2; plural=n != 1; | ✔ |  |  | 
 ru | Russian | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; | ✔ | ✔ | ✔ | ✔
 ru\_UA | Russian (Ukraine) | nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 \|\| n%100>=20) ? 1 : 2; |  |  |  | 
