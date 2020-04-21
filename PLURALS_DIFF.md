@@ -63,9 +63,9 @@ cgg | Chiga | nplurals=2; plural=n != 1; | ✔ |  | nplurals=1; plural=0; | nplu
 ch | Chamorro | nplurals=2; plural=n != 1; |  |  |  | 
 chm | Mari | nplurals=2; plural=n != 1; |  |  |  | 
 chr | Cherokee | nplurals=2; plural=n != 1; | ✔ |  |  | 
-ckb | Sorani | nplurals=2; plural=n != 1; | ✔ |  |  | 
-ckb\_IQ | Sorani (Iraq) | nplurals=2; plural=n != 1; |  |  |  | 
-ckb\_IR | Sorani (Iran) | nplurals=2; plural=n != 1; |  |  |  | 
+ckb | Central Kurdish | nplurals=2; plural=n != 1; | ✔ |  |  | 
+ckb\_IQ | Central Kurdish (Iraq) | nplurals=2; plural=n != 1; |  |  |  | 
+ckb\_IR | Central Kurdish (Iran) | nplurals=2; plural=n != 1; |  |  |  | 
 co | Corsican | nplurals=2; plural=n != 1; |  |  |  | 
 cr | Cree | nplurals=2; plural=n != 1; |  |  |  | 
 crh | Crimean Tatar | nplurals=1; plural=0; |  |  |  | 
@@ -183,7 +183,7 @@ kk | Kazakh | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 kkj | Kako | nplurals=2; plural=n != 1; | ✔ |  |  | 
 kl | Greenlandic | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 km | Central Khmer | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
-kmr | Kurmanji | nplurals=2; plural=n != 1; |  |  |  | 
+kmr | Northern Kurdish | nplurals=2; plural=n != 1; |  |  |  | 
 kn | Kannada | nplurals=2; plural=n > 1; | ✔ |  | nplurals=2; plural=(n != 1); | nplurals=2; plural=(n != 1);
 ko | Korean | nplurals=1; plural=0; | ✔ | ✔ | ✔ | ✔
 kok | Konkani | nplurals=2; plural=n != 1; |  |  |  | ✔
@@ -200,6 +200,7 @@ lag | Langi | nplurals=3; plural=(n == 0) ? 0 : ((n == 1) ? 1 : 2); | ✔ |  |  
 lb | Luxembourgish | nplurals=2; plural=n != 1; | ✔ |  | ✔ | ✔
 lg | Luganda | nplurals=2; plural=n != 1; | ✔ |  |  | 
 li | Limburgish | nplurals=2; plural=n != 1; |  |  |  | 
+lki | Laki | nplurals=2; plural=n != 1; |  |  |  | 
 lkt | Lakota | nplurals=1; plural=0; | ✔ |  |  | 
 ln | Lingala | nplurals=2; plural=n > 1; | ✔ |  | ✔ | ✔
 lo | Lao | nplurals=1; plural=0; | ✔ |  | ✔ | ✔
