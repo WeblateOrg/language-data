@@ -1,4 +1,4 @@
-name: Python package
+name: Languages
 
 on: [push, pull_request]
 
@@ -11,11 +11,10 @@ jobs:
         python-version: [3.7]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v1
-      with:
-        python-version: ${{ matrix.python-version }}
-    - name: Lint
-      run: |
-        ./lint
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Lint
+        run: ./lint
