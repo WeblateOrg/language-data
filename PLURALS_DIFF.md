@@ -95,6 +95,7 @@ en\_NZ | English (New Zealand) | nplurals=2; plural=n != 1; |  |  |  |
 en\_PH | English (Philippines) | nplurals=2; plural=n != 1; |  |  |  |
 en\_US | English (United States) | nplurals=2; plural=n != 1; | ✔ |  |  |
 en\_ZA | English (South Africa) | nplurals=2; plural=n != 1; |  |  |  | ✔
+en\_devel | English (Developer) | nplurals=2; plural=n != 1; |  |  |  |
 eo | Esperanto | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 es | Spanish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ | ✔
 es\_419 | Spanish (Latin America) | nplurals=2; plural=n != 1; | ✔ |  |  |
