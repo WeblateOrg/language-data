@@ -16,6 +16,7 @@ ar_EG;Arabic (Egypt);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 
 ar_KW;Arabic (Kuwait);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_MA;Arabic (Morocco);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_SA;Arabic (Saudi Arabia);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
+ar_XB;Arabic (XB pseudolocale);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_YE;Arabic (Yemen);6;n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 arn;Mapudungun;2;n > 1
 ars;Arabic (Najdi);6;(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
@@ -87,6 +88,7 @@ en_IN;English (India);2;n != 1
 en_NZ;English (New Zealand);2;n != 1
 en_PH;English (Philippines);2;n != 1
 en_US;English (United States);2;n != 1
+en_XA;English (XA pseudolocale);2;n != 1
 en_ZA;English (South Africa);2;n != 1
 eo;Esperanto;2;n != 1
 es;Spanish;2;n != 1
