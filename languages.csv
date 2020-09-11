@@ -55,6 +55,7 @@ ce;Chechen;2;n != 1
 ceb;Cebuano;2;n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
 cgg;Chiga;2;n != 1
 ch;Chamorro;2;n != 1
+chk;Chuukese;2;n != 1
 chm;Mari;2;n != 1
 chr;Cherokee;2;n != 1
 ckb;Central Kurdish;2;n != 1
@@ -253,9 +254,11 @@ osa;Osage;1;0
 otk;Kokturk;2;n != 1
 pa;Punjabi;2;n > 1
 pap;Papiamento;2;n != 1
+pau;Palauan;2;n != 1
 pi;Pali;2;n != 1
 pl;Polish;3;n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 pms;Piemontese;2;n != 1
+pon;Pohnpeian;2;n != 1
 pr;Pirate;2;n != 1
 prg;Prussian;3;(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 ps;Pashto;2;n != 1
@@ -355,6 +358,7 @@ wen;Sorbian;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%10
 wo;Wolof;1;0
 xh;Xhosa;2;n != 1
 xog;Soga;2;n != 1
+yap;Yapese;2;n != 1
 yi;Yiddish;2;n != 1
 yo;Yoruba;1;0
 yue;Yue;1;0
