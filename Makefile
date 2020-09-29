@@ -24,3 +24,6 @@ translate.csv: modules/translate/translate/lang/data.py scripts/export-translate
 
 weblate_language_data/plural_tags.py: modules/cldr-core/supplemental/plurals.json scripts/export-plural-tags
 	./scripts/export-plural-tags
+
+aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json
+	./scripts/export-iso-aliases
