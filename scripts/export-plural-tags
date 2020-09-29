@@ -1,0 +1,82 @@
+#! /usr/bin/env python3
+#
+# Copyright © 2018 - 2020 Michal Čihař <michal@cihar.com>
+#
+# This file is part of Weblate <https://weblate.org/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+import json
+import pprint
+import subprocess
+
+BASE = "modules/cldr-core/supplemental/plurals.json"
+
+HEADER = '''#
+# Copyright © 2012 - 2020 Michal Čihař <michal@cihar.com>
+#
+# This file is part of Weblate <https://weblate.org/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+"""Language data definitions.
+
+This is an automatically generated file, see scripts/generate-language-data
+
+Do not edit, please adjust language definitions in following repository:
+https://github.com/WeblateOrg/language-data
+"""
+# pylint: disable=line-too-long,too-many-lines
+
+
+'''
+
+result = {}
+
+with open(BASE, "r") as handle:
+    data = json.load(handle)
+
+for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
+    result[locale] = [
+        name.replace("pluralRule-count-", "")
+        for name, rule in rules.items()
+        if "@integer" in rule
+    ]
+
+
+# Write plural tags
+with open("weblate_language_data/plural_tags.py", "w") as output:
+    output.write(HEADER)
+    output.write("PLURAL_TAGS = {}".format(pprint.pformat(result)))
+
+# Apply coding style
+subprocess.run(
+    [
+        "black",
+        "weblate_language_data/plural_tags.py",
+    ]
+)
