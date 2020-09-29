@@ -1,4 +1,4 @@
-all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md
+all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md $(wildcard weblate_language_data/locale/*/LC_MESSAGES/django.po)
 
 weblate_language_data/languages.py: languages.csv aliases.csv extraplurals.csv default_countries.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
 	./scripts/generate-language-data
@@ -30,3 +30,10 @@ aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json mo
 
 languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages
 	./scripts/export-iso-languages
+
+weblate_language_data/locale/django.pot: weblate_language_data/languages.py weblate_language_data/plurals.py
+	xgettext --add-comments=Translators: --msgid-bugs-address=weblate@lists.cihar.com --from-code=utf-8 --language=python --add-location --package-name="Weblate Language Data" --output=$@ weblate_language_data/*.py
+
+
+weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot
+	msgmerge --previous -U $@ $<
