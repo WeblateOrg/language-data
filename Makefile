@@ -27,3 +27,6 @@ weblate_language_data/plural_tags.py: modules/cldr-core/supplemental/plurals.jso
 
 aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json
 	./scripts/export-iso-aliases
+
+languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages
+	./scripts/export-iso-languages
