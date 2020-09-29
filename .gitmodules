@@ -16,3 +16,6 @@
 [submodule "modules/cldr-core"]
 	path = modules/cldr-core
 	url = https://github.com/unicode-cldr/cldr-core.git
+[submodule "modules/iso-codes"]
+	path = modules/iso-codes
+	url = https://salsa.debian.org/iso-codes-team/iso-codes.git
