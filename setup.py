@@ -31,7 +31,6 @@ from glob import glob
 from itertools import chain
 
 from setuptools import setup
-from setuptools.command.build_py import build_py
 from translate.tools.pocompile import convertmo
 
 LOCALE_MASKS = [
