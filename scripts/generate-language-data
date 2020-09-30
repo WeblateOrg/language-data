@@ -32,6 +32,7 @@ import csv
 import json
 import re
 import subprocess
+from itertools import chain
 
 SPLIT_RE = re.compile(
     r"(?:\&(?:nbsp|rsaquo|lt|gt|amp|ldquo|rdquo|times|quot);|"
@@ -74,6 +75,24 @@ https://github.com/WeblateOrg/language-data
 
 '''
 
+BLACKLIST = {
+    # Clash with file formats
+    "po",
+    "ts",
+    "tr",
+    # Common names clashing with language codes
+    "gl",
+    "in",
+    "bi",
+    "sa",
+    "io",
+    "no",
+    "nav",
+    "wol",
+    "base",
+    "source",
+}
+
 TEMPLATE = """    (
         '{0}',
         # Translators: Language name, ISO code: {0}
@@ -92,6 +111,16 @@ with open("languages.csv", "r") as csvfile:
 with open("aliases.csv", "r") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     ALIASES = [alias for alias in reader if alias[0] != "#"]
+
+# Generate list of codes
+CODES = {item[0].lower() for item in chain(ALIASES, LANGUAGES)}
+
+# Read country codes
+COUNTRIES = set()
+with open("modules/iso-codes/data/iso_3166-1.json", "r") as handle:
+    for item in json.load(handle)["3166-1"]:
+        COUNTRIES.add(item["alpha_2"].lower())
+        COUNTRIES.add(item["alpha_3"].lower())
 
 # Read extra plurals
 with open("extraplurals.csv", "r") as csvfile:
@@ -240,6 +269,27 @@ with open("weblate_language_data/check_languages.py", "w") as output:
     output.write(content)
     output.write("\n}\n")
 
+
+# Write language codes
+with open("weblate_language_data/language_codes.py", "w") as output:
+    output.write(HEADER)
+    output.write("# Known language codes\n")
+    output.write("LANGUAGES = {\n")
+    for word in sorted(CODES):
+        if word in BLACKLIST:
+            continue
+        output.write('    "{}",\n'.format(word.replace('"', '\\"')))
+    output.write("}\n")
+
+# Write country codes
+with open("weblate_language_data/country_codes.py", "w") as output:
+    output.write(HEADER)
+    output.write("# Known country codes\n")
+    output.write("COUNTRIES = {\n")
+    for word in sorted(COUNTRIES):
+        output.write('    "{}",\n'.format(word.replace('"', '\\"')))
+    output.write("}\n")
+
 # Apply coding style
 subprocess.run(
     [
@@ -249,5 +299,7 @@ subprocess.run(
         "weblate_language_data/plurals.py",
         "weblate_language_data/languages.py",
         "weblate_language_data/check_languages.py",
+        "weblate_language_data/language_codes.py",
+        "weblate_language_data/country_codes.py",
     ]
 )
