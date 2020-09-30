@@ -42,3 +42,4 @@ weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/loca
 			msgmerge --previous -C $$file -U $@ $< ; \
 		fi ; \
 	done
+	@touch $@

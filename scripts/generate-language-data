@@ -109,7 +109,7 @@ with open("default_countries.csv", "r") as csvfile:
 # Write language definitions
 with open("weblate_language_data/languages.py", "w") as output:
     output.write(HEADER)
-    output.write("from django.utils.translation import gettext_noop as _\n\n")
+    output.write("from .utils import gettext_noop as _\n\n")
     output.write("# Language definitions\n")
     output.write("LANGUAGES = (\n")
     for row in LANGUAGES:
@@ -119,7 +119,7 @@ with open("weblate_language_data/languages.py", "w") as output:
     output.write(")\n")
 with open("weblate_language_data/plurals.py", "w") as output:
     output.write(HEADER)
-    output.write("from django.utils.translation import gettext_noop as _\n\n")
+    output.write("from .utils import gettext_noop as _\n\n")
     output.write("# Additional plural rules definitions\n")
     output.write("EXTRAPLURALS = (\n")
     for row in EXTRAPLURALS:

@@ -38,9 +38,6 @@ LOCALE_MASKS = [
     "weblate_language_data/locale/*/LC_MESSAGES/*.po",
 ]
 
-with open("requirements.txt") as handle:
-    REQUIRES = handle.read().split()
-
 
 class BuildMo(Command):
     description = "update MO files to match PO"
@@ -70,6 +67,5 @@ class WeblateBuild(build):
 
 
 setup(
-    install_requires=REQUIRES,
     cmdclass={"build_mo": BuildMo, "build": WeblateBuild},
 )
