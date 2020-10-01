@@ -5,13 +5,14 @@
 # amirmasoud <amirmasood33@gmail.com>, 2020.
 # salman <amir1architect@yahoo.com>, 2020.
 # Abbas Baharforoosh <abahar1996@gmail.com>, 2020.
+# Mostafa Ahangarha <ahangarha@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-09-29 13:02+0200\n"
-"PO-Revision-Date: 2020-08-04 02:03+0000\n"
-"Last-Translator: Abbas Baharforoosh <abahar1996@gmail.com>\n"
+"PO-Revision-Date: 2020-10-03 07:41+0000\n"
+"Last-Translator: Mostafa Ahangarha <ahangarha@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/"
 "languages/fa/>\n"
 "Language: fa\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #. Translators: Language name, ISO code: aa
 #: weblate_language_data/languages.py:42
@@ -118,10 +119,8 @@ msgstr "عربی (عربستان سعودی)"
 
 #. Translators: Language name, ISO code: ar_XB
 #: weblate_language_data/languages.py:175
-#, fuzzy
-#| msgid "Arabic (Morocco)"
 msgid "Arabic (XB pseudolocale)"
-msgstr "عربی (مراکش)"
+msgstr "عربی (شبه بومی XB)"
 
 #. Translators: Language name, ISO code: ar_YE
 #: weblate_language_data/languages.py:182
@@ -310,9 +309,8 @@ msgstr "چامورویی"
 
 #. Translators: Language name, ISO code: chk
 #: weblate_language_data/languages.py:441
-#, fuzzy
 msgid "Chuukese"
-msgstr "چینی"
+msgstr "چوکی‌ای"
 
 #. Translators: Language name, ISO code: chm
 #: weblate_language_data/languages.py:448
@@ -482,10 +480,8 @@ msgstr "انگلیسی (آمریکا)"
 
 #. Translators: Language name, ISO code: en_XA
 #: weblate_language_data/languages.py:679
-#, fuzzy
-#| msgid "English (Ireland)"
 msgid "English (XA pseudolocale)"
-msgstr "انگلیسی (ایرلند)"
+msgstr "انگلیسی (شبه بومی XA)"
 
 #. Translators: Language name, ISO code: en_ZA
 #: weblate_language_data/languages.py:686
@@ -1200,10 +1196,8 @@ msgstr "انده‌بله‌ای شمالی"
 
 #. Translators: Language name, ISO code: nds
 #: weblate_language_data/languages.py:1680
-#, fuzzy
-#| msgid "German"
 msgid "German (Low)"
-msgstr "آلمانی"
+msgstr "آلمانی (پایین)"
 
 #. Translators: Language name, ISO code: ne
 #: weblate_language_data/languages.py:1687
@@ -1222,10 +1216,8 @@ msgstr "هلندی"
 
 #. Translators: Language name, ISO code: nl_BE
 #: weblate_language_data/languages.py:1708
-#, fuzzy
-#| msgid "French (Belgium)"
 msgid "Dutch (Belgium)"
-msgstr "فرانسوی (بلژیک)"
+msgstr "هلندی (بلژیک)"
 
 #. Translators: Language name, ISO code: nn
 #: weblate_language_data/languages.py:1715
@@ -1380,7 +1372,7 @@ msgstr "کچوایی"
 #. Translators: Language name, ISO code: rcf
 #: weblate_language_data/languages.py:1925
 msgid "Réunion Creole"
-msgstr ""
+msgstr "کریول ریونیون"
 
 #. Translators: Language name, ISO code: rm
 #: weblate_language_data/languages.py:1932
