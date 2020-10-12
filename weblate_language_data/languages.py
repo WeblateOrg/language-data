@@ -2599,6 +2599,13 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "zgh",
+        # Translators: Language name, ISO code: zgh
+        _("Standard Moroccan Tamazight"),
+        2,
+        "n != 1",
+    ),
+    (
         "zh_Hans",
         # Translators: Language name, ISO code: zh_Hans
         _("Chinese (Simplified)"),

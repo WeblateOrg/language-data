@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
-"POT-Creation-Date: 2020-09-29 13:02+0200\n"
+"POT-Creation-Date: 2020-10-12 09:34+0200\n"
 "PO-Revision-Date: 2016-01-14 15:07+0000\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Breton <https://hosted.weblate.org/projects/weblate/master/br/"
@@ -1987,43 +1987,48 @@ msgstr ""
 msgid "Zhuang"
 msgstr "zhuang"
 
-#. Translators: Language name, ISO code: zh_Hans
+#. Translators: Language name, ISO code: zgh
 #: weblate_language_data/languages.py:2604
+msgid "Standard Moroccan Tamazight"
+msgstr "tamacheg Maroko standart"
+
+#. Translators: Language name, ISO code: zh_Hans
+#: weblate_language_data/languages.py:2611
 #, fuzzy
 #| msgid "Chinese (China)"
 msgid "Chinese (Simplified)"
 msgstr "Sinaeg (Sina)"
 
 #. Translators: Language name, ISO code: zh_Hans_SG
-#: weblate_language_data/languages.py:2611
+#: weblate_language_data/languages.py:2618
 #, fuzzy
 #| msgid "Chinese (China)"
 msgid "Chinese (Simplified, Singapore)"
 msgstr "Sinaeg (Sina)"
 
 #. Translators: Language name, ISO code: zh_Hant
-#: weblate_language_data/languages.py:2618
+#: weblate_language_data/languages.py:2625
 #, fuzzy
 #| msgid "Chinese (Taiwan)"
 msgid "Chinese (Traditional)"
 msgstr "Sinaeg (Taiwan)"
 
 #. Translators: Language name, ISO code: zh_Hant_HK
-#: weblate_language_data/languages.py:2625
+#: weblate_language_data/languages.py:2632
 #, fuzzy
 #| msgid "Chinese (Taiwan)"
 msgid "Chinese (Traditional, Hong Kong)"
 msgstr "Sinaeg (Taiwan)"
 
 #. Translators: Language name, ISO code: zh_Latn
-#: weblate_language_data/languages.py:2632
+#: weblate_language_data/languages.py:2639
 #, fuzzy
 #| msgid "Chinese (Taiwan)"
 msgid "Chinese (Pinyin)"
 msgstr "Sinaeg (Taiwan)"
 
 #. Translators: Language name, ISO code: zu
-#: weblate_language_data/languages.py:2639
+#: weblate_language_data/languages.py:2646
 msgid "Zulu"
 msgstr "zouloueg"
 

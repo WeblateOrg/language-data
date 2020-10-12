@@ -635,6 +635,7 @@ LANGUAGES = {
     "yor",
     "yue",
     "za",
+    "zgh",
     "zh",
     "zh_chs",
     "zh_cmn_hans",

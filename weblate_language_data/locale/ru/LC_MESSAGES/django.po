@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
-"POT-Creation-Date: 2020-09-29 13:02+0200\n"
+"POT-Creation-Date: 2020-10-12 09:34+0200\n"
 "PO-Revision-Date: 2020-09-01 05:07+0000\n"
 "Last-Translator: Mingun <Alexander_Sergey@mail.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/"
@@ -1858,33 +1858,38 @@ msgstr "Юэ (кантонский)"
 msgid "Zhuang"
 msgstr "Чжуанский"
 
-#. Translators: Language name, ISO code: zh_Hans
+#. Translators: Language name, ISO code: zgh
 #: weblate_language_data/languages.py:2604
+msgid "Standard Moroccan Tamazight"
+msgstr "стандартный марокканский тамазигхтский"
+
+#. Translators: Language name, ISO code: zh_Hans
+#: weblate_language_data/languages.py:2611
 msgid "Chinese (Simplified)"
 msgstr "Китайский (упрощенный)"
 
 #. Translators: Language name, ISO code: zh_Hans_SG
-#: weblate_language_data/languages.py:2611
+#: weblate_language_data/languages.py:2618
 msgid "Chinese (Simplified, Singapore)"
 msgstr "Китайский (упрощенный, Сингапур)"
 
 #. Translators: Language name, ISO code: zh_Hant
-#: weblate_language_data/languages.py:2618
+#: weblate_language_data/languages.py:2625
 msgid "Chinese (Traditional)"
 msgstr "Китайский (традиционный)"
 
 #. Translators: Language name, ISO code: zh_Hant_HK
-#: weblate_language_data/languages.py:2625
+#: weblate_language_data/languages.py:2632
 msgid "Chinese (Traditional, Hong Kong)"
 msgstr "Китайский (традиционный, Гонконг)"
 
 #. Translators: Language name, ISO code: zh_Latn
-#: weblate_language_data/languages.py:2632
+#: weblate_language_data/languages.py:2639
 msgid "Chinese (Pinyin)"
 msgstr "Китайский (Пиньинь)"
 
 #. Translators: Language name, ISO code: zu
-#: weblate_language_data/languages.py:2639
+#: weblate_language_data/languages.py:2646
 msgid "Zulu"
 msgstr "Зулусский"
 
