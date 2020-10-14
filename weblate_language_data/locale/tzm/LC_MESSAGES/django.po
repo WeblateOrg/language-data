@@ -2,28 +2,32 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Weblate Language Data package.
 # Weblate <noreply@weblate.org>, 2020.
+# Hakim Oubouali <hakim.oubouali.skr@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate Language Data\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-10-12 09:34+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-10-15 07:25+0000\n"
+"Last-Translator: Hakim Oubouali <hakim.oubouali.skr@gmail.com>\n"
+"Language-Team: Central Atlas Tamazight <https://hosted.weblate.org/projects/"
+"weblate/languages/tzm/>\n"
 "Language: tzm\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n >= 2 && (n < 11 || n > 99);\n"
+"X-Generator: Weblate 4.3-dev\n"
 
 #. Translators: Language name, ISO code: aa
 #: weblate_language_data/languages.py:42
 msgid "Afar"
-msgstr ""
+msgstr "Tafarit"
 
 #. Translators: Language name, ISO code: ab
 #: weblate_language_data/languages.py:49
 msgid "Abkhazian"
-msgstr ""
+msgstr "Tabxazit"
 
 #. Translators: Language name, ISO code: ace
 #: weblate_language_data/languages.py:56
@@ -53,12 +57,12 @@ msgstr ""
 #. Translators: Language name, ISO code: ak
 #: weblate_language_data/languages.py:91
 msgid "Akan"
-msgstr ""
+msgstr "Takanit"
 
 #. Translators: Language name, ISO code: am
 #: weblate_language_data/languages.py:98
 msgid "Amharic"
-msgstr ""
+msgstr "Tamharit"
 
 #. Translators: Language name, ISO code: an
 #: weblate_language_data/languages.py:105
@@ -73,42 +77,42 @@ msgstr ""
 #. Translators: Language name, ISO code: ar
 #: weblate_language_data/languages.py:119
 msgid "Arabic"
-msgstr ""
+msgstr "Taεrabt"
 
 #. Translators: Language name, ISO code: ar_BH
 #: weblate_language_data/languages.py:126
 msgid "Arabic (Bahrain)"
-msgstr ""
+msgstr "Taεrabt (Baḥṛayn)"
 
 #. Translators: Language name, ISO code: ar_DZ
 #: weblate_language_data/languages.py:133
 msgid "Arabic (Algeria)"
-msgstr ""
+msgstr "Taεrabt (Dzayer)"
 
 #. Translators: Language name, ISO code: ar_EG
 #: weblate_language_data/languages.py:140
 msgid "Arabic (Egypt)"
-msgstr ""
+msgstr "Taεrabt (Miṣr)"
 
 #. Translators: Language name, ISO code: ar_KW
 #: weblate_language_data/languages.py:147
 msgid "Arabic (Kuwait)"
-msgstr ""
+msgstr "Taεrabt (Kuwwayt)"
 
 #. Translators: Language name, ISO code: ar_LY
 #: weblate_language_data/languages.py:154
 msgid "Arabic (Libya)"
-msgstr ""
+msgstr "Taεrabt (Libya)"
 
 #. Translators: Language name, ISO code: ar_MA
 #: weblate_language_data/languages.py:161
 msgid "Arabic (Morocco)"
-msgstr ""
+msgstr "Taεrabt (Ameṛṛuk)"
 
 #. Translators: Language name, ISO code: ar_SA
 #: weblate_language_data/languages.py:168
 msgid "Arabic (Saudi Arabia)"
-msgstr ""
+msgstr "Taεrabt (Ssaεudiyya Taεrabt)"
 
 #. Translators: Language name, ISO code: ar_XB
 #: weblate_language_data/languages.py:175
@@ -118,7 +122,7 @@ msgstr ""
 #. Translators: Language name, ISO code: ar_YE
 #: weblate_language_data/languages.py:182
 msgid "Arabic (Yemen)"
-msgstr ""
+msgstr "Taεrabt (Yaman)"
 
 #. Translators: Language name, ISO code: arn
 #: weblate_language_data/languages.py:189
@@ -128,7 +132,7 @@ msgstr ""
 #. Translators: Language name, ISO code: ars
 #: weblate_language_data/languages.py:196
 msgid "Arabic (Najdi)"
-msgstr ""
+msgstr "Taεrabt (Najd)"
 
 #. Translators: Language name, ISO code: as
 #: weblate_language_data/languages.py:203
@@ -173,12 +177,12 @@ msgstr ""
 #. Translators: Language name, ISO code: be
 #: weblate_language_data/languages.py:259
 msgid "Belarusian"
-msgstr ""
+msgstr "Tabilarusit"
 
 #. Translators: Language name, ISO code: be_Latn
 #: weblate_language_data/languages.py:266
 msgid "Belarusian (latin)"
-msgstr ""
+msgstr "Tabilarusit (alatin)"
 
 #. Translators: Language name, ISO code: bem
 #: weblate_language_data/languages.py:273
@@ -198,7 +202,7 @@ msgstr ""
 #. Translators: Language name, ISO code: bg
 #: weblate_language_data/languages.py:294
 msgid "Bulgarian"
-msgstr ""
+msgstr "Tabulgarit"
 
 #. Translators: Language name, ISO code: bh
 #: weblate_language_data/languages.py:301
@@ -223,17 +227,17 @@ msgstr ""
 #. Translators: Language name, ISO code: bn
 #: weblate_language_data/languages.py:329
 msgid "Bengali"
-msgstr ""
+msgstr "Tabinɣalit"
 
 #. Translators: Language name, ISO code: bn_BD
 #: weblate_language_data/languages.py:336
 msgid "Bengali (Bangladesh)"
-msgstr ""
+msgstr "Tabinɣalit (Bangladic)"
 
 #. Translators: Language name, ISO code: bn_IN
 #: weblate_language_data/languages.py:343
 msgid "Bengali (India)"
-msgstr ""
+msgstr "Tabinɣalit (Hind)"
 
 #. Translators: Language name, ISO code: bo
 #: weblate_language_data/languages.py:350
@@ -348,7 +352,7 @@ msgstr ""
 #. Translators: Language name, ISO code: cs
 #: weblate_language_data/languages.py:504
 msgid "Czech"
-msgstr ""
+msgstr "Tačikt"
 
 #. Translators: Language name, ISO code: csb
 #: weblate_language_data/languages.py:511
@@ -379,22 +383,22 @@ msgstr ""
 #. Translators: Language name, ISO code: de
 #: weblate_language_data/languages.py:546
 msgid "German"
-msgstr ""
+msgstr "Talmanit"
 
 #. Translators: Language name, ISO code: de_AT
 #: weblate_language_data/languages.py:553
 msgid "German (Austria)"
-msgstr ""
+msgstr "Talmanit (Ustriyya)"
 
 #. Translators: Language name, ISO code: de_CH
 #: weblate_language_data/languages.py:560
 msgid "German (Switzerland)"
-msgstr ""
+msgstr "Talmanit (Swisra)"
 
 #. Translators: Language name, ISO code: de_LU
 #: weblate_language_data/languages.py:567
 msgid "German (Luxembourg)"
-msgstr ""
+msgstr "Talmanit (Liksumburg)"
 
 #. Translators: Language name, ISO code: doi
 #: weblate_language_data/languages.py:574
@@ -424,12 +428,12 @@ msgstr ""
 #. Translators: Language name, ISO code: el
 #: weblate_language_data/languages.py:609
 msgid "Greek"
-msgstr ""
+msgstr "Tagerigit"
 
 #. Translators: Language name, ISO code: en
 #: weblate_language_data/languages.py:616
 msgid "English"
-msgstr ""
+msgstr "Tanglizt"
 
 #. Translators: Language name, ISO code: en_AU
 #: weblate_language_data/languages.py:623
