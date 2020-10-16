@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Whod <whodizhod@gmail.com>, 2018, 2020.
+# Пламен <plamen_mbx@yahoo.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2020-10-12 09:34+0200\n"
-"PO-Revision-Date: 2020-09-14 06:58+0000\n"
-"Last-Translator: Whod <whodizhod@gmail.com>\n"
+"PO-Revision-Date: 2020-10-18 09:29+0000\n"
+"Last-Translator: Пламен <plamen_mbx@yahoo.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/weblate/"
 "languages/bg/>\n"
 "Language: bg\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.3.1-dev\n"
 
 #. Translators: Language name, ISO code: aa
 #: weblate_language_data/languages.py:42
@@ -115,10 +116,8 @@ msgstr "Арабски (Саудитска Арабия)"
 
 #. Translators: Language name, ISO code: ar_XB
 #: weblate_language_data/languages.py:175
-#, fuzzy
-#| msgid "Arabic (Morocco)"
 msgid "Arabic (XB pseudolocale)"
-msgstr "Арабски (Мароко)"
+msgstr "Арабски (XB псевдополокален)"
 
 #. Translators: Language name, ISO code: ar_YE
 #: weblate_language_data/languages.py:182
@@ -132,10 +131,8 @@ msgstr "Мапуче"
 
 #. Translators: Language name, ISO code: ars
 #: weblate_language_data/languages.py:196
-#, fuzzy
-#| msgid "Arabic (Kuwait)"
 msgid "Arabic (Najdi)"
-msgstr "Арабски (Кувейт)"
+msgstr "Арабски (Наджди)"
 
 #. Translators: Language name, ISO code: as
 #: weblate_language_data/languages.py:203
@@ -480,10 +477,8 @@ msgstr "Английски (САЩ)"
 
 #. Translators: Language name, ISO code: en_XA
 #: weblate_language_data/languages.py:679
-#, fuzzy
-#| msgid "English (Ireland)"
 msgid "English (XA pseudolocale)"
-msgstr "Английски (Ирландия)"
+msgstr "Английски (XA псевдолокал)"
 
 #. Translators: Language name, ISO code: en_ZA
 #: weblate_language_data/languages.py:686
@@ -617,10 +612,8 @@ msgstr "Френски"
 
 #. Translators: Language name, ISO code: fr_AG
 #: weblate_language_data/languages.py:868
-#, fuzzy
-#| msgid "French (Canada)"
 msgid "French (Antigua and Barbuda)"
-msgstr "Френски (Канада)"
+msgstr "Френски (Антигуа и Барбуда)"
 
 #. Translators: Language name, ISO code: fr_BE
 #: weblate_language_data/languages.py:875
@@ -1029,7 +1022,7 @@ msgstr "Лимбургски"
 #. Translators: Language name, ISO code: lki
 #: weblate_language_data/languages.py:1442
 msgid "Laki"
-msgstr ""
+msgstr "Лаки"
 
 #. Translators: Language name, ISO code: lkt
 #: weblate_language_data/languages.py:1449
@@ -1111,7 +1104,7 @@ msgstr "Маорски"
 #. Translators: Language name, ISO code: mia
 #: weblate_language_data/languages.py:1554
 msgid "Miami"
-msgstr ""
+msgstr "Маями"
 
 #. Translators: Language name, ISO code: mk
 #: weblate_language_data/languages.py:1561
@@ -1151,7 +1144,7 @@ msgstr "Малайски"
 #. Translators: Language name, ISO code: ms_Arab
 #: weblate_language_data/languages.py:1610
 msgid "Malay (Jawi)"
-msgstr ""
+msgstr "Малайски (Джава)"
 
 #. Translators: Language name, ISO code: mt
 #: weblate_language_data/languages.py:1617
@@ -1200,10 +1193,8 @@ msgstr "Северен ндебеле"
 
 #. Translators: Language name, ISO code: nds
 #: weblate_language_data/languages.py:1680
-#, fuzzy
-#| msgid "German"
 msgid "German (Low)"
-msgstr "Немски"
+msgstr "Немски (Долносаксонски)"
 
 #. Translators: Language name, ISO code: ne
 #: weblate_language_data/languages.py:1687
@@ -1298,7 +1289,7 @@ msgstr "осейджи"
 #. Translators: Language name, ISO code: otk
 #: weblate_language_data/languages.py:1813
 msgid "Kokturk"
-msgstr ""
+msgstr "Коктюрк"
 
 #. Translators: Language name, ISO code: pa
 #: weblate_language_data/languages.py:1820
@@ -1378,7 +1369,7 @@ msgstr "Кечуа"
 #. Translators: Language name, ISO code: rcf
 #: weblate_language_data/languages.py:1925
 msgid "Réunion Creole"
-msgstr ""
+msgstr "Реюнион креолски"
 
 #. Translators: Language name, ISO code: rm
 #: weblate_language_data/languages.py:1932
@@ -1563,7 +1554,7 @@ msgstr "Сомалийски"
 #. Translators: Language name, ISO code: son
 #: weblate_language_data/languages.py:2184
 msgid "Songhai"
-msgstr ""
+msgstr "Сонгхай"
 
 #. Translators: Language name, ISO code: sq
 #: weblate_language_data/languages.py:2191
@@ -1808,7 +1799,7 @@ msgstr "Валонски"
 #. Translators: Language name, ISO code: wae
 #: weblate_language_data/languages.py:2527
 msgid "German (Walser)"
-msgstr ""
+msgstr "Немски (Валзер)"
 
 #. Translators: Language name, ISO code: wal
 #: weblate_language_data/languages.py:2534
