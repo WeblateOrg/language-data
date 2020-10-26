@@ -32,7 +32,7 @@ languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-language
 	./scripts/export-iso-languages
 
 weblate_language_data/locale/django.pot: weblate_language_data/languages.py weblate_language_data/plurals.py
-	xgettext --add-comments=Translators: --msgid-bugs-address=weblate@lists.cihar.com --from-code=utf-8 --language=python --add-location --package-name="Weblate Language Data" --output=$@ weblate_language_data/*.py
+	xgettext --add-comments=Translators: --msgid-bugs-address=https://github.com/WeblateOrg/language-data/issues/ --from-code=utf-8 --language=python --add-location --package-name="Weblate Language Data" --output=$@ weblate_language_data/*.py
 
 
 weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot
