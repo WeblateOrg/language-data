@@ -2,7 +2,7 @@
 #
 # Copyright © 2012 - 2020 Michal Čihař <michal@cihar.com>
 #
-# This file is part of Weblate Client <https://github.com/WeblateOrg/language-data>
+# This file is part of Weblate <https://weblate.org/>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
