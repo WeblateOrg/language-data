@@ -88,6 +88,8 @@ ALIASES = {
     "sr@cyrillic": "sr_Cyrl",
     "sr_rs@cyrillic": "sr_Cyrl",
     "uz@latin": "uz_Latn",
+    "uz@latn": "uz_Latn",
+    "uz@cyrillic": "uz",
     "zh": "zh_Hans",
     "zhcn": "zh_Hans",
     "zh_cn": "zh_Hans",
