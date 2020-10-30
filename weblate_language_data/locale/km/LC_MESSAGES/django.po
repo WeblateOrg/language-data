@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-10-26 20:03+0100\n"
-"PO-Revision-Date: 2020-06-06 17:41+0000\n"
+"PO-Revision-Date: 2020-10-31 07:26+0000\n"
 "Last-Translator: ប៉ុកណូ រ៉ូយ៉ាល់ <royalpokno68@gmail.com>\n"
 "Language-Team: Central Khmer <https://hosted.weblate.org/projects/weblate/"
 "languages/km/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.3.2-dev\n"
 
 #. Translators: Language name, ISO code: aa
 #: weblate_language_data/languages.py:42
@@ -100,10 +100,8 @@ msgstr "អារ៉ាប់ (គុយវ៉ែត)"
 
 #. Translators: Language name, ISO code: ar_LY
 #: weblate_language_data/languages.py:154
-#, fuzzy
-#| msgid "Arabic (Algeria)"
 msgid "Arabic (Libya)"
-msgstr "អារ៉ាប់ (អាល់ហ្សេរី)"
+msgstr "អារ៉ាប់ (លីប៊ី)"
 
 #. Translators: Language name, ISO code: ar_MA
 #: weblate_language_data/languages.py:161
@@ -117,10 +115,8 @@ msgstr "អារ៉ាប់ (អារ៉ាប់រួម)"
 
 #. Translators: Language name, ISO code: ar_XB
 #: weblate_language_data/languages.py:175
-#, fuzzy
-#| msgid "Arabic (Morocco)"
 msgid "Arabic (XB pseudolocale)"
-msgstr "អារ៉ាប់ (ម៉ារ៉ុក)"
+msgstr "អារ៉ាប់ (XB pseudolocale)"
 
 #. Translators: Language name, ISO code: ar_YE
 #: weblate_language_data/languages.py:182
@@ -195,7 +191,7 @@ msgstr "បេមបា"
 #. Translators: Language name, ISO code: ber
 #: weblate_language_data/languages.py:280
 msgid "Berber"
-msgstr ""
+msgstr "ប៊ឺរបឺរ"
 
 #. Translators: Language name, ISO code: bez
 #: weblate_language_data/languages.py:287
@@ -210,7 +206,7 @@ msgstr "ប៊ុលហ្គារី"
 #. Translators: Language name, ISO code: bh
 #: weblate_language_data/languages.py:301
 msgid "Bihari"
-msgstr ""
+msgstr "ប៊ីហារ"
 
 #. Translators: Language name, ISO code: bho
 #: weblate_language_data/languages.py:308
@@ -230,17 +226,17 @@ msgstr "បាម្បារា"
 #. Translators: Language name, ISO code: bn
 #: weblate_language_data/languages.py:329
 msgid "Bengali"
-msgstr ""
+msgstr "បង់ហ្គាលី"
 
 #. Translators: Language name, ISO code: bn_BD
 #: weblate_language_data/languages.py:336
 msgid "Bengali (Bangladesh)"
-msgstr ""
+msgstr "បង់ក្លាលី (បង់ក្លាដែស)"
 
 #. Translators: Language name, ISO code: bn_IN
 #: weblate_language_data/languages.py:343
 msgid "Bengali (India)"
-msgstr ""
+msgstr "បង់ក្លាលី (ឥណ្ឌា)"
 
 #. Translators: Language name, ISO code: bo
 #: weblate_language_data/languages.py:350
@@ -265,17 +261,17 @@ msgstr "បូស្នី"
 #. Translators: Language name, ISO code: bs_Cyrl
 #: weblate_language_data/languages.py:378
 msgid "Bosnian (cyrillic)"
-msgstr ""
+msgstr "បូស្នី (ស៊ីអ៊ីល)"
 
 #. Translators: Language name, ISO code: bs_Latn
 #: weblate_language_data/languages.py:385
 msgid "Bosnian (latin)"
-msgstr ""
+msgstr "បូស្នី (ឡាតាំង)"
 
 #. Translators: Language name, ISO code: byn
 #: weblate_language_data/languages.py:392
 msgid "Bilen"
-msgstr ""
+msgstr "បែលិន"
 
 #. Translators: Language name, ISO code: ca
 #: weblate_language_data/languages.py:399
@@ -285,7 +281,7 @@ msgstr "កាតាឡាន"
 #. Translators: Language name, ISO code: ca@valencia
 #: weblate_language_data/languages.py:406
 msgid "Valencian"
-msgstr ""
+msgstr "វ៉ាលេនៀន"
 
 #. Translators: Language name, ISO code: ce
 #: weblate_language_data/languages.py:413
@@ -324,20 +320,18 @@ msgstr "ឆេរូគី"
 
 #. Translators: Language name, ISO code: ckb
 #: weblate_language_data/languages.py:462
-#, fuzzy
-#| msgid "Southern Kurdish"
 msgid "Central Kurdish"
-msgstr "ឃើដភាគខាងត្បូង"
+msgstr "ឃឺដមជ្ឈឹម"
 
 #. Translators: Language name, ISO code: ckb_IQ
 #: weblate_language_data/languages.py:469
 msgid "Central Kurdish (Iraq)"
-msgstr ""
+msgstr "ឃឺដមជ្ឈឹម (អ៊ីរ៉ាក់)"
 
 #. Translators: Language name, ISO code: ckb_IR
 #: weblate_language_data/languages.py:476
 msgid "Central Kurdish (Iran)"
-msgstr ""
+msgstr "ឃឺដមជ្ឈឹម (អ៊ីរ៉ង់)"
 
 #. Translators: Language name, ISO code: co
 #: weblate_language_data/languages.py:483
@@ -347,12 +341,12 @@ msgstr "កូស៊ីខាន"
 #. Translators: Language name, ISO code: cr
 #: weblate_language_data/languages.py:490
 msgid "Cree"
-msgstr ""
+msgstr "គ្រេ"
 
 #. Translators: Language name, ISO code: crh
 #: weblate_language_data/languages.py:497
 msgid "Crimean Tatar"
-msgstr ""
+msgstr "គ្រីមៀ"
 
 #. Translators: Language name, ISO code: cs
 #: weblate_language_data/languages.py:504
