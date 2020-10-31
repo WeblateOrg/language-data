@@ -141,4 +141,6 @@ DEFAULT_LANGS = (
     "xh_za",
     "yi_us",
     "zu_za",
+    "ast_es",
+    "gug_py",
 )
