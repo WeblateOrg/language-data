@@ -98,12 +98,18 @@ es_419;Spanish (Latin America);2;n != 1
 es_AR;Spanish (Argentina);2;n != 1
 es_BO;Spanish (Bolivia);2;n != 1
 es_CL;Spanish (Chile);2;n != 1
+es_CO;Spanish (Colombia);2;n != 1
+es_CR;Spanish (Costa Rica);2;n != 1
 es_DO;Spanish (Dominican Republic);2;n != 1
 es_EC;Spanish (Ecuador);2;n != 1
+es_NI;Spanish (Nicaragua);2;n != 1
 es_MX;Spanish (Mexico);2;n != 1
+es_PA;Spanish (Panama);2;n != 1
 es_PE;Spanish (Peru);2;n != 1
 es_PR;Spanish (Puerto Rico);2;n != 1
+es_SV;Spanish (El Salvador);2;n != 1
 es_US;Spanish (American);2;n != 1
+es_UY;Spanish (Uruquay);2;n != 1
 es_VE;Spanish (Venezuela);2;n != 1
 et;Estonian;2;n != 1
 eu;Basque;2;n != 1
@@ -316,6 +322,7 @@ su;Sundanese;1;0
 sv;Swedish;2;n != 1
 sw;Swahili;2;n != 1
 sw_CD;Swahili (Congo);2;n != 1
+sw_TZ;Swahili (Tanzania);2;n != 1
 syr;Syriac;2;n != 1
 szl;Silesian;3;n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 ta;Tamil;2;n != 1

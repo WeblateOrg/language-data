@@ -737,6 +737,20 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "es_CO",
+        # Translators: Language name, ISO code: es_CO
+        _("Spanish (Colombia)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "es_CR",
+        # Translators: Language name, ISO code: es_CR
+        _("Spanish (Costa Rica)"),
+        2,
+        "n != 1",
+    ),
+    (
         "es_DO",
         # Translators: Language name, ISO code: es_DO
         _("Spanish (Dominican Republic)"),
@@ -751,9 +765,23 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "es_NI",
+        # Translators: Language name, ISO code: es_NI
+        _("Spanish (Nicaragua)"),
+        2,
+        "n != 1",
+    ),
+    (
         "es_MX",
         # Translators: Language name, ISO code: es_MX
         _("Spanish (Mexico)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "es_PA",
+        # Translators: Language name, ISO code: es_PA
+        _("Spanish (Panama)"),
         2,
         "n != 1",
     ),
@@ -772,9 +800,23 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "es_SV",
+        # Translators: Language name, ISO code: es_SV
+        _("Spanish (El Salvador)"),
+        2,
+        "n != 1",
+    ),
+    (
         "es_US",
         # Translators: Language name, ISO code: es_US
         _("Spanish (American)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "es_UY",
+        # Translators: Language name, ISO code: es_UY
+        _("Spanish (Uruquay)"),
         2,
         "n != 1",
     ),
@@ -2259,6 +2301,13 @@ LANGUAGES = (
         "sw_CD",
         # Translators: Language name, ISO code: sw_CD
         _("Swahili (Congo)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "sw_TZ",
+        # Translators: Language name, ISO code: sw_TZ
+        _("Swahili (Tanzania)"),
         2,
         "n != 1",
     ),

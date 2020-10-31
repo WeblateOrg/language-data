@@ -96,6 +96,7 @@ DEFAULT_LANGS = (
     "mr_in",
     "ms_my",
     "mt_mt",
+    "my_mm",
     "ne_np",
     "nl_nl",
     "nn_no",
