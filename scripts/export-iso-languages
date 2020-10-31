@@ -27,7 +27,7 @@ import csv
 import json
 import subprocess
 
-IGNORE = {"nb", "no", "zh"}
+IGNORE = {"nb", "no", "zh", "zxx"}
 
 
 def parse_csv(name):
@@ -48,7 +48,16 @@ aliases = parse_csv("aliases.csv")
 
 with open("modules/iso-codes/data/iso_639-2.json", "r") as handle:
     for item in json.load(handle)["639-2"]:
-        if "alpha_2" not in item:
+        if "languages" in item["name"]:
+            # Language groups
             continue
-        if item["alpha_2"] not in IGNORE and item["alpha_2"] not in languages:
-            subprocess.run(["./scripts/add-iso", item["alpha_2"]])
+        if "-" in item["alpha_3"]:
+            # Ranges
+            continue
+        if "alpha_2" in item:
+            if item["alpha_2"] not in IGNORE and item["alpha_2"] not in languages:
+                subprocess.run(["./scripts/add-iso", item["alpha_2"]])
+        elif (
+            item["alpha_3"] not in IGNORE and item["alpha_3"] not in languages and False
+        ):
+            subprocess.run(["./scripts/add-iso", item["alpha_3"]])
