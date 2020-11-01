@@ -816,7 +816,7 @@ LANGUAGES = (
     (
         "es_UY",
         # Translators: Language name, ISO code: es_UY
-        _("Spanish (Uruquay)"),
+        _("Spanish (Uruguay)"),
         2,
         "n != 1",
     ),
