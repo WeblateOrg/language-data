@@ -12021,7 +12021,6 @@ LANGUAGES = {
     "uruguayo",
     "urum",
     "urumi",
-    "uruquay",
     "uruzgān",
     "usa",
     "usaghade",

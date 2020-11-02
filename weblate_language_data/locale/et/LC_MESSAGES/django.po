@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2020-10-31 14:17+0100\n"
+"POT-Creation-Date: 2020-11-02 14:49+0100\n"
 "PO-Revision-Date: 2020-10-03 07:41+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/weblate/"
@@ -39,1901 +39,2924 @@ msgstr "atšehi"
 msgid "Acholi"
 msgstr "atšoli"
 
-#. Translators: Language name, ISO code: ady
+#. Translators: Language name, ISO code: ada
 #: weblate_language_data/languages.py:70
+msgid "Adangme"
+msgstr "adangme"
+
+#. Translators: Language name, ISO code: ady
+#: weblate_language_data/languages.py:77
 msgid "Adyghe"
 msgstr "adõgee"
 
 #. Translators: Language name, ISO code: ae
-#: weblate_language_data/languages.py:77
+#: weblate_language_data/languages.py:84
 msgid "Avestan"
 msgstr "avesta"
 
 #. Translators: Language name, ISO code: af
-#: weblate_language_data/languages.py:84
+#: weblate_language_data/languages.py:91
 msgid "Afrikaans"
 msgstr "afrikaani"
 
+#. Translators: Language name, ISO code: afh
+#: weblate_language_data/languages.py:98
+#, fuzzy
+#| msgid "Maithili"
+msgid "Afrihili"
+msgstr "maithili"
+
+#. Translators: Language name, ISO code: ain
+#: weblate_language_data/languages.py:105
+msgid "Ainu (Japan)"
+msgstr ""
+
 #. Translators: Language name, ISO code: ak
-#: weblate_language_data/languages.py:91
+#: weblate_language_data/languages.py:112
 msgid "Akan"
 msgstr "akani"
 
+#. Translators: Language name, ISO code: akk
+#: weblate_language_data/languages.py:119
+msgid "Akkadian"
+msgstr "akadi"
+
+#. Translators: Language name, ISO code: ale
+#: weblate_language_data/languages.py:126
+msgid "Aleut"
+msgstr "aleuudi"
+
+#. Translators: Language name, ISO code: alt
+#: weblate_language_data/languages.py:133
+#, fuzzy
+#| msgid "Southern Sami"
+msgid "Southern Altai"
+msgstr "lõunasaami"
+
 #. Translators: Language name, ISO code: am
-#: weblate_language_data/languages.py:98
+#: weblate_language_data/languages.py:140
 msgid "Amharic"
 msgstr "amhari"
 
 #. Translators: Language name, ISO code: an
-#: weblate_language_data/languages.py:105
+#: weblate_language_data/languages.py:147
 msgid "Aragonese"
 msgstr "aragoni"
 
+#. Translators: Language name, ISO code: ang
+#: weblate_language_data/languages.py:154
+#, fuzzy
+#| msgid "English (Ireland)"
+msgid "English (Old)"
+msgstr "Inglise (Iiri)"
+
 #. Translators: Language name, ISO code: anp
-#: weblate_language_data/languages.py:112
+#: weblate_language_data/languages.py:161
 msgid "Angika"
 msgstr "angika"
 
 #. Translators: Language name, ISO code: ar
-#: weblate_language_data/languages.py:119
+#: weblate_language_data/languages.py:168
 msgid "Arabic"
 msgstr "araabia"
 
 #. Translators: Language name, ISO code: ar_BH
-#: weblate_language_data/languages.py:126
+#: weblate_language_data/languages.py:175
 msgid "Arabic (Bahrain)"
 msgstr "Araabia (Bahrein)"
 
 #. Translators: Language name, ISO code: ar_DZ
-#: weblate_language_data/languages.py:133
+#: weblate_language_data/languages.py:182
 msgid "Arabic (Algeria)"
 msgstr "Araabia (Alžeeria)"
 
 #. Translators: Language name, ISO code: ar_EG
-#: weblate_language_data/languages.py:140
+#: weblate_language_data/languages.py:189
 msgid "Arabic (Egypt)"
 msgstr "Araabia (Egiptus)"
 
 #. Translators: Language name, ISO code: ar_KW
-#: weblate_language_data/languages.py:147
+#: weblate_language_data/languages.py:196
 msgid "Arabic (Kuwait)"
 msgstr "Araabia (Kuveit)"
 
 #. Translators: Language name, ISO code: ar_LY
-#: weblate_language_data/languages.py:154
+#: weblate_language_data/languages.py:203
 msgid "Arabic (Libya)"
 msgstr "araabia (Liibüa)"
 
 #. Translators: Language name, ISO code: ar_MA
-#: weblate_language_data/languages.py:161
+#: weblate_language_data/languages.py:210
 msgid "Arabic (Morocco)"
 msgstr "Araabia (Maroko)"
 
 #. Translators: Language name, ISO code: ar_SA
-#: weblate_language_data/languages.py:168
+#: weblate_language_data/languages.py:217
 msgid "Arabic (Saudi Arabia)"
 msgstr "Araabia (Saudi Araabia)"
 
 #. Translators: Language name, ISO code: ar_XB
-#: weblate_language_data/languages.py:175
+#: weblate_language_data/languages.py:224
 msgid "Arabic (XB pseudolocale)"
 msgstr "araabia (XB pseudolokaat)"
 
 #. Translators: Language name, ISO code: ar_YE
-#: weblate_language_data/languages.py:182
+#: weblate_language_data/languages.py:231
 msgid "Arabic (Yemen)"
 msgstr "Araabia (Jeemen)"
 
+#. Translators: Language name, ISO code: arc
+#: weblate_language_data/languages.py:238
+msgid "Aramaic"
+msgstr "aramea"
+
 #. Translators: Language name, ISO code: arn
-#: weblate_language_data/languages.py:189
+#: weblate_language_data/languages.py:245
 msgid "Mapudungun"
 msgstr "mapudunguni"
 
+#. Translators: Language name, ISO code: arp
+#: weblate_language_data/languages.py:252
+msgid "Arapaho"
+msgstr "arapaho"
+
 #. Translators: Language name, ISO code: ars
-#: weblate_language_data/languages.py:196
+#: weblate_language_data/languages.py:259
 msgid "Arabic (Najdi)"
 msgstr "Araabia (Najdi)"
 
+#. Translators: Language name, ISO code: arw
+#: weblate_language_data/languages.py:266
+msgid "Arawak"
+msgstr "aravaki"
+
 #. Translators: Language name, ISO code: as
-#: weblate_language_data/languages.py:203
+#: weblate_language_data/languages.py:273
 msgid "Assamese"
 msgstr "assami"
 
 #. Translators: Language name, ISO code: asa
-#: weblate_language_data/languages.py:210
+#: weblate_language_data/languages.py:280
 msgid "Asu"
 msgstr "asu"
 
 #. Translators: Language name, ISO code: ast
-#: weblate_language_data/languages.py:217
+#: weblate_language_data/languages.py:287
 msgid "Asturian"
 msgstr "astuuria"
 
 #. Translators: Language name, ISO code: av
-#: weblate_language_data/languages.py:224
+#: weblate_language_data/languages.py:294
 msgid "Avaric"
 msgstr "avaari"
 
+#. Translators: Language name, ISO code: awa
+#: weblate_language_data/languages.py:301
+msgid "Awadhi"
+msgstr "avadhi"
+
 #. Translators: Language name, ISO code: ay
-#: weblate_language_data/languages.py:231
+#: weblate_language_data/languages.py:308
 msgid "Aymará"
 msgstr "aimara"
 
 #. Translators: Language name, ISO code: az
-#: weblate_language_data/languages.py:238
+#: weblate_language_data/languages.py:315
 msgid "Azerbaijani"
 msgstr "aserbaidžaani"
 
 #. Translators: Language name, ISO code: ba
-#: weblate_language_data/languages.py:245
+#: weblate_language_data/languages.py:322
 msgid "Bashkir"
 msgstr "baškiiri"
 
+#. Translators: Language name, ISO code: bal
+#: weblate_language_data/languages.py:329
+msgid "Baluchi"
+msgstr "belutši"
+
+#. Translators: Language name, ISO code: ban
+#: weblate_language_data/languages.py:336
+#, fuzzy
+#| msgid "Japanese"
+msgid "Balinese"
+msgstr "jaapani"
+
 #. Translators: Language name, ISO code: bar
-#: weblate_language_data/languages.py:252
+#: weblate_language_data/languages.py:343
 msgid "Bavarian"
 msgstr "baieri"
 
+#. Translators: Language name, ISO code: bas
+#: weblate_language_data/languages.py:350
+msgid "Basa (Cameroon)"
+msgstr ""
+
 #. Translators: Language name, ISO code: be
-#: weblate_language_data/languages.py:259
+#: weblate_language_data/languages.py:357
 msgid "Belarusian"
 msgstr "valgevene"
 
 #. Translators: Language name, ISO code: be_Latn
-#: weblate_language_data/languages.py:266
+#: weblate_language_data/languages.py:364
 msgid "Belarusian (latin)"
 msgstr "valgevene (ladina)"
 
+#. Translators: Language name, ISO code: bej
+#: weblate_language_data/languages.py:371
+msgid "Beja"
+msgstr "bedža"
+
 #. Translators: Language name, ISO code: bem
-#: weblate_language_data/languages.py:273
+#: weblate_language_data/languages.py:378
 msgid "Bemba"
 msgstr "bemba"
 
 #. Translators: Language name, ISO code: ber
-#: weblate_language_data/languages.py:280
+#: weblate_language_data/languages.py:385
 msgid "Berber"
 msgstr "berberi"
 
 #. Translators: Language name, ISO code: bez
-#: weblate_language_data/languages.py:287
+#: weblate_language_data/languages.py:392
 msgid "Bena"
 msgstr "bena"
 
 #. Translators: Language name, ISO code: bg
-#: weblate_language_data/languages.py:294
+#: weblate_language_data/languages.py:399
 msgid "Bulgarian"
 msgstr "bulgaaria"
 
 #. Translators: Language name, ISO code: bh
-#: weblate_language_data/languages.py:301
+#: weblate_language_data/languages.py:406
 msgid "Bihari"
 msgstr "bihaari"
 
 #. Translators: Language name, ISO code: bho
-#: weblate_language_data/languages.py:308
+#: weblate_language_data/languages.py:413
 msgid "Bhojpuri"
 msgstr "bhodžpuri"
 
 #. Translators: Language name, ISO code: bi
-#: weblate_language_data/languages.py:315
+#: weblate_language_data/languages.py:420
 msgid "Bislama"
 msgstr "bislama"
 
+#. Translators: Language name, ISO code: bik
+#: weblate_language_data/languages.py:427
+msgid "Bikol"
+msgstr "bikoli"
+
+#. Translators: Language name, ISO code: bin
+#: weblate_language_data/languages.py:434
+msgid "Bini"
+msgstr "edo"
+
+#. Translators: Language name, ISO code: bla
+#: weblate_language_data/languages.py:441
+msgid "Siksika"
+msgstr "mustjalaindiaani (siksika)"
+
 #. Translators: Language name, ISO code: bm
-#: weblate_language_data/languages.py:322
+#: weblate_language_data/languages.py:448
 msgid "Bambara"
 msgstr "bambara"
 
 #. Translators: Language name, ISO code: bn
-#: weblate_language_data/languages.py:329
+#: weblate_language_data/languages.py:455
 msgid "Bengali"
 msgstr "bengali"
 
 #. Translators: Language name, ISO code: bn_BD
-#: weblate_language_data/languages.py:336
+#: weblate_language_data/languages.py:462
 msgid "Bengali (Bangladesh)"
 msgstr "bengali (Bangladesh)"
 
 #. Translators: Language name, ISO code: bn_IN
-#: weblate_language_data/languages.py:343
+#: weblate_language_data/languages.py:469
 msgid "Bengali (India)"
 msgstr "bengali (India)"
 
+#. Translators: Language name, ISO code: bnt
+#: weblate_language_data/languages.py:476
+msgid "Bantu (Other)"
+msgstr "bantu keeled"
+
 #. Translators: Language name, ISO code: bo
-#: weblate_language_data/languages.py:350
+#: weblate_language_data/languages.py:483
 msgid "Tibetan"
 msgstr "tiibeti"
 
 #. Translators: Language name, ISO code: br
-#: weblate_language_data/languages.py:357 weblate_language_data/plurals.py:42
+#: weblate_language_data/languages.py:490 weblate_language_data/plurals.py:42
 msgid "Breton"
 msgstr "bretooni"
 
+#. Translators: Language name, ISO code: bra
+#: weblate_language_data/languages.py:497
+msgid "Braj"
+msgstr "bradži"
+
 #. Translators: Language name, ISO code: brx
-#: weblate_language_data/languages.py:364
+#: weblate_language_data/languages.py:504
 msgid "Bodo"
 msgstr "bodo"
 
 #. Translators: Language name, ISO code: bs
-#: weblate_language_data/languages.py:371
+#: weblate_language_data/languages.py:511
 msgid "Bosnian"
 msgstr "bosnia"
 
 #. Translators: Language name, ISO code: bs_Cyrl
-#: weblate_language_data/languages.py:378
+#: weblate_language_data/languages.py:518
 msgid "Bosnian (cyrillic)"
 msgstr "Bosnia (kürillitsa)"
 
 #. Translators: Language name, ISO code: bs_Latn
-#: weblate_language_data/languages.py:385
+#: weblate_language_data/languages.py:525
 msgid "Bosnian (latin)"
 msgstr "Bosnia (ladina)"
 
+#. Translators: Language name, ISO code: bua
+#: weblate_language_data/languages.py:532
+msgid "Buriat"
+msgstr "burjaadi"
+
+#. Translators: Language name, ISO code: bug
+#: weblate_language_data/languages.py:539
+msgid "Buginese"
+msgstr "bugi"
+
 #. Translators: Language name, ISO code: byn
-#: weblate_language_data/languages.py:392
+#: weblate_language_data/languages.py:546
 msgid "Bilen"
 msgstr "bileni"
 
 #. Translators: Language name, ISO code: ca
-#: weblate_language_data/languages.py:399
+#: weblate_language_data/languages.py:553
 msgid "Catalan"
 msgstr "katalaani"
 
 #. Translators: Language name, ISO code: ca@valencia
-#: weblate_language_data/languages.py:406
+#: weblate_language_data/languages.py:560
 msgid "Valencian"
 msgstr "katalaani (Valencia)"
 
+#. Translators: Language name, ISO code: cad
+#: weblate_language_data/languages.py:567
+msgid "Caddo"
+msgstr "kado"
+
+#. Translators: Language name, ISO code: car
+#: weblate_language_data/languages.py:574
+#, fuzzy
+#| msgid "Galician"
+msgid "Galibi Carib"
+msgstr "galeegi"
+
 #. Translators: Language name, ISO code: ce
-#: weblate_language_data/languages.py:413
+#: weblate_language_data/languages.py:581
 msgid "Chechen"
 msgstr "tšetšeeni"
 
 #. Translators: Language name, ISO code: ceb
-#: weblate_language_data/languages.py:420
+#: weblate_language_data/languages.py:588
 msgid "Cebuano"
 msgstr "sebu"
 
 #. Translators: Language name, ISO code: cgg
-#: weblate_language_data/languages.py:427 weblate_language_data/plurals.py:49
+#: weblate_language_data/languages.py:595 weblate_language_data/plurals.py:49
 msgid "Chiga"
 msgstr "tšiga"
 
 #. Translators: Language name, ISO code: ch
-#: weblate_language_data/languages.py:434
+#: weblate_language_data/languages.py:602
 msgid "Chamorro"
 msgstr "tšamorro"
 
+#. Translators: Language name, ISO code: chb
+#: weblate_language_data/languages.py:609
+msgid "Chibcha"
+msgstr "tšibtša"
+
+#. Translators: Language name, ISO code: chg
+#: weblate_language_data/languages.py:616
+msgid "Chagatai"
+msgstr "tšagatai"
+
 #. Translators: Language name, ISO code: chk
-#: weblate_language_data/languages.py:441
+#: weblate_language_data/languages.py:623
 msgid "Chuukese"
 msgstr "tšuugi"
 
 #. Translators: Language name, ISO code: chm
-#: weblate_language_data/languages.py:448
+#: weblate_language_data/languages.py:630
 msgid "Mari"
 msgstr "mari"
 
+#. Translators: Language name, ISO code: chn
+#: weblate_language_data/languages.py:637
+msgid "Chinook jargon"
+msgstr "tšinuki žargoon"
+
+#. Translators: Language name, ISO code: cho
+#: weblate_language_data/languages.py:644
+msgid "Choctaw"
+msgstr "tšokto"
+
+#. Translators: Language name, ISO code: chp
+#: weblate_language_data/languages.py:651
+msgid "Chipewyan"
+msgstr "tšipevai"
+
 #. Translators: Language name, ISO code: chr
-#: weblate_language_data/languages.py:455
+#: weblate_language_data/languages.py:658
 msgid "Cherokee"
 msgstr "tšerokii"
 
+#. Translators: Language name, ISO code: chy
+#: weblate_language_data/languages.py:665
+msgid "Cheyenne"
+msgstr "šaieeni"
+
 #. Translators: Language name, ISO code: ckb
-#: weblate_language_data/languages.py:462
+#: weblate_language_data/languages.py:672
 msgid "Central Kurdish"
 msgstr "sorani"
 
 #. Translators: Language name, ISO code: ckb_IQ
-#: weblate_language_data/languages.py:469
+#: weblate_language_data/languages.py:679
 msgid "Central Kurdish (Iraq)"
 msgstr "sorani (Iraak)"
 
 #. Translators: Language name, ISO code: ckb_IR
-#: weblate_language_data/languages.py:476
+#: weblate_language_data/languages.py:686
 msgid "Central Kurdish (Iran)"
 msgstr "sorani (Iraan)"
 
 #. Translators: Language name, ISO code: co
-#: weblate_language_data/languages.py:483
+#: weblate_language_data/languages.py:693
 msgid "Corsican"
 msgstr "korsika"
 
+#. Translators: Language name, ISO code: cop
+#: weblate_language_data/languages.py:700
+msgid "Coptic"
+msgstr "kopti"
+
+#. Translators: Language name, ISO code: cpe
+#: weblate_language_data/languages.py:707
+msgid "Creoles and pidgins (English based)"
+msgstr ""
+
+#. Translators: Language name, ISO code: cpf
+#: weblate_language_data/languages.py:714
+msgid "Creoles and pidgins (French-based)"
+msgstr ""
+
+#. Translators: Language name, ISO code: cpp
+#: weblate_language_data/languages.py:721
+msgid "Creoles and pidgins (Portuguese-based)"
+msgstr ""
+
 #. Translators: Language name, ISO code: cr
-#: weblate_language_data/languages.py:490
+#: weblate_language_data/languages.py:728
 msgid "Cree"
 msgstr "krii"
 
 #. Translators: Language name, ISO code: crh
-#: weblate_language_data/languages.py:497
+#: weblate_language_data/languages.py:735
 msgid "Crimean Tatar"
 msgstr "krimmitatari"
 
+#. Translators: Language name, ISO code: crp
+#: weblate_language_data/languages.py:742
+msgid "Creoles and pidgins"
+msgstr "kreool- ja pidžinkeeled"
+
 #. Translators: Language name, ISO code: cs
-#: weblate_language_data/languages.py:504
+#: weblate_language_data/languages.py:749
 msgid "Czech"
 msgstr "tšehhi"
 
 #. Translators: Language name, ISO code: csb
-#: weblate_language_data/languages.py:511
+#: weblate_language_data/languages.py:756
 msgid "Kashubian"
 msgstr "kašuubi"
 
 #. Translators: Language name, ISO code: cu
-#: weblate_language_data/languages.py:518
-msgid "Old Church Slavonic"
-msgstr "Vana kirikuslaavi"
+#: weblate_language_data/languages.py:763
+msgid "Slavonic (Old Church)"
+msgstr ""
 
 #. Translators: Language name, ISO code: cv
-#: weblate_language_data/languages.py:525
+#: weblate_language_data/languages.py:770
 msgid "Chuvash"
 msgstr "tšuvaši"
 
 #. Translators: Language name, ISO code: cy
-#: weblate_language_data/languages.py:532 weblate_language_data/plurals.py:56
+#: weblate_language_data/languages.py:777 weblate_language_data/plurals.py:56
 #: weblate_language_data/plurals.py:63
 msgid "Welsh"
 msgstr "kõmri"
 
 #. Translators: Language name, ISO code: da
-#: weblate_language_data/languages.py:539
+#: weblate_language_data/languages.py:784
 msgid "Danish"
 msgstr "taani"
 
+#. Translators: Language name, ISO code: dak
+#: weblate_language_data/languages.py:791
+#, fuzzy
+#| msgid "Lakota"
+msgid "Dakota"
+msgstr "lakota"
+
+#. Translators: Language name, ISO code: dar
+#: weblate_language_data/languages.py:798
+msgid "Dargwa"
+msgstr "dargi"
+
 #. Translators: Language name, ISO code: de
-#: weblate_language_data/languages.py:546
+#: weblate_language_data/languages.py:805
 msgid "German"
 msgstr "saksa"
 
 #. Translators: Language name, ISO code: de_AT
-#: weblate_language_data/languages.py:553
+#: weblate_language_data/languages.py:812
 msgid "German (Austria)"
 msgstr "saksa (Austria)"
 
 #. Translators: Language name, ISO code: de_CH
-#: weblate_language_data/languages.py:560
+#: weblate_language_data/languages.py:819
 msgid "German (Switzerland)"
 msgstr "saksa (Šveits)"
 
 #. Translators: Language name, ISO code: de_LU
-#: weblate_language_data/languages.py:567
+#: weblate_language_data/languages.py:826
 msgid "German (Luxembourg)"
 msgstr "saksa (Luksemburg)"
 
+#. Translators: Language name, ISO code: del
+#: weblate_language_data/languages.py:833
+msgid "Delaware"
+msgstr "delavari"
+
+#. Translators: Language name, ISO code: den
+#: weblate_language_data/languages.py:840
+msgid "Slave (Athapascan)"
+msgstr "sleivi (orjaindiaani)"
+
+#. Translators: Language name, ISO code: dgr
+#: weblate_language_data/languages.py:847
+#, fuzzy
+#| msgid "Dogri"
+msgid "Dogrib"
+msgstr "dogri"
+
+#. Translators: Language name, ISO code: din
+#: weblate_language_data/languages.py:854
+#, fuzzy
+#| msgid "Mandinka"
+msgid "Dinka"
+msgstr "mandinka"
+
 #. Translators: Language name, ISO code: doi
-#: weblate_language_data/languages.py:574
+#: weblate_language_data/languages.py:861
 msgid "Dogri"
 msgstr "dogri"
 
 #. Translators: Language name, ISO code: dsb
-#: weblate_language_data/languages.py:581 weblate_language_data/plurals.py:70
+#: weblate_language_data/languages.py:868 weblate_language_data/plurals.py:70
 msgid "Lower Sorbian"
 msgstr "alamsorbi"
 
+#. Translators: Language name, ISO code: dua
+#: weblate_language_data/languages.py:875
+msgid "Duala"
+msgstr "duala"
+
+#. Translators: Language name, ISO code: dum
+#: weblate_language_data/languages.py:882
+#, fuzzy
+#| msgid "Dutch (Belgium)"
+msgid "Dutch (Middle)"
+msgstr "hollandi (Belgia)"
+
 #. Translators: Language name, ISO code: dv
-#: weblate_language_data/languages.py:588
+#: weblate_language_data/languages.py:889
 msgid "Dhivehi"
 msgstr "maldiivi"
 
+#. Translators: Language name, ISO code: dyu
+#: weblate_language_data/languages.py:896
+msgid "Dyula"
+msgstr "djula"
+
 #. Translators: Language name, ISO code: dz
-#: weblate_language_data/languages.py:595
+#: weblate_language_data/languages.py:903
 msgid "Dzongkha"
 msgstr "dzongkha"
 
 #. Translators: Language name, ISO code: ee
-#: weblate_language_data/languages.py:602
+#: weblate_language_data/languages.py:910
 msgid "Ewe"
 msgstr "eve"
 
+#. Translators: Language name, ISO code: efi
+#: weblate_language_data/languages.py:917
+msgid "Efik"
+msgstr "efiki"
+
+#. Translators: Language name, ISO code: egy
+#: weblate_language_data/languages.py:924
+msgid "Egyptian (Ancient)"
+msgstr "egiptuse"
+
+#. Translators: Language name, ISO code: eka
+#: weblate_language_data/languages.py:931
+msgid "Ekajuk"
+msgstr "ekadžuki"
+
 #. Translators: Language name, ISO code: el
-#: weblate_language_data/languages.py:609
+#: weblate_language_data/languages.py:938
 msgid "Greek"
 msgstr "kreeka"
 
+#. Translators: Language name, ISO code: elx
+#: weblate_language_data/languages.py:945
+msgid "Elamite"
+msgstr "eelami"
+
 #. Translators: Language name, ISO code: en
-#: weblate_language_data/languages.py:616
+#: weblate_language_data/languages.py:952
 msgid "English"
 msgstr "inglise"
 
 #. Translators: Language name, ISO code: en_AU
-#: weblate_language_data/languages.py:623
+#: weblate_language_data/languages.py:959
 msgid "English (Australia)"
 msgstr "inglise (Austraalia)"
 
 #. Translators: Language name, ISO code: en_CA
-#: weblate_language_data/languages.py:630
+#: weblate_language_data/languages.py:966
 msgid "English (Canada)"
 msgstr "inglise (Kanada)"
 
 #. Translators: Language name, ISO code: en_GB
-#: weblate_language_data/languages.py:637
+#: weblate_language_data/languages.py:973
 msgid "English (United Kingdom)"
 msgstr "inglise (Ühend Kuningriigid)"
 
 #. Translators: Language name, ISO code: en_IE
-#: weblate_language_data/languages.py:644
+#: weblate_language_data/languages.py:980
 msgid "English (Ireland)"
 msgstr "Inglise (Iiri)"
 
 #. Translators: Language name, ISO code: en_IN
-#: weblate_language_data/languages.py:651
+#: weblate_language_data/languages.py:987
 msgid "English (India)"
 msgstr "inglise (India)"
 
 #. Translators: Language name, ISO code: en_NZ
-#: weblate_language_data/languages.py:658
+#: weblate_language_data/languages.py:994
 msgid "English (New Zealand)"
 msgstr "Inglise (Uus Meremaa)"
 
 #. Translators: Language name, ISO code: en_PH
-#: weblate_language_data/languages.py:665
+#: weblate_language_data/languages.py:1001
 msgid "English (Philippines)"
 msgstr "Inglise (Filipiinid)"
 
 #. Translators: Language name, ISO code: en_US
-#: weblate_language_data/languages.py:672
+#: weblate_language_data/languages.py:1008
 msgid "English (United States)"
 msgstr "inglise (Ühendriigid)"
 
 #. Translators: Language name, ISO code: en_XA
-#: weblate_language_data/languages.py:679
+#: weblate_language_data/languages.py:1015
 msgid "English (XA pseudolocale)"
 msgstr "inglise (XA pseudolokaat)"
 
 #. Translators: Language name, ISO code: en_ZA
-#: weblate_language_data/languages.py:686
+#: weblate_language_data/languages.py:1022
 msgid "English (South Africa)"
 msgstr "Inglise (Lõuna Aafrika)"
 
 #. Translators: Language name, ISO code: en_devel
-#: weblate_language_data/languages.py:693
+#: weblate_language_data/languages.py:1029
 msgid "English (Developer)"
 msgstr "inglise (arendajate)"
 
+#. Translators: Language name, ISO code: enm
+#: weblate_language_data/languages.py:1036
+#, fuzzy
+#| msgid "English (India)"
+msgid "English (Middle)"
+msgstr "inglise (India)"
+
 #. Translators: Language name, ISO code: eo
-#: weblate_language_data/languages.py:700
+#: weblate_language_data/languages.py:1043
 msgid "Esperanto"
 msgstr "esperanto"
 
 #. Translators: Language name, ISO code: es
-#: weblate_language_data/languages.py:707
+#: weblate_language_data/languages.py:1050
 msgid "Spanish"
 msgstr "hispaania"
 
 #. Translators: Language name, ISO code: es_419
-#: weblate_language_data/languages.py:714
+#: weblate_language_data/languages.py:1057
 msgid "Spanish (Latin America)"
 msgstr "hispaania (Ladina Ameerika)"
 
 #. Translators: Language name, ISO code: es_AR
-#: weblate_language_data/languages.py:721
+#: weblate_language_data/languages.py:1064
 msgid "Spanish (Argentina)"
 msgstr "hispaania (Argentina)"
 
 #. Translators: Language name, ISO code: es_BO
-#: weblate_language_data/languages.py:728
+#: weblate_language_data/languages.py:1071
 msgid "Spanish (Bolivia)"
 msgstr "hispaania (Boliivia)"
 
 #. Translators: Language name, ISO code: es_CL
-#: weblate_language_data/languages.py:735
+#: weblate_language_data/languages.py:1078
 msgid "Spanish (Chile)"
 msgstr "hispaania (Tšiili)"
 
 #. Translators: Language name, ISO code: es_CO
-#: weblate_language_data/languages.py:742
+#: weblate_language_data/languages.py:1085
 #, fuzzy
 #| msgid "Spanish (Bolivia)"
 msgid "Spanish (Colombia)"
 msgstr "hispaania (Boliivia)"
 
 #. Translators: Language name, ISO code: es_CR
-#: weblate_language_data/languages.py:749
+#: weblate_language_data/languages.py:1092
 #, fuzzy
 #| msgid "Spanish (Puerto Rico)"
 msgid "Spanish (Costa Rica)"
 msgstr "hispaania (Puerto Rico)"
 
 #. Translators: Language name, ISO code: es_DO
-#: weblate_language_data/languages.py:756
+#: weblate_language_data/languages.py:1099
 msgid "Spanish (Dominican Republic)"
 msgstr "hispaania (Dominikaani Vabariik)"
 
 #. Translators: Language name, ISO code: es_EC
-#: weblate_language_data/languages.py:763
+#: weblate_language_data/languages.py:1106
 msgid "Spanish (Ecuador)"
 msgstr "hispaania (Ecuador)"
 
+#. Translators: Language name, ISO code: es_MX
+#: weblate_language_data/languages.py:1113
+msgid "Spanish (Mexico)"
+msgstr "hispaania (Mehhiko)"
+
 #. Translators: Language name, ISO code: es_NI
-#: weblate_language_data/languages.py:770
+#: weblate_language_data/languages.py:1120
 #, fuzzy
 #| msgid "Spanish (Peru)"
 msgid "Spanish (Nicaragua)"
 msgstr "hispaania (Peruu)"
 
-#. Translators: Language name, ISO code: es_MX
-#: weblate_language_data/languages.py:777
-msgid "Spanish (Mexico)"
-msgstr "hispaania (Mehhiko)"
-
 #. Translators: Language name, ISO code: es_PA
-#: weblate_language_data/languages.py:784
+#: weblate_language_data/languages.py:1127
 #, fuzzy
 #| msgid "Spanish (Peru)"
 msgid "Spanish (Panama)"
 msgstr "hispaania (Peruu)"
 
 #. Translators: Language name, ISO code: es_PE
-#: weblate_language_data/languages.py:791
+#: weblate_language_data/languages.py:1134
 msgid "Spanish (Peru)"
 msgstr "hispaania (Peruu)"
 
 #. Translators: Language name, ISO code: es_PR
-#: weblate_language_data/languages.py:798
+#: weblate_language_data/languages.py:1141
 msgid "Spanish (Puerto Rico)"
 msgstr "hispaania (Puerto Rico)"
 
 #. Translators: Language name, ISO code: es_SV
-#: weblate_language_data/languages.py:805
+#: weblate_language_data/languages.py:1148
 #, fuzzy
 #| msgid "Spanish (Ecuador)"
 msgid "Spanish (El Salvador)"
 msgstr "hispaania (Ecuador)"
 
 #. Translators: Language name, ISO code: es_US
-#: weblate_language_data/languages.py:812
+#: weblate_language_data/languages.py:1155
 msgid "Spanish (American)"
 msgstr "hispaania (Ameerika)"
 
 #. Translators: Language name, ISO code: es_UY
-#: weblate_language_data/languages.py:819
+#: weblate_language_data/languages.py:1162
 #, fuzzy
 #| msgid "Spanish (Peru)"
 msgid "Spanish (Uruguay)"
 msgstr "hispaania (Peruu)"
 
 #. Translators: Language name, ISO code: es_VE
-#: weblate_language_data/languages.py:826
+#: weblate_language_data/languages.py:1169
 msgid "Spanish (Venezuela)"
 msgstr "hispaania (Venezuela)"
 
 #. Translators: Language name, ISO code: et
-#: weblate_language_data/languages.py:833
+#: weblate_language_data/languages.py:1176
 msgid "Estonian"
 msgstr "eesti"
 
 #. Translators: Language name, ISO code: eu
-#: weblate_language_data/languages.py:840
+#: weblate_language_data/languages.py:1183
 msgid "Basque"
 msgstr "baski"
 
+#. Translators: Language name, ISO code: ewo
+#: weblate_language_data/languages.py:1190
+msgid "Ewondo"
+msgstr "evondo"
+
 #. Translators: Language name, ISO code: ext
-#: weblate_language_data/languages.py:847
+#: weblate_language_data/languages.py:1197
 msgid "Extremaduran"
 msgstr "estremenju"
 
 #. Translators: Language name, ISO code: fa
-#: weblate_language_data/languages.py:854
+#: weblate_language_data/languages.py:1204
 msgid "Persian"
 msgstr "pärsia"
 
 #. Translators: Language name, ISO code: fa_AF
-#: weblate_language_data/languages.py:861
+#: weblate_language_data/languages.py:1211
 msgid "Dari"
 msgstr "dari"
 
+#. Translators: Language name, ISO code: fan
+#: weblate_language_data/languages.py:1218
+msgid "Fang (Equatorial Guinea)"
+msgstr ""
+
+# src/trans.h:148
+#. Translators: Language name, ISO code: fat
+#: weblate_language_data/languages.py:1225
+msgid "Fanti"
+msgstr "fanti"
+
 #. Translators: Language name, ISO code: ff
-#: weblate_language_data/languages.py:868
+#: weblate_language_data/languages.py:1232
 msgid "Fulah"
 msgstr "fula"
 
 #. Translators: Language name, ISO code: fi
-#: weblate_language_data/languages.py:875
+#: weblate_language_data/languages.py:1239
 msgid "Finnish"
 msgstr "soome"
 
 #. Translators: Language name, ISO code: fil
-#: weblate_language_data/languages.py:882 weblate_language_data/plurals.py:77
+#: weblate_language_data/languages.py:1246 weblate_language_data/plurals.py:77
 msgid "Filipino"
 msgstr "filipiini"
 
 #. Translators: Language name, ISO code: fj
-#: weblate_language_data/languages.py:889
+#: weblate_language_data/languages.py:1253
 msgid "Fijian"
 msgstr "fidži"
 
 #. Translators: Language name, ISO code: fo
-#: weblate_language_data/languages.py:896
+#: weblate_language_data/languages.py:1260
 msgid "Faroese"
 msgstr "fääri"
 
+#. Translators: Language name, ISO code: fon
+#: weblate_language_data/languages.py:1267
+msgid "Fon"
+msgstr "foni"
+
 #. Translators: Language name, ISO code: fr
-#: weblate_language_data/languages.py:903
+#: weblate_language_data/languages.py:1274
 msgid "French"
 msgstr "prantsuse"
 
 #. Translators: Language name, ISO code: fr_AG
-#: weblate_language_data/languages.py:910
+#: weblate_language_data/languages.py:1281
 msgid "French (Antigua and Barbuda)"
 msgstr "prantsuse (Antigua ja Barbuda)"
 
 #. Translators: Language name, ISO code: fr_BE
-#: weblate_language_data/languages.py:917
+#: weblate_language_data/languages.py:1288
 msgid "French (Belgium)"
 msgstr "prantsuse (Belgia)"
 
 #. Translators: Language name, ISO code: fr_CA
-#: weblate_language_data/languages.py:924
+#: weblate_language_data/languages.py:1295
 msgid "French (Canada)"
 msgstr "prantsuse (Kanada)"
 
 #. Translators: Language name, ISO code: fr_CH
-#: weblate_language_data/languages.py:931
+#: weblate_language_data/languages.py:1302
 msgid "French (Switzerland)"
 msgstr "prantsuse (Šveits)"
 
 #. Translators: Language name, ISO code: fr_LU
-#: weblate_language_data/languages.py:938
+#: weblate_language_data/languages.py:1309
 msgid "French (Luxembourg)"
 msgstr "prantsuse (Luksemburg)"
 
+#. Translators: Language name, ISO code: frm
+#: weblate_language_data/languages.py:1316
+#, fuzzy
+#| msgid "French (Canada)"
+msgid "French (Middle)"
+msgstr "prantsuse (Kanada)"
+
+#. Translators: Language name, ISO code: fro
+#: weblate_language_data/languages.py:1323
+#, fuzzy
+#| msgid "French (Canada)"
+msgid "French (Old)"
+msgstr "prantsuse (Kanada)"
+
 #. Translators: Language name, ISO code: frp
-#: weblate_language_data/languages.py:945
+#: weblate_language_data/languages.py:1330
 msgid "Franco-Provençal"
 msgstr "romandi"
 
+#. Translators: Language name, ISO code: frr
+#: weblate_language_data/languages.py:1337
+#, fuzzy
+#| msgid "Northern Kurdish"
+msgid "Northern Frisian"
+msgstr "kurmandži"
+
+#. Translators: Language name, ISO code: frs
+#: weblate_language_data/languages.py:1344
+#, fuzzy
+#| msgid "Frisian"
+msgid "Eastern Frisian"
+msgstr "friisi"
+
 #. Translators: Language name, ISO code: fur
-#: weblate_language_data/languages.py:952
+#: weblate_language_data/languages.py:1351
 msgid "Friulian"
 msgstr "friuuli"
 
 #. Translators: Language name, ISO code: fy
-#: weblate_language_data/languages.py:959
+#: weblate_language_data/languages.py:1358
 msgid "Frisian"
 msgstr "friisi"
 
 #. Translators: Language name, ISO code: ga
-#: weblate_language_data/languages.py:966 weblate_language_data/plurals.py:84
+#: weblate_language_data/languages.py:1365 weblate_language_data/plurals.py:84
 msgid "Irish"
 msgstr "iiri"
 
+#. Translators: Language name, ISO code: gaa
+#: weblate_language_data/languages.py:1372
+msgid "Ga"
+msgstr "gaa"
+
+#. Translators: Language name, ISO code: gay
+#: weblate_language_data/languages.py:1379
+msgid "Gayo"
+msgstr "gajo"
+
+#. Translators: Language name, ISO code: gba
+#: weblate_language_data/languages.py:1386
+#, fuzzy
+#| msgid "Spanish (Dominican Republic)"
+msgid "Gbaya (Central African Republic)"
+msgstr "hispaania (Dominikaani Vabariik)"
+
 #. Translators: Language name, ISO code: gd
-#: weblate_language_data/languages.py:973
+#: weblate_language_data/languages.py:1393
 msgid "Gaelic"
 msgstr "gaeli"
 
 #. Translators: Language name, ISO code: gez
-#: weblate_language_data/languages.py:980
+#: weblate_language_data/languages.py:1400
 msgid "Ge'ez"
 msgstr "geezi"
 
+#. Translators: Language name, ISO code: gil
+#: weblate_language_data/languages.py:1407
+#, fuzzy
+#| msgid "Piemontese"
+msgid "Gilbertese"
+msgstr "piemonte"
+
 #. Translators: Language name, ISO code: gl
-#: weblate_language_data/languages.py:987
+#: weblate_language_data/languages.py:1414
 msgid "Galician"
 msgstr "galeegi"
 
+#. Translators: Language name, ISO code: gmh
+#: weblate_language_data/languages.py:1421
+#, fuzzy
+#| msgid "German (Walser)"
+msgid "High German (Middle)"
+msgstr "saksa (Walser)"
+
 #. Translators: Language name, ISO code: gn
-#: weblate_language_data/languages.py:994
+#: weblate_language_data/languages.py:1428
 msgid "Guarani"
 msgstr "guaranii"
 
+#. Translators: Language name, ISO code: goh
+#: weblate_language_data/languages.py:1435
+#, fuzzy
+#| msgid "Swiss High German"
+msgid "High German (Old)"
+msgstr "Šveitsi ülemsaksa"
+
+#. Translators: Language name, ISO code: gon
+#: weblate_language_data/languages.py:1442
+msgid "Gondi"
+msgstr "gondi"
+
+#. Translators: Language name, ISO code: gor
+#: weblate_language_data/languages.py:1449
+msgid "Gorontalo"
+msgstr "gorontalo"
+
+#. Translators: Language name, ISO code: got
+#: weblate_language_data/languages.py:1456
+msgid "Gothic"
+msgstr "gooti"
+
+#. Translators: Language name, ISO code: grb
+#: weblate_language_data/languages.py:1463
+msgid "Grebo"
+msgstr "grebo"
+
+#. Translators: Language name, ISO code: grc
+#: weblate_language_data/languages.py:1470
+msgid "Greek (Ancient)"
+msgstr ""
+
 #. Translators: Language name, ISO code: gsw
-#: weblate_language_data/languages.py:1001
+#: weblate_language_data/languages.py:1477
 msgid "Alemannic"
 msgstr "alemanni"
 
 #. Translators: Language name, ISO code: gu
-#: weblate_language_data/languages.py:1008
+#: weblate_language_data/languages.py:1484
 msgid "Gujarati"
 msgstr "gudžarati"
 
 #. Translators: Language name, ISO code: gu_IN
-#: weblate_language_data/languages.py:1015
+#: weblate_language_data/languages.py:1491
 msgid "Gujarati (India)"
 msgstr "gudžarati (India)"
 
 #. Translators: Language name, ISO code: gun
 #. Translators: Language name, ISO code: guw
-#: weblate_language_data/languages.py:1022
-#: weblate_language_data/languages.py:1029
+#: weblate_language_data/languages.py:1498
+#: weblate_language_data/languages.py:1505
 msgid "Gun"
 msgstr "gungbe"
 
 #. Translators: Language name, ISO code: gv
-#: weblate_language_data/languages.py:1036
+#: weblate_language_data/languages.py:1512
 msgid "Manx"
 msgstr "mänksi"
 
+#. Translators: Language name, ISO code: gwi
+#: weblate_language_data/languages.py:1519
+msgid "Gwichʼin"
+msgstr "gvitšini"
+
 #. Translators: Language name, ISO code: ha
-#: weblate_language_data/languages.py:1043
+#: weblate_language_data/languages.py:1526
 msgid "Hausa"
 msgstr "hausa"
 
+#. Translators: Language name, ISO code: hai
+#: weblate_language_data/languages.py:1533
+msgid "Haida"
+msgstr "haida"
+
 #. Translators: Language name, ISO code: haw
-#: weblate_language_data/languages.py:1050
+#: weblate_language_data/languages.py:1540
 msgid "Hawaiian"
 msgstr "havai"
 
 #. Translators: Language name, ISO code: he
-#: weblate_language_data/languages.py:1057 weblate_language_data/plurals.py:91
+#: weblate_language_data/languages.py:1547 weblate_language_data/plurals.py:91
 #: weblate_language_data/plurals.py:98
 msgid "Hebrew"
 msgstr "heebrea"
 
 #. Translators: Language name, ISO code: he_IL
-#: weblate_language_data/languages.py:1064
+#: weblate_language_data/languages.py:1554
 msgid "Hebrew (Israel)"
 msgstr "heebrea (Iisrael)"
 
 #. Translators: Language name, ISO code: hi
-#: weblate_language_data/languages.py:1071
+#: weblate_language_data/languages.py:1561
 msgid "Hindi"
 msgstr "hindi"
 
 #. Translators: Language name, ISO code: hi_Latn
-#: weblate_language_data/languages.py:1078
+#: weblate_language_data/languages.py:1568
 msgid "Hindi (latin)"
 msgstr "hindi (ladina)"
 
 #. Translators: Language name, ISO code: hil
-#: weblate_language_data/languages.py:1085
+#: weblate_language_data/languages.py:1575
 msgid "Hiligaynon"
 msgstr "hiligainoni"
 
+#. Translators: Language name, ISO code: hit
+#: weblate_language_data/languages.py:1582
+msgid "Hittite"
+msgstr "heti"
+
+#. Translators: Language name, ISO code: hmn
+#: weblate_language_data/languages.py:1589
+msgid "Hmong"
+msgstr "hmongi"
+
 #. Translators: Language name, ISO code: hne
-#: weblate_language_data/languages.py:1092
+#: weblate_language_data/languages.py:1596
 msgid "Chhattisgarhi"
 msgstr "chhattisgarhi"
 
 #. Translators: Language name, ISO code: ho
-#: weblate_language_data/languages.py:1099
+#: weblate_language_data/languages.py:1603
 msgid "Hiri Motu"
 msgstr "hirimotu"
 
 #. Translators: Language name, ISO code: hr
-#: weblate_language_data/languages.py:1106
+#: weblate_language_data/languages.py:1610
 msgid "Croatian"
 msgstr "horvaadi"
 
 #. Translators: Language name, ISO code: hrx
-#: weblate_language_data/languages.py:1113
+#: weblate_language_data/languages.py:1617
 msgid "Hunsrik"
 msgstr "hunsrücki"
 
 #. Translators: Language name, ISO code: hsb
-#: weblate_language_data/languages.py:1120 weblate_language_data/plurals.py:105
+#: weblate_language_data/languages.py:1624 weblate_language_data/plurals.py:105
 msgid "Upper Sorbian"
 msgstr "ülemsorbi"
 
 #. Translators: Language name, ISO code: ht
-#: weblate_language_data/languages.py:1127
+#: weblate_language_data/languages.py:1631
 msgid "Haitian"
 msgstr "haiti"
 
 #. Translators: Language name, ISO code: hu
-#: weblate_language_data/languages.py:1134
+#: weblate_language_data/languages.py:1638
 msgid "Hungarian"
 msgstr "ungari"
 
+#. Translators: Language name, ISO code: hup
+#: weblate_language_data/languages.py:1645
+msgid "Hupa"
+msgstr "hupa"
+
 #. Translators: Language name, ISO code: hy
-#: weblate_language_data/languages.py:1141
+#: weblate_language_data/languages.py:1652
 msgid "Armenian"
 msgstr "armeenia"
 
 #. Translators: Language name, ISO code: hz
-#: weblate_language_data/languages.py:1148
+#: weblate_language_data/languages.py:1659
 msgid "Herero"
 msgstr "herero"
 
 #. Translators: Language name, ISO code: ia
-#: weblate_language_data/languages.py:1155
+#: weblate_language_data/languages.py:1666
 msgid "Interlingua"
 msgstr "interlingua"
 
+#. Translators: Language name, ISO code: iba
+#: weblate_language_data/languages.py:1673
+msgid "Iban"
+msgstr "ibani"
+
 #. Translators: Language name, ISO code: id
-#: weblate_language_data/languages.py:1162
+#: weblate_language_data/languages.py:1680
 msgid "Indonesian"
 msgstr "indoneesia"
 
 #. Translators: Language name, ISO code: ie
-#: weblate_language_data/languages.py:1169
+#: weblate_language_data/languages.py:1687
 msgid "Occidental"
 msgstr "Interlingue"
 
 #. Translators: Language name, ISO code: ig
-#: weblate_language_data/languages.py:1176
+#: weblate_language_data/languages.py:1694
 msgid "Igbo"
 msgstr "ibo"
 
 #. Translators: Language name, ISO code: ii
-#: weblate_language_data/languages.py:1183
+#: weblate_language_data/languages.py:1701
 msgid "Nuosu"
 msgstr "nuosu"
 
 #. Translators: Language name, ISO code: ik
-#: weblate_language_data/languages.py:1190
+#: weblate_language_data/languages.py:1708
 msgid "Inupiaq"
 msgstr "injupiaki"
 
+#. Translators: Language name, ISO code: ilo
+#: weblate_language_data/languages.py:1715
+msgid "Iloko"
+msgstr "iloko"
+
+#. Translators: Language name, ISO code: inh
+#: weblate_language_data/languages.py:1722
+msgid "Ingush"
+msgstr "inguši"
+
 #. Translators: Language name, ISO code: io
-#: weblate_language_data/languages.py:1197
+#: weblate_language_data/languages.py:1729
 msgid "Ido"
 msgstr "ido"
 
 #. Translators: Language name, ISO code: is
-#: weblate_language_data/languages.py:1204
+#: weblate_language_data/languages.py:1736
 msgid "Icelandic"
 msgstr "islandi"
 
 #. Translators: Language name, ISO code: it
-#: weblate_language_data/languages.py:1211
+#: weblate_language_data/languages.py:1743
 msgid "Italian"
 msgstr "itaalia"
 
 #. Translators: Language name, ISO code: iu
-#: weblate_language_data/languages.py:1218
+#: weblate_language_data/languages.py:1750
 msgid "Inuktitut"
 msgstr "inuktituti"
 
 #. Translators: Language name, ISO code: ja
-#: weblate_language_data/languages.py:1225
+#: weblate_language_data/languages.py:1757
 msgid "Japanese"
 msgstr "jaapani"
 
 #. Translators: Language name, ISO code: ja_KS
-#: weblate_language_data/languages.py:1232
+#: weblate_language_data/languages.py:1764
 msgid "Japanese (Kansai)"
 msgstr "jaapani (Kansai)"
 
 #. Translators: Language name, ISO code: jam
-#: weblate_language_data/languages.py:1239
+#: weblate_language_data/languages.py:1771
 msgid "Jamaican Patois"
 msgstr "jamaica kreooli"
 
 #. Translators: Language name, ISO code: jbo
-#: weblate_language_data/languages.py:1246
+#: weblate_language_data/languages.py:1778
 msgid "Lojban"
 msgstr "ložban"
 
 #. Translators: Language name, ISO code: jgo
-#: weblate_language_data/languages.py:1253
+#: weblate_language_data/languages.py:1785
 msgid "Ngomba"
 msgstr "ngomba"
 
 #. Translators: Language name, ISO code: jmc
-#: weblate_language_data/languages.py:1260
+#: weblate_language_data/languages.py:1792
 msgid "Machame"
 msgstr "matšame"
 
+#. Translators: Language name, ISO code: jpr
+#: weblate_language_data/languages.py:1799
+#, fuzzy
+#| msgid "Persian"
+msgid "Judeo-Persian"
+msgstr "pärsia"
+
+#. Translators: Language name, ISO code: jrb
+#: weblate_language_data/languages.py:1806
+#, fuzzy
+#| msgid "Arabic"
+msgid "Judeo-Arabic"
+msgstr "araabia"
+
 #. Translators: Language name, ISO code: jv
-#: weblate_language_data/languages.py:1267 weblate_language_data/plurals.py:112
+#: weblate_language_data/languages.py:1813 weblate_language_data/plurals.py:112
 msgid "Javanese"
 msgstr "jaava"
 
 #. Translators: Language name, ISO code: ka
-#: weblate_language_data/languages.py:1274 weblate_language_data/plurals.py:119
+#: weblate_language_data/languages.py:1820 weblate_language_data/plurals.py:119
 msgid "Georgian"
 msgstr "gruusia"
 
+#. Translators: Language name, ISO code: kaa
+#: weblate_language_data/languages.py:1827
+msgid "Kara-Kalpak"
+msgstr "karakalpaki"
+
 #. Translators: Language name, ISO code: kab
-#: weblate_language_data/languages.py:1281
+#: weblate_language_data/languages.py:1834
 msgid "Kabyle"
 msgstr "kabiili"
 
+#. Translators: Language name, ISO code: kac
+#: weblate_language_data/languages.py:1841
+msgid "Kachin"
+msgstr "katšini"
+
 #. Translators: Language name, ISO code: kaj
-#: weblate_language_data/languages.py:1288
+#: weblate_language_data/languages.py:1848
 msgid "Jju"
 msgstr "jju"
 
+#. Translators: Language name, ISO code: kam
+#: weblate_language_data/languages.py:1855
+msgid "Kamba (Kenya)"
+msgstr ""
+
+#. Translators: Language name, ISO code: kaw
+#: weblate_language_data/languages.py:1862
+msgid "Kawi"
+msgstr "kaavi"
+
+#. Translators: Language name, ISO code: kbd
+#: weblate_language_data/languages.py:1869
+#, fuzzy
+#| msgid "Kabuverdianu"
+msgid "Kabardian"
+msgstr "kabuverdianu"
+
 #. Translators: Language name, ISO code: kcg
-#: weblate_language_data/languages.py:1295
+#: weblate_language_data/languages.py:1876
 msgid "Tyap"
 msgstr "tjapi"
 
 #. Translators: Language name, ISO code: kde
-#: weblate_language_data/languages.py:1302
+#: weblate_language_data/languages.py:1883
 msgid "Makonde"
 msgstr "makonde"
 
 #. Translators: Language name, ISO code: kea
-#: weblate_language_data/languages.py:1309
+#: weblate_language_data/languages.py:1890
 msgid "Kabuverdianu"
 msgstr "kabuverdianu"
 
 #. Translators: Language name, ISO code: kg
-#: weblate_language_data/languages.py:1316
+#: weblate_language_data/languages.py:1897
 msgid "Kongo"
 msgstr "kongo"
 
+#. Translators: Language name, ISO code: kha
+#: weblate_language_data/languages.py:1904
+msgid "Khasi"
+msgstr "khasi"
+
+#. Translators: Language name, ISO code: kho
+#: weblate_language_data/languages.py:1911
+#, fuzzy
+msgid "Khotanese"
+msgstr "Hiina"
+
 #. Translators: Language name, ISO code: ki
-#: weblate_language_data/languages.py:1323
+#: weblate_language_data/languages.py:1918
 msgid "Gikuyu"
 msgstr "kikuju"
 
 #. Translators: Language name, ISO code: kj
-#: weblate_language_data/languages.py:1330
+#: weblate_language_data/languages.py:1925
 msgid "Kwanyama"
 msgstr "kwanyama"
 
 #. Translators: Language name, ISO code: kk
-#: weblate_language_data/languages.py:1337
+#: weblate_language_data/languages.py:1932
 msgid "Kazakh"
 msgstr "kasahhi"
 
 #. Translators: Language name, ISO code: kkj
-#: weblate_language_data/languages.py:1344
+#: weblate_language_data/languages.py:1939
 msgid "Kako"
 msgstr "kako"
 
 #. Translators: Language name, ISO code: kl
-#: weblate_language_data/languages.py:1351
+#: weblate_language_data/languages.py:1946
 msgid "Greenlandic"
 msgstr "gröönimaa"
 
 #. Translators: Language name, ISO code: km
-#: weblate_language_data/languages.py:1358
+#: weblate_language_data/languages.py:1953
 msgid "Central Khmer"
 msgstr "kesk-khmeeri"
 
+#. Translators: Language name, ISO code: kmb
+#: weblate_language_data/languages.py:1960
+msgid "Kimbundu"
+msgstr "kimbundu"
+
 #. Translators: Language name, ISO code: kmr
-#: weblate_language_data/languages.py:1365
+#: weblate_language_data/languages.py:1967
 msgid "Northern Kurdish"
 msgstr "kurmandži"
 
 #. Translators: Language name, ISO code: kn
-#: weblate_language_data/languages.py:1372
+#: weblate_language_data/languages.py:1974
 msgid "Kannada"
 msgstr "kannada"
 
 #. Translators: Language name, ISO code: ko
-#: weblate_language_data/languages.py:1379
+#: weblate_language_data/languages.py:1981
 msgid "Korean"
 msgstr "korea"
 
 #. Translators: Language name, ISO code: kok
-#: weblate_language_data/languages.py:1386
+#: weblate_language_data/languages.py:1988
 msgid "Konkani"
 msgstr "konkani"
 
+#. Translators: Language name, ISO code: kos
+#: weblate_language_data/languages.py:1995
+msgid "Kosraean"
+msgstr "kosrae"
+
+#. Translators: Language name, ISO code: kpe
+#: weblate_language_data/languages.py:2002
+msgid "Kpelle"
+msgstr "kpelle"
+
 #. Translators: Language name, ISO code: kr
-#: weblate_language_data/languages.py:1393
+#: weblate_language_data/languages.py:2009
 msgid "Kanuri"
 msgstr "kanuri"
 
+#. Translators: Language name, ISO code: krc
+#: weblate_language_data/languages.py:2016
+msgid "Karachay-Balkar"
+msgstr "karatšai-balkaari"
+
+#. Translators: Language name, ISO code: krl
+#: weblate_language_data/languages.py:2023
+#, fuzzy
+#| msgid "Italian"
+msgid "Karelian"
+msgstr "itaalia"
+
+#. Translators: Language name, ISO code: kru
+#: weblate_language_data/languages.py:2030
+msgid "Kurukh"
+msgstr "oraoni (kuruhhi)"
+
 #. Translators: Language name, ISO code: ks
-#: weblate_language_data/languages.py:1400
+#: weblate_language_data/languages.py:2037
 msgid "Kashmiri"
 msgstr "kašmiiri"
 
 #. Translators: Language name, ISO code: ksb
-#: weblate_language_data/languages.py:1407
+#: weblate_language_data/languages.py:2044
 msgid "Shambala"
 msgstr "šambala"
 
 #. Translators: Language name, ISO code: ksh
-#: weblate_language_data/languages.py:1414
+#: weblate_language_data/languages.py:2051
 msgid "Colognian"
 msgstr "kölni"
 
 #. Translators: Language name, ISO code: ku
-#: weblate_language_data/languages.py:1421
+#: weblate_language_data/languages.py:2058
 msgid "Kurdish"
 msgstr "kurdi"
 
+#. Translators: Language name, ISO code: kum
+#: weblate_language_data/languages.py:2065
+msgid "Kumyk"
+msgstr "kumõki"
+
+#. Translators: Language name, ISO code: kut
+#: weblate_language_data/languages.py:2072
+msgid "Kutenai"
+msgstr "kutenai"
+
 #. Translators: Language name, ISO code: kv
-#: weblate_language_data/languages.py:1428
+#: weblate_language_data/languages.py:2079
 msgid "Komi"
 msgstr "komi"
 
 #. Translators: Language name, ISO code: kw
-#: weblate_language_data/languages.py:1435 weblate_language_data/plurals.py:126
+#: weblate_language_data/languages.py:2086 weblate_language_data/plurals.py:126
 #: weblate_language_data/plurals.py:133
 msgid "Cornish"
 msgstr "korni"
 
 #. Translators: Language name, ISO code: ky
-#: weblate_language_data/languages.py:1442
+#: weblate_language_data/languages.py:2093
 msgid "Kyrgyz"
 msgstr "kirgiisi"
 
 #. Translators: Language name, ISO code: la
-#: weblate_language_data/languages.py:1449
+#: weblate_language_data/languages.py:2100
 msgid "Latin"
 msgstr "ladina"
 
+# src/trans.h:148
+#. Translators: Language name, ISO code: lad
+#: weblate_language_data/languages.py:2107
+msgid "Ladino"
+msgstr "ladiino"
+
 #. Translators: Language name, ISO code: lag
-#: weblate_language_data/languages.py:1456
+#: weblate_language_data/languages.py:2114
 msgid "Langi"
 msgstr "langi"
 
+#. Translators: Language name, ISO code: lah
+#: weblate_language_data/languages.py:2121
+msgid "Lahnda"
+msgstr "lahnda (lehnda, läänepandžabi)"
+
+#. Translators: Language name, ISO code: lam
+#: weblate_language_data/languages.py:2128
+#, fuzzy
+#| msgid "Bambara"
+msgid "Lamba"
+msgstr "bambara"
+
 #. Translators: Language name, ISO code: lb
-#: weblate_language_data/languages.py:1463
+#: weblate_language_data/languages.py:2135
 msgid "Luxembourgish"
 msgstr "letseburgi"
 
+#. Translators: Language name, ISO code: lez
+#: weblate_language_data/languages.py:2142
+msgid "Lezghian"
+msgstr "lesgi"
+
 #. Translators: Language name, ISO code: lg
-#: weblate_language_data/languages.py:1470
+#: weblate_language_data/languages.py:2149
 msgid "Luganda"
 msgstr "Luganda"
 
 #. Translators: Language name, ISO code: li
-#: weblate_language_data/languages.py:1477
+#: weblate_language_data/languages.py:2156
 msgid "Limburgish"
 msgstr "limburgi"
 
 #. Translators: Language name, ISO code: lki
-#: weblate_language_data/languages.py:1484
+#: weblate_language_data/languages.py:2163
 msgid "Laki"
 msgstr "laki"
 
 #. Translators: Language name, ISO code: lkt
-#: weblate_language_data/languages.py:1491
+#: weblate_language_data/languages.py:2170
 msgid "Lakota"
 msgstr "lakota"
 
 #. Translators: Language name, ISO code: ln
-#: weblate_language_data/languages.py:1498
+#: weblate_language_data/languages.py:2177
 msgid "Lingala"
 msgstr "lingala"
 
 #. Translators: Language name, ISO code: lo
-#: weblate_language_data/languages.py:1505
+#: weblate_language_data/languages.py:2184
 msgid "Lao"
 msgstr "lao"
 
+#. Translators: Language name, ISO code: lol
+#: weblate_language_data/languages.py:2191
+#, fuzzy
+#| msgid "Kongo"
+msgid "Mongo"
+msgstr "kongo"
+
+#. Translators: Language name, ISO code: loz
+#: weblate_language_data/languages.py:2198
+msgid "Lozi"
+msgstr "lozi"
+
 #. Translators: Language name, ISO code: lt
-#: weblate_language_data/languages.py:1512 weblate_language_data/plurals.py:140
+#: weblate_language_data/languages.py:2205 weblate_language_data/plurals.py:140
 #: weblate_language_data/plurals.py:147
 msgid "Lithuanian"
 msgstr "leedu"
 
 #. Translators: Language name, ISO code: lu
-#: weblate_language_data/languages.py:1519
+#: weblate_language_data/languages.py:2212
 msgid "Luba-Katanga"
 msgstr "luba"
 
+#. Translators: Language name, ISO code: lua
+#: weblate_language_data/languages.py:2219
+msgid "Luba-Lulua"
+msgstr "kasai luba (luba-kasai, lulua)"
+
+#. Translators: Language name, ISO code: lui
+#: weblate_language_data/languages.py:2226
+msgid "Luiseno"
+msgstr "luisenjo"
+
+#. Translators: Language name, ISO code: lun
+#: weblate_language_data/languages.py:2233
+msgid "Lunda"
+msgstr "lunda"
+
+#. Translators: Language name, ISO code: luo
+#: weblate_language_data/languages.py:2240
+msgid "Luo (Kenya and Tanzania)"
+msgstr "luo"
+
+#. Translators: Language name, ISO code: lus
+#: weblate_language_data/languages.py:2247
+msgid "Lushai"
+msgstr "mizo (lušei)"
+
 #. Translators: Language name, ISO code: lv
-#: weblate_language_data/languages.py:1526 weblate_language_data/plurals.py:154
+#: weblate_language_data/languages.py:2254 weblate_language_data/plurals.py:154
 #: weblate_language_data/plurals.py:161
 msgid "Latvian"
 msgstr "läti"
 
+# src/trans.h:195
+#. Translators: Language name, ISO code: mad
+#: weblate_language_data/languages.py:2261
+msgid "Madurese"
+msgstr "madura"
+
+#. Translators: Language name, ISO code: mag
+#: weblate_language_data/languages.py:2268
+msgid "Magahi"
+msgstr "magahi"
+
 #. Translators: Language name, ISO code: mai
-#: weblate_language_data/languages.py:1533
+#: weblate_language_data/languages.py:2275
 msgid "Maithili"
 msgstr "maithili"
 
+#. Translators: Language name, ISO code: mak
+#: weblate_language_data/languages.py:2282
+msgid "Makasar"
+msgstr "makassari"
+
+#. Translators: Language name, ISO code: man
+#: weblate_language_data/languages.py:2289
+#, fuzzy
+#| msgid "Mandinka"
+msgid "Mandingo"
+msgstr "mandinka"
+
 #. Translators: Language name, ISO code: mas
-#: weblate_language_data/languages.py:1540
+#: weblate_language_data/languages.py:2296
 msgid "Masai"
 msgstr "masai"
 
+#. Translators: Language name, ISO code: mdf
+#: weblate_language_data/languages.py:2303
+msgid "Moksha"
+msgstr "mokša"
+
+#. Translators: Language name, ISO code: mdr
+#: weblate_language_data/languages.py:2310
+#, fuzzy
+#| msgid "Mandinka"
+msgid "Mandar"
+msgstr "mandinka"
+
 #. Translators: Language name, ISO code: me
-#: weblate_language_data/languages.py:1547
+#: weblate_language_data/languages.py:2317
 msgid "Montenegrin"
 msgstr "montenegro"
 
+#. Translators: Language name, ISO code: men
+#: weblate_language_data/languages.py:2324
+msgid "Mende (Sierra Leone)"
+msgstr ""
+
 #. Translators: Language name, ISO code: mfe
-#: weblate_language_data/languages.py:1554
+#: weblate_language_data/languages.py:2331
 msgid "Morisyen"
 msgstr "Mauritiuse kreoolkeel"
 
 #. Translators: Language name, ISO code: mg
-#: weblate_language_data/languages.py:1561
+#: weblate_language_data/languages.py:2338
 msgid "Malagasy"
 msgstr "malagassi"
 
+#. Translators: Language name, ISO code: mga
+#: weblate_language_data/languages.py:2345
+#, fuzzy
+#| msgid "Spanish (Chile)"
+msgid "Irish (Middle)"
+msgstr "hispaania (Tšiili)"
+
 #. Translators: Language name, ISO code: mgo
-#: weblate_language_data/languages.py:1568
+#: weblate_language_data/languages.py:2352
 msgid "Metaʼ"
 msgstr "meta"
 
 #. Translators: Language name, ISO code: mh
-#: weblate_language_data/languages.py:1575
+#: weblate_language_data/languages.py:2359
 msgid "Marshallese"
 msgstr "maršalli"
 
 #. Translators: Language name, ISO code: mhr
-#: weblate_language_data/languages.py:1582
+#: weblate_language_data/languages.py:2366
 msgid "Meadow Mari"
 msgstr "niidumari"
 
 #. Translators: Language name, ISO code: mi
-#: weblate_language_data/languages.py:1589
+#: weblate_language_data/languages.py:2373
 msgid "Maori"
 msgstr "maoori"
 
 #. Translators: Language name, ISO code: mia
-#: weblate_language_data/languages.py:1596
+#: weblate_language_data/languages.py:2380
 msgid "Miami"
 msgstr "miami"
 
+#. Translators: Language name, ISO code: mic
+#: weblate_language_data/languages.py:2387
+msgid "Mi'kmaq"
+msgstr "mikmaki"
+
+#. Translators: Language name, ISO code: min
+#: weblate_language_data/languages.py:2394
+msgid "Minangkabau"
+msgstr "minangkabau"
+
 #. Translators: Language name, ISO code: mk
-#: weblate_language_data/languages.py:1603
+#: weblate_language_data/languages.py:2401
 msgid "Macedonian"
 msgstr "makedoonia"
 
 #. Translators: Language name, ISO code: ml
-#: weblate_language_data/languages.py:1610
+#: weblate_language_data/languages.py:2408
 msgid "Malayalam"
 msgstr "malajalami"
 
 #. Translators: Language name, ISO code: mn
-#: weblate_language_data/languages.py:1617
+#: weblate_language_data/languages.py:2415
 msgid "Mongolian"
 msgstr "mongoli"
 
+#. Translators: Language name, ISO code: mnc
+#: weblate_language_data/languages.py:2422
+msgid "Manchu"
+msgstr "mandžu"
+
 #. Translators: Language name, ISO code: mni
-#: weblate_language_data/languages.py:1624
+#: weblate_language_data/languages.py:2429
 msgid "Manipuri"
 msgstr "manipuri"
 
 #. Translators: Language name, ISO code: mnk
-#: weblate_language_data/languages.py:1631
+#: weblate_language_data/languages.py:2436
 msgid "Mandinka"
 msgstr "mandinka"
 
+#. Translators: Language name, ISO code: moh
+#: weblate_language_data/languages.py:2443
+msgid "Mohawk"
+msgstr "mohoogi"
+
+#. Translators: Language name, ISO code: mos
+#: weblate_language_data/languages.py:2450
+msgid "Mossi"
+msgstr "moore (mossi)"
+
 #. Translators: Language name, ISO code: mr
-#: weblate_language_data/languages.py:1638
+#: weblate_language_data/languages.py:2457
 msgid "Marathi"
 msgstr "marathi"
 
 #. Translators: Language name, ISO code: ms
-#: weblate_language_data/languages.py:1645
+#: weblate_language_data/languages.py:2464
 msgid "Malay"
 msgstr "malai"
 
 #. Translators: Language name, ISO code: ms_Arab
-#: weblate_language_data/languages.py:1652
+#: weblate_language_data/languages.py:2471
 msgid "Malay (Jawi)"
 msgstr "malai (jawi)"
 
 #. Translators: Language name, ISO code: mt
-#: weblate_language_data/languages.py:1659
+#: weblate_language_data/languages.py:2478
 msgid "Maltese"
 msgstr "malta"
 
+#. Translators: Language name, ISO code: mus
+#: weblate_language_data/languages.py:2485
+#, fuzzy
+#| msgid "Cree"
+msgid "Creek"
+msgstr "krii"
+
+# src/trans.h:195
+#. Translators: Language name, ISO code: mwl
+#: weblate_language_data/languages.py:2492
+msgid "Mirandese"
+msgstr "miranda"
+
+#. Translators: Language name, ISO code: mwr
+#: weblate_language_data/languages.py:2499
+msgid "Marwari"
+msgstr "maarvari"
+
 #. Translators: Language name, ISO code: my
-#: weblate_language_data/languages.py:1666
+#: weblate_language_data/languages.py:2506
 msgid "Burmese"
 msgstr "birma"
 
+#. Translators: Language name, ISO code: myv
+#: weblate_language_data/languages.py:2513
+msgid "Erzya"
+msgstr "ersa"
+
 #. Translators: Language name, ISO code: na
-#: weblate_language_data/languages.py:1673
+#: weblate_language_data/languages.py:2520
 msgid "Nauru"
 msgstr "nauru"
 
 #. Translators: Language name, ISO code: nah
-#: weblate_language_data/languages.py:1680
+#: weblate_language_data/languages.py:2527
 msgid "Nahuatl"
 msgstr "nahuatli"
 
 #. Translators: Language name, ISO code: nan
-#: weblate_language_data/languages.py:1687
+#: weblate_language_data/languages.py:2534
 msgid "Chinese (Min Nan)"
 msgstr "hiina (Lõuna Fujian)"
 
 #. Translators: Language name, ISO code: nap
-#: weblate_language_data/languages.py:1694
+#: weblate_language_data/languages.py:2541
 msgid "Neapolitan"
 msgstr "napoli"
 
 #. Translators: Language name, ISO code: naq
-#: weblate_language_data/languages.py:1701
+#: weblate_language_data/languages.py:2548
 msgid "Nama"
 msgstr "nama"
 
 #. Translators: Language name, ISO code: nb_NO
-#: weblate_language_data/languages.py:1708
+#: weblate_language_data/languages.py:2555
 msgid "Norwegian Bokmål"
 msgstr "norra bokmål"
 
 #. Translators: Language name, ISO code: nd
-#: weblate_language_data/languages.py:1715
+#: weblate_language_data/languages.py:2562
 msgid "North Ndebele"
 msgstr "põhjandebele"
 
 #. Translators: Language name, ISO code: nds
-#: weblate_language_data/languages.py:1722
+#: weblate_language_data/languages.py:2569
 msgid "German (Low)"
 msgstr "alamsaksa"
 
 #. Translators: Language name, ISO code: ne
-#: weblate_language_data/languages.py:1729
+#: weblate_language_data/languages.py:2576
 msgid "Nepali"
 msgstr "nepali"
 
+#. Translators: Language name, ISO code: new
+#: weblate_language_data/languages.py:2583
+#, fuzzy
+msgid "Newari"
+msgstr "Ääred"
+
 #. Translators: Language name, ISO code: ng
-#: weblate_language_data/languages.py:1736
+#: weblate_language_data/languages.py:2590
 msgid "Ndonga"
 msgstr "ndonga"
 
+#. Translators: Language name, ISO code: nia
+#: weblate_language_data/languages.py:2597
+msgid "Nias"
+msgstr "niasi"
+
+#. Translators: Language name, ISO code: niu
+#: weblate_language_data/languages.py:2604
+msgid "Niuean"
+msgstr "niue"
+
 #. Translators: Language name, ISO code: nl
-#: weblate_language_data/languages.py:1743
+#: weblate_language_data/languages.py:2611
 msgid "Dutch"
 msgstr "hollandi"
 
 #. Translators: Language name, ISO code: nl_BE
-#: weblate_language_data/languages.py:1750
+#: weblate_language_data/languages.py:2618
 msgid "Dutch (Belgium)"
 msgstr "hollandi (Belgia)"
 
 #. Translators: Language name, ISO code: nn
-#: weblate_language_data/languages.py:1757
+#: weblate_language_data/languages.py:2625
 msgid "Norwegian Nynorsk"
 msgstr "uusnorra"
 
 #. Translators: Language name, ISO code: nnh
-#: weblate_language_data/languages.py:1764
+#: weblate_language_data/languages.py:2632
 msgid "Ngiemboon"
 msgstr "ngiembooni"
 
+#. Translators: Language name, ISO code: nog
+#: weblate_language_data/languages.py:2639
+msgid "Nogai"
+msgstr "nogai"
+
+#. Translators: Language name, ISO code: non
+#: weblate_language_data/languages.py:2646
+msgid "Norse (Old)"
+msgstr ""
+
 #. Translators: Language name, ISO code: nqo
-#: weblate_language_data/languages.py:1771
+#: weblate_language_data/languages.py:2653
 msgid "N’Ko"
 msgstr "nkoo"
 
 #. Translators: Language name, ISO code: nr
-#: weblate_language_data/languages.py:1778
+#: weblate_language_data/languages.py:2660
 msgid "South Ndebele"
 msgstr "lõunandebele"
 
 #. Translators: Language name, ISO code: nso
-#: weblate_language_data/languages.py:1785
+#: weblate_language_data/languages.py:2667
 msgid "Pedi"
 msgstr "suuto"
 
 #. Translators: Language name, ISO code: nv
-#: weblate_language_data/languages.py:1792
+#: weblate_language_data/languages.py:2674
 msgid "Navaho"
 msgstr "navajo"
 
+#. Translators: Language name, ISO code: nwc
+#: weblate_language_data/languages.py:2681
+msgid "Newari (Classical)"
+msgstr ""
+
 #. Translators: Language name, ISO code: ny
-#: weblate_language_data/languages.py:1799
+#: weblate_language_data/languages.py:2688
 msgid "Nyanja"
 msgstr "njandža"
 
+#. Translators: Language name, ISO code: nym
+#: weblate_language_data/languages.py:2695
+msgid "Nyamwezi"
+msgstr "njamvesi"
+
 #. Translators: Language name, ISO code: nyn
-#: weblate_language_data/languages.py:1806
+#: weblate_language_data/languages.py:2702
 msgid "Nyankole"
 msgstr "nkole"
 
+#. Translators: Language name, ISO code: nyo
+#: weblate_language_data/languages.py:2709
+msgid "Nyoro"
+msgstr "njoro"
+
+#. Translators: Language name, ISO code: nzi
+#: weblate_language_data/languages.py:2716
+msgid "Nzima"
+msgstr "nzima"
+
 #. Translators: Language name, ISO code: oc
-#: weblate_language_data/languages.py:1813
+#: weblate_language_data/languages.py:2723
 msgid "Occitan"
 msgstr "oksitaani"
 
 #. Translators: Language name, ISO code: oj
-#: weblate_language_data/languages.py:1820
+#: weblate_language_data/languages.py:2730
 msgid "Ojibwe"
 msgstr "ojibwe"
 
 #. Translators: Language name, ISO code: om
-#: weblate_language_data/languages.py:1827
+#: weblate_language_data/languages.py:2737
 msgid "Oromo"
 msgstr "oromo"
 
 #. Translators: Language name, ISO code: or
-#: weblate_language_data/languages.py:1834
+#: weblate_language_data/languages.py:2744
 msgid "Odia"
 msgstr "oria"
 
 #. Translators: Language name, ISO code: os
-#: weblate_language_data/languages.py:1841
+#: weblate_language_data/languages.py:2751
 msgid "Ossetian"
 msgstr "osseeti"
 
 #. Translators: Language name, ISO code: osa
-#: weblate_language_data/languages.py:1848
+#: weblate_language_data/languages.py:2758
 msgid "Osage"
 msgstr "oseidži"
 
+#. Translators: Language name, ISO code: ota
+#: weblate_language_data/languages.py:2765
+msgid "Turkish (Ottoman)"
+msgstr ""
+
 #. Translators: Language name, ISO code: otk
-#: weblate_language_data/languages.py:1855
+#: weblate_language_data/languages.py:2772
 msgid "Kokturk"
 msgstr "Kok-türgi"
 
 #. Translators: Language name, ISO code: pa
-#: weblate_language_data/languages.py:1862
+#: weblate_language_data/languages.py:2779
 msgid "Punjabi"
 msgstr "pandžabi"
 
+#. Translators: Language name, ISO code: pag
+#: weblate_language_data/languages.py:2786
+msgid "Pangasinan"
+msgstr "pangasinani"
+
+#. Translators: Language name, ISO code: pal
+#: weblate_language_data/languages.py:2793
+msgid "Pahlavi"
+msgstr "pahlavi"
+
+#. Translators: Language name, ISO code: pam
+#: weblate_language_data/languages.py:2800
+msgid "Pampanga"
+msgstr "pampanga"
+
 #. Translators: Language name, ISO code: pap
-#: weblate_language_data/languages.py:1869
+#: weblate_language_data/languages.py:2807
 msgid "Papiamento"
 msgstr "papiamento"
 
 #. Translators: Language name, ISO code: pau
-#: weblate_language_data/languages.py:1876
+#: weblate_language_data/languages.py:2814
 msgid "Palauan"
 msgstr "belau (palau)"
 
+#. Translators: Language name, ISO code: peo
+#: weblate_language_data/languages.py:2821
+#, fuzzy
+#| msgid "Persian"
+msgid "Persian (Old)"
+msgstr "pärsia"
+
+#. Translators: Language name, ISO code: phn
+#: weblate_language_data/languages.py:2828
+#, fuzzy
+#| msgid "Valencian"
+msgid "Phoenician"
+msgstr "katalaani (Valencia)"
+
 #. Translators: Language name, ISO code: pi
-#: weblate_language_data/languages.py:1883
+#: weblate_language_data/languages.py:2835
 msgid "Pali"
 msgstr "paali"
 
 #. Translators: Language name, ISO code: pl
-#: weblate_language_data/languages.py:1890
+#: weblate_language_data/languages.py:2842
 msgid "Polish"
 msgstr "poola"
 
 #. Translators: Language name, ISO code: pms
-#: weblate_language_data/languages.py:1897
+#: weblate_language_data/languages.py:2849
 msgid "Piemontese"
 msgstr "piemonte"
 
 #. Translators: Language name, ISO code: pon
-#: weblate_language_data/languages.py:1904
+#: weblate_language_data/languages.py:2856
 msgid "Pohnpeian"
 msgstr "poonpei"
 
 #. Translators: Language name, ISO code: pr
-#: weblate_language_data/languages.py:1911
+#: weblate_language_data/languages.py:2863
 msgid "Pirate"
 msgstr "piraadi"
 
 #. Translators: Language name, ISO code: prg
-#: weblate_language_data/languages.py:1918
+#: weblate_language_data/languages.py:2870
 msgid "Prussian"
 msgstr "preisi"
 
+#. Translators: Language name, ISO code: pro
+#: weblate_language_data/languages.py:2877
+#, fuzzy
+#| msgid "Franco-Provençal"
+msgid "Provençal (Old)"
+msgstr "romandi"
+
 #. Translators: Language name, ISO code: ps
-#: weblate_language_data/languages.py:1925
+#: weblate_language_data/languages.py:2884
 msgid "Pashto"
 msgstr "puštu"
 
 #. Translators: Language name, ISO code: pt
-#: weblate_language_data/languages.py:1932
+#: weblate_language_data/languages.py:2891
 msgid "Portuguese"
 msgstr "portugali"
 
 #. Translators: Language name, ISO code: pt_AO
-#: weblate_language_data/languages.py:1939
+#: weblate_language_data/languages.py:2898
 msgid "Portuguese (Angola)"
 msgstr "portugali (Angola)"
 
 #. Translators: Language name, ISO code: pt_BR
-#: weblate_language_data/languages.py:1946
+#: weblate_language_data/languages.py:2905
 msgid "Portuguese (Brazil)"
 msgstr "portugali (Brasiilia)"
 
 #. Translators: Language name, ISO code: pt_PT
-#: weblate_language_data/languages.py:1953
+#: weblate_language_data/languages.py:2912
 msgid "Portuguese (Portugal)"
 msgstr "portugali (Portugal)"
 
 #. Translators: Language name, ISO code: qu
-#: weblate_language_data/languages.py:1960
+#: weblate_language_data/languages.py:2919
 msgid "Quechua"
 msgstr "ketšua"
 
+#. Translators: Language name, ISO code: raj
+#: weblate_language_data/languages.py:2926
+msgid "Rajasthani"
+msgstr "radžastani"
+
+#. Translators: Language name, ISO code: rap
+#: weblate_language_data/languages.py:2933
+msgid "Rapanui"
+msgstr "rapanui"
+
+#. Translators: Language name, ISO code: rar
+#: weblate_language_data/languages.py:2940
+#, fuzzy
+#| msgid "Tongan"
+msgid "Rarotongan"
+msgstr "tonga"
+
 #. Translators: Language name, ISO code: rcf
-#: weblate_language_data/languages.py:1967
+#: weblate_language_data/languages.py:2947
 msgid "Réunion Creole"
 msgstr "Réunioni kreoolkeel"
 
 #. Translators: Language name, ISO code: rm
-#: weblate_language_data/languages.py:1974
+#: weblate_language_data/languages.py:2954
 msgid "Romansh"
 msgstr "romanši"
 
 #. Translators: Language name, ISO code: rn
-#: weblate_language_data/languages.py:1981
+#: weblate_language_data/languages.py:2961
 msgid "Rundi"
 msgstr "rundi"
 
 #. Translators: Language name, ISO code: ro
-#: weblate_language_data/languages.py:1988
+#: weblate_language_data/languages.py:2968
 msgid "Romanian"
 msgstr "rumeenia"
 
 #. Translators: Language name, ISO code: ro_MD
-#: weblate_language_data/languages.py:1995 weblate_language_data/plurals.py:182
+#: weblate_language_data/languages.py:2975 weblate_language_data/plurals.py:182
 msgid "Moldavian"
 msgstr "moldova"
 
 #. Translators: Language name, ISO code: rof
-#: weblate_language_data/languages.py:2002
+#: weblate_language_data/languages.py:2982
 msgid "Rombo"
 msgstr "rombo"
 
+#. Translators: Language name, ISO code: rom
+#: weblate_language_data/languages.py:2989
+#, fuzzy
+#| msgid "Romansh"
+msgid "Romany"
+msgstr "romanši"
+
 #. Translators: Language name, ISO code: ru
-#: weblate_language_data/languages.py:2009
+#: weblate_language_data/languages.py:2996
 msgid "Russian"
 msgstr "vene"
 
 #. Translators: Language name, ISO code: ru_UA
-#: weblate_language_data/languages.py:2016
+#: weblate_language_data/languages.py:3003
 msgid "Russian (Ukraine)"
 msgstr "vene (Ukraina)"
 
 #. Translators: Language name, ISO code: rue
-#: weblate_language_data/languages.py:2023
+#: weblate_language_data/languages.py:3010
 msgid "Rusyn"
 msgstr "russiini"
 
+#. Translators: Language name, ISO code: rup
+#: weblate_language_data/languages.py:3017
+#, fuzzy
+#| msgid "Macedonian"
+msgid "Macedo-Romanian"
+msgstr "makedoonia"
+
 #. Translators: Language name, ISO code: rw
-#: weblate_language_data/languages.py:2030
+#: weblate_language_data/languages.py:3024
 msgid "Kinyarwanda"
 msgstr "ruanda"
 
 #. Translators: Language name, ISO code: rwk
-#: weblate_language_data/languages.py:2037
+#: weblate_language_data/languages.py:3031
 msgid "Rwa"
 msgstr "rvaa"
 
 #. Translators: Language name, ISO code: sa
-#: weblate_language_data/languages.py:2044
+#: weblate_language_data/languages.py:3038
 msgid "Sanskrit"
 msgstr "sanskriti"
 
+#. Translators: Language name, ISO code: sad
+#: weblate_language_data/languages.py:3045
+msgid "Sandawe"
+msgstr "sandave"
+
 #. Translators: Language name, ISO code: sah
-#: weblate_language_data/languages.py:2051
+#: weblate_language_data/languages.py:3052
 msgid "Yakut"
 msgstr "jakuudi"
 
+#. Translators: Language name, ISO code: sai
+#: weblate_language_data/languages.py:3059
+msgid "South American Indian (Other)"
+msgstr "Lõuna-Ameerika indiaanikeeled"
+
+#. Translators: Language name, ISO code: sam
+#: weblate_language_data/languages.py:3066
+msgid "Samaritan Aramaic"
+msgstr "Samaaria aramea"
+
 #. Translators: Language name, ISO code: saq
-#: weblate_language_data/languages.py:2058
+#: weblate_language_data/languages.py:3073
 msgid "Samburu"
 msgstr "samburu"
 
+# src/trans.h:99
+#. Translators: Language name, ISO code: sas
+#: weblate_language_data/languages.py:3080
+msgid "Sasak"
+msgstr "sasaki"
+
 #. Translators: Language name, ISO code: sat
-#: weblate_language_data/languages.py:2065
+#: weblate_language_data/languages.py:3087
 msgid "Santali"
 msgstr "santali"
 
 #. Translators: Language name, ISO code: sc
-#: weblate_language_data/languages.py:2072
+#: weblate_language_data/languages.py:3094
 msgid "Sardinian"
 msgstr "sardi"
 
 #. Translators: Language name, ISO code: scn
-#: weblate_language_data/languages.py:2079
+#: weblate_language_data/languages.py:3101
 msgid "Sicilian"
 msgstr "sitsiilia"
 
 #. Translators: Language name, ISO code: sco
-#: weblate_language_data/languages.py:2086
+#: weblate_language_data/languages.py:3108
 msgid "Scots"
 msgstr "šoti"
 
 #. Translators: Language name, ISO code: sd
-#: weblate_language_data/languages.py:2093
+#: weblate_language_data/languages.py:3115
 msgid "Sindhi"
 msgstr "sindhi"
 
 #. Translators: Language name, ISO code: sdh
-#: weblate_language_data/languages.py:2100
+#: weblate_language_data/languages.py:3122
 msgid "Southern Kurdish"
 msgstr "lõunakurdi"
 
 #. Translators: Language name, ISO code: se
-#: weblate_language_data/languages.py:2107 weblate_language_data/plurals.py:168
+#: weblate_language_data/languages.py:3129 weblate_language_data/plurals.py:168
 msgid "Northern Sami"
 msgstr "põhjasaami"
 
 #. Translators: Language name, ISO code: seh
-#: weblate_language_data/languages.py:2114
+#: weblate_language_data/languages.py:3136
 msgid "Sena"
 msgstr "sena"
 
+#. Translators: Language name, ISO code: sel
+#: weblate_language_data/languages.py:3143
+msgid "Selkup"
+msgstr "sölkupi"
+
 #. Translators: Language name, ISO code: ses
-#: weblate_language_data/languages.py:2121
+#: weblate_language_data/languages.py:3150
 msgid "Koyraboro Senni"
 msgstr "koyraboro senni"
 
 #. Translators: Language name, ISO code: sg
-#: weblate_language_data/languages.py:2128
+#: weblate_language_data/languages.py:3157
 msgid "Sango"
 msgstr "sango"
 
+#. Translators: Language name, ISO code: sga
+#: weblate_language_data/languages.py:3164
+#, fuzzy
+#| msgid "Irish"
+msgid "Irish (Old)"
+msgstr "iiri"
+
+#. Translators: Language name, ISO code: sgn
+#: weblate_language_data/languages.py:3171
+msgid "Sign Languages"
+msgstr "viipekeeled"
+
 #. Translators: Language name, ISO code: shi
-#: weblate_language_data/languages.py:2135
+#: weblate_language_data/languages.py:3178
 msgid "Tachelhit"
 msgstr "šilha"
 
 #. Translators: Language name, ISO code: shn
-#: weblate_language_data/languages.py:2142
+#: weblate_language_data/languages.py:3185
 msgid "Shan"
 msgstr "šani"
 
 #. Translators: Language name, ISO code: si
-#: weblate_language_data/languages.py:2149
+#: weblate_language_data/languages.py:3192
 msgid "Sinhala"
 msgstr "singali"
 
+#. Translators: Language name, ISO code: sid
+#: weblate_language_data/languages.py:3199
+msgid "Sidamo"
+msgstr "sidamo"
+
 #. Translators: Language name, ISO code: sk
-#: weblate_language_data/languages.py:2156
+#: weblate_language_data/languages.py:3206
 msgid "Slovak"
 msgstr "slovaki"
 
 #. Translators: Language name, ISO code: sl
-#: weblate_language_data/languages.py:2163 weblate_language_data/plurals.py:175
+#: weblate_language_data/languages.py:3213 weblate_language_data/plurals.py:175
 msgid "Slovenian"
 msgstr "sloveeni"
 
 #. Translators: Language name, ISO code: sm
-#: weblate_language_data/languages.py:2170
+#: weblate_language_data/languages.py:3220
 msgid "Samoan"
 msgstr "samoa"
 
 #. Translators: Language name, ISO code: sma
-#: weblate_language_data/languages.py:2177
+#: weblate_language_data/languages.py:3227
 msgid "Southern Sami"
 msgstr "lõunasaami"
 
 #. Translators: Language name, ISO code: smi
-#: weblate_language_data/languages.py:2184
+#: weblate_language_data/languages.py:3234
 msgid "Sami"
 msgstr "saami"
 
 #. Translators: Language name, ISO code: smj
-#: weblate_language_data/languages.py:2191
+#: weblate_language_data/languages.py:3241
 msgid "Lule Sami"
 msgstr "Lule saami"
 
 #. Translators: Language name, ISO code: smn
-#: weblate_language_data/languages.py:2198
+#: weblate_language_data/languages.py:3248
 msgid "Inari Sami"
 msgstr "Inari saami"
 
 #. Translators: Language name, ISO code: sms
-#: weblate_language_data/languages.py:2205
+#: weblate_language_data/languages.py:3255
 msgid "Skolt Sami"
 msgstr "koltasaami"
 
 #. Translators: Language name, ISO code: sn
-#: weblate_language_data/languages.py:2212
+#: weblate_language_data/languages.py:3262
 msgid "Shona"
 msgstr "šona"
 
+#. Translators: Language name, ISO code: snk
+#: weblate_language_data/languages.py:3269
+msgid "Soninke"
+msgstr "soninke"
+
 #. Translators: Language name, ISO code: so
-#: weblate_language_data/languages.py:2219
+#: weblate_language_data/languages.py:3276
 msgid "Somali"
 msgstr "somaali"
 
+#. Translators: Language name, ISO code: sog
+#: weblate_language_data/languages.py:3283
+msgid "Sogdian"
+msgstr "sogdi"
+
 #. Translators: Language name, ISO code: son
-#: weblate_language_data/languages.py:2226
+#: weblate_language_data/languages.py:3290
 msgid "Songhai"
 msgstr "songhai"
 
 #. Translators: Language name, ISO code: sq
-#: weblate_language_data/languages.py:2233
+#: weblate_language_data/languages.py:3297
 msgid "Albanian"
 msgstr "albaania"
 
 #. Translators: Language name, ISO code: sr
-#: weblate_language_data/languages.py:2240
+#: weblate_language_data/languages.py:3304
 msgid "Serbian"
 msgstr "serbia"
 
 #. Translators: Language name, ISO code: sr_Cyrl
-#: weblate_language_data/languages.py:2247
+#: weblate_language_data/languages.py:3311
 msgid "Serbian (cyrillic)"
 msgstr "serbia (krillits)"
 
 #. Translators: Language name, ISO code: sr_Latn
-#: weblate_language_data/languages.py:2254
+#: weblate_language_data/languages.py:3318
 msgid "Serbian (latin)"
 msgstr "serbia (Ladina)"
 
+#. Translators: Language name, ISO code: srn
+#: weblate_language_data/languages.py:3325
+msgid "Sranan Tongo"
+msgstr "sranani"
+
+#. Translators: Language name, ISO code: srr
+#: weblate_language_data/languages.py:3332
+#, fuzzy
+#| msgid "Herero"
+msgid "Serer"
+msgstr "herero"
+
 #. Translators: Language name, ISO code: ss
-#: weblate_language_data/languages.py:2261
+#: weblate_language_data/languages.py:3339
 msgid "Swati"
 msgstr "svaasi"
 
 #. Translators: Language name, ISO code: ssy
-#: weblate_language_data/languages.py:2268
+#: weblate_language_data/languages.py:3346
 msgid "Saho"
 msgstr "saho"
 
 #. Translators: Language name, ISO code: st
-#: weblate_language_data/languages.py:2275
+#: weblate_language_data/languages.py:3353
 msgid "Southern Sotho"
 msgstr "lõunasotho"
 
 #. Translators: Language name, ISO code: su
-#: weblate_language_data/languages.py:2282
+#: weblate_language_data/languages.py:3360
 msgid "Sundanese"
 msgstr "sunda"
 
+#. Translators: Language name, ISO code: suk
+#: weblate_language_data/languages.py:3367
+msgid "Sukuma"
+msgstr "sukuma"
+
+#. Translators: Language name, ISO code: sus
+#: weblate_language_data/languages.py:3374
+msgid "Susu"
+msgstr "susu"
+
+#. Translators: Language name, ISO code: sux
+#: weblate_language_data/languages.py:3381
+#, fuzzy
+#| msgid "Asturian"
+msgid "Sumerian"
+msgstr "astuuria"
+
 #. Translators: Language name, ISO code: sv
-#: weblate_language_data/languages.py:2289
+#: weblate_language_data/languages.py:3388
 msgid "Swedish"
 msgstr "rootsi"
 
 #. Translators: Language name, ISO code: sw
-#: weblate_language_data/languages.py:2296
+#: weblate_language_data/languages.py:3395
 msgid "Swahili"
 msgstr "suahiili"
 
 #. Translators: Language name, ISO code: sw_CD
-#: weblate_language_data/languages.py:2303
+#: weblate_language_data/languages.py:3402
 msgid "Swahili (Congo)"
 msgstr "suahiili (Kongo)"
 
 #. Translators: Language name, ISO code: sw_TZ
-#: weblate_language_data/languages.py:2310
+#: weblate_language_data/languages.py:3409
 #, fuzzy
 #| msgid "Swahili (Congo)"
 msgid "Swahili (Tanzania)"
 msgstr "suahiili (Kongo)"
 
+#. Translators: Language name, ISO code: syc
+#: weblate_language_data/languages.py:3416
+msgid "Syriac (Classical)"
+msgstr ""
+
 #. Translators: Language name, ISO code: syr
-#: weblate_language_data/languages.py:2317
+#: weblate_language_data/languages.py:3423
 msgid "Syriac"
 msgstr "süüria"
 
 #. Translators: Language name, ISO code: szl
-#: weblate_language_data/languages.py:2324
+#: weblate_language_data/languages.py:3430
 msgid "Silesian"
 msgstr "sileesia"
 
 #. Translators: Language name, ISO code: ta
-#: weblate_language_data/languages.py:2331
+#: weblate_language_data/languages.py:3437
 msgid "Tamil"
 msgstr "tamili"
 
 #. Translators: Language name, ISO code: ta_LK
-#: weblate_language_data/languages.py:2338
+#: weblate_language_data/languages.py:3444
 msgid "Tamil (Sri Lanka)"
 msgstr "tamili (Sri Lanka)"
 
 #. Translators: Language name, ISO code: te
-#: weblate_language_data/languages.py:2345
+#: weblate_language_data/languages.py:3451
 msgid "Telugu"
 msgstr "telugu"
 
+#. Translators: Language name, ISO code: tem
+#: weblate_language_data/languages.py:3458
+msgid "Timne"
+msgstr "temne"
+
 #. Translators: Language name, ISO code: teo
-#: weblate_language_data/languages.py:2352
+#: weblate_language_data/languages.py:3465
 msgid "Teso"
 msgstr "teso"
 
+#. Translators: Language name, ISO code: ter
+#: weblate_language_data/languages.py:3472
+msgid "Tereno"
+msgstr "terena"
+
+#. Translators: Language name, ISO code: tet
+#: weblate_language_data/languages.py:3479
+msgid "Tetum"
+msgstr "tetumi"
+
 #. Translators: Language name, ISO code: tg
-#: weblate_language_data/languages.py:2359
+#: weblate_language_data/languages.py:3486
 msgid "Tajik"
 msgstr "tadžiki"
 
 #. Translators: Language name, ISO code: th
-#: weblate_language_data/languages.py:2366
+#: weblate_language_data/languages.py:3493
 msgid "Thai"
 msgstr "tai"
 
 #. Translators: Language name, ISO code: ti
-#: weblate_language_data/languages.py:2373
+#: weblate_language_data/languages.py:3500
 msgid "Tigrinya"
 msgstr "tigrinja"
 
 #. Translators: Language name, ISO code: tig
-#: weblate_language_data/languages.py:2380
+#: weblate_language_data/languages.py:3507
 msgid "Tigre"
 msgstr "tigree"
 
+#. Translators: Language name, ISO code: tiv
+#: weblate_language_data/languages.py:3514
+#, fuzzy
+#| msgid "Twi"
+msgid "Tiv"
+msgstr "tvii"
+
 #. Translators: Language name, ISO code: tk
-#: weblate_language_data/languages.py:2387
+#: weblate_language_data/languages.py:3521
 msgid "Turkmen"
 msgstr "türkmeeni"
 
+#. Translators: Language name, ISO code: tkl
+#: weblate_language_data/languages.py:3528
+msgid "Tokelau"
+msgstr "tokelau"
+
 #. Translators: Language name, ISO code: tl
-#: weblate_language_data/languages.py:2394
+#: weblate_language_data/languages.py:3535
 msgid "Tagalog"
 msgstr "tagalogi"
 
 #. Translators: Language name, ISO code: tlh-qaak
-#: weblate_language_data/languages.py:2401
+#: weblate_language_data/languages.py:3542
 msgid "Klingon (pIqaD)"
 msgstr "klingoni (pIqaD)"
 
 #. Translators: Language name, ISO code: tlh
-#: weblate_language_data/languages.py:2408
+#: weblate_language_data/languages.py:3549
 msgid "Klingon"
 msgstr "klingoni"
 
+#. Translators: Language name, ISO code: tli
+#: weblate_language_data/languages.py:3556
+msgid "Tlingit"
+msgstr "tlingiti"
+
+#. Translators: Language name, ISO code: tmh
+#: weblate_language_data/languages.py:3563
+msgid "Tamashek"
+msgstr "tamašeki"
+
 #. Translators: Language name, ISO code: tn
-#: weblate_language_data/languages.py:2415
+#: weblate_language_data/languages.py:3570
 msgid "Tswana"
 msgstr "tsvana"
 
 #. Translators: Language name, ISO code: to
-#: weblate_language_data/languages.py:2422
+#: weblate_language_data/languages.py:3577
 msgid "Tongan"
 msgstr "tonga"
 
+#. Translators: Language name, ISO code: tog
+#: weblate_language_data/languages.py:3584
+msgid "Tonga (Nyasa)"
+msgstr "tonga (Njassa)"
+
+#. Translators: Language name, ISO code: tpi
+#: weblate_language_data/languages.py:3591
+msgid "Tok Pisin"
+msgstr "tok-pisini (uusmelaneesia)"
+
 #. Translators: Language name, ISO code: tr
-#: weblate_language_data/languages.py:2429
+#: weblate_language_data/languages.py:3598
 msgid "Turkish"
 msgstr "türgi"
 
 #. Translators: Language name, ISO code: ts
-#: weblate_language_data/languages.py:2436
+#: weblate_language_data/languages.py:3605
 msgid "Tsonga"
 msgstr "tsonga"
 
+#. Translators: Language name, ISO code: tsi
+#: weblate_language_data/languages.py:3612
+msgid "Tsimshian"
+msgstr "tsimši"
+
 #. Translators: Language name, ISO code: tt
-#: weblate_language_data/languages.py:2443
+#: weblate_language_data/languages.py:3619
 msgid "Tatar"
 msgstr "tatari"
 
 #. Translators: Language name, ISO code: tt@iqtelif
-#: weblate_language_data/languages.py:2450
+#: weblate_language_data/languages.py:3626
 msgid "Tatar (IQTElif)"
 msgstr "Tatari (IQTElif)"
 
+#. Translators: Language name, ISO code: tum
+#: weblate_language_data/languages.py:3633
+msgid "Tumbuka"
+msgstr "tumbuka"
+
+#. Translators: Language name, ISO code: tvl
+#: weblate_language_data/languages.py:3640
+msgid "Tuvalu"
+msgstr "tuvalu"
+
 #. Translators: Language name, ISO code: tw
-#: weblate_language_data/languages.py:2457
+#: weblate_language_data/languages.py:3647
 msgid "Twi"
 msgstr "tvii"
 
 #. Translators: Language name, ISO code: ty
-#: weblate_language_data/languages.py:2464
+#: weblate_language_data/languages.py:3654
 msgid "Tahitian"
 msgstr "tahiti"
 
+#. Translators: Language name, ISO code: tyv
+#: weblate_language_data/languages.py:3661
+msgid "Tuvinian"
+msgstr "tõva"
+
 #. Translators: Language name, ISO code: tzm
-#: weblate_language_data/languages.py:2471
+#: weblate_language_data/languages.py:3668
 msgid "Central Atlas Tamazight"
 msgstr "tamasikti"
 
+#. Translators: Language name, ISO code: udm
+#: weblate_language_data/languages.py:3675
+msgid "Udmurt"
+msgstr "udmurdi"
+
 #. Translators: Language name, ISO code: ug
-#: weblate_language_data/languages.py:2478
+#: weblate_language_data/languages.py:3682
 msgid "Uyghur"
 msgstr "uiguuri"
 
+#. Translators: Language name, ISO code: uga
+#: weblate_language_data/languages.py:3689
+msgid "Ugaritic"
+msgstr "ugariti"
+
 #. Translators: Language name, ISO code: uk
-#: weblate_language_data/languages.py:2485
+#: weblate_language_data/languages.py:3696
 msgid "Ukrainian"
 msgstr "ukraina"
 
+#. Translators: Language name, ISO code: umb
+#: weblate_language_data/languages.py:3703
+msgid "Umbundu"
+msgstr "umbundu"
+
+#. Translators: Language name, ISO code: und
+#: weblate_language_data/languages.py:3710
+msgid "Undetermined"
+msgstr "määratlemata"
+
 #. Translators: Language name, ISO code: ur
-#: weblate_language_data/languages.py:2492
+#: weblate_language_data/languages.py:3717
 msgid "Urdu"
 msgstr "urdu"
 
 #. Translators: Language name, ISO code: ur_IN
-#: weblate_language_data/languages.py:2499
+#: weblate_language_data/languages.py:3724
 msgid "Urdu (India)"
 msgstr "urdu (India)"
 
 #. Translators: Language name, ISO code: ur_PK
-#: weblate_language_data/languages.py:2506
+#: weblate_language_data/languages.py:3731
 msgid "Urdu (Pakistan)"
 msgstr "urdu (Pakistan)"
 
 #. Translators: Language name, ISO code: uz
-#: weblate_language_data/languages.py:2513
+#: weblate_language_data/languages.py:3738
 msgid "Uzbek"
 msgstr "usbeki"
 
 #. Translators: Language name, ISO code: uz_Latn
-#: weblate_language_data/languages.py:2520
+#: weblate_language_data/languages.py:3745
 msgid "Uzbek (latin)"
 msgstr "usbeki (ladina)"
 
+#. Translators: Language name, ISO code: vai
+#: weblate_language_data/languages.py:3752
+msgid "Vai"
+msgstr "vai"
+
 #. Translators: Language name, ISO code: ve
-#: weblate_language_data/languages.py:2527
+#: weblate_language_data/languages.py:3759
 msgid "Venda"
 msgstr "venda"
 
 #. Translators: Language name, ISO code: vec
-#: weblate_language_data/languages.py:2534
+#: weblate_language_data/languages.py:3766
 msgid "Venetian"
 msgstr "veneti"
 
 #. Translators: Language name, ISO code: vi
-#: weblate_language_data/languages.py:2541
+#: weblate_language_data/languages.py:3773
 msgid "Vietnamese"
 msgstr "vietnami"
 
 #. Translators: Language name, ISO code: vls
-#: weblate_language_data/languages.py:2548
+#: weblate_language_data/languages.py:3780
 msgid "West Flemish"
 msgstr "lääneflaami"
 
 #. Translators: Language name, ISO code: vo
-#: weblate_language_data/languages.py:2555
+#: weblate_language_data/languages.py:3787
 msgid "Volapük"
 msgstr "volapüki"
 
+#. Translators: Language name, ISO code: vot
+#: weblate_language_data/languages.py:3794
+msgid "Votic"
+msgstr "vadja"
+
 #. Translators: Language name, ISO code: vun
-#: weblate_language_data/languages.py:2562
+#: weblate_language_data/languages.py:3801
 msgid "Vunjo"
 msgstr "vundžo"
 
 #. Translators: Language name, ISO code: wa
-#: weblate_language_data/languages.py:2569
+#: weblate_language_data/languages.py:3808
 msgid "Walloon"
 msgstr "vallooni"
 
 #. Translators: Language name, ISO code: wae
-#: weblate_language_data/languages.py:2576
+#: weblate_language_data/languages.py:3815
 msgid "German (Walser)"
 msgstr "saksa (Walser)"
 
 #. Translators: Language name, ISO code: wal
-#: weblate_language_data/languages.py:2583
+#: weblate_language_data/languages.py:3822
 msgid "Wolaytta"
 msgstr "volaita"
 
+#. Translators: Language name, ISO code: war
+#: weblate_language_data/languages.py:3829
+#, fuzzy
+#| msgid "English (Philippines)"
+msgid "Waray (Philippines)"
+msgstr "Inglise (Filipiinid)"
+
+#. Translators: Language name, ISO code: was
+#: weblate_language_data/languages.py:3836
+msgid "Washo"
+msgstr "vašo"
+
 #. Translators: Language name, ISO code: wen
-#: weblate_language_data/languages.py:2590
+#: weblate_language_data/languages.py:3843
 msgid "Sorbian"
 msgstr "sorbi"
 
 #. Translators: Language name, ISO code: wo
-#: weblate_language_data/languages.py:2597
+#: weblate_language_data/languages.py:3850
 msgid "Wolof"
 msgstr "volofi"
 
+#. Translators: Language name, ISO code: xal
+#: weblate_language_data/languages.py:3857
+#, fuzzy
+msgid "Kalmyk"
+msgstr "Poola"
+
 #. Translators: Language name, ISO code: xh
-#: weblate_language_data/languages.py:2604
+#: weblate_language_data/languages.py:3864
 msgid "Xhosa"
 msgstr "koosa"
 
 #. Translators: Language name, ISO code: xog
-#: weblate_language_data/languages.py:2611
+#: weblate_language_data/languages.py:3871
 msgid "Soga"
 msgstr "soga"
 
+#. Translators: Language name, ISO code: yao
+#: weblate_language_data/languages.py:3878
+#, fuzzy
+#| msgid "Lao"
+msgid "Yao"
+msgstr "lao"
+
 #. Translators: Language name, ISO code: yap
-#: weblate_language_data/languages.py:2618
+#: weblate_language_data/languages.py:3885
 msgid "Yapese"
 msgstr "japi"
 
 #. Translators: Language name, ISO code: yi
-#: weblate_language_data/languages.py:2625
+#: weblate_language_data/languages.py:3892
 msgid "Yiddish"
 msgstr "jidiši"
 
 #. Translators: Language name, ISO code: yo
-#: weblate_language_data/languages.py:2632
+#: weblate_language_data/languages.py:3899
 msgid "Yoruba"
 msgstr "joruba"
 
 #. Translators: Language name, ISO code: yue
-#: weblate_language_data/languages.py:2639
+#: weblate_language_data/languages.py:3906
 msgid "Yue"
 msgstr "yue"
 
 #. Translators: Language name, ISO code: za
-#: weblate_language_data/languages.py:2646
+#: weblate_language_data/languages.py:3913
 msgid "Zhuang"
 msgstr "tšuangi"
 
+#. Translators: Language name, ISO code: zap
+#: weblate_language_data/languages.py:3920
+msgid "Zapotec"
+msgstr "sapoteegi"
+
+#. Translators: Language name, ISO code: zbl
+#: weblate_language_data/languages.py:3927
+msgid "Blissymbols"
+msgstr "Blissi sümbolid"
+
+# src/trans.h:27
+#. Translators: Language name, ISO code: zen
+#: weblate_language_data/languages.py:3934
+msgid "Zenaga"
+msgstr "zenaga"
+
 #. Translators: Language name, ISO code: zgh
-#: weblate_language_data/languages.py:2653
+#: weblate_language_data/languages.py:3941
 msgid "Standard Moroccan Tamazight"
 msgstr "Maroko tamasikti"
 
 #. Translators: Language name, ISO code: zh_Hans
-#: weblate_language_data/languages.py:2660
+#: weblate_language_data/languages.py:3948
 msgid "Chinese (Simplified)"
 msgstr "hiina (lihtsustatud)"
 
 #. Translators: Language name, ISO code: zh_Hans_SG
-#: weblate_language_data/languages.py:2667
+#: weblate_language_data/languages.py:3955
 msgid "Chinese (Simplified, Singapore)"
 msgstr "hiina (lihtsustatud, Singapur)"
 
 #. Translators: Language name, ISO code: zh_Hant
-#: weblate_language_data/languages.py:2674
+#: weblate_language_data/languages.py:3962
 msgid "Chinese (Traditional)"
 msgstr "hiina (traditsiooniline)"
 
 #. Translators: Language name, ISO code: zh_Hant_HK
-#: weblate_language_data/languages.py:2681
+#: weblate_language_data/languages.py:3969
 msgid "Chinese (Traditional, Hong Kong)"
 msgstr "hiina (traditsiooniline, Hongkong)"
 
 #. Translators: Language name, ISO code: zh_Latn
-#: weblate_language_data/languages.py:2688
+#: weblate_language_data/languages.py:3976
 msgid "Chinese (Pinyin)"
 msgstr "hiina (pinyin)"
 
 #. Translators: Language name, ISO code: zu
-#: weblate_language_data/languages.py:2695
+#: weblate_language_data/languages.py:3983
 msgid "Zulu"
 msgstr "suulu"
+
+#. Translators: Language name, ISO code: zun
+#: weblate_language_data/languages.py:3990
+msgid "Zuni"
+msgstr "sunji"
+
+#. Translators: Language name, ISO code: zza
+#: weblate_language_data/languages.py:3997
+#, fuzzy
+msgid "Zaza"
+msgstr "Ääred"
+
+#~ msgid "Old Church Slavonic"
+#~ msgstr "Vana kirikuslaavi"
 
 #~ msgid "Flemish"
 #~ msgstr "flaami"
@@ -1962,9 +2985,6 @@ msgstr "suulu"
 
 #~ msgid "Austrian German"
 #~ msgstr "Austria saksa"
-
-#~ msgid "Swiss High German"
-#~ msgstr "Šveitsi ülemsaksa"
 
 #~ msgid "Swiss German"
 #~ msgstr "šveitsisaksa"
