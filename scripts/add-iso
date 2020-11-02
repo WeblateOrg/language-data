@@ -2,8 +2,12 @@
 
 import json
 import sys
+from urllib.request import urlopen
 
 names = {}
+
+# See https://github.com/WeblateOrg/language-data/issues/103
+PLURALDATA = "https://jibecfed.fedorapeople.org/partage/languages-data/{}.json"
 
 with open("modules/iso-codes/data/iso_639-2.json", "r") as handle:
     for item in json.load(handle)["639-2"]:
@@ -21,8 +25,28 @@ with open("languages.csv", "r") as handle:
     lines = handle.readlines()
 
 for code in sys.argv[1:]:
+    plurals = 2
+    formula = "n != 1"
+    try:
+        with urlopen(PLURALDATA.format(code)) as handle:
+            data = json.load(handle)
+            for plural in data[code]["Plural-Forms"]:
+                if not plural or "INTEGER" in plural:
+                    continue
+                parts = plural.split(";", 1)
+                plurals = int(parts[0].split("=")[1].strip())
+                formula = parts[1].split("=", 1)[1].strip()
+                if formula == "(n != 1)":
+                    formula = "n != 1"
+                if formula == "n != 1":
+                    continue
+                break
+    except IOError:
+        sys.stderr.write(f"Failed to load data for {code}, using defaults\n")
     lines.append(
-        "{};{};{};{}\n".format(code, names[code].split(";")[-1].strip(), 2, "n != 1")
+        "{};{};{};{}\n".format(
+            code, names[code].split(";")[-1].strip(), plurals, formula
+        )
     )
 
 with open("languages.csv", "w") as handle:
