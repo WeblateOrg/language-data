@@ -38,147 +38,189 @@ from .utils import gettext_noop as _
 EXTRAPLURALS = (
     (
         "br",
-        # Translators: Language name, ISO code: br
+        # Translators: Language name for ISO code "br". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Breton"),
         2,
         "n > 1",
     ),
     (
         "cgg",
-        # Translators: Language name, ISO code: cgg
+        # Translators: Language name for ISO code "cgg". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Chiga"),
         1,
         "0",
     ),
     (
         "cy",
-        # Translators: Language name, ISO code: cy
+        # Translators: Language name for ISO code "cy". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Welsh"),
         2,
         "(n==2) ? 1 : 0",
     ),
     (
         "cy",
-        # Translators: Language name, ISO code: cy
+        # Translators: Language name for ISO code "cy". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Welsh"),
         4,
         "(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3",
     ),
     (
         "dsb",
-        # Translators: Language name, ISO code: dsb
+        # Translators: Language name for ISO code "dsb". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Lower Sorbian"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
         "fil",
-        # Translators: Language name, ISO code: fil
+        # Translators: Language name for ISO code "fil". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Filipino"),
         2,
         "(n > 1)",
     ),
     (
         "ga",
-        # Translators: Language name, ISO code: ga
+        # Translators: Language name for ISO code "ga". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Irish"),
         3,
         "n==1 ? 0 : n==2 ? 1 : 2",
     ),
     (
         "he",
-        # Translators: Language name, ISO code: he
+        # Translators: Language name for ISO code "he". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Hebrew"),
         2,
         "(n != 1)",
     ),
     (
         "he",
-        # Translators: Language name, ISO code: he
+        # Translators: Language name for ISO code "he". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Hebrew"),
         3,
         "n==1 ? 0 : n==2 ? 2 : 1",
     ),
     (
         "hsb",
-        # Translators: Language name, ISO code: hsb
+        # Translators: Language name for ISO code "hsb". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Upper Sorbian"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
         "jv",
-        # Translators: Language name, ISO code: jv
+        # Translators: Language name for ISO code "jv". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Javanese"),
         2,
         "(n != 1)",
     ),
     (
         "ka",
-        # Translators: Language name, ISO code: ka
+        # Translators: Language name for ISO code "ka". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Georgian"),
         1,
         "0",
     ),
     (
         "kw",
-        # Translators: Language name, ISO code: kw
+        # Translators: Language name for ISO code "kw". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Cornish"),
         3,
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
         "kw",
-        # Translators: Language name, ISO code: kw
+        # Translators: Language name for ISO code "kw". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Cornish"),
         4,
         "(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3",
     ),
     (
         "lt",
-        # Translators: Language name, ISO code: lt
+        # Translators: Language name for ISO code "lt". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Lithuanian"),
         4,
         "n==1 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3",
     ),
     (
         "lt",
-        # Translators: Language name, ISO code: lt
+        # Translators: Language name for ISO code "lt". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Lithuanian"),
         3,
         "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)",
     ),
     (
         "lv",
-        # Translators: Language name, ISO code: lv
+        # Translators: Language name for ISO code "lv". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Latvian"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2",
     ),
     (
         "lv",
-        # Translators: Language name, ISO code: lv
+        # Translators: Language name for ISO code "lv". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Latvian"),
         3,
         "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)",
     ),
     (
         "se",
-        # Translators: Language name, ISO code: se
+        # Translators: Language name for ISO code "se". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Northern Sami"),
         2,
         "(n != 1)",
     ),
     (
         "sl",
-        # Translators: Language name, ISO code: sl
+        # Translators: Language name for ISO code "sl". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Slovenian"),
         4,
         "(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0)",
     ),
     (
         "ro_MD",
-        # Translators: Language name, ISO code: ro_MD
+        # Translators: Language name for ISO code "ro_MD". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _("Moldavian"),
         3,
         "(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)",

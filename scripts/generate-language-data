@@ -77,7 +77,9 @@ https://github.com/WeblateOrg/language-data
 
 TEMPLATE = """    (
         '{0}',
-        # Translators: Language name, ISO code: {0}
+        # Translators: Language name for ISO code "{0}". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
         _('{1}'),
         {2},
         '{3}'
