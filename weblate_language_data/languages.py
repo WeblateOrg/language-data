@@ -158,7 +158,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "alt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Southern Altai"),
+        _("Altai (Southern)"),
         2,
         "n != 1",
     ),
@@ -1706,7 +1706,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "frr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Northern Frisian"),
+        _("Frisian (Northern)"),
         2,
         "n != 1",
     ),
@@ -1715,7 +1715,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "frs". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Eastern Frisian"),
+        _("Frisian (Eastern)"),
         2,
         "n != 1",
     ),
@@ -2498,7 +2498,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "km". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Central Khmer"),
+        _("Khmer (Central)"),
         1,
         "0",
     ),
@@ -2516,7 +2516,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "kmr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Northern Kurdish"),
+        _("Kurdish (Northern)"),
         2,
         "n != 1",
     ),
@@ -3281,7 +3281,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "nd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("North Ndebele"),
+        _("Ndebele (Northern)"),
         2,
         "n != 1",
     ),
@@ -3407,7 +3407,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "nr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("South Ndebele"),
+        _("Ndebele (Southern)"),
         2,
         "n != 1",
     ),
@@ -4001,7 +4001,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "sdh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Southern Kurdish"),
+        _("Kurdish (Southern)"),
         2,
         "n != 1",
     ),
@@ -4010,7 +4010,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "se". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Northern Sami"),
+        _("Sami (Northern)"),
         3,
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
@@ -4136,7 +4136,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "sma". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Southern Sami"),
+        _("Sami (Southern)"),
         3,
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
@@ -4154,7 +4154,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "smj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Lule Sami"),
+        _("Sami (Lule)"),
         3,
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
@@ -4163,7 +4163,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "smn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Inari Sami"),
+        _("Sami (Inari)"),
         3,
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
@@ -4172,7 +4172,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "sms". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Skolt Sami"),
+        _("Sami (Skolt)"),
         3,
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
@@ -4298,7 +4298,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "st". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Southern Sotho"),
+        _("Sotho (Southern)"),
         2,
         "n != 1",
     ),
@@ -4847,7 +4847,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "vls". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("West Flemish"),
+        _("Flemish (West)"),
         2,
         "n != 1",
     ),
