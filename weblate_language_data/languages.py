@@ -851,7 +851,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "ckb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Central Kurdish"),
+        _("Kurdish (Central)"),
         2,
         "n != 1",
     ),
@@ -860,7 +860,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Central Kurdish (Iraq)"),
+        _("Kurdish (Central, Iraq)"),
         2,
         "n != 1",
     ),
@@ -869,7 +869,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Central Kurdish (Iran)"),
+        _("Kurdish (Central, Iran)"),
         2,
         "n != 1",
     ),
@@ -4703,7 +4703,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "tzm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Central Atlas Tamazight"),
+        _("Tamazight (Central Atlas)"),
         2,
         "n >= 2 && (n < 11 || n > 99)",
     ),
@@ -5054,7 +5054,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "zgh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Standard Moroccan Tamazight"),
+        _("Tamazight (Standard Moroccan)"),
         2,
         "n != 1",
     ),

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2020-11-02 14:59+0100\n"
+"POT-Creation-Date: 2020-11-04 14:45+0100\n"
 "PO-Revision-Date: 2014-10-01 09:41+0200\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Colognian <https://hosted.weblate.org/projects/weblate/master/"
@@ -690,7 +690,7 @@ msgstr "Tschäjänn"
 #: weblate_language_data/languages.py:854
 #, fuzzy
 #| msgid "Central Khmer"
-msgid "Central Kurdish"
+msgid "Kurdish (Central)"
 msgstr "Zentrahl Khmeer"
 
 #. Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
@@ -699,7 +699,7 @@ msgstr "Zentrahl Khmeer"
 #: weblate_language_data/languages.py:863
 #, fuzzy
 #| msgid "Central Khmer"
-msgid "Central Kurdish (Iraq)"
+msgid "Kurdish (Central, Iraq)"
 msgstr "Zentrahl Khmeer"
 
 #. Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
@@ -708,7 +708,7 @@ msgstr "Zentrahl Khmeer"
 #: weblate_language_data/languages.py:872
 #, fuzzy
 #| msgid "Central Khmer"
-msgid "Central Kurdish (Iran)"
+msgid "Kurdish (Central, Iran)"
 msgstr "Zentrahl Khmeer"
 
 #. Translators: Language name for ISO code "co". The parenthesis clarifies
@@ -3862,8 +3862,8 @@ msgstr "Tuvinijahnesch"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4706
-msgid "Central Atlas Tamazight"
-msgstr "Tamasicht ussem meddlere Atlas"
+msgid "Tamazight (Central Atlas)"
+msgstr ""
 
 #. Translators: Language name for ISO code "udm". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4147,7 +4147,7 @@ msgstr ""
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:5057
-msgid "Standard Moroccan Tamazight"
+msgid "Tamazight (Standard Moroccan)"
 msgstr ""
 
 #. Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
@@ -4222,6 +4222,19 @@ msgstr "Sahsajesch"
 #: weblate_language_data/plurals.py:206
 msgid "Northern Sami"
 msgstr "Nood-Lappländesch"
+
+#, fuzzy
+#~| msgid "Central Khmer"
+#~ msgid "Central Kurdish"
+#~ msgstr "Zentrahl Khmeer"
+
+#, fuzzy
+#~| msgid "Central Khmer"
+#~ msgid "Central Kurdish (Iran)"
+#~ msgstr "Zentrahl Khmeer"
+
+#~ msgid "Central Atlas Tamazight"
+#~ msgstr "Tamasicht ussem meddlere Atlas"
 
 #, fuzzy
 #~| msgid "Southern Sotho"

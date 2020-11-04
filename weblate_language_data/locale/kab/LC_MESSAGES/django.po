@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2020-11-02 14:59+0100\n"
+"POT-Creation-Date: 2020-11-04 14:45+0100\n"
 "PO-Revision-Date: 2020-08-10 22:05+0000\n"
 "Last-Translator: Kahina Messaoudi <messaoudikahina02@gmail.com>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/weblate/languages/"
@@ -660,21 +660,27 @@ msgstr ""
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:854
-msgid "Central Kurdish"
-msgstr "Takurdit talemmast"
+#, fuzzy
+#| msgid "Central Kurdish (Iran)"
+msgid "Kurdish (Central)"
+msgstr "Takurdit talemmast (Iran)"
 
 #. Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:863
-msgid "Central Kurdish (Iraq)"
+#, fuzzy
+#| msgid "Central Kurdish (Iraq)"
+msgid "Kurdish (Central, Iraq)"
 msgstr "Takurdit talemmast (Ɛiraq)"
 
 #. Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:872
-msgid "Central Kurdish (Iran)"
+#, fuzzy
+#| msgid "Central Kurdish (Iran)"
+msgid "Kurdish (Central, Iran)"
 msgstr "Takurdit talemmast (Iran)"
 
 #. Translators: Language name for ISO code "co". The parenthesis clarifies
@@ -3746,8 +3752,8 @@ msgstr ""
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4706
-msgid "Central Atlas Tamazight"
-msgstr "Tamaziɣt n Merruk Alemmas"
+msgid "Tamazight (Central Atlas)"
+msgstr ""
 
 #. Translators: Language name for ISO code "udm". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4025,7 +4031,7 @@ msgstr ""
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:5057
-msgid "Standard Moroccan Tamazight"
+msgid "Tamazight (Standard Moroccan)"
 msgstr ""
 
 #. Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
@@ -4090,6 +4096,15 @@ msgstr ""
 #: weblate_language_data/plurals.py:206
 msgid "Northern Sami"
 msgstr "Tasami n Ugafa"
+
+#~ msgid "Central Kurdish"
+#~ msgstr "Takurdit talemmast"
+
+#~ msgid "Central Kurdish (Iran)"
+#~ msgstr "Takurdit talemmast (Iran)"
+
+#~ msgid "Central Atlas Tamazight"
+#~ msgstr "Tamaziɣt n Merruk Alemmas"
 
 #, fuzzy
 #~| msgid "Southern Sami"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2020-11-02 14:59+0100\n"
+"POT-Creation-Date: 2020-11-04 14:45+0100\n"
 "PO-Revision-Date: 2018-06-09 21:47+0000\n"
 "Last-Translator: monolifed <monolifed@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
@@ -678,7 +678,7 @@ msgstr ""
 #: weblate_language_data/languages.py:854
 #, fuzzy
 #| msgid "Central Khmer"
-msgid "Central Kurdish"
+msgid "Kurdish (Central)"
 msgstr "Central Khmer"
 
 #. Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
@@ -687,7 +687,7 @@ msgstr "Central Khmer"
 #: weblate_language_data/languages.py:863
 #, fuzzy
 #| msgid "Central Khmer"
-msgid "Central Kurdish (Iraq)"
+msgid "Kurdish (Central, Iraq)"
 msgstr "Central Khmer"
 
 #. Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
@@ -696,7 +696,7 @@ msgstr "Central Khmer"
 #: weblate_language_data/languages.py:872
 #, fuzzy
 #| msgid "Central Khmer"
-msgid "Central Kurdish (Iran)"
+msgid "Kurdish (Central, Iran)"
 msgstr "Central Khmer"
 
 #. Translators: Language name for ISO code "co". The parenthesis clarifies
@@ -3814,8 +3814,8 @@ msgstr ""
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4706
-msgid "Central Atlas Tamazight"
-msgstr "Central Atlas Tamazight"
+msgid "Tamazight (Central Atlas)"
+msgstr ""
 
 #. Translators: Language name for ISO code "udm". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4095,7 +4095,7 @@ msgstr ""
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:5057
-msgid "Standard Moroccan Tamazight"
+msgid "Tamazight (Standard Moroccan)"
 msgstr ""
 
 #. Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
@@ -4166,6 +4166,19 @@ msgstr ""
 #: weblate_language_data/plurals.py:206
 msgid "Northern Sami"
 msgstr "Northern Sami"
+
+#, fuzzy
+#~| msgid "Central Khmer"
+#~ msgid "Central Kurdish"
+#~ msgstr "Central Khmer"
+
+#, fuzzy
+#~| msgid "Central Khmer"
+#~ msgid "Central Kurdish (Iran)"
+#~ msgstr "Central Khmer"
+
+#~ msgid "Central Atlas Tamazight"
+#~ msgstr "Central Atlas Tamazight"
 
 #, fuzzy
 #~| msgid "Southern Sami"

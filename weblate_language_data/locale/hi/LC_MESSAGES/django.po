@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate Language Data\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2020-11-02 14:59+0100\n"
+"POT-Creation-Date: 2020-11-04 14:45+0100\n"
 "PO-Revision-Date: 2020-10-03 07:41+0000\n"
 "Last-Translator: Deepak Mathur <deepakmathur174@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/weblate/languages/"
@@ -662,22 +662,21 @@ msgstr "शेयेन्न"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:854
-#, fuzzy
-msgid "Central Kurdish"
-msgstr "कुरदीश"
+msgid "Kurdish (Central)"
+msgstr ""
 
 #. Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:863
-msgid "Central Kurdish (Iraq)"
+msgid "Kurdish (Central, Iraq)"
 msgstr ""
 
 #. Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:872
-msgid "Central Kurdish (Iran)"
+msgid "Kurdish (Central, Iran)"
 msgstr ""
 
 #. Translators: Language name for ISO code "co". The parenthesis clarifies
@@ -3739,8 +3738,8 @@ msgstr "तुवीनियन"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4706
-msgid "Central Atlas Tamazight"
-msgstr "मध्य एटलस तमाज़ित"
+msgid "Tamazight (Central Atlas)"
+msgstr ""
 
 #. Translators: Language name for ISO code "udm". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4019,7 +4018,9 @@ msgstr "ज़ेनान्गा"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:5057
-msgid "Standard Moroccan Tamazight"
+#, fuzzy
+#| msgid "Standard Moroccan Tamazight"
+msgid "Tamazight (Standard Moroccan)"
 msgstr "मानक मोरक्कन तामाज़ाइट"
 
 #. Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
@@ -4086,6 +4087,13 @@ msgstr "कज़ाख"
 #, fuzzy
 msgid "Northern Sami"
 msgstr "सेसोथो"
+
+#, fuzzy
+#~ msgid "Central Kurdish"
+#~ msgstr "कुरदीश"
+
+#~ msgid "Central Atlas Tamazight"
+#~ msgstr "मध्य एटलस तमाज़ित"
 
 #, fuzzy
 #~ msgid "Southern Altai"
