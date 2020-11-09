@@ -37,6 +37,7 @@ ast;Asturian;2;n != 1
 av;Avaric;2;n != 1
 awa;Awadhi;2;n != 1
 ay;Aymará;1;0
+ayc;Aymara (Southern);2;n != 1
 az;Azerbaijani;2;n != 1
 ba;Bashkir;2;n != 1
 bal;Baluchi;2;n != 1
@@ -113,6 +114,7 @@ de_CH;German (Switzerland);2;n != 1
 de_LU;German (Luxembourg);2;n != 1
 del;Delaware;2;n != 1
 den;Slave (Athapascan);2;n != 1
+dgo;Dogri;2;n != 1
 dgr;Dogrib;2;n != 1
 din;Dinka;2;n != 1
 doi;Dogri;2;n != 1
@@ -206,7 +208,8 @@ grc;Greek (Ancient);3;n==1 ? 0 : n==2 ? 1 : 2
 gsw;Alemannic;2;n != 1
 gu;Gujarati;2;n > 1
 gu_IN;Gujarati (India);2;n > 1
-gun;Gun;2;n > 1
+gug;Guaraní (Paraguayan);2;n > 1
+gun;Guaraní (Mbyá);2;n > 1
 guw;Gun;2;n > 1
 gv;Manx;4;(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))
 gwi;Gwichʼin;2;n != 1
@@ -228,6 +231,7 @@ hsb;Upper Sorbian;4;(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 ||
 ht;Haitian;2;n != 1
 hu;Hungarian;2;n != 1
 hup;Hupa;2;n != 1
+hus;Huastec;2;n != 1
 hy;Armenian;2;n > 1
 hz;Herero;2;n != 1
 ia;Interlingua;2;n != 1
@@ -274,6 +278,7 @@ kl;Greenlandic;2;n != 1
 km;Khmer (Central);1;0
 kmb;Kimbundu;2;n != 1
 kmr;Kurdish (Northern);2;n != 1
+kmr_Latn;Kurdish (Northern, Latin);2;n != 1
 kn;Kannada;2;n > 1
 ko;Korean;1;0
 kok;Konkani;2;n != 1
@@ -308,6 +313,7 @@ lo;Lao;1;0
 lol;Mongo;2;n != 1
 loz;Lozi;2;n != 1
 lt;Lithuanian;3;(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2)
+ltg;Latgalian;3;(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)
 lu;Luba-Katanga;2;n != 1
 lua;Luba-Lulua;2;n != 1
 lui;Luiseno;2;n != 1
@@ -335,6 +341,7 @@ mi;Maori;2;n > 1
 mia;Miami;2;n > 1
 mic;Mi'kmaq;2;n != 1
 min;Minangkabau;2;n != 1
+mjw;Karbi;2;n != 1
 mk;Macedonian;2;n==1 || n%10==1 ? 0 : 1
 ml;Malayalam;2;n != 1
 mn;Mongolian;2;n != 1

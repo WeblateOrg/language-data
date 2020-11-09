@@ -388,6 +388,15 @@ LANGUAGES = (
         "0",
     ),
     (
+        "ayc",
+        # Translators: Language name for ISO code "ayc". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Aymara (Southern)"),
+        2,
+        "n != 1",
+    ),
+    (
         "az",
         # Translators: Language name for ISO code "az". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1068,6 +1077,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Slave (Athapascan)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "dgo",
+        # Translators: Language name for ISO code "dgo". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Dogri"),
         2,
         "n != 1",
     ),
@@ -1909,11 +1927,20 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "gug",
+        # Translators: Language name for ISO code "gug". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Guaraní (Paraguayan)"),
+        2,
+        "n > 1",
+    ),
+    (
         "gun",
         # Translators: Language name for ISO code "gun". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Gun"),
+        _("Guaraní (Mbyá)"),
         2,
         "n > 1",
     ),
@@ -2103,6 +2130,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Hupa"),
+        2,
+        "n != 1",
+    ),
+    (
+        "hus",
+        # Translators: Language name for ISO code "hus". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Huastec"),
         2,
         "n != 1",
     ),
@@ -2521,6 +2557,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "kmr_Latn",
+        # Translators: Language name for ISO code "kmr_Latn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Kurdish (Northern, Latin)"),
+        2,
+        "n != 1",
+    ),
+    (
         "kn",
         # Translators: Language name for ISO code "kn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2827,6 +2872,15 @@ LANGUAGES = (
         "(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2)",
     ),
     (
+        "ltg",
+        # Translators: Language name for ISO code "ltg". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Latgalian"),
+        3,
+        "(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)",
+    ),
+    (
         "lu",
         # Translators: Language name for ISO code "lu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3066,6 +3120,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Minangkabau"),
+        2,
+        "n != 1",
+    ),
+    (
+        "mjw",
+        # Translators: Language name for ISO code "mjw". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Karbi"),
         2,
         "n != 1",
     ),
