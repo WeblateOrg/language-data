@@ -35,8 +35,11 @@ for code in sys.argv[1:]:
                     continue
                 parts = plural.split(";", 1)
                 plurals = int(parts[0].split("=")[1].strip())
-                formula = parts[1].split("=", 1)[1].strip()
-                if formula == "(n != 1)":
+                if "plural" in parts[1]:
+                    formula = parts[1].split("=", 1)[1].strip().rstrip(";")
+                else:
+                    formula = parts[1]
+                if formula.replace(" ", "") == "(n!=1)":
                     formula = "n != 1"
                 if formula == "n != 1":
                     continue
