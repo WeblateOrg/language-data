@@ -114,6 +114,7 @@ DEFAULT_LANGS = (
     "ro_ro",
     "ru_ru",
     "rw_rw",
+    "sa_in",
     "sd_in",
     "si_lk",
     "sk_sk",

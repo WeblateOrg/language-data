@@ -4494,6 +4494,7 @@ LANGUAGES = {
     "iiyanh",
     "ija",
     "ije",
+    "ijekavian",
     "ijo",
     "ijuw",
     "ika",

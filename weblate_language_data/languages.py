@@ -4303,6 +4303,24 @@ LANGUAGES = (
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
+        "sr@ijekavian",
+        # Translators: Language name for ISO code "sr@ijekavian". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Ijekavian"),
+        3,
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
+    ),
+    (
+        "sr@ijekavian_Latn",
+        # Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Ijekavian (latin)"),
+        3,
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
+    ),
+    (
         "sr_Cyrl",
         # Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
