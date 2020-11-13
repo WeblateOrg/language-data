@@ -11,13 +11,14 @@
 # Mingun <Alexander_Sergey@mail.ru>, 2020.
 # Nikita Epifanov <nikgreens@protonmail.com>, 2020.
 # Serg Bormant <bormant@mail.ru>, 2020.
+# Andrei Stepanov <adem4ik@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-11-09 11:57+0100\n"
-"PO-Revision-Date: 2020-11-09 09:15+0000\n"
-"Last-Translator: Serg Bormant <bormant@mail.ru>\n"
+"PO-Revision-Date: 2020-11-16 11:28+0000\n"
+"Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/"
 "languages/ru/>\n"
 "Language: ru\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -305,10 +306,8 @@ msgstr "Аймара"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:395
-#, fuzzy
-#| msgid "Altai (Southern)"
 msgid "Aymara (Southern)"
-msgstr "Южноалтайский"
+msgstr "Аймара (южный диалект)"
 
 #. Translators: Language name for ISO code "az". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -335,10 +334,8 @@ msgstr "белуджский"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:431
-#, fuzzy
-#| msgid "Japanese"
 msgid "Balinese"
-msgstr "Японский"
+msgstr "Балийский"
 
 #. Translators: Language name for ISO code "bar". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -352,7 +349,7 @@ msgstr "Баварский немецкий"
 #. or other variant.
 #: weblate_language_data/languages.py:449
 msgid "Basa (Cameroon)"
-msgstr ""
+msgstr "Баса (Камерун)"
 
 #. Translators: Language name for ISO code "be". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -478,7 +475,7 @@ msgstr "Бенгальский (Индия)"
 #. or other variant.
 #: weblate_language_data/languages.py:611
 msgid "Bantu (Other)"
-msgstr ""
+msgstr "Банту (другой)"
 
 #. Translators: Language name for ISO code "bo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -575,10 +572,8 @@ msgstr "каддо"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:737
-#, fuzzy
-#| msgid "Galician"
 msgid "Galibi Carib"
-msgstr "Галисийский"
+msgstr "Карибский"
 
 #. Translators: Language name for ISO code "ce". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -675,28 +670,22 @@ msgstr "чейенн"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:863
-#, fuzzy
-#| msgid "Central Kurdish (Iran)"
 msgid "Kurdish (Central)"
-msgstr "Центральный курдский (Иран)"
+msgstr "Центральнокурдский"
 
 #. Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:872
-#, fuzzy
-#| msgid "Central Kurdish (Iraq)"
 msgid "Kurdish (Central, Iraq)"
-msgstr "Центральный курдский (Ирак)"
+msgstr "Центральнокурдский (Ирак)"
 
 #. Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:881
-#, fuzzy
-#| msgid "Central Kurdish (Iran)"
 msgid "Kurdish (Central, Iran)"
-msgstr "Центральный курдский (Иран)"
+msgstr "Центральнокурдский (Иран)"
 
 #. Translators: Language name for ISO code "co". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
