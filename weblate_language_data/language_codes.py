@@ -165,6 +165,7 @@ LANGUAGES = {
     "che",
     "chg",
     "chi",
+    "chinese",
     "chinese_chs",
     "chinese_zh",
     "chk",

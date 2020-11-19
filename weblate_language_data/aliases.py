@@ -35,6 +35,7 @@ https://github.com/WeblateOrg/language-data
 # Language aliases
 ALIASES = {
     "braz_por": "pt_BR",
+    "chinese": "zh_Hans",
     "chinese_chs": "zh_Hans",
     "schinese": "zh_Hans",
     "chinese_zh": "zh_Hant",
