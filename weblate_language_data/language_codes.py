@@ -152,6 +152,7 @@ LANGUAGES = {
     "ca_ps",
     "ca_xv",
     "cad",
+    "cak",
     "car",
     "cat",
     "ce",
