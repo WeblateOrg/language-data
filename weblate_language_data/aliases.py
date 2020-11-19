@@ -80,6 +80,7 @@ ALIASES = {
     "np": "ne",
     "pk": "ur_PK",
     "sr_cs": "sr",
+    "sr_me": "me",
     "sr_latn_rs": "sr_Latn",
     "bs_latn_ba": "bs_Latn",
     "nb": "nb_NO",

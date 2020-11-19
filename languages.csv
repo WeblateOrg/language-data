@@ -194,6 +194,7 @@ ga;Irish;5;n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4
 gaa;Ga;2;n != 1
 gay;Gayo;2;n != 1
 gba;Gbaya (Central African Republic);2;n != 1
+gbm;Garhwali;2;n != 1
 gd;Gaelic;4;(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3
 gez;Ge'ez;2;n != 1
 gil;Gilbertese;2;n != 1
@@ -418,6 +419,7 @@ pt_AO;Portuguese (Angola);2;n > 1
 pt_BR;Portuguese (Brazil);2;n > 1
 pt_PT;Portuguese (Portugal);2;n > 1
 qu;Quechua;2;n != 1
+quc;K'iche';2;n != 1
 raj;Rajasthani;2;n != 1
 rap;Rapanui;2;n != 1
 rar;Rarotongan;2;n != 1
@@ -519,6 +521,7 @@ tpi;Tok Pisin;2;n != 1
 tr;Turkish;2;n != 1
 ts;Tsonga;2;n != 1
 tsi;Tsimshian;2;n != 1
+tsj;Tshangla;2;n != 1
 tt;Tatar;1;0
 tt@iqtelif;Tatar (IQTElif);1;0
 tum;Tumbuka;2;n != 1
@@ -526,6 +529,7 @@ tvl;Tuvalu;2;n != 1
 tw;Twi;2;n != 1
 ty;Tahitian;2;n != 1
 tyv;Tuvinian;2;n != 1
+tzj;Tz'utujil;2;n != 1
 tzm;Tamazight (Central Atlas);2;n >= 2 && (n < 11 || n > 99)
 udm;Udmurt;2;n != 1
 ug;Uyghur;2;n != 1

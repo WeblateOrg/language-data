@@ -1801,6 +1801,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "gbm",
+        # Translators: Language name for ISO code "gbm". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Garhwali"),
+        2,
+        "n != 1",
+    ),
+    (
         "gd",
         # Translators: Language name for ISO code "gd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3817,6 +3826,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "quc",
+        # Translators: Language name for ISO code "quc". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("K'iche'"),
+        2,
+        "n != 1",
+    ),
+    (
         "raj",
         # Translators: Language name for ISO code "raj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4726,6 +4744,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "tsj",
+        # Translators: Language name for ISO code "tsj". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Tshangla"),
+        2,
+        "n != 1",
+    ),
+    (
         "tt",
         # Translators: Language name for ISO code "tt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4785,6 +4812,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Tuvinian"),
+        2,
+        "n != 1",
+    ),
+    (
+        "tzj",
+        # Translators: Language name for ISO code "tzj". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Tz'utujil"),
         2,
         "n != 1",
     ),
