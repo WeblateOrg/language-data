@@ -23,13 +23,13 @@
 # SOFTWARE.
 #
 
-"""Export translate-toolkit language definitions"""
+"""Export translate-toolkit language definitions."""
 
 import sys
 
 sys.path.insert(0, "./modules/translate/")
 
-from translate.lang.data import languages
+from translate.lang.data import languages  # noqa: E402
 
 output = []
 state = 0

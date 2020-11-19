@@ -25,9 +25,16 @@
 
 import json
 import os
+import subprocess
 
-os.system(
-    "php ./modules/cldr-to-gettext-plural-rules/bin/export-plural-rules --reduce=no --output=cldr.json json"
+subprocess.check_call(
+    [
+        "php",
+        "./modules/cldr-to-gettext-plural-rules/bin/export-plural-rules",
+        "--reduce=no",
+        "--output=cldr.json",
+        "json",
+    ]
 )
 
 with open("cldr.json", "rb") as handle:

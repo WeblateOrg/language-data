@@ -23,7 +23,7 @@
 # SOFTWARE.
 #
 
-"""Export CLDR language names into po file"""
+"""Export CLDR language names into po file."""
 
 import glob
 import json
@@ -50,9 +50,9 @@ msgstr "{}"
 """
 
 
-def extract_names(date):
-    for code, langs in data["main"].items():
-        return code, langs["localeDisplayNames"]["languages"]
+def extract_names(data):
+    code, langs = next(iter(data["main"].items()))
+    return code, langs["localeDisplayNames"]["languages"]
 
 
 # Parse language names

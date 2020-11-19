@@ -23,6 +23,9 @@
 # SOFTWARE.
 #
 
+import csv
+import gettext
+
 IGNOREDCODES = {
     # Obsolete language codes
     "in",
@@ -40,9 +43,6 @@ IGNOREDCODES = {
     "es_419",
     "ar_001",
 }
-
-import csv
-import gettext
 
 
 def fmt_plural(data):
