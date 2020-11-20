@@ -28,7 +28,7 @@ import csv
 
 def parse_csv(name):
     result = {}
-    with open(name, "r") as csvfile:
+    with open(name) as csvfile:
         reader = csv.reader(csvfile, delimiter=";")
         for data in reader:
             if data[0] == "#":
@@ -44,4 +44,4 @@ aliases = parse_csv("aliases.csv")
 
 overlap = set(languages.keys()) & set(aliases.keys())
 if overlap:
-    raise Exception("Overlaping languages and aliases: {}".format(overlap))
+    raise Exception(f"Overlaping languages and aliases: {overlap}")

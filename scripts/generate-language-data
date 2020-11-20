@@ -87,12 +87,12 @@ TEMPLATE = """    (
 """
 
 # Read languages
-with open("languages.csv", "r") as csvfile:
+with open("languages.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     LANGUAGES = list(reader)
 
 # Read aliases
-with open("aliases.csv", "r") as csvfile:
+with open("aliases.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     ALIASES = [alias for alias in reader if alias[0] != "#"]
 
@@ -101,18 +101,18 @@ CODES = {item[0].lower() for item in chain(ALIASES, LANGUAGES)}
 
 # Read country codes
 COUNTRIES = set()
-with open("modules/iso-codes/data/iso_3166-1.json", "r") as handle:
+with open("modules/iso-codes/data/iso_3166-1.json") as handle:
     for item in json.load(handle)["3166-1"]:
         COUNTRIES.add(item["alpha_2"].lower())
         COUNTRIES.add(item["alpha_3"].lower())
 
 # Read extra plurals
-with open("extraplurals.csv", "r") as csvfile:
+with open("extraplurals.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     EXTRAPLURALS = list(reader)
 
 # Read extra plurals
-with open("default_countries.csv", "r") as csvfile:
+with open("default_countries.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     DEFAULT_COUNTRIES = list(reader)
 
@@ -161,7 +161,7 @@ def add_word(word):
 
 
 def process_iso(name):
-    with open("modules/iso-codes/data/iso_{}.json".format(name), "r") as handle:
+    with open(f"modules/iso-codes/data/iso_{name}.json") as handle:
         for item in json.load(handle)[name]:
             add_word(item["name"])
             if "common_name" in item:
@@ -244,11 +244,9 @@ with open("weblate_language_data/check_languages.py", "w") as output:
     output.write("# Language names to ignore in same check\n")
     output.write("LANGUAGES = {\n")
     content = ", ".join(
-        (
-            "'{}'".format(word.replace("'", "\\'"))
-            for word in sorted(words)
-            if len(word) > 2
-        )
+        "'{}'".format(word.replace("'", "\\'"))
+        for word in sorted(words)
+        if len(word) > 2
     )
     output.write(content)
     output.write("\n}\n")

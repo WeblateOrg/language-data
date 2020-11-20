@@ -72,7 +72,7 @@ def compare_definition(first, second, meta=True):
 # Read the definitions
 def parse_csv(name):
     result = {}
-    with open(name, "r") as csvfile:
+    with open(name) as csvfile:
         reader = csv.reader(csvfile, delimiter=";")
         for data in reader:
             if data[0] in result:
@@ -85,7 +85,7 @@ def parse_csv(name):
 def show_diff(name, data):
     for code in sorted(set(data) & set(LANGUAGES)):
         if not compare_definition(data[code], LANGUAGES[code]):
-            print("Definition for {} differs:".format(code))
+            print(f"Definition for {code} differs:")
             print("Languages:", LANGUAGES[code])
             print(name, ":", data[code])
             print()
@@ -93,7 +93,7 @@ def show_diff(name, data):
 
 def show_missing(name, data):
     for code in sorted(set(data) - set(LANGUAGES) - IGNOREDCODES):
-        print("Definition for {} missing in languages:".format(code))
+        print(f"Definition for {code} missing in languages:")
         print(name, ":", data[code])
         print()
 

@@ -9,19 +9,19 @@ names = {}
 # See https://github.com/WeblateOrg/language-data/issues/103
 PLURALDATA = "https://jibecfed.fedorapeople.org/partage/languages-data/{}.json"
 
-with open("modules/iso-codes/data/iso_639-2.json", "r") as handle:
+with open("modules/iso-codes/data/iso_639-2.json") as handle:
     for item in json.load(handle)["639-2"]:
         for value in ("alpha_2", "alpha_3"):
             if value in item:
                 names[item[value]] = item["name"]
 
-with open("modules/iso-codes/data/iso_639-3.json", "r") as handle:
+with open("modules/iso-codes/data/iso_639-3.json") as handle:
     for item in json.load(handle)["639-3"]:
         for value in ("alpha_2", "alpha_3"):
             if value in item:
                 names[item[value]] = item["name"]
 
-with open("languages.csv", "r") as handle:
+with open("languages.csv") as handle:
     lines = handle.readlines()
 
 for code in sys.argv[1:]:
@@ -44,7 +44,7 @@ for code in sys.argv[1:]:
                 if formula == "n != 1":
                     continue
                 break
-    except IOError:
+    except OSError:
         sys.stderr.write(f"Failed to load data for {code}, using defaults\n")
     lines.append(
         "{};{};{};{}\n".format(

@@ -56,7 +56,7 @@ def extract_names(data):
 
 
 # Parse language names
-with open(BASE, "r") as handle:
+with open(BASE) as handle:
     data = json.load(handle)
 names = extract_names(data)[1]
 
@@ -65,7 +65,7 @@ for lang in glob.glob("modules/cldr-localenames-full/main/*/languages.json"):
     if lang == BASE:
         continue
 
-    with open(lang, "r") as handle:
+    with open(lang) as handle:
         data = json.load(handle)
 
     result = {}
@@ -82,7 +82,7 @@ for lang in glob.glob("modules/cldr-localenames-full/main/*/languages.json"):
 
         result[names[code]] = name
 
-    with open("languages-po/{}.po".format(language_code), "w") as handle:
+    with open(f"languages-po/{language_code}.po", "w") as handle:
         handle.write(HEADER.format(language_code))
         for msgid, msgstr in sorted(result.items()):
             handle.write(ROW.format(msgid, msgstr))

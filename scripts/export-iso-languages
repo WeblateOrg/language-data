@@ -32,7 +32,7 @@ IGNORE = {"nb", "no", "zh", "zxx"}
 
 def parse_csv(name):
     result = {}
-    with open(name, "r") as csvfile:
+    with open(name) as csvfile:
         reader = csv.reader(csvfile, delimiter=";")
         for data in reader:
             if data[0] == "#":
@@ -46,7 +46,7 @@ def parse_csv(name):
 languages = parse_csv("languages.csv")
 aliases = parse_csv("aliases.csv")
 
-with open("modules/iso-codes/data/iso_639-2.json", "r") as handle:
+with open("modules/iso-codes/data/iso_639-2.json") as handle:
     for item in json.load(handle)["639-2"]:
         if "languages" in item["name"]:
             # Language groups

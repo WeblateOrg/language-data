@@ -67,7 +67,7 @@ https://github.com/WeblateOrg/language-data
 
 result = {}
 
-with open(BASE, "r") as handle:
+with open(BASE) as handle:
     data = json.load(handle)
 
 for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
