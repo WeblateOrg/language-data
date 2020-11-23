@@ -86,7 +86,11 @@ sr@ijekavianlatin;sr@ijekavian_Latn
 base;en
 #;commonly used
 source;en
-de_fo;de_form
+#;German formal and informal variants
+de_fo;de@formal
+de_form;de@formal
+de_DE-x-formal;de@formal
+de_DE-x-informal;de@informal
 #;Country codes used instead of language,
 #;we can map only those which do not collide with existing language code
 dk;da
