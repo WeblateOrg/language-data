@@ -1045,6 +1045,24 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "de@formal",
+        # Translators: Language name for ISO code "de@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("German (formal)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "de@informal",
+        # Translators: Language name for ISO code "de@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("German (informal)"),
+        2,
+        "n != 1",
+    ),
+    (
         "de_AT",
         # Translators: Language name for ISO code "de_AT". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
