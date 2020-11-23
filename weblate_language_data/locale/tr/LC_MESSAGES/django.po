@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-11-23 11:54+0100\n"
-"PO-Revision-Date: 2020-11-13 09:28+0000\n"
+"PO-Revision-Date: 2020-11-25 05:06+0000\n"
 "Last-Translator: Burak Yavuz <hitowerdigit@hotmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/"
 "languages/tr/>\n"
@@ -813,19 +813,15 @@ msgstr "Almanca"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:1052
-#, fuzzy
-#| msgid "German (Low)"
 msgid "German (formal)"
-msgstr "Almanca (Düşük)"
+msgstr "Almanca (resmi)"
 
 #. Translators: Language name for ISO code "de@informal". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:1061
-#, fuzzy
-#| msgid "German (Low)"
 msgid "German (informal)"
-msgstr "Almanca (Düşük)"
+msgstr "Almanca (gayri resmi)"
 
 #. Translators: Language name for ISO code "de_AT". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
