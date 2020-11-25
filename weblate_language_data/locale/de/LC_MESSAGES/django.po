@@ -7,13 +7,14 @@
 # Milo Ivir <mail@milotype.de>, 2020.
 # J. Lavoie <j.lavoie@net-c.ca>, 2020.
 # mv87 <mv87@dismail.de>, 2020.
+# nautilusx <translate@disroot.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-11-23 11:54+0100\n"
-"PO-Revision-Date: 2020-11-19 11:07+0000\n"
-"Last-Translator: mv87 <mv87@dismail.de>\n"
+"PO-Revision-Date: 2020-11-25 15:44+0000\n"
+"Last-Translator: nautilusx <translate@disroot.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/languages/"
 "de/>\n"
 "Language: de\n"
@@ -812,19 +813,15 @@ msgstr "Deutsch"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:1052
-#, fuzzy
-#| msgid "German (Low)"
 msgid "German (formal)"
-msgstr "Deutsch (Plattdeutsch)"
+msgstr "Deutsch (formell)"
 
 #. Translators: Language name for ISO code "de@informal". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:1061
-#, fuzzy
-#| msgid "German (Low)"
 msgid "German (informal)"
-msgstr "Deutsch (Plattdeutsch)"
+msgstr "Deutsch (informell)"
 
 #. Translators: Language name for ISO code "de_AT". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
