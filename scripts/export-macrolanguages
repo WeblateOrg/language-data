@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+#
+# Copyright © 2012 - 2020 Michal Čihař <michal@cihar.com>
+#
+# This file is part of Weblate <https://weblate.org/>
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+#
+"""
+Helper script to generate Python code with ambiguous.
+"""
+
+import csv
+import subprocess
+from collections import defaultdict
+from io import StringIO
+from pprint import pprint
+from urllib.request import Request, urlopen
+
+BASE_URL = "https://iso639-3.sil.org/sites/iso639-3/files/downloads/"
+URL = f"{BASE_URL}iso-639-3-macrolanguages.tab"
+
+# List of ambiguous codes to include, this is opt-in as we don't want to push
+# disambiguation for languages where it doesn't seem to be needed (for example Arabic)
+LANGUAGES = {"kur"}
+
+HEADER = '''#
+# Copyright © 2012 - 2020 Michal Čihař <michal@cihar.com>
+#
+# This file is part of Weblate <https://weblate.org/>
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+#
+
+"""Language data definitions.
+
+This is an automatically generated file, see scripts/generate-language-data
+
+Do not edit, please adjust language definitions in following repository:
+https://github.com/WeblateOrg/language-data
+"""
+# pylint: disable=line-too-long,too-many-lines
+
+
+'''
+
+request = Request(URL, headers={"User-Agent": "Mozilla/5.0"})
+
+# Read data from URL
+with urlopen(request) as handle:
+    content = handle.read().decode()
+
+# Parse tsv
+reader = csv.reader(StringIO(content), delimiter="\t")
+macrolanguages = list(reader)[1:]
+
+# Generate dict
+result = defaultdict(list)
+for macro, lang, _kind in macrolanguages:
+    if macro not in LANGUAGES:
+        continue
+    result[macro].append(lang)
+
+# Read aliases
+with open("aliases.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=";")
+    ALIASES = dict([alias for alias in reader if alias[0] != "#"])
+
+# Add aliased entries, needs to happen on snapshot of keys as
+# we are updating the dict
+for macro in list(result.keys()):
+    alias = ALIASES.get(macro)
+    if alias and len(alias) == 2:
+        result[ALIASES[macro]] = result[macro]
+
+# Generate output
+with open("weblate_language_data/ambiguous.py", "w") as output:
+    output.write(HEADER)
+    output.write("# List of ambiguous codes based on ISO-639-3 macrolanguages\n")
+    output.write("AMBIGUOUS = ")
+    pprint(dict(result), output)
+    output.write("\n")
+
+# Black format code
+subprocess.run(["black", "weblate_language_data/ambiguous.py"])
