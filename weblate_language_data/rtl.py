@@ -39,8 +39,6 @@ RTL_LANGS = {
     "heb",
     "khw",
     "ks",
-    "ku",
-    "kur",
     "ms_Arab",
     "nqo",
     "pal",
