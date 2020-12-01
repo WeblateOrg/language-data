@@ -10785,6 +10785,7 @@ LANGUAGES = {
     "specifically",
     "speech",
     "speedwords",
+    "spelling",
     "speu",
     "spezia",
     "spiti",

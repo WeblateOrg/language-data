@@ -1063,6 +1063,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "de_1901",
+        # Translators: Language name for ISO code "de_1901". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("German (old spelling)"),
+        2,
+        "n != 1",
+    ),
+    (
         "de_AT",
         # Translators: Language name for ISO code "de_AT". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

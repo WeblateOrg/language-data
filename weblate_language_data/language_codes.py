@@ -209,6 +209,7 @@ LANGUAGES = {
     "de",
     "de@formal",
     "de@informal",
+    "de_1901",
     "de_at",
     "de_ch",
     "de_de_x_formal",
