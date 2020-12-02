@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-12-01 15:28+0100\n"
-"PO-Revision-Date: 2020-11-29 12:54+0000\n"
+"PO-Revision-Date: 2020-12-03 14:21+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/"
 "languages/hr/>\n"
@@ -823,10 +823,8 @@ msgstr "Njemački (neslužbeni)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:1070
-#, fuzzy
-#| msgid "German (Walser)"
 msgid "German (old spelling)"
-msgstr "Njemački (Walser)"
+msgstr "Njemački (stari pravopis)"
 
 #. Translators: Language name for ISO code "de_AT". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
