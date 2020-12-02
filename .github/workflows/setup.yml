@@ -7,7 +7,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-20.04, windows-latest, macos-latest]
 
     steps:
       - uses: actions/checkout@v2
@@ -30,7 +30,7 @@ jobs:
       - name: twine
         run: twine check dist/*
       - name: Publish package
-        if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && matrix.os == 'ubuntu-latest'
+        if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && matrix.os == 'ubuntu-20.04'
         uses: pypa/gh-action-pypi-publish@v1.4.1
         with:
           user: __token__
