@@ -6,13 +6,14 @@
 # Pierfrancesco Passerini <p.passerini@gmail.com>, 2019, 2020.
 # coronabond <coronabond@airmail.cc>, 2020.
 # Antenore Gatta <antenore@simbiosi.org>, 2020.
+# J. Lavoie <j.lavoie@net-c.ca>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-12-01 15:28+0100\n"
-"PO-Revision-Date: 2020-11-28 12:30+0000\n"
-"Last-Translator: bovirus <roberto.boriotti@canon-europe.com>\n"
+"PO-Revision-Date: 2020-12-03 14:21+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/"
 "languages/it/>\n"
 "Language: it\n"
@@ -826,10 +827,8 @@ msgstr "Tedesco (informale)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:1070
-#, fuzzy
-#| msgid "German (Walser)"
 msgid "German (old spelling)"
-msgstr "Tedesco (Walser)"
+msgstr "Tedesco (vecchia ortografia)"
 
 #. Translators: Language name for ISO code "de_AT". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
