@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# THANOS SIOURDAKIS <siourdakisthanos@gmail.com>, 2019.
+# THANOS SIOURDAKIS <siourdakisthanos@gmail.com>, 2019, 2020.
 # george k <norhorn@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-12-01 15:28+0100\n"
-"PO-Revision-Date: 2020-04-27 17:39+0000\n"
-"Last-Translator: george k <norhorn@gmail.com>\n"
+"PO-Revision-Date: 2020-12-19 21:30+0000\n"
+"Last-Translator: THANOS SIOURDAKIS <siourdakisthanos@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/weblate/languages/"
 "el/>\n"
 "Language: el\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.0.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -37,8 +37,9 @@ msgstr "Αμπχαζιανά"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:62
+#, fuzzy
 msgid "Acehnese"
-msgstr "από το Άχεν"
+msgstr "Acehnese"
 
 #. Translators: Language name for ISO code "ach". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -79,10 +80,8 @@ msgstr "Αφρικανικά"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:116
-#, fuzzy
-#| msgid "Maithili"
 msgid "Afrihili"
-msgstr "Μαϊθιλικά"
+msgstr "Αφριχίλι"
 
 #. Translators: Language name for ISO code "ain". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -137,10 +136,8 @@ msgstr "Αραγονικά"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:188
-#, fuzzy
-#| msgid "English (Ireland)"
 msgid "English (Old)"
-msgstr "Αγγλικά (Ιρλανδία)"
+msgstr "Αγγλικά (Παλιά)"
 
 #. Translators: Language name for ISO code "anp". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -188,10 +185,8 @@ msgstr "Αραβικά (Κουβέιτ)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:251
-#, fuzzy
-#| msgid "Arabic (Algeria)"
 msgid "Arabic (Libya)"
-msgstr "Αραβικά (Αλγερία)"
+msgstr "Αραβικά (Λιβύης)"
 
 #. Translators: Language name for ISO code "ar_MA". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
