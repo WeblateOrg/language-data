@@ -4,13 +4,14 @@
 # Michal Čihař <michal@cihar.com>, 2012, 2018, 2019, 2020.
 # Pavel Borecki <pavel.borecki@gmail.com>, 2018.
 # Michal Čihař <michal@weblate.org>, 2020.
+# Jonáš Loskot <ltvlcihory@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-12-01 15:28+0100\n"
-"PO-Revision-Date: 2020-11-23 09:01+0000\n"
-"Last-Translator: Michal Čihař <michal@weblate.org>\n"
+"PO-Revision-Date: 2020-12-19 21:30+0000\n"
+"Last-Translator: Jonáš Loskot <ltvlcihory@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/weblate/languages/"
 "cs/>\n"
 "Language: cs\n"
@@ -80,17 +81,15 @@ msgstr "Afrikánština"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:116
-#, fuzzy
-#| msgid "Maithili"
 msgid "Afrihili"
-msgstr "Maithilština"
+msgstr "Afrihilština"
 
 #. Translators: Language name for ISO code "ain". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:125
 msgid "Ainu (Japan)"
-msgstr ""
+msgstr "Ainu (Japonsko)"
 
 #. Translators: Language name for ISO code "ak". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -118,7 +117,7 @@ msgstr "aleutština"
 #. or other variant.
 #: weblate_language_data/languages.py:161
 msgid "Altai (Southern)"
-msgstr ""
+msgstr "Altai (jižní)"
 
 #. Translators: Language name for ISO code "am". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -299,10 +298,8 @@ msgstr "Ajmarština"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:395
-#, fuzzy
-#| msgid "English (South Africa)"
 msgid "Aymara (Southern)"
-msgstr "Angličtina (Jižní Afrika)"
+msgstr "Aymarština (jižní)"
 
 #. Translators: Language name for ISO code "az". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -329,10 +326,8 @@ msgstr "balúčština"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:431
-#, fuzzy
-#| msgid "Japanese"
 msgid "Balinese"
-msgstr "Japonština"
+msgstr "Balinština"
 
 #. Translators: Language name for ISO code "bar". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
