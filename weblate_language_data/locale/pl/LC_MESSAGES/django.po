@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2020-12-01 15:28+0100\n"
-"PO-Revision-Date: 2020-12-09 15:26+0000\n"
-"Last-Translator: Stanisław Stefan Krukowski <pet209a1@riseup.net>\n"
+"PO-Revision-Date: 2020-12-21 11:29+0000\n"
+"Last-Translator: tomkolp <tomkolp@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/weblate/languages/"
 "pl/>\n"
 "Language: pl\n"
@@ -1469,10 +1469,8 @@ msgstr "guarani"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:1898
-#, fuzzy
-#| msgid "Swiss High German"
 msgid "High German (Old)"
-msgstr "szwajcarski wysokoniemiecki"
+msgstr "staro-wysoko-niemiecki"
 
 #. Translators: Language name for ISO code "gon". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1507,7 +1505,7 @@ msgstr "grebo"
 #. or other variant.
 #: weblate_language_data/languages.py:1943
 msgid "Greek (Ancient)"
-msgstr ""
+msgstr "Grecki (antyczny)"
 
 #. Translators: Language name for ISO code "gsw". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1535,14 +1533,14 @@ msgstr "Gudżarati (Indie)"
 #. or other variant.
 #: weblate_language_data/languages.py:1979
 msgid "Guaraní (Paraguayan)"
-msgstr ""
+msgstr "Guaraní (Paragwaj)"
 
 #. Translators: Language name for ISO code "gun". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:1988
 msgid "Guaraní (Mbyá)"
-msgstr ""
+msgstr "Guaraní (Mbyá)"
 
 #. Translators: Language name for ISO code "guw". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1850,17 +1848,13 @@ msgstr "machame"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2384
-#, fuzzy
-#| msgid "Persian"
 msgid "Judeo-Persian"
-msgstr "perski"
+msgstr "Judeo-perski"
 
 #. Translators: Language name for ISO code "jrb". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2393
-#, fuzzy
-#| msgid "Arabic"
 msgid "Judeo-Arabic"
 msgstr "arabski"
 
@@ -1924,10 +1918,8 @@ msgstr "kawi"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2474
-#, fuzzy
-#| msgid "Kabuverdianu"
 msgid "Kabardian"
-msgstr "kreolski Wysp Zielonego Przylądka"
+msgstr "Kabardyjski"
 
 #. Translators: Language name for ISO code "kcg". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2011,7 +2003,7 @@ msgstr "grenlandzki"
 #. or other variant.
 #: weblate_language_data/languages.py:2582
 msgid "Khmer (Central)"
-msgstr ""
+msgstr "Khmerski (centralny)"
 
 #. Translators: Language name for ISO code "kmb". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2024,19 +2016,15 @@ msgstr "kimbundu; mbundu"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2600
-#, fuzzy
-#| msgid "Central Kurdish (Iran)"
 msgid "Kurdish (Northern)"
-msgstr "Centralny Kurdyjski (Iran)"
+msgstr "Kurdyjski (Północny)"
 
 #. Translators: Language name for ISO code "kmr_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2609
-#, fuzzy
-#| msgid "Central Kurdish (Iran)"
 msgid "Kurdish (Northern, Latin)"
-msgstr "Centralny Kurdyjski (Iran)"
+msgstr "Kurdyjskie (północny, łaciński)"
 
 #. Translators: Language name for ISO code "kn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2091,10 +2079,8 @@ msgstr "karaczajsko-bałkarski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2681
-#, fuzzy
-#| msgid "Italian"
 msgid "Karelian"
-msgstr "włoski"
+msgstr "Karelian"
 
 #. Translators: Language name for ISO code "kru". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2199,10 +2185,8 @@ msgstr "lahnda"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2816
-#, fuzzy
-#| msgid "Bambara"
 msgid "Lamba"
-msgstr "bambara"
+msgstr "Lamba"
 
 #. Translators: Language name for ISO code "lb". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2264,10 +2248,8 @@ msgstr "laotański"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2897
-#, fuzzy
-#| msgid "Kongo"
 msgid "Mongo"
-msgstr "kikongo"
+msgstr "Mongo"
 
 #. Translators: Language name for ISO code "loz". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2288,10 +2270,8 @@ msgstr "litewski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2924
-#, fuzzy
-#| msgid "Italian"
 msgid "Latgalian"
-msgstr "włoski"
+msgstr "Łatgalski"
 
 #. Translators: Language name for ISO code "lu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2375,10 +2355,8 @@ msgstr "makasarski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3032
-#, fuzzy
-#| msgid "Mandinka"
 msgid "Mandingo"
-msgstr "mandinka"
+msgstr "Mandingo"
 
 #. Translators: Language name for ISO code "mas". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2398,10 +2376,8 @@ msgstr "moksza"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3059
-#, fuzzy
-#| msgid "Mandinka"
 msgid "Mandar"
-msgstr "mandinka"
+msgstr "Mandar"
 
 #. Translators: Language name for ISO code "me". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2435,10 +2411,8 @@ msgstr "malgaski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3104
-#, fuzzy
-#| msgid "Spanish (Chile)"
 msgid "Irish (Middle)"
-msgstr "hiszpański (Chile)"
+msgstr "Irlandzki (Środkowy)"
 
 #. Translators: Language name for ISO code "mgo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2584,10 +2558,8 @@ msgstr "maltański"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3293
-#, fuzzy
-#| msgid "Cree"
 msgid "Creek"
-msgstr "cree"
+msgstr "Creek"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2664,7 +2636,7 @@ msgstr "norweski (Bokmål)"
 #. or other variant.
 #: weblate_language_data/languages.py:3392
 msgid "Ndebele (Northern)"
-msgstr ""
+msgstr "Ndebele (Północy)"
 
 #. Translators: Language name for ISO code "nds". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2748,7 +2720,7 @@ msgstr "nogajski"
 #. or other variant.
 #: weblate_language_data/languages.py:3500
 msgid "Norse (Old)"
-msgstr ""
+msgstr "Staronordycki"
 
 #. Translators: Language name for ISO code "nqo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2762,7 +2734,7 @@ msgstr "n’ko"
 #. or other variant.
 #: weblate_language_data/languages.py:3518
 msgid "Ndebele (Southern)"
-msgstr ""
+msgstr "Ndebele (południowy)"
 
 #. Translators: Language name for ISO code "nso". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2783,7 +2755,7 @@ msgstr "nawaho"
 #. or other variant.
 #: weblate_language_data/languages.py:3545
 msgid "Newari (Classical)"
-msgstr ""
+msgstr "Newari (Klasyczny)"
 
 #. Translators: Language name for ISO code "ny". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2867,7 +2839,7 @@ msgstr "osage"
 #. or other variant.
 #: weblate_language_data/languages.py:3653
 msgid "Turkish (Ottoman)"
-msgstr ""
+msgstr "Turecki (osmański)"
 
 #. Translators: Language name for ISO code "otk". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2922,8 +2894,6 @@ msgstr "palau"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3725
-#, fuzzy
-#| msgid "Persian"
 msgid "Persian (Old)"
 msgstr "perski"
 
@@ -2931,10 +2901,8 @@ msgstr "perski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3734
-#, fuzzy
-#| msgid "Valencian"
 msgid "Phoenician"
-msgstr "walencki"
+msgstr "Fenicki"
 
 #. Translators: Language name for ISO code "pi". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2982,10 +2950,8 @@ msgstr "pruski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3797
-#, fuzzy
-#| msgid "Franco-Provençal"
 msgid "Provençal (Old)"
-msgstr "francusko-prowansalski"
+msgstr "Stary prowansalski"
 
 #. Translators: Language name for ISO code "ps". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3054,10 +3020,8 @@ msgstr "rapanui"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3887
-#, fuzzy
-#| msgid "Tongan"
 msgid "Rarotongan"
-msgstr "tongan"
+msgstr "Rarotongan"
 
 #. Translators: Language name for ISO code "rcf". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3105,10 +3069,8 @@ msgstr "rombo"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3950
-#, fuzzy
-#| msgid "Romansh"
 msgid "Romany"
-msgstr "retoromański"
+msgstr "Romski"
 
 #. Translators: Language name for ISO code "ru". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3135,10 +3097,8 @@ msgstr "łemkowski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:3986
-#, fuzzy
-#| msgid "Macedonian"
 msgid "Macedo-Romanian"
-msgstr "macedoński"
+msgstr "Macedo-rumuński"
 
 #. Translators: Language name for ISO code "rw". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3242,17 +3202,15 @@ msgstr "sindhi"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4121
-#, fuzzy
-#| msgid "English (South Africa)"
 msgid "Kurdish (Southern)"
-msgstr "angielski (Afryka Południowa)"
+msgstr "Kurdyjski (południowy)"
 
 #. Translators: Language name for ISO code "se". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4130
 msgid "Sami (Northern)"
-msgstr ""
+msgstr "apoński (północny)"
 
 #. Translators: Language name for ISO code "seh". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3286,19 +3244,15 @@ msgstr "sango"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4175
-#, fuzzy
-#| msgid "Irish"
 msgid "Irish (Old)"
-msgstr "irlandzki"
+msgstr "Irlandzki (stary)"
 
 #. Translators: Language name for ISO code "sgn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4184
-#, fuzzy
-#| msgid "Songhai languages"
 msgid "Sign Languages"
-msgstr "songhaj (języki songhaj)"
+msgstr "Język migowe"
 
 #. Translators: Language name for ISO code "shi". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3354,7 +3308,7 @@ msgstr "samoański"
 #. or other variant.
 #: weblate_language_data/languages.py:4256
 msgid "Sami (Southern)"
-msgstr ""
+msgstr "apoński (południowy)"
 
 #. Translators: Language name for ISO code "smi". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3368,23 +3322,21 @@ msgstr "sami"
 #. or other variant.
 #: weblate_language_data/languages.py:4274
 msgid "Sami (Lule)"
-msgstr ""
+msgstr "apoński (lule)"
 
 #. Translators: Language name for ISO code "smn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4283
-#, fuzzy
-#| msgid "Sorani (Iraq)"
 msgid "Sami (Inari)"
-msgstr "Sorani (Irak)"
+msgstr "Sami (Inari)"
 
 #. Translators: Language name for ISO code "sms". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4292
 msgid "Sami (Skolt)"
-msgstr ""
+msgstr "apoński (skolt)"
 
 #. Translators: Language name for ISO code "sn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3439,19 +3391,15 @@ msgstr "serbski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4364
-#, fuzzy
-#| msgid "Latvian"
 msgid "Ijekavian"
-msgstr "łotewski"
+msgstr "Serbski (Ijekavian)"
 
 #. Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4373
-#, fuzzy
-#| msgid "Serbian (latin)"
 msgid "Ijekavian (latin)"
-msgstr "serbski (łaciński)"
+msgstr "jekavian (łaciński)"
 
 #. Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3478,10 +3426,8 @@ msgstr "sranan tongo"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4409
-#, fuzzy
-#| msgid "Herero"
 msgid "Serer"
-msgstr "herero"
+msgstr "Serer"
 
 #. Translators: Language name for ISO code "ss". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3501,10 +3447,8 @@ msgstr "saho"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4436
-#, fuzzy
-#| msgid "Southern Sotho"
 msgid "Sotho (Southern)"
-msgstr "południowy sotho"
+msgstr "Sotho (południowy)"
 
 #. Translators: Language name for ISO code "su". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3531,10 +3475,8 @@ msgstr "susu"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4472
-#, fuzzy
-#| msgid "Asturian"
 msgid "Sumerian"
-msgstr "asturyjski"
+msgstr "Sumeryjski"
 
 #. Translators: Language name for ISO code "sv". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3561,17 +3503,15 @@ msgstr "suahili (Kongo)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4508
-#, fuzzy
-#| msgid "Swahili (Congo)"
 msgid "Swahili (Tanzania)"
-msgstr "suahili (Kongo)"
+msgstr "Suahili (Tanzania)"
 
 #. Translators: Language name for ISO code "syc". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4517
 msgid "Syriac (Classical)"
-msgstr ""
+msgstr "Syryjski (klasyczny)"
 
 #. Translators: Language name for ISO code "syr". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3668,10 +3608,8 @@ msgstr "tigre"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4643
-#, fuzzy
-#| msgid "Twi"
 msgid "Tiv"
-msgstr "twi"
+msgstr "Tiv"
 
 #. Translators: Language name for ISO code "tk". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3839,7 +3777,7 @@ msgstr "tzutuhil"
 #. or other variant.
 #: weblate_language_data/languages.py:4859
 msgid "Tamazight (Central Atlas)"
-msgstr ""
+msgstr "entralnomarokański tamazight"
 
 #. Translators: Language name for ISO code "udm". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3950,10 +3888,8 @@ msgstr "wietnamski"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:5003
-#, fuzzy
-#| msgid "Flemish"
 msgid "Flemish (West)"
-msgstr "flemish"
+msgstr "Zachodnioflamandzki"
 
 #. Translators: Language name for ISO code "vo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4001,10 +3937,8 @@ msgstr "wolayta"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:5066
-#, fuzzy
-#| msgid "English (Philippines)"
 msgid "Waray (Philippines)"
-msgstr "angielski (Filipiny)"
+msgstr "(Filipiny)"
 
 #. Translators: Language name for ISO code "was". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4052,10 +3986,8 @@ msgstr "soga"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:5129
-#, fuzzy
-#| msgid "Lao"
 msgid "Yao"
-msgstr "laotański"
+msgstr "Yao"
 
 #. Translators: Language name for ISO code "yap". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4117,10 +4049,8 @@ msgstr "zenaga"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:5210
-#, fuzzy
-#| msgid "Standard Moroccan Tamazight"
 msgid "Tamazight (Standard Moroccan)"
-msgstr "standardowy tamazight marokański"
+msgstr "Standardowy marokański tamazight"
 
 #. Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
