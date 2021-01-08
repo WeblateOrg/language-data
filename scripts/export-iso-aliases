@@ -66,6 +66,5 @@ for name, alias in sorted(names.items()):
     if name not in aliases:
         lines.append(f"{name};{alias}\n")
 
-if lines:
-    with open("aliases.csv", "a") as handle:
-        handle.writelines(sorted(lines))
+with open("aliases.csv", "a") as handle:
+    handle.writelines(sorted(lines))

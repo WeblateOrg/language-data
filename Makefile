@@ -27,15 +27,17 @@ weblate_language_data/plural_tags.py: modules/cldr-core/supplemental/plurals.jso
 
 aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json
 	./scripts/export-iso-aliases
+	@touch $@
 
 languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages
 	./scripts/export-iso-languages
+	@touch $@
 
 weblate_language_data/locale/django.pot: weblate_language_data/languages.py weblate_language_data/plurals.py
 	xgettext --add-comments=Translators: --msgid-bugs-address=https://github.com/WeblateOrg/language-data/issues/ --from-code=utf-8 --language=python --add-location --package-name="Weblate Language Data" --output=$@ weblate_language_data/*.py
 
-
-weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot
+.SECONDEXPANSION:
+weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot $$(wildcard modules/iso-codes/iso_639-3/$$*.po modules/iso-codes/iso_639-2/$$*.po languages-po/$$*.po)
 	msgmerge --previous -U $@ $<
 	@ for file in modules/iso-codes/iso_639-3/$*.po modules/iso-codes/iso_639-2/$*.po languages-po/$*.po ; do \
 		if [ -f $$file ] ; then \
