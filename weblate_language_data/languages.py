@@ -4276,6 +4276,15 @@ LANGUAGES = (
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
+        "sml",
+        # Translators: Language name for ISO code "sml". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Sama (Central)"),
+        2,
+        "n != 1",
+    ),
+    (
         "smn",
         # Translators: Language name for ISO code "smn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4749,6 +4758,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Turkish"),
+        2,
+        "n != 1",
+    ),
+    (
+        "trv",
+        # Translators: Language name for ISO code "trv". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Taroko"),
         2,
         "n != 1",
     ),

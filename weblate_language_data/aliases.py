@@ -109,6 +109,7 @@ ALIASES = {
     "zh_latn@pinyin": "zh_Latn",
     "ku_iq": "kmr",
     "az_ir": "azb",
+    "ary": "ar_MA",
     "sr@ije": "sr@ijekavian",
     "sr@ijekavianlatin": "sr@ijekavian_Latn",
     "base": "en",
