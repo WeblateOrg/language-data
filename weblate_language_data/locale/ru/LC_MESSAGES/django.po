@@ -5,7 +5,7 @@
 # Victor K <ktrace@yandex.ru>, 2019.
 # WWWesten <wwwesten@gmail.com>, 2019.
 # Nikolay Korotkiy <sikmir@gmail.com>, 2019.
-# Golubev Alexander <fatzer2@gmail.com>, 2020.
+# Golubev Alexander <fatzer2@gmail.com>, 2020, 2021.
 # Alex Ky <esthomolupus@gmail.com>, 2020.
 # Artem <KovalevArtem.ru@gmail.com>, 2020.
 # Mingun <Alexander_Sergey@mail.ru>, 2020.
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-01-10 09:02+0100\n"
-"PO-Revision-Date: 2020-12-14 15:29+0000\n"
+"PO-Revision-Date: 2021-01-12 16:33+0000\n"
 "Last-Translator: Golubev Alexander <fatzer2@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/"
 "languages/ru/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3332,10 +3332,8 @@ msgstr "Cаамский (луле)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4283
-#, fuzzy
-#| msgid "Khmer (Central)"
 msgid "Sama (Central)"
-msgstr "Кхмерский (центральный)"
+msgstr "Само-Баджо (центральный)"
 
 #. Translators: Language name for ISO code "smn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
