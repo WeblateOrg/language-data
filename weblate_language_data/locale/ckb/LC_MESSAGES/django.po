@@ -2,22 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Jwtiyar Nariman <jwtiyar@gmail.com>, 2020.
-# Kurd As <kurd68587@gmail.com>, 2020.
+# Kurd As <kurd68587@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-01-10 09:02+0100\n"
-"PO-Revision-Date: 2020-10-03 07:40+0000\n"
+"PO-Revision-Date: 2021-01-13 08:07+0000\n"
 "Last-Translator: Kurd As <kurd68587@gmail.com>\n"
-"Language-Team: Central Kurdish <https://hosted.weblate.org/projects/weblate/"
-"languages/ckb/>\n"
+"Language-Team: Kurdish (Central) <https://hosted.weblate.org/projects/"
+"weblate/languages/ckb/>\n"
 "Language: ckb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -79,17 +79,15 @@ msgstr "ئەفریقانی"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:116
-#, fuzzy
-#| msgid "Maithili"
 msgid "Afrihili"
-msgstr "مائیتیلی"
+msgstr "ئافریحیلی"
 
 #. Translators: Language name for ISO code "ain". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:125
 msgid "Ainu (Japan)"
-msgstr ""
+msgstr "ئایناو (ژاپۆن)"
 
 #. Translators: Language name for ISO code "ak". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -677,10 +675,8 @@ msgstr "شایان"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:872
-#, fuzzy
-#| msgid "Central Kurdish (Iran)"
 msgid "Kurdish (Central)"
-msgstr "کوردیی ناوەڕاست (ئێران)"
+msgstr "کوردیی ناوەڕاست"
 
 #. Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2074,19 +2070,15 @@ msgstr "کیمبووندوو"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2600
-#, fuzzy
-#| msgid "Central Kurdish (Iran)"
 msgid "Kurdish (Northern)"
-msgstr "کوردیی ناوەڕاست (ئێران)"
+msgstr "کوردیی باکووری"
 
 #. Translators: Language name for ISO code "kmr_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2609
-#, fuzzy
-#| msgid "Central Kurdish (Iran)"
 msgid "Kurdish (Northern, Latin)"
-msgstr "کوردیی ناوەڕاست (ئێران)"
+msgstr "کوردیی باکووری لاتینی"
 
 #. Translators: Language name for ISO code "kn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
