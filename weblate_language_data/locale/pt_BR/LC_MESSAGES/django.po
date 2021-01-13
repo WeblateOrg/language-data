@@ -4,14 +4,14 @@
 # Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2018, 2019.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2018, 2019, 2020, 2021.
 # José Elias Júnior <jose.elias.0703@gmail.com>, 2020.
-# Eduardo Addad de Oliveira <duduaddad@gmail.com>, 2020.
+# Eduardo Addad de Oliveira <duduaddad@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-01-13 10:55+0100\n"
-"PO-Revision-Date: 2021-01-10 14:52+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2021-01-14 21:50+0000\n"
+"Last-Translator: Eduardo Addad de Oliveira <duduaddad@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "weblate/languages/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -88,10 +88,8 @@ msgstr "Afrihili"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:125
-#, fuzzy
-#| msgid "Samaritan Aramaic"
 msgid "Assyrian Neo-Aramaic"
-msgstr "Aramaico Samaritano"
+msgstr "Neoaramaico assírio"
 
 #. Translators: Language name for ISO code "ain". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
