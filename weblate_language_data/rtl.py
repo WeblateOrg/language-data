@@ -28,6 +28,7 @@ RTL_LANGS = {
     "ara",
     "arc",
     "ae",
+    "aii",
     "ave",
     "ckb",
     "dv",
