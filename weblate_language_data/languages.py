@@ -118,6 +118,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "aii",
+        # Translators: Language name for ISO code "aii". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Assyrian Neo-Aramaic"),
+        2,
+        "n != 1",
+    ),
+    (
         "ain",
         # Translators: Language name for ISO code "ain". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

@@ -46,6 +46,7 @@ LANGUAGES = {
     "af",
     "afh",
     "afr",
+    "aii",
     "ain",
     "ak",
     "aka",
