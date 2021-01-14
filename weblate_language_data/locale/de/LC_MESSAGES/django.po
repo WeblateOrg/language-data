@@ -7,14 +7,14 @@
 # Milo Ivir <mail@milotype.de>, 2020, 2021.
 # J. Lavoie <j.lavoie@net-c.ca>, 2020.
 # mv87 <mv87@dismail.de>, 2020.
-# nautilusx <translate@disroot.org>, 2020.
+# nautilusx <translate@disroot.org>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-01-13 10:55+0100\n"
-"PO-Revision-Date: 2021-01-12 16:33+0000\n"
-"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"PO-Revision-Date: 2021-01-14 21:50+0000\n"
+"Last-Translator: nautilusx <translate@disroot.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/weblate/languages/"
 "de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -91,10 +91,8 @@ msgstr "Afrihili"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:125
-#, fuzzy
-#| msgid "Samaritan Aramaic"
 msgid "Assyrian Neo-Aramaic"
-msgstr "Samaritanisch-Aramäisch"
+msgstr "Assyrisches Neuaramäisch"
 
 #. Translators: Language name for ISO code "ain". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
