@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# ssantos <ssantos@web.de>, 2018, 2019, 2020.
+# ssantos <ssantos@web.de>, 2018, 2019, 2020, 2021.
 # Pedro Albuquerque <pmra@gmx.com>, 2019.
 # Manuela Silva <mmsrs@sky.com>, 2019, 2020.
 # rummsi <rummsi@gmail.com>, 2020.
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-01-13 10:55+0100\n"
-"PO-Revision-Date: 2020-12-09 15:26+0000\n"
+"PO-Revision-Date: 2021-01-17 20:32+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/weblate/"
 "languages/pt/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -88,10 +88,8 @@ msgstr "Afrihili"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:125
-#, fuzzy
-#| msgid "Samaritan Aramaic"
 msgid "Assyrian Neo-Aramaic"
-msgstr "Aramaico samaritano"
+msgstr "Neoaramaico assírio"
 
 #. Translators: Language name for ISO code "ain". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3336,10 +3334,8 @@ msgstr "Sami lule"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4292
-#, fuzzy
-#| msgid "Khmer (Central)"
 msgid "Sama (Central)"
-msgstr "Khmer"
+msgstr "Sama central"
 
 #. Translators: Language name for ISO code "smn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
