@@ -38,9 +38,11 @@ weblate_language_data/locale/django.pot: weblate_language_data/languages.py webl
 
 .SECONDEXPANSION:
 weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot $$(wildcard modules/iso-codes/iso_639-3/$$*.po modules/iso-codes/iso_639-2/$$*.po languages-po/$$*.po)
-	msgmerge --previous -U $@ $<
+	@echo "Update $@"
+	@msgmerge --previous -U $@ $<
 	@ for file in modules/iso-codes/iso_639-3/$*.po modules/iso-codes/iso_639-2/$*.po languages-po/$*.po ; do \
 		if [ -f $$file ] ; then \
+			echo "Merge $$file" ; \
 			msgmerge --previous -C $$file -U $@ $< ; \
 		fi ; \
 	done
