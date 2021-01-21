@@ -164,6 +164,8 @@ def process_iso(name):
     with open(f"modules/iso-codes/data/iso_{name}.json") as handle:
         for item in json.load(handle)[name]:
             add_word(item["name"])
+            if "inverted_name" in item:
+                add_word(item["inverted_name"])
             if "common_name" in item:
                 add_word(item["common_name"])
 

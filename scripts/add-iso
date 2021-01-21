@@ -13,13 +13,13 @@ with open("modules/iso-codes/data/iso_639-2.json") as handle:
     for item in json.load(handle)["639-2"]:
         for value in ("alpha_2", "alpha_3"):
             if value in item:
-                names[item[value]] = item["name"]
+                names[item[value]] = item.get("inverted_name", item["name"])
 
 with open("modules/iso-codes/data/iso_639-3.json") as handle:
     for item in json.load(handle)["639-3"]:
         for value in ("alpha_2", "alpha_3"):
             if value in item:
-                names[item[value]] = item["name"]
+                names[item[value]] = item.get("inverted_name", item["name"])
 
 with open("languages.csv") as handle:
     lines = handle.readlines()
