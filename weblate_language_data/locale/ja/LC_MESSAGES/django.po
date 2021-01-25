@@ -9,13 +9,14 @@
 # amano <amano.hajime@gmail.com>, 2020.
 # baffclan <baffclan@yahoo.co.jp>, 2020.
 # 日陰のコスモス <baffclan@yahoo.co.jp>, 2020.
+# Masahiro Fujimoto <mfujimot@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-01-25 15:09+0100\n"
-"PO-Revision-Date: 2021-01-14 21:50+0000\n"
-"Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
+"PO-Revision-Date: 2021-01-26 02:42+0000\n"
+"Last-Translator: Masahiro Fujimoto <mfujimot@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/"
 "languages/ja/>\n"
 "Language: ja\n"
@@ -2123,8 +2124,6 @@ msgstr "クルド語 (北部)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2618
-#, fuzzy
-#| msgid "Kurdish (Northern, Latin)"
 msgid "Kurdish (Northern, latin)"
 msgstr "クルド語 (北部、ラテン文字)"
 
@@ -3583,19 +3582,15 @@ msgstr "セルビア語"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4382
-#, fuzzy
-#| msgid "Serbian (latin)"
 msgid "Serbian (Ijekavian)"
-msgstr "セルビア語 (ラテン文字)"
+msgstr "セルビア語 (イェ方言)"
 
 #. Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4391
-#, fuzzy
-#| msgid "Ijekavian (latin)"
 msgid "Serbian (Ijekavian, latin)"
-msgstr "イジェカヴィアン語 (ラテン文字)"
+msgstr "セルビア語 (イェ方言、ラテン文字)"
 
 #. Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
