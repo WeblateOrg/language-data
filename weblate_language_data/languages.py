@@ -2615,7 +2615,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "kmr_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kurdish (Northern, Latin)"),
+        _("Kurdish (Northern, latin)"),
         2,
         "n != 1",
     ),
@@ -4379,7 +4379,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "sr@ijekavian". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Ijekavian"),
+        _("Serbian (Ijekavian)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
@@ -4388,7 +4388,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Ijekavian (latin)"),
+        _("Serbian (Ijekavian, latin)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),

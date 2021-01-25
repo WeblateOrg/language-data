@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2021-01-13 10:55+0100\n"
+"POT-Creation-Date: 2021-01-25 15:09+0100\n"
 "PO-Revision-Date: 2020-12-06 20:26+0000\n"
 "Last-Translator: Lee Yunseok <ironyunseok@protonmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/languages/"
@@ -2029,7 +2029,9 @@ msgstr "쿠르드어 (북부)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2618
-msgid "Kurdish (Northern, Latin)"
+#, fuzzy
+#| msgid "Kurdish (Northern, Latin)"
+msgid "Kurdish (Northern, latin)"
 msgstr "쿠르드어 (북부, 라틴)"
 
 #. Translators: Language name for ISO code "kn". The parenthesis clarifies
@@ -3406,14 +3408,18 @@ msgstr "세르비아어"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4382
-msgid "Ijekavian"
-msgstr "예카비안어"
+#, fuzzy
+#| msgid "Serbian (latin)"
+msgid "Serbian (Ijekavian)"
+msgstr "세르비아어 (라틴)"
 
 #. Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4391
-msgid "Ijekavian (latin)"
+#, fuzzy
+#| msgid "Ijekavian (latin)"
+msgid "Serbian (Ijekavian, latin)"
 msgstr "예카비안어 (라틴)"
 
 #. Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
@@ -4138,6 +4144,9 @@ msgstr "자자어"
 #: weblate_language_data/plurals.py:206
 msgid "Northern Sami"
 msgstr "북사미어"
+
+#~ msgid "Ijekavian"
+#~ msgstr "예카비안어"
 
 #~ msgid "Central Kurdish"
 #~ msgstr "중부 쿠르드어"

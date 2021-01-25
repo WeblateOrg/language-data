@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2021-01-13 10:55+0100\n"
+"POT-Creation-Date: 2021-01-25 15:09+0100\n"
 "PO-Revision-Date: 2018-06-09 21:47+0000\n"
 "Last-Translator: monolifed <monolifed@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
@@ -2141,7 +2141,7 @@ msgstr "Central Khmer"
 #: weblate_language_data/languages.py:2618
 #, fuzzy
 #| msgid "Central Khmer"
-msgid "Kurdish (Northern, Latin)"
+msgid "Kurdish (Northern, latin)"
 msgstr "Central Khmer"
 
 #. Translators: Language name for ISO code "kn". The parenthesis clarifies
@@ -3567,9 +3567,9 @@ msgstr "Serbian"
 #. or other variant.
 #: weblate_language_data/languages.py:4382
 #, fuzzy
-#| msgid "Latvian"
-msgid "Ijekavian"
-msgstr "Latvian"
+#| msgid "Serbian (latin)"
+msgid "Serbian (Ijekavian)"
+msgstr "Serbian (latin)"
 
 #. Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3577,7 +3577,7 @@ msgstr "Latvian"
 #: weblate_language_data/languages.py:4391
 #, fuzzy
 #| msgid "Serbian (latin)"
-msgid "Ijekavian (latin)"
+msgid "Serbian (Ijekavian, latin)"
 msgstr "Serbian (latin)"
 
 #. Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
@@ -4326,6 +4326,11 @@ msgstr ""
 #: weblate_language_data/plurals.py:206
 msgid "Northern Sami"
 msgstr "Northern Sami"
+
+#, fuzzy
+#~| msgid "Latvian"
+#~ msgid "Ijekavian"
+#~ msgstr "Latvian"
 
 #, fuzzy
 #~| msgid "Central Khmer"

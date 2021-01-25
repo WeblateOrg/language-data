@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2021-01-13 10:55+0100\n"
+"POT-Creation-Date: 2021-01-25 15:09+0100\n"
 "PO-Revision-Date: 2020-10-18 09:29+0000\n"
 "Last-Translator: Hakim Oubouali <hakim.oubouali.skr@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/weblate/languages/"
@@ -2111,7 +2111,7 @@ msgstr "الكردية الوسطى (إيران)"
 #: weblate_language_data/languages.py:2618
 #, fuzzy
 #| msgid "Central Kurdish (Iran)"
-msgid "Kurdish (Northern, Latin)"
+msgid "Kurdish (Northern, latin)"
 msgstr "الكردية الوسطى (إيران)"
 
 #. Translators: Language name for ISO code "kn". The parenthesis clarifies
@@ -3548,9 +3548,9 @@ msgstr "الصربية"
 #. or other variant.
 #: weblate_language_data/languages.py:4382
 #, fuzzy
-#| msgid "Latvian"
-msgid "Ijekavian"
-msgstr "اللاتفية"
+#| msgid "Serbian (latin)"
+msgid "Serbian (Ijekavian)"
+msgstr "الصربية (اللاتنية)"
 
 #. Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3558,7 +3558,7 @@ msgstr "اللاتفية"
 #: weblate_language_data/languages.py:4391
 #, fuzzy
 #| msgid "Serbian (latin)"
-msgid "Ijekavian (latin)"
+msgid "Serbian (Ijekavian, latin)"
 msgstr "الصربية (اللاتنية)"
 
 #. Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
@@ -4305,6 +4305,11 @@ msgstr "الموري"
 #: weblate_language_data/plurals.py:206
 msgid "Northern Sami"
 msgstr "سامي الشمالية"
+
+#, fuzzy
+#~| msgid "Latvian"
+#~ msgid "Ijekavian"
+#~ msgstr "اللاتفية"
 
 #~ msgid "Central Kurdish"
 #~ msgstr "الكردية الوسطى"
