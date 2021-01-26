@@ -2323,6 +2323,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "it_CH",
+        # Translators: Language name for ISO code "it_CH". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Italian (Switzerland)"),
+        2,
+        "n != 1",
+    ),
+    (
         "iu",
         # Translators: Language name for ISO code "iu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
