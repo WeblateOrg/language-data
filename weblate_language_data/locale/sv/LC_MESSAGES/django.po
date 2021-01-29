@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-01-26 20:26+0100\n"
-"PO-Revision-Date: 2021-01-19 18:32+0000\n"
+"PO-Revision-Date: 2021-01-29 20:41+0000\n"
 "Last-Translator: Johan Jacobsson <johan.jacobsson@telia.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/weblate/"
 "languages/sv/>\n"
@@ -1799,10 +1799,8 @@ msgstr "Italienska"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2330
-#, fuzzy
-#| msgid "German (Switzerland)"
 msgid "Italian (Switzerland)"
-msgstr "Tyska (Schweiz)"
+msgstr "Italienska (Schweiz)"
 
 #. Translators: Language name for ISO code "iu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2032,8 +2030,6 @@ msgstr "Kurdiska (nord)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:2627
-#, fuzzy
-#| msgid "Kurdish (Northern, Latin)"
 msgid "Kurdish (Northern, latin)"
 msgstr "Kurdiska (nord, latin)"
 
@@ -3410,19 +3406,15 @@ msgstr "Serbiska"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4391
-#, fuzzy
-#| msgid "Serbian (latin)"
 msgid "Serbian (Ijekavian)"
-msgstr "Serbiska (latin)"
+msgstr "Serbiska (Ijekavian)"
 
 #. Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #: weblate_language_data/languages.py:4400
-#, fuzzy
-#| msgid "Ijekavian (latin)"
 msgid "Serbian (Ijekavian, latin)"
-msgstr "Ijekavian (latin)"
+msgstr "Serbiska (Ijekavian, latin)"
 
 #. Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
