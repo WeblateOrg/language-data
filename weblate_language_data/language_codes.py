@@ -317,6 +317,7 @@ LANGUAGES = {
     "fr_ca",
     "fr_ch",
     "fr_lu",
+    "fr_sn",
     "fra",
     "frb",
     "frc",

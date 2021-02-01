@@ -1738,6 +1738,15 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "fr_SN",
+        # Translators: Language name for ISO code "fr_SN". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (Senegal)"),
+        2,
+        "n > 1",
+    ),
+    (
         "frm",
         # Translators: Language name for ISO code "frm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
