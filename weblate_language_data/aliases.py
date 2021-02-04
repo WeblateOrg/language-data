@@ -108,6 +108,8 @@ ALIASES = {
     "ku_iq": "kmr",
     "az_ir": "azb",
     "ary": "ar_MA",
+    "kk@latin": "kk_Latn",
+    "kk_Cyrl": "kk",
     "sr@ije": "sr@ijekavian",
     "sr@ijekavianlatin": "sr@ijekavian_Latn",
     "base": "en",

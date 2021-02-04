@@ -2584,6 +2584,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "kk_Latn",
+        # Translators: Language name for ISO code "kk_Latn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Kazakh (latin)"),
+        2,
+        "n != 1",
+    ),
+    (
         "kkj",
         # Translators: Language name for ISO code "kkj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
