@@ -37,7 +37,7 @@ The Python module can be installed from the PyPI:
 
     pip install weblate-language-data
 
-It contains several modules containing language definitions abd Gettext
+It contains several modules containing language definitions and Gettext
 translations for them (in a way that they would be discovered by Django when
 used as an Django application).
 
