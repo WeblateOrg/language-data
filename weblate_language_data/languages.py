@@ -415,6 +415,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "azb",
+        # Translators: Language name for ISO code "azb". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Azerbaijani, South"),
+        2,
+        "n != 1",
+    ),
+    (
         "ba",
         # Translators: Language name for ISO code "ba". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1905,6 +1914,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Galician"),
+        2,
+        "n != 1",
+    ),
+    (
+        "glk",
+        # Translators: Language name for ISO code "glk". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Gilaki"),
         2,
         "n != 1",
     ),

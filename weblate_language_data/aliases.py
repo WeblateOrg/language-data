@@ -64,6 +64,7 @@ ALIASES = {
     "en_en": "en",
     "cn": "zh_Hans",
     "sl_sl": "sl",
+    "pu": "pa",
     "in": "id",
     "iw": "he",
     "iw_il": "he",
