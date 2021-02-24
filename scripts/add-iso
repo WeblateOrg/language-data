@@ -44,7 +44,7 @@ for code in sys.argv[1:]:
                 if formula == "n != 1":
                     continue
                 break
-    except OSError:
+    except (OSError, KeyError):
         sys.stderr.write(f"Failed to load data for {code}, using defaults\n")
     lines.append(
         "{};{};{};{}\n".format(
