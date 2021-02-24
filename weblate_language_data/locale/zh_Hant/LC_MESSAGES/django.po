@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2021-02-04 09:13+0100\n"
+"POT-Creation-Date: 2021-02-24 16:51+0100\n"
 "PO-Revision-Date: 2021-02-16 08:42+0000\n"
 "Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -1153,6 +1153,22 @@ msgstr "豐語"
 #. or other variant.
 msgid "French"
 msgstr "法語"
+
+#. Translators: Language name for ISO code "fr@formal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "French (Canada)"
+msgid "French (formal)"
+msgstr "法語（加拿大）"
+
+#. Translators: Language name for ISO code "fr@informal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "German (Low)"
+msgid "French (informal)"
+msgstr "德語（低薩克森）"
 
 #. Translators: Language name for ISO code "fr_AG". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)

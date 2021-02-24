@@ -1693,6 +1693,24 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "fr@formal",
+        # Translators: Language name for ISO code "fr@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (formal)"),
+        2,
+        "n > 1",
+    ),
+    (
+        "fr@informal",
+        # Translators: Language name for ISO code "fr@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (informal)"),
+        2,
+        "n > 1",
+    ),
+    (
         "fr_AG",
         # Translators: Language name for ISO code "fr_AG". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
