@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-02-24 17:06+0100\n"
-"PO-Revision-Date: 2021-03-21 12:41+0000\n"
+"PO-Revision-Date: 2021-04-05 09:54+0000\n"
 "Last-Translator: Christian Eichert <c@zp1.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/"
 "languages/ro/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -72,23 +72,20 @@ msgstr "afrikaans"
 #. Translators: Language name for ISO code "afh". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Maithili"
 msgid "Afrihili"
-msgstr "maithili"
+msgstr "Afrihili"
 
 #. Translators: Language name for ISO code "aii". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
 msgid "Assyrian Neo-Aramaic"
-msgstr "Sârbă"
+msgstr "Asiriană Neo-aramaică"
 
 #. Translators: Language name for ISO code "ain". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Ainu (Japan)"
-msgstr ""
+msgstr "Ainu (Japonia)"
 
 #. Translators: Language name for ISO code "ak". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -99,9 +96,8 @@ msgstr "akan"
 #. Translators: Language name for ISO code "akk". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
 msgid "Akkadian"
-msgstr "Albaneză"
+msgstr "Akkadiană"
 
 #. Translators: Language name for ISO code "ale". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -113,7 +109,7 @@ msgstr "Aleută"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Altai (Southern)"
-msgstr ""
+msgstr "Altai (Sud)"
 
 #. Translators: Language name for ISO code "am". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -130,10 +126,8 @@ msgstr "aragoneză"
 #. Translators: Language name for ISO code "ang". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "English"
 msgid "English (Old)"
-msgstr "Englez"
+msgstr "Engleză (veche)"
 
 #. Translators: Language name for ISO code "anp". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -150,64 +144,56 @@ msgstr "Arab"
 #. Translators: Language name for ISO code "ar_BH". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Arabic"
 msgid "Arabic (Bahrain)"
-msgstr "Arab"
+msgstr "arabă (Bahrain)"
 
 #. Translators: Language name for ISO code "ar_DZ". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Arabic (Algeria)"
-msgstr ""
+msgstr "arabă (Algeria)"
 
 #. Translators: Language name for ISO code "ar_EG". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Arabic"
 msgid "Arabic (Egypt)"
-msgstr "Arab"
+msgstr "arabă (Egipt)"
 
 #. Translators: Language name for ISO code "ar_KW". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Arabic (Kuwait)"
-msgstr ""
+msgstr "Arabă (Kuweit)"
 
 #. Translators: Language name for ISO code "ar_LY". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Arabic"
 msgid "Arabic (Libya)"
-msgstr "Arab"
+msgstr "Arabă (Libia)"
 
 #. Translators: Language name for ISO code "ar_MA". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Arabic (Morocco)"
-msgstr ""
+msgstr "arabă (Maroc)"
 
 #. Translators: Language name for ISO code "ar_SA". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Arabic (Saudi Arabia)"
-msgstr ""
+msgstr "arabă (Arabia Saudită)"
 
 #. Translators: Language name for ISO code "ar_XB". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Arabic (XB pseudolocale)"
-msgstr ""
+msgstr "arabă (XB pseudolocală)"
 
 #. Translators: Language name for ISO code "ar_YE". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Arabic"
 msgid "Arabic (Yemen)"
-msgstr "Arab"
+msgstr "Arabă (Yemen)"
 
 #. Translators: Language name for ISO code "arc". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -218,9 +204,8 @@ msgstr "aramaică"
 #. Translators: Language name for ISO code "arn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
 msgid "Mapudungun"
-msgstr "Man"
+msgstr "Mapudungun"
 
 #. Translators: Language name for ISO code "arp". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -231,10 +216,8 @@ msgstr "Arapaho"
 #. Translators: Language name for ISO code "ars". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Arabic"
 msgid "Arabic (Najdi)"
-msgstr "Arab"
+msgstr "Arabă (Najdi)"
 
 #. Translators: Language name for ISO code "arw". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -276,15 +259,13 @@ msgstr "Awadhi"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Aymará"
-msgstr ""
+msgstr "Aymará"
 
 #. Translators: Language name for ISO code "ayc". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Southern Sotho"
 msgid "Aymara (Southern)"
-msgstr "sesotho"
+msgstr "Aymara (Sud)"
 
 #. Translators: Language name for ISO code "az". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -295,10 +276,8 @@ msgstr "azeră"
 #. Translators: Language name for ISO code "azb". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Azerbaijani"
 msgid "Azerbaijani, South"
-msgstr "azeră"
+msgstr "Azerbaidjan, Sud"
 
 #. Translators: Language name for ISO code "ba". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -315,24 +294,20 @@ msgstr "Baluchi"
 #. Translators: Language name for ISO code "ban". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Japanese"
 msgid "Balinese"
-msgstr "Japonez"
+msgstr "Balinese"
 
 #. Translators: Language name for ISO code "bar". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Bulgarian"
 msgid "Bavarian"
-msgstr "Bulgar"
+msgstr "Bavareză"
 
 #. Translators: Language name for ISO code "bas". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Basa (Cameroon)"
-msgstr ""
+msgstr "Basa (Camerun)"
 
 #. Translators: Language name for ISO code "be". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
