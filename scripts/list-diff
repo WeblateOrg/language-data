@@ -46,7 +46,7 @@ IGNOREDCODES = {
 
 
 def fmt_plural(data):
-    return "nplurals={}; plural={};".format(data[2], data[3]).replace("|", "\\|")
+    return f"nplurals={data[2]}; plural={data[3]};".replace("|", "\\|")
 
 
 def compare_definition(first, second, meta=True):
@@ -76,7 +76,7 @@ def parse_csv(name):
         reader = csv.reader(csvfile, delimiter=";")
         for data in reader:
             if data[0] in result:
-                print("Duplicate {} in {}!".format(data[0], name))
+                print(f"Duplicate {data[0]} in {name}!")
                 continue
             result[data[0]] = data
     return result
