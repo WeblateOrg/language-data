@@ -81,7 +81,7 @@ for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
 # Write plural tags
 with open("weblate_language_data/plural_tags.py", "w") as output:
     output.write(HEADER)
-    output.write("PLURAL_TAGS = {}".format(pprint.pformat(result)))
+    output.write(f"PLURAL_TAGS = {pprint.pformat(result)}")
 
 # Apply coding style
 subprocess.run(
