@@ -19,7 +19,9 @@ languages-po/cs.po: modules/cldr-localenames-full/main/en/languages.json $(wildc
 l10n-guide.csv: modules/l10n-guide/docs/l10n/pluralforms.rst scripts/export-l10n-guide
 	./scripts/export-l10n-guide
 
-translate.csv: modules/translate/translate/lang/data.py scripts/export-translate
+LANG_DATA = $(shell python -c 'from pkg_resources import Requirement, resource_filename; print(resource_filename(Requirement.parse("translate-toolkit"), "translate/lang/data.py"))')
+
+translate.csv: $(LANG_DATA) scripts/export-translate
 	./scripts/export-translate
 
 weblate_language_data/plural_tags.py: modules/cldr-core/supplemental/plurals.json scripts/export-plural-tags

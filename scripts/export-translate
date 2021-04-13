@@ -25,11 +25,7 @@
 
 """Export translate-toolkit language definitions."""
 
-import sys
-
-sys.path.insert(0, "./modules/translate/")
-
-from translate.lang.data import languages  # noqa: E402
+from translate.lang.data import languages
 
 output = []
 state = 0
