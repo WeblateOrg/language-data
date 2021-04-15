@@ -37,4 +37,5 @@ DOCUMENTATION_LANGUAGES = {
     "pl": "pl",
     "sq": "sq",
     "tr": "tr",
+    "ro": "ro",
 }
