@@ -739,6 +739,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "ca_AD",
+        # Translators: Language name for ISO code "ca_AD". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Catalan (Andorra)"),
+        2,
+        "n != 1",
+    ),
+    (
         "cad",
         # Translators: Language name for ISO code "cad". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

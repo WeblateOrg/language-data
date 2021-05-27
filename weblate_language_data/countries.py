@@ -145,4 +145,5 @@ DEFAULT_LANGS = (
     "zu_za",
     "ast_es",
     "gug_py",
+    "kab_dz",
 )
