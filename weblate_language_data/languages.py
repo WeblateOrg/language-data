@@ -3754,6 +3754,15 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "pa_PK",
+        # Translators: Language name for ISO code "pa_PK". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Punjabi (Pakistan)"),
+        2,
+        "n > 1",
+    ),
+    (
         "pag",
         # Translators: Language name for ISO code "pag". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3930,6 +3939,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Quechua"),
+        2,
+        "n != 1",
+    ),
+    (
+        "qu_EC",
+        # Translators: Language name for ISO code "qu_EC". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Quechua (Ecuador)"),
         2,
         "n != 1",
     ),
