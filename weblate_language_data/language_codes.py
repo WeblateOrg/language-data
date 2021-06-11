@@ -585,6 +585,7 @@ LANGUAGES = {
     "mnc",
     "mni",
     "mnk",
+    "mnw",
     "mo",
     "moh",
     "mon",

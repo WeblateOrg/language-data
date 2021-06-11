@@ -3313,6 +3313,15 @@ LANGUAGES = (
         "n==0 ? 0 : n==1 ? 1 : 2",
     ),
     (
+        "mnw",
+        # Translators: Language name for ISO code "mnw". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Mon"),
+        2,
+        "n != 1",
+    ),
+    (
         "moh",
         # Translators: Language name for ISO code "moh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
