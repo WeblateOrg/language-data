@@ -32,6 +32,7 @@ da;Danish;2;n != 1
 de;German;2;n != 1
 de_AT;Austrian German;2;n != 1
 de_CH;Swiss High German;2;n != 1
+doi;Dogri;2;n > 1
 dsb;Lower Sorbian;4;(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 dv;Divehi;2;n != 1
 dz;Dzongkha;1;0
@@ -55,9 +56,9 @@ ff;Fulah;2;n > 1
 fi;Finnish;2;n != 1
 fil;Filipino;2;n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
 fo;Faroese;2;n != 1
-fr;French;2;n > 1
-fr_CA;Canadian French;2;n > 1
-fr_CH;Swiss French;2;n > 1
+fr;French;3;(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+fr_CA;Canadian French;3;(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+fr_CH;Swiss French;3;(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 fur;Friulian;2;n != 1
 fy;Western Frisian;2;n != 1
 ga;Irish;5;(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)))
@@ -113,6 +114,7 @@ ky;Kyrgyz;2;n != 1
 lag;Langi;3;(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 lb;Luxembourgish;2;n != 1
 lg;Ganda;2;n != 1
+lij;Ligurian;2;n != 1
 lkt;Lakota;1;0
 ln;Lingala;2;n > 1
 lo;Lao;1;0
@@ -150,6 +152,7 @@ os;Ossetic;2;n != 1
 osa;Osage;1;0
 pa;Punjabi;2;n > 1
 pap;Papiamento;2;n != 1
+pcm;Nigerian Pidgin;2;n > 1
 pl;Polish;3;(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 prg;Prussian;3;(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 ps;Pashto;2;n != 1
@@ -164,6 +167,7 @@ ru;Russian;3;(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 &
 rwk;Rwa;2;n != 1
 sah;Sakha;1;0
 saq;Samburu;2;n != 1
+sat;Santali;3;(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 sc;Sardinian;2;n != 1
 scn;Sicilian;2;n != 1
 sd;Sindhi;2;n != 1
