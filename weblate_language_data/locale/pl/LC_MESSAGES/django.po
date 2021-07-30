@@ -9,13 +9,14 @@
 # tomkolp <tomkolp@gmail.com>, 2020, 2021.
 # Stanisław Stefan Krukowski <pet209a1@riseup.net>, 2020.
 # Damian Tokarski <damianwolennicy@gmail.com>, 2021.
+# Agnieszka C <aga_04@o2.pl>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2021-07-30 10:14+0200\n"
-"PO-Revision-Date: 2021-06-20 06:32+0000\n"
-"Last-Translator: Damian Tokarski <damianwolennicy@gmail.com>\n"
+"PO-Revision-Date: 2021-08-01 16:33+0000\n"
+"Last-Translator: Agnieszka C <aga_04@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/weblate/languages/"
 "pl/>\n"
 "Language: pl\n"
@@ -24,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -174,7 +175,7 @@ msgstr "arabski (Kuwejt)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Arabic (Libya)"
-msgstr "Arabski (Libia)"
+msgstr "arabski (Libia)"
 
 #. Translators: Language name for ISO code "ar_MA". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -300,7 +301,7 @@ msgstr "baluczi"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Balinese"
-msgstr "Balijski"
+msgstr "balijski"
 
 #. Translators: Language name for ISO code "bar". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -431,10 +432,8 @@ msgstr "tybetański"
 #. Translators: Language name for ISO code "bo_CN". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Mak (China)"
 msgid "Tibetan (China)"
-msgstr "mak (Chiny)"
+msgstr "tybetański (Chiny)"
 
 #. Translators: Language name for ISO code "br". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -752,13 +751,13 @@ msgstr "niemiecki (Austria)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "German (Switzerland)"
-msgstr "Niemiecki (Szwajcaria)"
+msgstr "niemiecki (Szwajcaria)"
 
 #. Translators: Language name for ISO code "de_LU". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "German (Luxembourg)"
-msgstr "Niemiecki (Luksemburg)"
+msgstr "niemiecki (Luksemburg)"
 
 #. Translators: Language name for ISO code "del". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -971,7 +970,7 @@ msgstr "hiszpański (Argentyna)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Spanish (Bolivia)"
-msgstr "Hiszpański (Boliwia)"
+msgstr "hiszpański (Boliwia)"
 
 #. Translators: Language name for ISO code "es_CL". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -983,13 +982,13 @@ msgstr "hiszpański (Chile)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Spanish (Colombia)"
-msgstr "Hiszpański (Kolumbia)"
+msgstr "hiszpański (Kolumbia)"
 
 #. Translators: Language name for ISO code "es_CR". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Spanish (Costa Rica)"
-msgstr "Hiszpański (Kostaryka)"
+msgstr "hiszpański (Kostaryka)"
 
 #. Translators: Language name for ISO code "es_DO". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1013,13 +1012,13 @@ msgstr "hiszpański (Meksyk)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Spanish (Nicaragua)"
-msgstr "Hiszpański (Nikaragua)"
+msgstr "hiszpański (Nikaragua)"
 
 #. Translators: Language name for ISO code "es_PA". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Spanish (Panama)"
-msgstr "Hiszpański (Panama)"
+msgstr "hiszpański (Panama)"
 
 #. Translators: Language name for ISO code "es_PE". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1037,7 +1036,7 @@ msgstr "hiszpański (Puerto Rico)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Spanish (El Salvador)"
-msgstr "Hiszpański (El Salwador)"
+msgstr "hiszpański (El Salwador)"
 
 #. Translators: Language name for ISO code "es_US". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1055,7 +1054,7 @@ msgstr "hiszpański (Urugwaj)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Spanish (Venezuela)"
-msgstr "Hiszpański (Wenezuela)"
+msgstr "hiszpański (Wenezuela)"
 
 #. Translators: Language name for ISO code "et". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2219,7 +2218,7 @@ msgstr "mandinka"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Mon"
-msgstr "Pon"
+msgstr "mon"
 
 #. Translators: Language name for ISO code "moh". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
