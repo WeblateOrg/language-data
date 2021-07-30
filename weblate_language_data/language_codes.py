@@ -132,6 +132,7 @@ LANGUAGES = {
     "bn_in",
     "bnt",
     "bo",
+    "bo_cn",
     "bod",
     "bos",
     "br",

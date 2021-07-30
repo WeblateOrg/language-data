@@ -640,6 +640,15 @@ LANGUAGES = (
         "0",
     ),
     (
+        "bo_CN",
+        # Translators: Language name for ISO code "bo_CN". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Tibetan (China)"),
+        1,
+        "0",
+    ),
+    (
         "br",
         # Translators: Language name for ISO code "br". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
