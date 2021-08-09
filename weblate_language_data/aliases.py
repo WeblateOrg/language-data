@@ -38,7 +38,7 @@ ALIASES = {
     "chinese": "zh_Hans",
     "chinese_chs": "zh_Hans",
     "schinese": "zh_Hans",
-    "chinese_zh": "zh_Hant",
+    "chinese_zh": "zh_Hans",
     "tchinese": "zh_Hant",
     "dutch_be": "nl_BE",
     "flemish": "nl_BE",
