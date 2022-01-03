@@ -285,6 +285,7 @@ LANGUAGES = {
     "es_do",
     "es_ec",
     "es_eu",
+    "es_la",
     "es_mx",
     "es_ni",
     "es_pa",

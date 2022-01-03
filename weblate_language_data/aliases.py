@@ -53,6 +53,7 @@ ALIASES = {
     "no_nb": "nb_NO",
     "no_no": "nb_NO",
     "es_eu": "eu",
+    "es_la": "es",
     "ru_r": "ru",
     "ru_rr": "ru",
     "ar_ar": "ar",
