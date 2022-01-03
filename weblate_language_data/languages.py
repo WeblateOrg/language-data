@@ -1198,6 +1198,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "dry",
+        # Translators: Language name for ISO code "dry". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Darai"),
+        2,
+        "n != 1",
+    ),
+    (
         "dsb",
         # Translators: Language name for ISO code "dsb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3086,6 +3095,15 @@ LANGUAGES = (
         _("Latvian"),
         3,
         "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)",
+    ),
+    (
+        "lzh",
+        # Translators: Language name for ISO code "lzh". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Chinese (Literary)"),
+        2,
+        "n != 1",
     ),
     (
         "mad",

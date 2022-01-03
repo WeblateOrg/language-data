@@ -127,6 +127,7 @@ dgo;Dogri;2;n != 1
 dgr;Dogrib;2;n != 1
 din;Dinka;2;n != 1
 doi;Dogri;2;n != 1
+dry;Darai;2;n != 1
 dsb;Lower Sorbian;4;(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 dua;Duala;2;n != 1
 dum;Dutch (Middle);2;n != 1
@@ -337,6 +338,7 @@ lun;Lunda;2;n != 1
 luo;Luo (Kenya and Tanzania);2;n != 1
 lus;Lushai;2;n != 1
 lv;Latvian;3;(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
+lzh;Chinese (Literary);2;n != 1
 mad;Madurese;2;n != 1
 mag;Magahi;2;n != 1
 mai;Maithili;2;n != 1
