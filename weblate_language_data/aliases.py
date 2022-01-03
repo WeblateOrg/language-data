@@ -49,7 +49,7 @@ ALIASES = {
     "norwegian": "nb_NO",
     "xbelorussian": "be",
     "be_rby": "be_Latn",
-    "qz_MM": "my@Zawgyi",
+    "qz_mm": "my@Zawgyi",
     "es_la": "es",
     "val_es": "ca@valencia",
     "no_nb": "nb_NO",
