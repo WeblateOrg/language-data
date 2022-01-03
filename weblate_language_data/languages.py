@@ -136,6 +136,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "ajp",
+        # Translators: Language name for ISO code "ajp". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Arabic (South Levantine)"),
+        2,
+        "n != 1",
+    ),
+    (
         "ak",
         # Translators: Language name for ISO code "ak". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

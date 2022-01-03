@@ -48,6 +48,7 @@ LANGUAGES = {
     "afr",
     "aii",
     "ain",
+    "ajp",
     "ak",
     "aka",
     "akk",
