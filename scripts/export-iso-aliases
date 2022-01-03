@@ -28,6 +28,13 @@ import json
 
 names = {}
 
+EXCEPTIONS = {
+    "zh": "zh_Hans",
+    "sh": "sr_Latn",
+    "nb": "nb_NO",
+    "no": "nb_NO",
+}
+
 
 def parse_csv(name):
     result = {}
@@ -45,10 +52,13 @@ def parse_csv(name):
 def add_name(item):
     if "alpha_2" not in item:
         return
+    target = item["alpha_2"]
+    if target in EXCEPTIONS:
+        target = EXCEPTIONS[target]
     if "alpha_3" in item:
-        names[item["alpha_3"]] = item["alpha_2"]
+        names[item["alpha_3"]] = target
     if "bibliographic" in item:
-        names[item["bibliographic"]] = item["alpha_2"]
+        names[item["bibliographic"]] = target
 
 
 with open("modules/iso-codes/data/iso_639-2.json") as handle:

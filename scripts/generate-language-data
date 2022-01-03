@@ -90,11 +90,17 @@ TEMPLATE = """    (
 with open("languages.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     LANGUAGES = list(reader)
+    LANGUAGE_CODES = {lang[0] for lang in LANGUAGES}
 
 # Read aliases
 with open("aliases.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     ALIASES = [alias for alias in reader if alias[0] != "#"]
+    for source, target in ALIASES:
+        if not source.islower():
+            raise ValueError(f"Source for alias {source};{target} is not lowercase!")
+        if target not in LANGUAGE_CODES:
+            raise ValueError(f"Target for alias {source};{target} does not exist!")
 
 # Generate list of codes
 CODES = {item[0].lower() for item in chain(ALIASES, LANGUAGES)}
