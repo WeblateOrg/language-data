@@ -3448,6 +3448,15 @@ LANGUAGES = (
         "0",
     ),
     (
+        "my@Zawgyi",
+        # Translators: Language name for ISO code "my@Zawgyi". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Burmese (Zawgyi)"),
+        1,
+        "0",
+    ),
+    (
         "myv",
         # Translators: Language name for ISO code "myv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

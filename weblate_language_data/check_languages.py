@@ -13185,6 +13185,7 @@ LANGUAGES = {
     "zarqā’",
     "zauzou",
     "zavrč",
+    "zawgyi",
     "zawr",
     "zay",
     "zayein",
