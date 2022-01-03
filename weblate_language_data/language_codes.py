@@ -901,6 +901,7 @@ LANGUAGES = {
     "uz@latn",
     "uz_latn",
     "uzb",
+    "va",
     "vai",
     "val_es",
     "ve",
