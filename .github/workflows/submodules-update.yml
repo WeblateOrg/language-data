@@ -6,7 +6,7 @@ on:
       - "dependabot/**"
       - "main"
     paths:
-      - ".github/workflows/submodule-update.yml"
+      - ".github/workflows/submodules-update.yml"
       - "modules/**"
 
 jobs:
