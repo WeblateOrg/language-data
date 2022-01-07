@@ -36,7 +36,12 @@ languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-language
 	@touch $@
 
 weblate_language_data/locale/django.pot: weblate_language_data/languages.py weblate_language_data/plurals.py
-	xgettext --add-comments=Translators: --msgid-bugs-address=https://github.com/WeblateOrg/language-data/issues/ --from-code=utf-8 --language=python --no-location --package-name="Weblate Language Data" --output=$@ weblate_language_data/*.py
+	xgettext --add-comments=Translators: --msgid-bugs-address=https://github.com/WeblateOrg/language-data/issues/ --from-code=utf-8 --language=python --no-location --package-name="Weblate Language Data" --output=$@.1 weblate_language_data/*.py
+	cp $@.1 $@.2
+	./scripts/copy-pot-date $@ $@.2
+	if cmp $@ $@.2 ; then touch $@ ; else cp $@.1 $@; fi
+	rm $@.1 $@.2
+
 
 .SECONDEXPANSION:
 weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot $$(wildcard modules/iso-codes/iso_639-3/$$*.po modules/iso-codes/iso_639-2/$$*.po languages-po/$$*.po)
