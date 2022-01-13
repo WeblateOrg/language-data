@@ -1423,6 +1423,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "en-Shaw",
+        # Translators: Language name for ISO code "en-Shaw". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("English (Shavian)"),
+        2,
+        "n != 1",
+    ),
+    (
         "enm",
         # Translators: Language name for ISO code "enm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

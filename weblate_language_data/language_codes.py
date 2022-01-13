@@ -255,6 +255,7 @@ LANGUAGES = {
     "ell",
     "elx",
     "en",
+    "en-shaw",
     "en_au",
     "en_ca",
     "en_devel",
