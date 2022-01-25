@@ -3,11 +3,11 @@ name: submodule update
 on:
   push:
     branches:
-      - "dependabot/**"
-      - "main"
+    - dependabot/**
+    - main
     paths:
-      - ".github/workflows/submodules-update.yml"
-      - "modules/**"
+    - .github/workflows/submodules-update.yml
+    - modules/**
 
 jobs:
   submodule-update:
@@ -17,34 +17,34 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@v2.4.0
-        with:
-          submodules: true
-      - run: sudo apt-get update
-      - run: sudo apt-get install -y gettext
-      - name: Setup Python
-        uses: actions/setup-python@v2.3.1
-        with:
-          python-version: "3.10"
-          cache: pip
-          cache-dependency-path: "requirements*.txt"
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip wheel setuptools
-          pip install -r requirements-dev.txt
-      - run: make
-      - name: Update dependabot branch
-        if: github.ref != 'refs/heads/main'
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "chore: Updates from submodules"
-      - name: Create Pull Request
-        if: github.ref == 'refs/heads/main'
-        uses: peter-evans/create-pull-request@v3
-        with:
-          branch: create-pull-request/submodule-update
-          title: "chore: Updates from submodules"
-          commit-message: "chore: Updates from submodules"
-          labels: |
-            dependencies
-            automerge
+    - uses: actions/checkout@v2.4.0
+      with:
+        submodules: true
+    - run: sudo apt-get update
+    - run: sudo apt-get install -y gettext
+    - name: Setup Python
+      uses: actions/setup-python@v2.3.1
+      with:
+        python-version: '3.10'
+        cache: pip
+        cache-dependency-path: requirements*.txt
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip wheel setuptools
+        pip install -r requirements-dev.txt
+    - run: make
+    - name: Update dependabot branch
+      if: github.ref != 'refs/heads/main'
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: 'chore: Updates from submodules'
+    - name: Create Pull Request
+      if: github.ref == 'refs/heads/main'
+      uses: peter-evans/create-pull-request@v3
+      with:
+        branch: create-pull-request/submodule-update
+        title: 'chore: Updates from submodules'
+        commit-message: 'chore: Updates from submodules'
+        labels: |
+          dependencies
+          automerge
