@@ -570,6 +570,7 @@ LANGUAGES = {
     "mdf",
     "mdr",
     "me",
+    "me_cyrl",
     "men",
     "mfe",
     "mg",
