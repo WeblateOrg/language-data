@@ -4906,6 +4906,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "tok",
+        # Translators: Language name for ISO code "tok". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Toki Pona"),
+        1,
+        "0",
+    ),
+    (
         "tpi",
         # Translators: Language name for ISO code "tpi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

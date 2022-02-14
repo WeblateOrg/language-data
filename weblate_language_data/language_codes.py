@@ -866,6 +866,7 @@ LANGUAGES = {
     "tn",
     "to",
     "tog",
+    "tok",
     "ton",
     "tpi",
     "tr",
