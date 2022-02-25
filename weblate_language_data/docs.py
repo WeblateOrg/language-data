@@ -26,6 +26,7 @@
 DOCUMENTATION_LANGUAGES = {
     "en": "en",
     "zh-hans": "zh_CN",
+    "zh-hant": "zh_TW",
     "pt-br": "pt_BR",
     "uk": "uk",
     "ru": "ru",
@@ -38,4 +39,5 @@ DOCUMENTATION_LANGUAGES = {
     "sq": "sq",
     "tr": "tr",
     "ro": "ro",
+    "de": "de",
 }
