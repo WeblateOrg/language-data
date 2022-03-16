@@ -110,3 +110,8 @@ languages-po
 .. _Weblate: https://weblate.org/
 .. _translate-toolkit: https://toolkit.translatehouse.org/
 .. _l10n guide: https://docs.translatehouse.org/projects/localization-guide/en/latest/
+
+Contributing
+============
+
+Contributions are welcome! See `documentation <https://docs.weblate.org/en/latest/contributing/modules.html>`__ for more information.
