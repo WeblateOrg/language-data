@@ -82,7 +82,7 @@ TEMPLATE = """    (
         # or other variant.
         _('{1}'),
         {2},
-        '{3}'
+        '{3}',
     ),
 """
 
@@ -91,6 +91,11 @@ with open("languages.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     LANGUAGES = list(reader)
     LANGUAGE_CODES = {lang[0] for lang in LANGUAGES}
+
+# Read population data
+with open("population.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=";")
+    POPULATION = dict(reader)
 
 # Read aliases
 with open("aliases.csv") as csvfile:
@@ -133,6 +138,14 @@ with open("weblate_language_data/languages.py", "w") as output:
             TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
         )
     output.write(")\n")
+with open("weblate_language_data/population.py", "w") as output:
+    output.write(HEADER)
+    output.write("# Language definitions\n")
+    output.write("POPULATION = {\n")
+    for row in LANGUAGES:
+        code = row[0]
+        output.write(f'    "{code}": {POPULATION.get(row[0], 0)},\n')
+    output.write("}\n")
 with open("weblate_language_data/plurals.py", "w") as output:
     output.write(HEADER)
     output.write("from .utils import gettext_noop as _\n\n")
@@ -286,6 +299,7 @@ subprocess.run(
         "weblate_language_data/aliases.py",
         "weblate_language_data/plurals.py",
         "weblate_language_data/languages.py",
+        "weblate_language_data/population.py",
         "weblate_language_data/check_languages.py",
         "weblate_language_data/language_codes.py",
         "weblate_language_data/country_codes.py",

@@ -1,6 +1,6 @@
 all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md $(wildcard weblate_language_data/locale/*/LC_MESSAGES/django.po)
 
-weblate_language_data/languages.py: languages.csv aliases.csv extraplurals.csv default_countries.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
+weblate_language_data/languages.py: languages.csv aliases.csv extraplurals.csv default_countries.csv population.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
 	./scripts/generate-language-data
 
 PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv scripts/list-diff
@@ -30,6 +30,9 @@ weblate_language_data/plural_tags.py: modules/cldr-core/supplemental/plurals.jso
 aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json
 	./scripts/export-iso-aliases
 	@touch $@
+
+population.csv: modules/cldr-core/supplemental/territoryInfo.json scripts/export-cldr-population
+	./scripts/export-cldr-population
 
 languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages
 	./scripts/export-iso-languages
