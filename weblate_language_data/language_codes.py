@@ -191,6 +191,7 @@ LANGUAGES = {
     "ckb_ir",
     "cmn",
     "cn",
+    "cnr",
     "co",
     "cop",
     "cor",

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2022-02-14 19:26+0100\n"
+"POT-Creation-Date: 2022-06-01 18:06+0000\n"
 "PO-Revision-Date: 2014-10-01 09:41+0200\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Colognian <https://hosted.weblate.org/projects/weblate/master/"
@@ -670,6 +670,15 @@ msgstr "Zentrahl Khmeer"
 msgid "Kurdish (Central, Iran)"
 msgstr "Zentrahl Khmeer"
 
+#. Translators: Language name for ISO code "cnr". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#. Translators: Language name for ISO code "me". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Montenegrin"
+msgstr ""
+
 #. Translators: Language name for ISO code "co". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -937,6 +946,14 @@ msgstr "Jrihschesch"
 msgid "Elamite"
 msgstr ""
 
+#. Translators: Language name for ISO code "en-Shaw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "English (United States)"
+msgid "English (Shavian)"
+msgstr "Änglesch (uß de USA)"
+
 #. Translators: Language name for ISO code "en". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -1023,14 +1040,6 @@ msgstr "Änglesch (vun Söhdaffrekka)"
 #, fuzzy
 #| msgid "English (United States)"
 msgid "English (Developer)"
-msgstr "Änglesch (uß de USA)"
-
-#. Translators: Language name for ISO code "en-Shaw". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-#, fuzzy
-#| msgid "English (United States)"
-msgid "English (Shavian)"
 msgstr "Änglesch (uß de USA)"
 
 #. Translators: Language name for ISO code "enm". The parenthesis clarifies
@@ -2304,12 +2313,6 @@ msgstr "Mokschah"
 #| msgid "Ganda"
 msgid "Mandar"
 msgstr "Lugannda"
-
-#. Translators: Language name for ISO code "me". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "Montenegrin"
-msgstr ""
 
 #. Translators: Language name for ISO code "me_Cyrl". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
