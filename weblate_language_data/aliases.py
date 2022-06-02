@@ -165,7 +165,6 @@ ALIASES = {
     "ena": "en_AU",
     "enp": "en",
     "frb": "fr_BE",
-    "frc": "fr_CA",
     "gae": "gd",
     "its": "it_CH",
     "nlb": "nl_BE",

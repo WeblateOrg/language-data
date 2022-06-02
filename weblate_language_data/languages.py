@@ -1837,6 +1837,15 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "frc",
+        # Translators: Language name for ISO code "frc". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (Louisiana)"),
+        2,
+        "n > 1",
+    ),
+    (
         "frm",
         # Translators: Language name for ISO code "frm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
