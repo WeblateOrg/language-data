@@ -333,6 +333,7 @@ ln;Lingala;2;n > 1
 lo;Lao;1;0
 lol;Mongo;2;n != 1
 loz;Lozi;2;n != 1
+lrc;Luri, Northern;2;n != 1
 lt;Lithuanian;3;(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2)
 ltg;Latgalian;3;n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2
 lu;Luba-Katanga;2;n != 1
