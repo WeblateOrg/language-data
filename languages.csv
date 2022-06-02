@@ -98,6 +98,8 @@ chy;Cheyenne;2;n != 1
 ckb;Kurdish (Central);2;n != 1
 ckb_IQ;Kurdish (Central, Iraq);2;n != 1
 ckb_IR;Kurdish (Central, Iran);2;n != 1
+cnr;Montenegrin;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+cnr_Cyrl;Montenegrin (cyrillic);3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 co;Corsican;2;n != 1
 cop;Coptic;2;n != 1
 cpe;Creoles and pidgins (English based);2;n != 1
@@ -140,6 +142,7 @@ egy;Egyptian (Ancient);2;n != 1
 eka;Ekajuk;2;n != 1
 el;Greek;2;n != 1
 elx;Elamite;2;n != 1
+en-Shaw;English (Shavian);2;n != 1
 en;English;2;n != 1
 en_AU;English (Australia);2;n != 1
 en_CA;English (Canada);2;n != 1
@@ -152,7 +155,6 @@ en_US;English (United States);2;n != 1
 en_XA;English (XA pseudolocale);2;n != 1
 en_ZA;English (South Africa);2;n != 1
 en_devel;English (Developer);2;n != 1
-en-Shaw;English (Shavian);2;n != 1
 enm;English (Middle);2;n != 1
 eo;Esperanto;2;n != 1
 es;Spanish;2;n != 1
@@ -322,6 +324,7 @@ lah;Lahnda;2;n != 1
 lam;Lamba;2;n != 1
 lb;Luxembourgish;2;n != 1
 lez;Lezghian;2;n != 1
+lfn;Lingua Franca Nova;2;n != 1
 lg;Luganda;2;n != 1
 li;Limburgish;2;n != 1
 lki;Laki;2;n != 1
@@ -348,8 +351,6 @@ man;Mandingo;2;n != 1
 mas;Masai;2;n != 1
 mdf;Moksha;2;n != 1
 mdr;Mandar;2;n != 1
-cnr;Montenegrin;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-cnr_Cyrl;Montenegrin (cyrillic);3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 men;Mende (Sierra Leone);2;n != 1
 mfe;Morisyen;2;n > 1
 mg;Malagasy;2;n > 1
