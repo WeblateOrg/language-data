@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2022-06-02 08:59+0200\n"
+"POT-Creation-Date: 2022-06-02 09:29+0200\n"
 "PO-Revision-Date: 2014-10-01 09:41+0200\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Colognian <https://hosted.weblate.org/projects/weblate/master/"
@@ -670,6 +670,20 @@ msgstr "Zentrahl Khmeer"
 msgid "Kurdish (Central, Iran)"
 msgstr "Zentrahl Khmeer"
 
+#. Translators: Language name for ISO code "cnr". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Montenegrin"
+msgstr ""
+
+#. Translators: Language name for ISO code "cnr_Cyrl". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Serbian (cyrillic)"
+msgid "Montenegrin (cyrillic)"
+msgstr "Särbesch (Kürellesch jeschrevve)"
+
 #. Translators: Language name for ISO code "co". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -937,6 +951,14 @@ msgstr "Jrihschesch"
 msgid "Elamite"
 msgstr ""
 
+#. Translators: Language name for ISO code "en-Shaw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "English (United States)"
+msgid "English (Shavian)"
+msgstr "Änglesch (uß de USA)"
+
 #. Translators: Language name for ISO code "en". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -1023,14 +1045,6 @@ msgstr "Änglesch (vun Söhdaffrekka)"
 #, fuzzy
 #| msgid "English (United States)"
 msgid "English (Developer)"
-msgstr "Änglesch (uß de USA)"
-
-#. Translators: Language name for ISO code "en-Shaw". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-#, fuzzy
-#| msgid "English (United States)"
-msgid "English (Shavian)"
 msgstr "Änglesch (uß de USA)"
 
 #. Translators: Language name for ISO code "enm". The parenthesis clarifies
@@ -2139,6 +2153,12 @@ msgstr "Luxemborjesch"
 msgid "Lezghian"
 msgstr "Lesjesch"
 
+#. Translators: Language name for ISO code "lfn". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Lingua Franca Nova"
+msgstr ""
+
 #. Translators: Language name for ISO code "lg". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -2191,6 +2211,14 @@ msgstr "Monjohlesch"
 msgid "Lozi"
 msgstr "Silohzi"
 
+#. Translators: Language name for ISO code "lrc". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Central Khmer"
+msgid "Luri, Northern"
+msgstr "Zentrahl Khmeer"
+
 #. Translators: Language name for ISO code "lt". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -2240,6 +2268,14 @@ msgstr ""
 #. or other variant.
 msgid "Lushai"
 msgstr ""
+
+#. Translators: Language name for ISO code "luz". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "English (South Africa)"
+msgid "Luri (Southern)"
+msgstr "Änglesch (vun Söhdaffrekka)"
 
 #. Translators: Language name for ISO code "lv". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2304,20 +2340,6 @@ msgstr "Mokschah"
 #| msgid "Ganda"
 msgid "Mandar"
 msgstr "Lugannda"
-
-#. Translators: Language name for ISO code "cnr". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "Montenegrin"
-msgstr ""
-
-#. Translators: Language name for ISO code "cnr_Cyrl". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-#, fuzzy
-#| msgid "Serbian (cyrillic)"
-msgid "Montenegrin (cyrillic)"
-msgstr "Särbesch (Kürellesch jeschrevve)"
 
 #. Translators: Language name for ISO code "men". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2874,6 +2896,18 @@ msgstr "Brasilljahnesch Pochtojihsesch"
 #. or other variant.
 msgid "Portuguese (Portugal)"
 msgstr "Pochtojihsesch (vun Pochtojall)"
+
+#. Translators: Language name for ISO code "qdt". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Eskimo (Pacific Coast Alaskan)"
+msgstr ""
+
+#. Translators: Language name for ISO code "qtp". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Gayón"
+msgstr ""
 
 #. Translators: Language name for ISO code "qu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3617,6 +3651,12 @@ msgstr "Tuvinijahnesch"
 msgid "Tz'utujil"
 msgstr ""
 
+#. Translators: Language name for ISO code "tzl". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Talossan"
+msgstr ""
+
 #. Translators: Language name for ISO code "tzm". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -3782,6 +3822,12 @@ msgstr ""
 #| msgid "Serbian"
 msgid "Sorbian"
 msgstr "Särbesch"
+
+#. Translators: Language name for ISO code "wep". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Westphalien"
+msgstr ""
 
 #. Translators: Language name for ISO code "wo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)

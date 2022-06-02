@@ -3696,6 +3696,7 @@ LANGUAGES = {
     "gawwada",
     "gayil",
     "gayo",
+    "gayón",
     "gaza",
     "gazi",
     "gaziantep",
