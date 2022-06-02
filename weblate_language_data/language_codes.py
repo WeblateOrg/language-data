@@ -88,6 +88,7 @@ LANGUAGES = {
     "av",
     "ava",
     "ave",
+    "avk",
     "awa",
     "ay",
     "ayc",

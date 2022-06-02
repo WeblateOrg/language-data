@@ -388,6 +388,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "avk",
+        # Translators: Language name for ISO code "avk". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Kotava"),
+        2,
+        "n != 1",
+    ),
+    (
         "awa",
         # Translators: Language name for ISO code "awa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
