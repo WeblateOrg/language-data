@@ -667,6 +667,15 @@ LANGUAGES = (
         "0",
     ),
     (
+        "bqi",
+        # Translators: Language name for ISO code "bqi". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Bakhtiari"),
+        2,
+        "n != 1",
+    ),
+    (
         "br",
         # Translators: Language name for ISO code "br". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
