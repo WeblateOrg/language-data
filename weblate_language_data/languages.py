@@ -3187,8 +3187,8 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "me",
-        # Translators: Language name for ISO code "me". The parenthesis clarifies
+        "cnr",
+        # Translators: Language name for ISO code "cnr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Montenegrin"),
@@ -3196,8 +3196,8 @@ LANGUAGES = (
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        "me_Cyrl",
-        # Translators: Language name for ISO code "me_Cyrl". The parenthesis clarifies
+        "cnr_Cyrl",
+        # Translators: Language name for ISO code "cnr_Cyrl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Montenegrin (cyrillic)"),

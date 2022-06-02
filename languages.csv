@@ -348,8 +348,8 @@ man;Mandingo;2;n != 1
 mas;Masai;2;n != 1
 mdf;Moksha;2;n != 1
 mdr;Mandar;2;n != 1
-me;Montenegrin;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-me_Cyrl;Montenegrin (cyrillic);3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+cnr;Montenegrin;3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+cnr_Cyrl;Montenegrin (cyrillic);3;n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 men;Mende (Sierra Leone);2;n != 1
 mfe;Morisyen;2;n > 1
 mg;Malagasy;2;n > 1
