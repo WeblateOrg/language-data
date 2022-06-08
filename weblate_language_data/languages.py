@@ -1351,15 +1351,6 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "en-Shaw",
-        # Translators: Language name for ISO code "en-Shaw". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("English (Shavian)"),
-        2,
-        "n != 1",
-    ),
-    (
         "en",
         # Translators: Language name for ISO code "en". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1428,6 +1419,33 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("English (Philippines)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "en_Shaw",
+        # Translators: Language name for ISO code "en_Shaw". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("English (Shavian)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "en_Shaw_GB",
+        # Translators: Language name for ISO code "en_Shaw_GB". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("English (Shavian, United Kingdom)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "en_Shaw_US",
+        # Translators: Language name for ISO code "en_Shaw_US". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("English (Shavian, United Kingdom)"),
         2,
         "n != 1",
     ),

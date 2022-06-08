@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2022-06-02 10:02+0200\n"
+"POT-Creation-Date: 2022-06-08 09:25+0200\n"
 "PO-Revision-Date: 2022-06-04 18:58+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/languages/"
@@ -894,12 +894,6 @@ msgstr "יוונית"
 msgid "Elamite"
 msgstr "עילמית"
 
-#. Translators: Language name for ISO code "en-Shaw". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "English (Shavian)"
-msgstr "אנגלית שאווית"
-
 #. Translators: Language name for ISO code "en". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -947,6 +941,23 @@ msgstr "אנגלית ניו זילנדית"
 #. or other variant.
 msgid "English (Philippines)"
 msgstr "אנגלית פיליפינית"
+
+#. Translators: Language name for ISO code "en_Shaw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "English (Shavian)"
+msgstr "אנגלית שאווית"
+
+#. Translators: Language name for ISO code "en_Shaw_GB". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#. Translators: Language name for ISO code "en_Shaw_US". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "English (United Kingdom)"
+msgid "English (Shavian, United Kingdom)"
+msgstr "אנגלית בריטית"
 
 #. Translators: Language name for ISO code "en_US". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
