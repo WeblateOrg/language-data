@@ -1445,7 +1445,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "en_Shaw_US". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("English (Shavian, United Kingdom)"),
+        _("English (Shavian, United States)"),
         2,
         "n != 1",
     ),
