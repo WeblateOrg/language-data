@@ -145,6 +145,7 @@ eka;Ekajuk;2;n != 1
 el;Greek;2;n != 1
 elx;Elamite;2;n != 1
 en;English;2;n != 1
+en@pirate;English (Pirate);2;n != 1
 en_AU;English (Australia);2;n != 1
 en_CA;English (Canada);2;n != 1
 en_GB;English (United Kingdom);2;n != 1
@@ -439,7 +440,6 @@ pi;Pali;2;n != 1
 pl;Polish;3;n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 pms;Piemontese;2;n != 1
 pon;Pohnpeian;2;n != 1
-pr;Pirate;2;n != 1
 prg;Prussian;3;(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 pro;Provençal (Old);2;n != 1
 ps;Pashto;2;n != 1
