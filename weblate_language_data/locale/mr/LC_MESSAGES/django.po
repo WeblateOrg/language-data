@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2022-06-09 10:19+0200\n"
+"POT-Creation-Date: 2022-07-14 11:01+0200\n"
 "PO-Revision-Date: 2021-11-14 00:02+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Marathi <https://hosted.weblate.org/projects/weblate/"
@@ -936,6 +936,14 @@ msgstr "इलामाइट"
 #. or other variant.
 msgid "English"
 msgstr "इंग्रजी"
+
+#. Translators: Language name for ISO code "en@pirate". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "English (India)"
+msgid "English (Pirate)"
+msgstr "इंग्रजी (भारत)"
 
 #. Translators: Language name for ISO code "en_AU". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2786,12 +2794,6 @@ msgstr "पिएमोन्तेज"
 msgid "Pohnpeian"
 msgstr "पोह्नपैयन"
 
-#. Translators: Language name for ISO code "pr". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "Pirate"
-msgstr "चाचा"
-
 #. Translators: Language name for ISO code "prg". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -3884,11 +3886,11 @@ msgstr "झुनी"
 msgid "Zaza"
 msgstr "जाजा"
 
-#. Translators: Language name for ISO code "se". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "Northern Sami"
-msgstr "उत्तरी सामी"
+#~ msgid "Pirate"
+#~ msgstr "चाचा"
+
+#~ msgid "Northern Sami"
+#~ msgstr "उत्तरी सामी"
 
 #, fuzzy
 #~| msgid "Latvian"

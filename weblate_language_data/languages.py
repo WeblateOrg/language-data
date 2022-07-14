@@ -1360,6 +1360,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "en@pirate",
+        # Translators: Language name for ISO code "en@pirate". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("English (Pirate)"),
+        2,
+        "n != 1",
+    ),
+    (
         "en_AU",
         # Translators: Language name for ISO code "en_AU". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4002,15 +4011,6 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Pohnpeian"),
-        2,
-        "n != 1",
-    ),
-    (
-        "pr",
-        # Translators: Language name for ISO code "pr". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Pirate"),
         2,
         "n != 1",
     ),

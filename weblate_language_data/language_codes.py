@@ -261,6 +261,7 @@ LANGUAGES = {
     "ell",
     "elx",
     "en",
+    "en@pirate",
     "en_au",
     "en_ca",
     "en_devel",

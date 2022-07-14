@@ -127,6 +127,7 @@ ALIASES = {
     "ary": "ar_MA",
     "kk@latin": "kk_Latn",
     "kk_cyrl": "kk",
+    "pr": "en@pirate",
     "sr@ije": "sr@ijekavian",
     "sr@ijekavianlatin": "sr@ijekavian_Latn",
     "base": "en",
