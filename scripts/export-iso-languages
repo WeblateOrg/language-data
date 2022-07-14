@@ -33,7 +33,7 @@ IGNORE = {"nb", "no", "zh", "zxx"}
 def parse_csv(name):
     result = {}
     with open(name) as csvfile:
-        reader = csv.reader(csvfile, delimiter=";")
+        reader = csv.reader(csvfile, delimiter=",")
         for data in reader:
             if data[0] == "#":
                 continue

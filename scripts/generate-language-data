@@ -88,7 +88,7 @@ TEMPLATE = """    (
 
 # Read languages
 with open("languages.csv") as csvfile:
-    reader = csv.reader(csvfile, delimiter=";")
+    reader = csv.reader(csvfile, delimiter=",")
     LANGUAGES = list(reader)
     LANGUAGE_CODES = {lang[0] for lang in LANGUAGES}
     LANGUAGE_PLURAL_NO = {lang[0]: lang[2] for lang in LANGUAGES}
@@ -96,12 +96,12 @@ with open("languages.csv") as csvfile:
 
 # Read population data
 with open("population.csv") as csvfile:
-    reader = csv.reader(csvfile, delimiter=";")
+    reader = csv.reader(csvfile, delimiter=",")
     POPULATION = dict(reader)
 
 # Read aliases
 with open("aliases.csv") as csvfile:
-    reader = csv.reader(csvfile, delimiter=";")
+    reader = csv.reader(csvfile, delimiter=",")
     ALIASES = [alias for alias in reader if alias[0] != "#"]
     for source, target in ALIASES:
         if not source.islower():
@@ -121,12 +121,12 @@ with open("modules/iso-codes/data/iso_3166-1.json") as handle:
 
 # Read extra plurals
 with open("extraplurals.csv") as csvfile:
-    reader = csv.reader(csvfile, delimiter=";")
+    reader = csv.reader(csvfile, delimiter=",")
     EXTRAPLURALS = list(reader)
 
 # Parse extra CLDR plurals
 with open("cldr.csv") as csvfile:
-    reader = csv.reader(csvfile, delimiter=";")
+    reader = csv.reader(csvfile, delimiter=",")
     CLDRPLURALS = []
     for code, _name, number, equation in reader:
         try:
@@ -138,7 +138,7 @@ with open("cldr.csv") as csvfile:
 
 # Read extra plurals
 with open("default_countries.csv") as csvfile:
-    reader = csv.reader(csvfile, delimiter=";")
+    reader = csv.reader(csvfile, delimiter=",")
     DEFAULT_COUNTRIES = list(reader)
 
 # Write language definitions

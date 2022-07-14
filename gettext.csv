@@ -1,38 +1,38 @@
-be;Belarusian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
-bg;Bulgarian;2;(n != 1)
-cs;Czech;3;(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
-da;Danish;2;(n != 1)
-de;German;2;(n != 1)
-el;Greek;2;(n != 1)
-en;English;2;(n != 1)
-eo;Esperanto;2;(n != 1)
-es;Spanish;2;(n != 1)
-et;Estonian;2;(n != 1)
-fi;Finnish;2;(n != 1)
-fo;Faroese;2;(n != 1)
-fr;French;2;(n > 1)
-ga;Irish;3;n==1 ? 0 : n==2 ? 1 : 2
-he;Hebrew;2;(n != 1)
-hr;Croatian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
-hu;Hungarian;2;(n != 1)
-it;Italian;2;(n != 1)
-ja;Japanese;1;0
-ko;Korean;1;0
-lt;Lithuanian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)
-lv;Latvian;3;(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)
-nb;Norwegian Bokmal;2;(n != 1)
-nl;Dutch;2;(n != 1)
-nn;Norwegian Nynorsk;2;(n != 1)
-no;Norwegian;2;(n != 1)
-pl;Polish;3;(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
-pt;Portuguese;2;(n != 1)
-pt_BR;Brazilian;2;(n > 1)
-ro;Romanian;3;n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2
-ru;Russian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
-sk;Slovak;3;(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
-sl;Slovenian;4;(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)
-sr;Serbian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
-sv;Swedish;2;(n != 1)
-tr;Turkish;2;(n != 1)
-uk;Ukrainian;3;(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
-vi;Vietnamese;1;0
+be,Belarusian,3,(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+bg,Bulgarian,2,(n != 1)
+cs,Czech,3,(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
+da,Danish,2,(n != 1)
+de,German,2,(n != 1)
+el,Greek,2,(n != 1)
+en,English,2,(n != 1)
+eo,Esperanto,2,(n != 1)
+es,Spanish,2,(n != 1)
+et,Estonian,2,(n != 1)
+fi,Finnish,2,(n != 1)
+fo,Faroese,2,(n != 1)
+fr,French,2,(n > 1)
+ga,Irish,3,n==1 ? 0 : n==2 ? 1 : 2
+he,Hebrew,2,(n != 1)
+hr,Croatian,3,(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+hu,Hungarian,2,(n != 1)
+it,Italian,2,(n != 1)
+ja,Japanese,1,0
+ko,Korean,1,0
+lt,Lithuanian,3,(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)
+lv,Latvian,3,(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)
+nb,Norwegian Bokmal,2,(n != 1)
+nl,Dutch,2,(n != 1)
+nn,Norwegian Nynorsk,2,(n != 1)
+no,Norwegian,2,(n != 1)
+pl,Polish,3,(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+pt,Portuguese,2,(n != 1)
+pt_BR,Brazilian,2,(n > 1)
+ro,Romanian,3,n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2
+ru,Russian,3,(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+sk,Slovak,3,(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
+sl,Slovenian,4,(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)
+sr,Serbian,3,(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+sv,Swedish,2,(n != 1)
+tr,Turkish,2,(n != 1)
+uk,Ukrainian,3,(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
+vi,Vietnamese,1,0

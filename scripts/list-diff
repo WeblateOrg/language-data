@@ -73,7 +73,7 @@ def compare_definition(first, second, meta=True):
 def parse_csv(name):
     result = {}
     with open(name) as csvfile:
-        reader = csv.reader(csvfile, delimiter=";")
+        reader = csv.reader(csvfile, delimiter=",")
         for data in reader:
             if data[0] in result:
                 print(f"Duplicate {data[0]} in {name}!")
