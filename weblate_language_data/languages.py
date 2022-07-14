@@ -437,7 +437,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "azb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Azerbaijani, South"),
+        _("Azerbaijani (Southern)"),
         2,
         "n != 1",
     ),
@@ -3110,7 +3110,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "lrc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Luri, Northern"),
+        _("Luri (Northern)"),
         2,
         "n != 1",
     ),
