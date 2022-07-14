@@ -127,7 +127,7 @@ de_CH;German (Switzerland);2;n != 1
 de_LU;German (Luxembourg);2;n != 1
 del;Delaware;2;n != 1
 den;Slave (Athapascan);2;n != 1
-dgo;Dogri;2;n != 1
+dgo;Dogri;2;n > 1
 dgr;Dogrib;2;n != 1
 din;Dinka;2;n != 1
 doi;Dogri;2;n != 1
@@ -475,7 +475,7 @@ sai;South American Indian (Other);2;n != 1
 sam;Samaritan Aramaic;2;n != 1
 saq;Samburu;2;n != 1
 sas;Sasak;2;n != 1
-sat;Santali;2;n != 1
+sat;Santali;3;n == 1 ? 0 : n == 2 ? 1 : 2
 sc;Sardinian;2;n != 1
 scn;Sicilian;2;n != 1
 sco;Scots;2;n != 1
@@ -551,7 +551,7 @@ tn;Tswana;2;n != 1
 to;Tongan;1;0
 tog;Tonga (Nyasa);2;n != 1
 tok;Toki Pona;1;0
-tpi;Tok Pisin;2;n != 1
+tpi;Tok Pisin;1;0
 tr;Turkish;2;n != 1
 trv;Taroko;2;n != 1
 ts;Tsonga;2;n != 1

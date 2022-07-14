@@ -1,6 +1,6 @@
 all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md $(wildcard weblate_language_data/locale/*/LC_MESSAGES/django.po)
 
-weblate_language_data/languages.py: languages.csv aliases.csv extraplurals.csv default_countries.csv population.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
+weblate_language_data/languages.py: languages.csv aliases.csv cldr.csv extraplurals.csv default_countries.csv population.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
 	./scripts/generate-language-data
 
 PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv scripts/list-diff

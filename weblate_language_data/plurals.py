@@ -203,8 +203,8 @@ EXTRAPLURALS = (
         # Translators: Language name for ISO code "se". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Northern Sami"),
-        2,
+        _("Sami (Northern)"),
+        3,
         "(n != 1)",
     ),
     (
@@ -224,5 +224,98 @@ EXTRAPLURALS = (
         _("Moldavian"),
         3,
         "(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)",
+    ),
+)
+
+CLDRPLURALS = (
+    (
+        "es",
+        # Translators: Language name for ISO code "es". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_419",
+        # Translators: Language name for ISO code "es_419". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Latin America)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_MX",
+        # Translators: Language name for ISO code "es_MX". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Mexico)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "fr",
+        # Translators: Language name for ISO code "fr". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "fr_CA",
+        # Translators: Language name for ISO code "fr_CA". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (Canada)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "fr_CH",
+        # Translators: Language name for ISO code "fr_CH". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (Switzerland)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "it",
+        # Translators: Language name for ISO code "it". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Italian"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "pt",
+        # Translators: Language name for ISO code "pt". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "pt_BR",
+        # Translators: Language name for ISO code "pt_BR". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (Brazil)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "pt_PT",
+        # Translators: Language name for ISO code "pt_PT". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (Portugal)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
 )

@@ -91,6 +91,8 @@ with open("languages.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     LANGUAGES = list(reader)
     LANGUAGE_CODES = {lang[0] for lang in LANGUAGES}
+    LANGUAGE_PLURAL_NO = {lang[0]: lang[2] for lang in LANGUAGES}
+    LANGUAGE_NAMES = {lang[0]: lang[1] for lang in LANGUAGES}
 
 # Read population data
 with open("population.csv") as csvfile:
@@ -122,6 +124,18 @@ with open("extraplurals.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
     EXTRAPLURALS = list(reader)
 
+# Parse extra CLDR plurals
+with open("cldr.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=";")
+    CLDRPLURALS = []
+    for code, _name, number, equation in reader:
+        try:
+            existing = LANGUAGE_PLURAL_NO[code]
+        except KeyError:
+            continue
+        if existing != number:
+            CLDRPLURALS.append((code, LANGUAGE_NAMES[code], number, equation))
+
 # Read extra plurals
 with open("default_countries.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
@@ -152,6 +166,13 @@ with open("weblate_language_data/plurals.py", "w") as output:
     output.write("# Additional plural rules definitions\n")
     output.write("EXTRAPLURALS = (\n")
     for row in EXTRAPLURALS:
+        output.write(
+            TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
+        )
+    output.write(")\n")
+    output.write("\n")
+    output.write("CLDRPLURALS = (\n")
+    for row in CLDRPLURALS:
         output.write(
             TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
         )

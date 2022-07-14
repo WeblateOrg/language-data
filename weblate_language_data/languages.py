@@ -1204,7 +1204,7 @@ LANGUAGES = (
         # or other variant.
         _("Dogri"),
         2,
-        "n != 1",
+        "n > 1",
     ),
     (
         "dgr",
@@ -4335,8 +4335,8 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Santali"),
-        2,
-        "n != 1",
+        3,
+        "n == 1 ? 0 : n == 2 ? 1 : 2",
     ),
     (
         "sc",
@@ -5019,8 +5019,8 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Tok Pisin"),
-        2,
-        "n != 1",
+        1,
+        "0",
     ),
     (
         "tr",
