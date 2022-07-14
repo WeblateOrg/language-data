@@ -30,6 +30,7 @@ def parse_csv(name):
     result = {}
     with open(name) as csvfile:
         reader = csv.reader(csvfile, delimiter=",")
+        next(reader)
         for data in reader:
             if data[0] == "#":
                 continue

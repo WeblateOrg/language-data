@@ -42,7 +42,7 @@ for line in content.splitlines():
         matches = MATCH.match(line)
         if matches:
             output.append(
-                "{};{};{};{}\n".format(
+                "{},{},{},{}\n".format(
                     matches[1],
                     matches[2],
                     int(matches[3].split(";", 1)[0].split("=")[1]),
@@ -51,4 +51,5 @@ for line in content.splitlines():
             )
 
 with open("gettext.csv", "w") as handle:
+    handle.write("code,name,nplurals,formula\n")
     handle.writelines(sorted(output))

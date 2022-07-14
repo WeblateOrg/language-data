@@ -45,5 +45,6 @@ with open("modules/cldr-core/supplemental/territoryInfo.json") as handle:
             )
 
 with open("population.csv", "w") as handle:
+    handle.write("code,population\n")
     for code in sorted(languages):
-        handle.write(f"{code};{int(languages[code])}\n")
+        handle.write(f"{code},{int(languages[code])}\n")

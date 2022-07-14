@@ -96,6 +96,7 @@ for macro, lang, _kind in macrolanguages:
 # Read aliases
 with open("aliases.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=";")
+    next(reader)
     ALIASES = dict([alias for alias in reader if alias[0] != "#"])
 
 # Add aliased entries, needs to happen on snapshot of keys as

@@ -40,6 +40,7 @@ def parse_csv(name):
     result = {}
     with open(name) as csvfile:
         reader = csv.reader(csvfile, delimiter=",")
+        next(reader)
         for data in reader:
             if data[0] == "#":
                 continue
@@ -74,7 +75,7 @@ aliases = parse_csv("aliases.csv")
 lines = []
 for name, alias in sorted(names.items()):
     if name not in aliases:
-        lines.append(f"{name};{alias}\n")
+        lines.append(f"{name},{alias}\n")
 
 with open("aliases.csv", "a") as handle:
     handle.writelines(sorted(lines))

@@ -43,8 +43,9 @@ with open("cldr.json", "rb") as handle:
 os.unlink("cldr.json")
 
 with open("cldr.csv", "w") as handle:
+    handle.write("code,name,nplurals,formula\n")
     for code in sorted(LANGUAGES):
         data = LANGUAGES[code]
         handle.write(
-            "{};{};{};{}\n".format(code, data["name"], data["plurals"], data["formula"])
+            "{},{},{},{}\n".format(code, data["name"], data["plurals"], data["formula"])
         )
