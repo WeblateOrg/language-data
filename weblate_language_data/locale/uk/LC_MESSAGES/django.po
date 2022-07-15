@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2022-07-14 14:28+0200\n"
+"POT-Creation-Date: 2022-07-15 13:51+0200\n"
 "PO-Revision-Date: 2022-07-14 12:35+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/weblate/"
@@ -2320,6 +2320,12 @@ msgstr "мосі"
 msgid "Marathi"
 msgstr "маратхі"
 
+#. Translators: Language name for ISO code "mrh". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Mara"
+msgstr "Мара"
+
 #. Translators: Language name for ISO code "ms". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -3292,17 +3298,17 @@ msgstr "токелау"
 msgid "Tagalog"
 msgstr "тагальська"
 
-#. Translators: Language name for ISO code "tlh-qaak". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "Klingon (pIqaD)"
-msgstr "клінгонська(pIqaD)"
-
 #. Translators: Language name for ISO code "tlh". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Klingon"
 msgstr "клінгонська"
+
+#. Translators: Language name for ISO code "tlh-qaak". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Klingon (pIqaD)"
+msgstr "клінгонська(pIqaD)"
 
 #. Translators: Language name for ISO code "tli". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3724,17 +3730,11 @@ msgstr "зуні"
 msgid "Zaza"
 msgstr "заза"
 
-#. Translators: Language name for ISO code "azb". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "Azerbaijani, South"
-msgstr "азербайджанська, південна"
+#~ msgid "Azerbaijani, South"
+#~ msgstr "азербайджанська, південна"
 
-#. Translators: Language name for ISO code "lrc". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "Luri, Northern"
-msgstr "лурі (північна)"
+#~ msgid "Luri, Northern"
+#~ msgstr "лурі (північна)"
 
 #~ msgid "Pirate"
 #~ msgstr "піратська"

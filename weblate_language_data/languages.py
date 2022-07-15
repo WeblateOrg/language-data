@@ -3484,6 +3484,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "mrh",
+        # Translators: Language name for ISO code "mrh". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Mara"),
+        2,
+        "n != 1",
+    ),
+    (
         "ms",
         # Translators: Language name for ISO code "ms". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4942,20 +4951,20 @@ LANGUAGES = (
         "n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)",
     ),
     (
-        "tlh-qaak",
-        # Translators: Language name for ISO code "tlh-qaak". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Klingon (pIqaD)"),
-        1,
-        "0",
-    ),
-    (
         "tlh",
         # Translators: Language name for ISO code "tlh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Klingon"),
+        1,
+        "0",
+    ),
+    (
+        "tlh-qaak",
+        # Translators: Language name for ISO code "tlh-qaak". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Klingon (pIqaD)"),
         1,
         "0",
     ),

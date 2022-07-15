@@ -382,6 +382,7 @@ mnw,Mon,2,n != 1
 moh,Mohawk,2,n != 1
 mos,Mossi,2,n != 1
 mr,Marathi,2,n != 1
+mrh,Mara,2,n != 1
 ms,Malay,1,0
 ms_Arab,Malay (Jawi),1,0
 mt,Maltese,4,n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3
@@ -544,8 +545,8 @@ tiv,Tiv,2,n != 1
 tk,Turkmen,2,n != 1
 tkl,Tokelau,2,n != 1
 tl,Tagalog,2,n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
-tlh-qaak,Klingon (pIqaD),1,0
 tlh,Klingon,1,0
+tlh-qaak,Klingon (pIqaD),1,0
 tli,Tlingit,2,n != 1
 tmh,Tamashek,2,n != 1
 tn,Tswana,2,n != 1

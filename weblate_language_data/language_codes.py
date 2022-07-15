@@ -615,6 +615,7 @@ LANGUAGES = {
     "mon",
     "mos",
     "mr",
+    "mrh",
     "mri",
     "ms",
     "ms_arab",
