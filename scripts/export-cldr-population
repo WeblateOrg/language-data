@@ -30,7 +30,9 @@ MAPPING = {
     "zh": "zh_Hans",
 }
 
-with open("modules/cldr-core/supplemental/territoryInfo.json") as handle:
+with open(
+    "modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json"
+) as handle:
     languages = defaultdict(int)
     for code, territory in json.load(handle)["supplemental"]["territoryInfo"].items():
         population = int(territory["_population"])

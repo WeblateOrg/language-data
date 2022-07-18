@@ -7,12 +7,9 @@
 [submodule "modules/l10n-guide"]
 	path = modules/l10n-guide
 	url = https://github.com/translate/l10n-guide.git
-[submodule "modules/cldr-localenames-full"]
-	path = modules/cldr-localenames-full
-	url = https://github.com/unicode-cldr/cldr-localenames-full.git
-[submodule "modules/cldr-core"]
-	path = modules/cldr-core
-	url = https://github.com/unicode-cldr/cldr-core.git
 [submodule "modules/iso-codes"]
 	path = modules/iso-codes
 	url = https://salsa.debian.org/iso-codes-team/iso-codes.git
+[submodule "modules/cldr-json"]
+	path = modules/cldr-json
+	url = https://github.com/unicode-org/cldr-json.git

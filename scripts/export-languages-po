@@ -29,7 +29,7 @@ import glob
 import json
 import re
 
-BASE = "modules/cldr-localenames-full/main/en/languages.json"
+BASE = "modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json"
 HEADER = """# CLDR language names for {0}
 # Automatically generated using tools available at
 # https://github.com/WeblateOrg/language-data
@@ -60,7 +60,9 @@ with open(BASE) as handle:
 names = extract_names(data)[1]
 
 # Process translations
-for lang in glob.glob("modules/cldr-localenames-full/main/*/languages.json"):
+for lang in glob.glob(
+    "modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json"
+):
     if lang == BASE:
         continue
 

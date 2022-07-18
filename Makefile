@@ -13,7 +13,7 @@ cldr.csv: modules/cldr-to-gettext-plural-rules/bin/export-plural-rules scripts/e
 gettext.csv: modules/gettext/gettext-tools/src/plural-table.c scripts/export-gettext
 	./scripts/export-gettext
 
-languages-po/cs.po: modules/cldr-localenames-full/main/en/languages.json $(wildcard modules/cldr-localenames-full/main/*/languages.json) scripts/export-languages-po
+languages-po/cs.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json $(wildcard modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json) scripts/export-languages-po
 	./scripts/export-languages-po
 
 l10n-guide.csv: modules/l10n-guide/docs/l10n/pluralforms.rst scripts/export-l10n-guide
@@ -24,14 +24,14 @@ LANG_DATA = $(shell python -c 'from pkg_resources import Requirement, resource_f
 translate.csv: $(LANG_DATA) scripts/export-translate
 	./scripts/export-translate
 
-weblate_language_data/plural_tags.py: modules/cldr-core/supplemental/plurals.json scripts/export-plural-tags
+weblate_language_data/plural_tags.py: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json scripts/export-plural-tags
 	./scripts/export-plural-tags
 
 aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json
 	./scripts/export-iso-aliases
 	@touch $@
 
-population.csv: modules/cldr-core/supplemental/territoryInfo.json scripts/export-cldr-population
+population.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json scripts/export-cldr-population
 	./scripts/export-cldr-population
 
 languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages

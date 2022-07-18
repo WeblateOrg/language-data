@@ -27,7 +27,7 @@ import json
 import pprint
 import subprocess
 
-BASE = "modules/cldr-core/supplemental/plurals.json"
+BASE = "modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json"
 
 HEADER = '''#
 # Copyright © 2012–2022 Michal Čihař <michal@cihar.com>
@@ -71,6 +71,7 @@ with open(BASE) as handle:
     data = json.load(handle)
 
 for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
+    print(locale, rules)
     result[locale] = [
         name.replace("pluralRule-count-", "")
         for name, rule in rules.items()
