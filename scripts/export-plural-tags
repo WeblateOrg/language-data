@@ -66,23 +66,25 @@ https://github.com/WeblateOrg/language-data
 '''
 
 result = {}
+decimals = {}
 
 with open(BASE) as handle:
     data = json.load(handle)
 
 for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
-    print(locale, rules)
     result[locale] = [
         name.replace("pluralRule-count-", "")
         for name, rule in rules.items()
         if "@integer" in rule
     ]
+    decimals[locale] = [name.replace("pluralRule-count-", "") for name in rules]
 
 
 # Write plural tags
 with open("weblate_language_data/plural_tags.py", "w") as output:
     output.write(HEADER)
-    output.write(f"PLURAL_TAGS = {pprint.pformat(result)}")
+    output.write(f"PLURAL_TAGS = {pprint.pformat(result)}\n\n")
+    output.write(f"DECIMAL_PLURAL_TAGS = {pprint.pformat(decimals)}\n")
 
 # Apply coding style
 subprocess.run(
