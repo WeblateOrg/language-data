@@ -46,6 +46,7 @@ ALIASES = {
     "portuguese_br": "pt_BR",
     "portuguese_portugal": "pt_PT",
     "serbo_croatian": "sr_Latn",
+    "mspanish": "es_MX",
     "norwegian": "nb_NO",
     "xbelorussian": "be",
     "be_rby": "be_Latn",
