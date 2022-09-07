@@ -770,7 +770,6 @@ LANGUAGES = {
     "schinese",
     "scn",
     "sco",
-    "sco",
     "scr",
     "sd",
     "sdh",
