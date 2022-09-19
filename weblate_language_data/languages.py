@@ -2989,15 +2989,6 @@ LANGUAGES = (
         "(n == 0) ? 0 : ((n == 1) ? 1 : 2)",
     ),
     (
-        "lah",
-        # Translators: Language name for ISO code "lah". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Lahnda"),
-        2,
-        "n != 1",
-    ),
-    (
         "lam",
         # Translators: Language name for ISO code "lam". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

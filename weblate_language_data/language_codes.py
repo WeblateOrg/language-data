@@ -537,7 +537,6 @@ LANGUAGES = {
     "la_la",
     "lad",
     "lag",
-    "lah",
     "lam",
     "lao",
     "lat",
