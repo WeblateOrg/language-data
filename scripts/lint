@@ -43,6 +43,14 @@ def parse_csv(name):
 languages = parse_csv("languages.csv")
 aliases = parse_csv("aliases.csv")
 
+for alias in aliases:
+    if not alias.islower():
+        raise Exception(f"Alias {alias} is not lower cased!")
+
+missing = {alias[1] for alias in aliases.values()} - set(languages.keys())
+if missing:
+    raise Exception(f"Missing target for aliases: {missing}")
+
 overlap = set(languages.keys()) & set(aliases.keys())
 if overlap:
     raise Exception(f"Overlaping languages and aliases: {overlap}")
