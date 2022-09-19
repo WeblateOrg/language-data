@@ -27,7 +27,7 @@ import csv
 import json
 import subprocess
 
-IGNORE = {"nb", "no", "zh", "zxx"}
+IGNORE = {"nb", "no", "zh", "zxx", "lah"}
 
 
 def parse_csv(name):
