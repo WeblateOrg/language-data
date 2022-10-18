@@ -63,7 +63,7 @@ bik,Bikol,2,n != 1
 bin,Bini,2,n != 1
 bla,Siksika,2,n != 1
 bm,Bambara,1,0
-bn,Bengali,2,n > 1
+bn,Bengali,2,n != 1
 bn_BD,Bengali (Bangladesh),2,n != 1
 bn_IN,Bengali (India),2,n != 1
 bnt,Bantu (Other),2,n != 1
@@ -128,7 +128,6 @@ de_CH,German (Switzerland),2,n != 1
 de_LU,German (Luxembourg),2,n != 1
 del,Delaware,2,n != 1
 den,Slave (Athapascan),2,n != 1
-dgo,Dogri,2,n > 1
 dgr,Dogrib,2,n != 1
 din,Dinka,2,n != 1
 doi,Dogri,2,n != 1
@@ -243,8 +242,8 @@ hai,Haida,2,n != 1
 haw,Hawaiian,2,n != 1
 he,Hebrew,4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 he_IL,Hebrew (Israel),4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
-hi,Hindi,2,n > 1
-hi_Latn,Hindi (latin),2,n > 1
+hi,Hindi,2,n != 1
+hi_Latn,Hindi (latin),2,n != 1
 hil,Hiligaynon,2,n != 1
 hit,Hittite,2,n != 1
 hmn,Hmong,2,n != 1
@@ -428,8 +427,8 @@ os,Ossetian,2,n != 1
 osa,Osage,1,0
 ota,Turkish (Ottoman),2,n != 1
 otk,Kokturk,2,n != 1
-pa,Punjabi,2,n > 1
-pa_PK,Punjabi (Pakistan),2,n > 1
+pa,Punjabi,2,n != 1
+pa_PK,Punjabi (Pakistan),2,n != 1
 pag,Pangasinan,2,n != 1
 pal,Pahlavi,2,n != 1
 pam,Pampanga,2,n != 1
@@ -582,7 +581,7 @@ uz_Latn,Uzbek (latin),2,n != 1
 vai,Vai,2,n != 1
 ve,Venda,2,n != 1
 vec,Venetian,2,n != 1
-vi,Vietnamese,1,0
+vi,Vietnamese,2,n != 1
 vls,Flemish (West),2,n != 1
 vo,Volapük,2,n != 1
 vot,Votic,2,n != 1
