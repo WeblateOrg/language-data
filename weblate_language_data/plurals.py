@@ -229,6 +229,15 @@ EXTRAPLURALS = (
 
 CLDRPLURALS = (
     (
+        "ca",
+        # Translators: Language name for ISO code "ca". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Catalan"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
         "es",
         # Translators: Language name for ISO code "es". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -283,6 +292,15 @@ CLDRPLURALS = (
         "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
+        "he",
+        # Translators: Language name for ISO code "he". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Hebrew"),
+        3,
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
+    ),
+    (
         "it",
         # Translators: Language name for ISO code "it". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -290,6 +308,15 @@ CLDRPLURALS = (
         _("Italian"),
         3,
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "mt",
+        # Translators: Language name for ISO code "mt". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Maltese"),
+        5,
+        "(n == 1) ? 0 : ((n == 2) ? 1 : ((n == 0 || n % 100 >= 3 && n % 100 <= 10) ? 2 : ((n % 100 >= 11 && n % 100 <= 19) ? 3 : 4)))",
     ),
     (
         "pt",
@@ -315,6 +342,15 @@ CLDRPLURALS = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Portuguese (Portugal)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "vec",
+        # Translators: Language name for ISO code "vec". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Venetian"),
         3,
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
