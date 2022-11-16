@@ -2143,6 +2143,15 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "guc",
+        # Translators: Language name for ISO code "guc". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Wayuu"),
+        2,
+        "n != 1",
+    ),
+    (
         "gug",
         # Translators: Language name for ISO code "gug". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2150,6 +2159,15 @@ LANGUAGES = (
         _("Guaraní (Paraguayan)"),
         2,
         "n > 1",
+    ),
+    (
+        "gum",
+        # Translators: Language name for ISO code "gum". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Guambiano"),
+        2,
+        "n != 1",
     ),
     (
         "gun",
@@ -3957,6 +3975,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Palauan"),
+        2,
+        "n != 1",
+    ),
+    (
+        "pbb",
+        # Translators: Language name for ISO code "pbb". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Páez"),
         2,
         "n != 1",
     ),

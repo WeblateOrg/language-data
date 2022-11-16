@@ -233,7 +233,9 @@ grc,Greek (Ancient),3,n==1 ? 0 : n==2 ? 1 : 2
 gsw,Alemannic,2,n != 1
 gu,Gujarati,2,n > 1
 gu_IN,Gujarati (India),2,n > 1
+guc,Wayuu,2,n != 1
 gug,Guaraní (Paraguayan),2,n > 1
+gum,Guambiano,2,n != 1
 gun,Guaraní (Mbyá),2,n > 1
 guw,Gun,2,n > 1
 gv,Manx,4,(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))
@@ -435,6 +437,7 @@ pal,Pahlavi,2,n != 1
 pam,Pampanga,2,n != 1
 pap,Papiamento,2,n != 1
 pau,Palauan,2,n != 1
+pbb,Páez,2,n != 1
 peo,Persian (Old),2,n != 1
 phn,Phoenician,2,n != 1
 pi,Pali,2,n != 1
