@@ -100,6 +100,7 @@ ALIASES = {
     "bs_latn_ba": "bs_Latn",
     "nb": "nb_NO",
     "be@latin": "be_Latn",
+    "by_lat": "be_Latn",
     "sr@latin": "sr_Latn",
     "sr_rs@latin": "sr_Latn",
     "sr@cyrillic": "sr_Cyrl",

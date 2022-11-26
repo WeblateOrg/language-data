@@ -152,6 +152,7 @@ LANGUAGES = {
     "bul",
     "bur",
     "by",
+    "by_lat",
     "byn",
     "ca",
     "ca@valencia",
