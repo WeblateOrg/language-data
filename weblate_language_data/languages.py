@@ -1198,15 +1198,6 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "dgo",
-        # Translators: Language name for ISO code "dgo". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Dogri"),
-        2,
-        "n > 1",
-    ),
-    (
         "dgr",
         # Translators: Language name for ISO code "dgr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

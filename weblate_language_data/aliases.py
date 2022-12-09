@@ -146,6 +146,7 @@ ALIASES = {
     "pa_arab": "pa_PK",
     "pa_arab_pk": "pa_PK",
     "pnb": "pa_PK",
+    "dgo": "doi",
     "dk": "da",
     "me": "cnr",
     "me_cyrl": "cnr_Cyrl",
