@@ -72,6 +72,7 @@ bo_CN,Tibetan (China),1,0
 bqi,Bakhtiari,2,n != 1
 br,Breton,5,(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)))
 bra,Braj,2,n != 1
+brb,Brao,2,n != 1
 brx,Bodo,2,n != 1
 bs,Bosnian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 bs_Cyrl,Bosnian (cyrillic),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
@@ -140,6 +141,7 @@ dyu,Dyula,2,n != 1
 dz,Dzongkha,1,0
 ee,Ewe,2,n != 1
 efi,Efik,2,n != 1
+egl,Emilian,2,n != 1
 egy,Egyptian (Ancient),2,n != 1
 eka,Ekajuk,2,n != 1
 el,Greek,2,n != 1
@@ -379,6 +381,7 @@ mnc,Manchu,2,n != 1
 mni,Manipuri,2,n != 1
 mnk,Mandinka,3,n==0 ? 0 : n==1 ? 1 : 2
 mnw,Mon,2,n != 1
+moe,Innu,2,n != 1
 moh,Mohawk,2,n != 1
 mos,Mossi,2,n != 1
 mr,Marathi,2,n != 1
@@ -414,6 +417,7 @@ non,Norse (Old),2,n != 1
 nqo,N’Ko,1,0
 nr,Ndebele (Southern),2,n != 1
 nso,Pedi,2,n > 1
+nuk,Nuu-chah-nulth,2,n != 1
 nv,Navaho,2,n != 1
 nwc,Newari (Classical),2,n != 1
 ny,Nyanja,2,n != 1
@@ -429,6 +433,7 @@ os,Ossetian,2,n != 1
 osa,Osage,1,0
 ota,Turkish (Ottoman),2,n != 1
 otk,Kokturk,2,n != 1
+ovd,Elfdalian,2,n != 1
 pa,Punjabi,2,n > 1
 pa_PK,Punjabi (Pakistan),2,n > 1
 pag,Pangasinan,2,n != 1
@@ -455,6 +460,7 @@ qtp,Gayón,2,n > 1
 qu,Quechua,2,n != 1
 qu_EC,Quechua (Ecuador),2,n != 1
 quc,K'iche',2,n != 1
+qya,Quenya,2,n != 1
 raj,Rajasthani,2,n != 1
 rap,Rapanui,2,n != 1
 rar,Rarotongan,2,n != 1
@@ -495,6 +501,7 @@ shi,Tachelhit,3,(n == 0 || n == 1) ? 0 : ((n >= 2 && n <= 10) ? 1 : 2)
 shn,Shan,2,n != 1
 si,Sinhala,2,n > 1
 sid,Sidamo,2,n != 1
+sjd,Sami (Kildin),2,n != 1
 sk,Slovak,3,(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
 sl,Slovenian,4,n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3
 sm,Samoan,2,n != 1
@@ -528,6 +535,8 @@ sv,Swedish,2,n != 1
 sw,Swahili,2,n != 1
 sw_CD,Swahili (Congo),2,n != 1
 sw_TZ,Swahili (Tanzania),2,n != 1
+swg,Swabian,2,n != 1
+sxu,Saxon (Upper),2,n != 1
 syc,Syriac (Classical),2,n != 1
 syr,Syriac,2,n != 1
 szl,Silesian,3,n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
