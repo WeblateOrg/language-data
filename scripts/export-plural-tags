@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 #
-# Copyright © 2018–2023 Michal Čihař <michal@cihar.com>
+# Copyright © Michal Čihař <michal@weblate.org>
 #
 # This file is part of Weblate <https://weblate.org/>
 #
@@ -30,7 +30,7 @@ import subprocess
 BASE = "modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json"
 
 HEADER = '''#
-# Copyright © 2012–2023 Michal Čihař <michal@cihar.com>
+# Copyright © Michal Čihař <michal@weblate.org>
 #
 # This file is part of Weblate <https://weblate.org/>
 #
