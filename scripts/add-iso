@@ -1,5 +1,9 @@
 #! /usr/bin/env python3
 
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: MIT
+
 import json
 import sys
 from urllib.request import urlopen

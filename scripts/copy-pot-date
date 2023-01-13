@@ -1,4 +1,9 @@
 #!/bin/sh
+
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: MIT
+
 REGX='^"POT-Creation-Date:.*'
 
 # Grab date from other branch

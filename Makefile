@@ -1,3 +1,7 @@
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: MIT
+
 all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md $(wildcard weblate_language_data/locale/*/LC_MESSAGES/django.po)
 
 weblate_language_data/languages.py: languages.csv aliases.csv cldr.csv extraplurals.csv default_countries.csv population.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
