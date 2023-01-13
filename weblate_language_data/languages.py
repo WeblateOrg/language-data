@@ -5563,6 +5563,15 @@ LANGUAGES = (
         "0",
     ),
     (
+        "yua",
+        # Translators: Language name for ISO code "yua". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Yucateco"),
+        2,
+        "n != 1",
+    ),
+    (
         "yue",
         # Translators: Language name for ISO code "yue". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

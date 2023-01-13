@@ -987,6 +987,7 @@ LANGUAGES = {
     "yid",
     "yo",
     "yor",
+    "yua",
     "yue",
     "za",
     "zap",
