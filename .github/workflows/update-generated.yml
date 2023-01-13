@@ -15,7 +15,7 @@ on:
 
 jobs:
   submodule-update:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
       pull-requests: write
@@ -29,7 +29,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.11'
         cache: pip
         cache-dependency-path: requirements*.txt
     - name: Install dependencies
