@@ -126,7 +126,7 @@ with open("weblate_language_data/population.py", "w") as output:
     output.write("POPULATION = {\n")
     for row in LANGUAGES:
         code = row[0]
-        output.write(f'    "{code}": {POPULATION.get(row[0], 0)},\n')
+        output.write(f"    {code!r}: {POPULATION.get(row[0], 0)},\n")
     output.write("}\n")
 with open("weblate_language_data/plurals.py", "w") as output:
     output.write(HEADER)
