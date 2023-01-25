@@ -862,7 +862,6 @@ LANGUAGES = {
     "ayizi",
     "ayizo",
     "aymara",
-    "aymará",
     "ayoquesco",
     "ayoreo",
     "ayrshire",
