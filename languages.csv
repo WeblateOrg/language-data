@@ -606,6 +606,8 @@ war,Waray (Philippines),2,n != 1
 was,Washo,2,n != 1
 wen,Sorbian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 wep,Westphalien,2,n != 1
+wuu_Hans,Wu (Simplified),1,0
+wuu_Hant,Wu (Traditional),1,0
 wo,Wolof,1,0
 xal,Kalmyk,2,n != 1
 xh,Xhosa,2,n != 1
