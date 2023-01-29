@@ -4553,6 +4553,15 @@ LANGUAGES = (
         "(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2",
     ),
     (
+        "skr",
+        # Translators: Language name for ISO code "skr". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Saraiki"),
+        2,
+        "n != 1",
+    ),
+    (
         "sl",
         # Translators: Language name for ISO code "sl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

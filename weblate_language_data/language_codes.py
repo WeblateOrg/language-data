@@ -782,6 +782,7 @@ LANGUAGES = {
     "sin",
     "sjd",
     "sk",
+    "skr",
     "sky",
     "sl",
     "sl_sl",

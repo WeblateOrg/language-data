@@ -503,6 +503,7 @@ si,Sinhala,2,n > 1
 sid,Sidamo,2,n != 1
 sjd,Sami (Kildin),2,n != 1
 sk,Slovak,3,(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
+skr,Saraiki,2,n != 1
 sl,Slovenian,4,n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3
 sm,Samoan,2,n != 1
 sma,Sami (Southern),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
