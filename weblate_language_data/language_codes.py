@@ -957,6 +957,7 @@ LANGUAGES = {
     "wln",
     "wo",
     "wol",
+    "wuu",
     "xal",
     "xbelorussian",
     "xh",
