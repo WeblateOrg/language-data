@@ -63,6 +63,15 @@ with open("population.csv") as csvfile:
     next(reader)
     POPULATION = dict(reader)
 
+
+def get_population(code):
+    if code in POPULATION:
+        return POPULATION[code]
+    if "@" in code:
+        return get_population(code.split("@")[0])
+    return 0
+
+
 # Read aliases
 with open("aliases.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=",")
@@ -84,7 +93,7 @@ with open("modules/iso-codes/data/iso_3166-1.json") as handle:
         COUNTRIES.add(item["alpha_2"].lower())
         COUNTRIES.add(item["alpha_3"].lower())
 
-# Read extra plurals
+# Read extra pluralsweblate_language_data/languages.py
 with open("extraplurals.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=",")
     next(reader)
@@ -126,7 +135,7 @@ with open("weblate_language_data/population.py", "w") as output:
     output.write("POPULATION = {\n")
     for row in LANGUAGES:
         code = row[0]
-        output.write(f"    {code!r}: {POPULATION.get(row[0], 0)},\n")
+        output.write(f"    {code!r}: {get_population(code)},\n")
     output.write("}\n")
 with open("weblate_language_data/plurals.py", "w") as output:
     output.write(HEADER)
