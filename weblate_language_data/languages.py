@@ -5606,11 +5606,20 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "wuu",
-        # Translators: Language name for ISO code "wuu". The parenthesis clarifies
+        "wuu_Hans",
+        # Translators: Language name for ISO code "wuu_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Wu"),
+        _("Wu (Simplified)"),
+        1,
+        "0",
+    ),
+    (
+        "wuu_Hant",
+        # Translators: Language name for ISO code "wuu_Hant". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Wu (Traditional)"),
         1,
         "0",
     ),

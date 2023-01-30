@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2023-01-30 14:58+0100\n"
+"POT-Creation-Date: 2023-01-30 15:07+0100\n"
 "PO-Revision-Date: 2023-01-23 13:29+0000\n"
 "Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/languages/"
@@ -3782,12 +3782,21 @@ msgstr "소르브어"
 msgid "Westphalien"
 msgstr "베스트팔리아"
 
-#. Translators: Language name for ISO code "wuu". The parenthesis clarifies
+#. Translators: Language name for ISO code "wuu_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Wu"
-msgstr "Balsa"
+#| msgid "Chinese (Simplified)"
+msgid "Wu (Simplified)"
+msgstr "중국어 (간체)"
+
+#. Translators: Language name for ISO code "wuu_Hant". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese (Traditional)"
+msgid "Wu (Traditional)"
+msgstr "중국어 (번체)"
 
 #. Translators: Language name for ISO code "wo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3926,6 +3935,10 @@ msgstr "주니어"
 #. or other variant.
 msgid "Zaza"
 msgstr "자자어"
+
+#, fuzzy
+#~ msgid "Wu"
+#~ msgstr "Balsa"
 
 #, fuzzy
 #~| msgid "Portuguese (Brazil)"
