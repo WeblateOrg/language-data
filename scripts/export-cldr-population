@@ -22,10 +22,9 @@ with open(
             continue
         for language_cldr, data in territory["languagePopulation"].items():
             language = MAPPING.get(language_cldr, language_cldr)
-            languages[language] += population * float(data["_populationPercent"])
-            languages[f"{language}_{code}"] += population * float(
-                data["_populationPercent"]
-            )
+            factor = float(data["_populationPercent"]) / 100
+            languages[language] += population * factor
+            languages[f"{language}_{code}"] += population * factor
 
 with open("population.csv", "w") as handle:
     handle.write("code,population\n")
