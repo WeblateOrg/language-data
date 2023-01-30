@@ -1024,7 +1024,6 @@ msgstr "Испански"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Spanish (Colombia)"
 msgid "Spanish (formal)"
 msgstr "Испански (Колумбия)"
 
@@ -1032,7 +1031,6 @@ msgstr "Испански (Колумбия)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Spanish (Panama)"
 msgid "Spanish (informal)"
 msgstr "Испански (Панама)"
 
@@ -1694,7 +1692,6 @@ msgstr "Италиански"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "German (formal)"
 msgid "Italian (formal)"
 msgstr "Немски (книжовен)"
 
@@ -1702,7 +1699,6 @@ msgstr "Немски (книжовен)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "German (informal)"
 msgid "Italian (informal)"
 msgstr "Немски (диалектен)"
 
@@ -2520,7 +2516,6 @@ msgstr "Нидерландски"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "French (formal)"
 msgid "Dutch (formal)"
 msgstr "Френски (книжовен)"
 
@@ -2528,7 +2523,6 @@ msgstr "Френски (книжовен)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "French (informal)"
 msgid "Dutch (informal)"
 msgstr "Френски (диалектен)"
 
@@ -2758,7 +2752,6 @@ msgstr "Полски"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "French (formal)"
 msgid "Polish (formal)"
 msgstr "Френски (книжовен)"
 
@@ -2766,7 +2759,6 @@ msgstr "Френски (книжовен)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "French (informal)"
 msgid "Polish (informal)"
 msgstr "Френски (диалектен)"
 
@@ -2810,7 +2802,6 @@ msgstr "Португалски"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Portuguese (Portugal)"
 msgid "Portuguese (formal)"
 msgstr "Португалски (Португалия)"
 
@@ -2818,7 +2809,6 @@ msgstr "Португалски (Португалия)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Portuguese (Portugal)"
 msgid "Portuguese (informal)"
 msgstr "Португалски (Португалия)"
 
@@ -2838,7 +2828,6 @@ msgstr "Португалски (Бразилия)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Portuguese (Portugal)"
 msgid "Portuguese (Brazil, formal)"
 msgstr "Португалски (Португалия)"
 
@@ -2846,7 +2835,6 @@ msgstr "Португалски (Португалия)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Portuguese (Portugal)"
 msgid "Portuguese (Brazil, informal)"
 msgstr "Португалски (Португалия)"
 
@@ -2962,7 +2950,6 @@ msgstr "Руски"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Russian (Ukraine)"
 msgid "Russian (formal)"
 msgstr "Руски (Украйна)"
 
@@ -2970,7 +2957,6 @@ msgstr "Руски (Украйна)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "German (informal)"
 msgid "Russian (informal)"
 msgstr "Немски (диалектен)"
 
@@ -3782,7 +3768,6 @@ msgstr "Вестфалски"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Chinese (Simplified)"
 msgid "Wu (Simplified)"
 msgstr "Китайски (опростен)"
 
@@ -3790,7 +3775,6 @@ msgstr "Китайски (опростен)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Chinese (Traditional)"
 msgid "Wu (Traditional)"
 msgstr "Китайски (традиционен)"
 
@@ -3932,8 +3916,13 @@ msgstr "Зуни"
 msgid "Zaza"
 msgstr "Зазаки"
 
+#. Translators: Language name for ISO code "wuu". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Wu"
+msgstr "У"
+
 #, fuzzy
-#~| msgid "Portuguese (Brazil)"
 #~ msgid "Portuguese (Brazil"
 #~ msgstr "Португалски (Бразилия)"
 
