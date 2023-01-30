@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2023-01-30 14:00+0100\n"
+"POT-Creation-Date: 2023-01-30 14:58+0100\n"
 "PO-Revision-Date: 2021-11-14 00:02+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/weblate/languages/"
@@ -1066,6 +1066,22 @@ msgstr "Esperanto"
 msgid "Spanish"
 msgstr "Španielčina"
 
+#. Translators: Language name for ISO code "es@formal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Spanish (Bolivia)"
+msgid "Spanish (formal)"
+msgstr "Španielčina (Bolívia)"
+
+#. Translators: Language name for ISO code "es@informal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Spanish (Peru)"
+msgid "Spanish (informal)"
+msgstr "Španielčina (Peru)"
+
 #. Translators: Language name for ISO code "es_419". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -1748,6 +1764,22 @@ msgstr "Islandčina"
 #. or other variant.
 msgid "Italian"
 msgstr "Taliančina"
+
+#. Translators: Language name for ISO code "it@formal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "German (formal)"
+msgid "Italian (formal)"
+msgstr "Nemčina (formálna)"
+
+#. Translators: Language name for ISO code "it@informal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "German (informal)"
+msgid "Italian (informal)"
+msgstr "Nemčina (neformálna)"
 
 #. Translators: Language name for ISO code "it_CH". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2612,6 +2644,22 @@ msgstr "niueština"
 msgid "Dutch"
 msgstr "Holandčina"
 
+#. Translators: Language name for ISO code "nl@formal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "French (formal)"
+msgid "Dutch (formal)"
+msgstr "Francúzština (formálna)"
+
+#. Translators: Language name for ISO code "nl@informal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "French (informal)"
+msgid "Dutch (informal)"
+msgstr "Francúzština (neformálna)"
+
 #. Translators: Language name for ISO code "nl_BE". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -2846,6 +2894,22 @@ msgstr "pálí"
 msgid "Polish"
 msgstr "Polština"
 
+#. Translators: Language name for ISO code "pl@formal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "French (formal)"
+msgid "Polish (formal)"
+msgstr "Francúzština (formálna)"
+
+#. Translators: Language name for ISO code "pl@informal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "French (informal)"
+msgid "Polish (informal)"
+msgstr "Francúzština (neformálna)"
+
 #. Translators: Language name for ISO code "pms". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -2884,6 +2948,22 @@ msgstr "Paštčina"
 msgid "Portuguese"
 msgstr "Portugalčina"
 
+#. Translators: Language name for ISO code "pt@formal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Portuguese (Portugal)"
+msgid "Portuguese (formal)"
+msgstr "Portugalčina (Portugalsko)"
+
+#. Translators: Language name for ISO code "pt@informal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Portuguese (Portugal)"
+msgid "Portuguese (informal)"
+msgstr "Portugalčina (Portugalsko)"
+
 #. Translators: Language name for ISO code "pt_AO". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -2895,6 +2975,22 @@ msgstr "Portugalčina (Angola)"
 #. or other variant.
 msgid "Portuguese (Brazil)"
 msgstr "Portugalčina (Brazília)"
+
+#. Translators: Language name for ISO code "pt_BR@formal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Portuguese (Portugal)"
+msgid "Portuguese (Brazil, formal)"
+msgstr "Portugalčina (Portugalsko)"
+
+#. Translators: Language name for ISO code "pt_BR@informal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Portuguese (Portugal)"
+msgid "Portuguese (Brazil, informal)"
+msgstr "Portugalčina (Portugalsko)"
 
 #. Translators: Language name for ISO code "pt_PT". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3009,6 +3105,22 @@ msgstr "Rétorománčina"
 #. or other variant.
 msgid "Russian"
 msgstr "Ruština"
+
+#. Translators: Language name for ISO code "ru@formal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Russian (Ukraine)"
+msgid "Russian (formal)"
+msgstr "Ruština (Ukrajina)"
+
+#. Translators: Language name for ISO code "ru@informal". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "German (informal)"
+msgid "Russian (informal)"
+msgstr "Nemčina (neformálna)"
 
 #. Translators: Language name for ISO code "ru_UA". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4010,6 +4122,11 @@ msgstr "zuniština"
 #, fuzzy
 msgid "Zaza"
 msgstr "Maori"
+
+#, fuzzy
+#~| msgid "Portuguese (Brazil)"
+#~ msgid "Portuguese (Brazil"
+#~ msgstr "Portugalčina (Brazília)"
 
 #~ msgid "Aymará"
 #~ msgstr "Ajmarština"

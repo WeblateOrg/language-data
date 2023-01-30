@@ -165,6 +165,8 @@ en_devel,English (Developer),2,n != 1
 enm,English (Middle),2,n != 1
 eo,Esperanto,2,n != 1
 es,Spanish,2,n != 1
+es@formal,Spanish (formal),2,n != 1
+es@informal,Spanish (informal),2,n != 1
 es_419,Spanish (Latin America),2,n != 1
 es_AR,Spanish (Argentina),2,n != 1
 es_BO,Spanish (Bolivia),2,n != 1
@@ -274,6 +276,8 @@ inh,Ingush,2,n != 1
 io,Ido,2,n != 1
 is,Icelandic,2,n % 10 != 1 || n % 100 == 11
 it,Italian,2,n != 1
+it@formal,Italian (formal),2,n != 1
+it@informal,Italian (informal),2,n != 1
 it_CH,Italian (Switzerland),2,n != 1
 iu,Inuktitut,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 ja,Japanese,1,0
@@ -409,6 +413,8 @@ ng,Ndonga,2,n != 1
 nia,Nias,2,n != 1
 niu,Niuean,2,n != 1
 nl,Dutch,2,n != 1
+nl@formal,Dutch (formal),2,n != 1
+nl@informal,Dutch (informal),2,n != 1
 nl_BE,Dutch (Belgium),2,n != 1
 nn,Norwegian Nynorsk,2,n != 1
 nnh,Ngiemboon,2,n != 1
@@ -446,14 +452,20 @@ peo,Persian (Old),2,n != 1
 phn,Phoenician,2,n != 1
 pi,Pali,2,n != 1
 pl,Polish,3,n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+pl@formal,Polish (formal),3,n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+pl@informal,Polish (informal),3,n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 pms,Piemontese,2,n != 1
 pon,Pohnpeian,2,n != 1
 prg,Prussian,3,(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 pro,Provençal (Old),2,n != 1
 ps,Pashto,2,n != 1
 pt,Portuguese,2,n > 1
+pt@formal,Portuguese (formal),2,n > 1
+pt@informal,Portuguese (informal),2,n > 1
 pt_AO,Portuguese (Angola),2,n > 1
 pt_BR,Portuguese (Brazil),2,n > 1
+pt_BR@formal,"Portuguese (Brazil, formal)",2,n > 1
+pt_BR@informal,"Portuguese (Brazil, informal)",2,n > 1
 pt_PT,Portuguese (Portugal),2,n > 1
 qdt,Eskimo (Pacific Coast Alaskan),2,n > 1
 qtp,Gayón,2,n > 1
@@ -472,6 +484,8 @@ ro_MD,Moldavian,3,(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 
 rof,Rombo,2,n != 1
 rom,Romany,2,n != 1
 ru,Russian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+ru@formal,Russian (formal),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+ru@informal,Russian (informal),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 ru_UA,Russian (Ukraine),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 rue,Rusyn,2,n != 1
 rup,Macedo-Romanian,2,n != 1

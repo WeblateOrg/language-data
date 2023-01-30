@@ -1511,6 +1511,24 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "es@formal",
+        # Translators: Language name for ISO code "es@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (formal)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "es@informal",
+        # Translators: Language name for ISO code "es@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (informal)"),
+        2,
+        "n != 1",
+    ),
+    (
         "es_419",
         # Translators: Language name for ISO code "es_419". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2488,6 +2506,24 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Italian"),
+        2,
+        "n != 1",
+    ),
+    (
+        "it@formal",
+        # Translators: Language name for ISO code "it@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Italian (formal)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "it@informal",
+        # Translators: Language name for ISO code "it@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Italian (informal)"),
         2,
         "n != 1",
     ),
@@ -3707,6 +3743,24 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "nl@formal",
+        # Translators: Language name for ISO code "nl@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Dutch (formal)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "nl@informal",
+        # Translators: Language name for ISO code "nl@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Dutch (informal)"),
+        2,
+        "n != 1",
+    ),
+    (
         "nl_BE",
         # Translators: Language name for ISO code "nl_BE". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4040,6 +4094,24 @@ LANGUAGES = (
         "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
+        "pl@formal",
+        # Translators: Language name for ISO code "pl@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Polish (formal)"),
+        3,
+        "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
+    ),
+    (
+        "pl@informal",
+        # Translators: Language name for ISO code "pl@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Polish (informal)"),
+        3,
+        "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
+    ),
+    (
         "pms",
         # Translators: Language name for ISO code "pms". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4094,6 +4166,24 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "pt@formal",
+        # Translators: Language name for ISO code "pt@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (formal)"),
+        2,
+        "n > 1",
+    ),
+    (
+        "pt@informal",
+        # Translators: Language name for ISO code "pt@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (informal)"),
+        2,
+        "n > 1",
+    ),
+    (
         "pt_AO",
         # Translators: Language name for ISO code "pt_AO". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4108,6 +4198,24 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Portuguese (Brazil)"),
+        2,
+        "n > 1",
+    ),
+    (
+        "pt_BR@formal",
+        # Translators: Language name for ISO code "pt_BR@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (Brazil, formal)"),
+        2,
+        "n > 1",
+    ),
+    (
+        "pt_BR@informal",
+        # Translators: Language name for ISO code "pt_BR@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (Brazil, informal)"),
         2,
         "n > 1",
     ),
@@ -4270,6 +4378,24 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Russian"),
+        3,
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
+    ),
+    (
+        "ru@formal",
+        # Translators: Language name for ISO code "ru@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Russian (formal)"),
+        3,
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
+    ),
+    (
+        "ru@informal",
+        # Translators: Language name for ISO code "ru@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Russian (informal)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
