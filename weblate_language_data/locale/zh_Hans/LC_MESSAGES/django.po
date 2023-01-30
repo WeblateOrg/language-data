@@ -1039,7 +1039,6 @@ msgstr "西班牙语"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Spanish (Colombia)"
 msgid "Spanish (formal)"
 msgstr "西班牙语（哥伦比亚）"
 
@@ -1047,7 +1046,6 @@ msgstr "西班牙语（哥伦比亚）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Spanish (Panama)"
 msgid "Spanish (informal)"
 msgstr "西班牙语（巴拿马）"
 
@@ -1709,7 +1707,6 @@ msgstr "意大利语"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "German (formal)"
 msgid "Italian (formal)"
 msgstr "德语（正式）"
 
@@ -1717,7 +1714,6 @@ msgstr "德语（正式）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "German (informal)"
 msgid "Italian (informal)"
 msgstr "德语（非正式）"
 
@@ -2535,7 +2531,6 @@ msgstr "荷兰语"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "French (formal)"
 msgid "Dutch (formal)"
 msgstr "法语（正式）"
 
@@ -2543,7 +2538,6 @@ msgstr "法语（正式）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "French (informal)"
 msgid "Dutch (informal)"
 msgstr "法语（非正式）"
 
@@ -2773,7 +2767,6 @@ msgstr "波兰语"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "French (formal)"
 msgid "Polish (formal)"
 msgstr "法语（正式）"
 
@@ -2781,7 +2774,6 @@ msgstr "法语（正式）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "French (informal)"
 msgid "Polish (informal)"
 msgstr "法语（非正式）"
 
@@ -2825,7 +2817,6 @@ msgstr "葡萄牙语"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Portuguese (Portugal)"
 msgid "Portuguese (formal)"
 msgstr "葡萄牙语（葡萄牙）"
 
@@ -2833,7 +2824,6 @@ msgstr "葡萄牙语（葡萄牙）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Portuguese (Portugal)"
 msgid "Portuguese (informal)"
 msgstr "葡萄牙语（葡萄牙）"
 
@@ -2853,7 +2843,6 @@ msgstr "葡萄牙语（巴西）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Portuguese (Portugal)"
 msgid "Portuguese (Brazil, formal)"
 msgstr "葡萄牙语（葡萄牙）"
 
@@ -2861,7 +2850,6 @@ msgstr "葡萄牙语（葡萄牙）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Portuguese (Portugal)"
 msgid "Portuguese (Brazil, informal)"
 msgstr "葡萄牙语（葡萄牙）"
 
@@ -2977,7 +2965,6 @@ msgstr "俄语"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Russian (Ukraine)"
 msgid "Russian (formal)"
 msgstr "俄语（乌克兰）"
 
@@ -2985,7 +2972,6 @@ msgstr "俄语（乌克兰）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "German (informal)"
 msgid "Russian (informal)"
 msgstr "德语（非正式）"
 
@@ -3797,7 +3783,6 @@ msgstr "威斯特伐利亚语"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Chinese (Simplified)"
 msgid "Wu (Simplified)"
 msgstr "中文（简体）"
 
@@ -3805,7 +3790,6 @@ msgstr "中文（简体）"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Chinese (Traditional)"
 msgid "Wu (Traditional)"
 msgstr "中文（繁体）"
 
@@ -3947,8 +3931,13 @@ msgstr "祖尼语"
 msgid "Zaza"
 msgstr "扎扎其语"
 
+#. Translators: Language name for ISO code "wuu". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Wu"
+msgstr "吴方言"
+
 #, fuzzy
-#~| msgid "Portuguese (Brazil)"
 #~ msgid "Portuguese (Brazil"
 #~ msgstr "葡萄牙语（巴西）"
 
