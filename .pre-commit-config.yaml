@@ -5,6 +5,25 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-yaml
+  - id: check-toml
+  - id: requirements-txt-fixer
+  - id: check-merge-conflict
+  - id: check-json
+  - id: debug-statements
+  - id: mixed-line-ending
+    args: [--fix=lf]
+  - id: pretty-format-json
+    args: [--no-sort-keys, --autofix, --no-ensure-ascii]
+- repo: https://github.com/adrienverge/yamllint
+  rev: v1.29.0
+  hooks:
+  - id: yamllint
 - repo: https://github.com/PyCQA/isort
   rev: 5.12.0
   hooks:
@@ -38,23 +57,6 @@ repos:
     - flake8-self==0.2.2
     - flake8-assertive==2.1.0
     - pep8-naming==0.13.3
-- repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.4.0
-  hooks:
-  - id: trailing-whitespace
-  - id: end-of-file-fixer
-  - id: check-yaml
-  - id: requirements-txt-fixer
-  - id: check-merge-conflict
-  - id: mixed-line-ending
-    args: [--fix=lf]
-  - id: debug-statements
-  - id: pretty-format-json
-    args: [--no-sort-keys, --autofix, --no-ensure-ascii]
-- repo: https://github.com/adrienverge/yamllint
-  rev: v1.29.0
-  hooks:
-  - id: yamllint
 - repo: https://github.com/asottile/blacken-docs
   rev: 1.13.0
   hooks:
@@ -73,9 +75,9 @@ repos:
   hooks:
   - id: mdformat
     additional_dependencies:
-    - mdformat-gfm
-    - mdformat-black
-    - mdformat-shfmt
+    - mdformat-gfm==0.3.5
+    - mdformat-black==0.1.1
+    - mdformat-shfmt==0.1.0
 - repo: https://github.com/igorshubovych/markdownlint-cli
   rev: v0.33.0
   hooks:
@@ -84,3 +86,6 @@ repos:
   rev: v1.1.1
   hooks:
   - id: reuse
+
+ci:
+  autoupdate_schedule: quarterly
