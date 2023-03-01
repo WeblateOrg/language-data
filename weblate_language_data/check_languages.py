@@ -11167,6 +11167,7 @@ LANGUAGES = {
     "syllabics",
     "syloti",
     "symbols",
+    "syria",
     "syriac",
     "syrian",
     "syunik",
