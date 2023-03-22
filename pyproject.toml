@@ -4,3 +4,6 @@ requires = ["setuptools", "wheel", "translate-toolkit"]  # PEP 508 specification
 
 [tool.black]
 target-version = ['py37']
+
+[tool.isort]
+profile = "black"
