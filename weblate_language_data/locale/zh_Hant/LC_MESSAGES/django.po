@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2023-01-30 15:07+0100\n"
+"POT-Creation-Date: 2023-03-29 09:07+0100\n"
 "PO-Revision-Date: 2023-02-01 03:03+0000\n"
 "Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -3821,11 +3821,17 @@ msgstr "約魯巴語"
 msgid "Yucateco"
 msgstr "猶加敦馬雅語"
 
-#. Translators: Language name for ISO code "yue". The parenthesis clarifies
+#. Translators: Language name for ISO code "yue_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Yue"
-msgstr "粵語"
+msgid "Yue (Simplified)"
+msgstr "粵語（簡體字）"
+
+#. Translators: Language name for ISO code "yue_Hant". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Yue (Traditional)"
+msgstr "粵語（正體字）"
 
 #. Translators: Language name for ISO code "za". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)

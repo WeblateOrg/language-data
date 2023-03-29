@@ -987,6 +987,8 @@ LANGUAGES = {
     "yor",
     "yua",
     "yue",
+    "yue_hans",
+    "yue_hant",
     "za",
     "zap",
     "zbl",

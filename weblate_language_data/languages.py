@@ -5706,11 +5706,20 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "yue",
-        # Translators: Language name for ISO code "yue". The parenthesis clarifies
+        "yue_Hans",
+        # Translators: Language name for ISO code "yue_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Yue"),
+        _("Yue (Simplified)"),
+        1,
+        "0",
+    ),
+    (
+        "yue_Hant",
+        # Translators: Language name for ISO code "yue_Hant". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Yue (Traditional)"),
         1,
         "0",
     ),

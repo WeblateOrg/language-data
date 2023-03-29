@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2023-01-30 15:07+0100\n"
+"POT-Creation-Date: 2023-03-29 09:07+0100\n"
 "PO-Revision-Date: 2023-03-03 21:37+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/weblate/"
@@ -3812,11 +3812,17 @@ msgstr "Jorupski"
 msgid "Yucateco"
 msgstr "Yucateco"
 
-#. Translators: Language name for ISO code "yue". The parenthesis clarifies
+#. Translators: Language name for ISO code "yue_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Yue"
-msgstr "Yue"
+msgid "Yue (Simplified)"
+msgstr "Yue (pojednostavljeni)"
+
+#. Translators: Language name for ISO code "yue_Hant". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Yue (Traditional)"
+msgstr "Yue (tradicionalni)"
 
 #. Translators: Language name for ISO code "za". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
