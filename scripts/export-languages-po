@@ -8,6 +8,7 @@
 
 import glob
 import json
+import os
 import re
 
 BASE = "modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json"
@@ -39,6 +40,11 @@ def extract_names(data):
 with open(BASE) as handle:
     data = json.load(handle)
 names = extract_names(data)[1]
+
+# Remove current files, we overwrite them anyway and this ensures
+# that no stale files are there
+for old in glob.glob("languages-po/*.po"):
+    os.unlink(old)
 
 # Process translations
 for lang in glob.glob(
