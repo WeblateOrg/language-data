@@ -7,7 +7,7 @@ name: submodule update
 on:
   push:
     branches:
-    - dependabot/**
+    - renovate/**
     - main
     paths:
     - .github/workflows/submodules-update.yml
