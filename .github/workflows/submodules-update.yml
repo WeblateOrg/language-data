@@ -37,7 +37,7 @@ jobs:
         python -m pip install --upgrade pip wheel setuptools
         pip install -r requirements-dev.txt
     - run: make
-    - name: Update dependabot branch
+    - name: Update renovate branch
       if: github.ref != 'refs/heads/main'
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
