@@ -270,7 +270,7 @@ with open("weblate_language_data/check_languages.py", "w") as output:
     content = ", ".join(
         "'{}'".format(word.replace("'", "\\'"))
         for word in sorted(words)
-        if len(word) > 2 # noqa: PLR2004
+        if len(word) > 2  # noqa: PLR2004
     )
     output.write(content)
     output.write("\n}\n")
