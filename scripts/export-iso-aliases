@@ -26,7 +26,7 @@ def parse_csv(name):
             if data[0] == "#":
                 continue
             if data[0] in result:
-                raise Exception(f"Duplicate {data[0]} in {name}!")
+                raise ValueError(f"Duplicate {data[0]} in {name}!")
             result[data[0]] = data
     return result
 

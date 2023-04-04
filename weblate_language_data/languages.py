@@ -2,7 +2,8 @@
 #
 # SPDX-License-Identifier: MIT
 
-"""Language data definitions.
+"""
+Language data definitions.
 
 This is an automatically generated file, see scripts/generate-language-data
 
@@ -2208,7 +2209,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "gwi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Gwichʼin"),
+        _("Gwich`in"),
         2,
         "n != 1",
     ),
@@ -3360,7 +3361,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "mgo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Metaʼ"),
+        _("Meta`"),
         2,
         "n != 1",
     ),
@@ -3810,7 +3811,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "nqo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("N’Ko"),
+        _("N`Ko"),
         1,
         "0",
     ),

@@ -18,7 +18,7 @@ from itertools import chain
 
 SPLIT_RE = re.compile(
     r"(?:\&(?:nbsp|rsaquo|lt|gt|amp|ldquo|rdquo|times|quot);|"
-    + r'[() ,.^`"\'\\/_<>!?;:|{}*^@%#&~=+\r\n✓—‑…\[\]0-9-])+'
+    r'[() ,.^`"\'\\/_<>!?;:|{}*^@%#&~=+\r\n✓—-…\[\]0-9-])+'
 )
 
 HEADER = '''# Copyright © Michal Čihař <michal@weblate.org>
@@ -270,7 +270,7 @@ with open("weblate_language_data/check_languages.py", "w") as output:
     content = ", ".join(
         "'{}'".format(word.replace("'", "\\'"))
         for word in sorted(words)
-        if len(word) > 2
+        if len(word) > 2 # noqa: PLR2004
     )
     output.write(content)
     output.write("\n}\n")

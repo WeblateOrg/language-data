@@ -2,7 +2,8 @@
 #
 # SPDX-License-Identifier: MIT
 
-"""Language data definitions.
+"""
+Language data definitions.
 
 This is an automatically generated file, see scripts/generate-language-data
 

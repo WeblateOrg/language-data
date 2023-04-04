@@ -43,11 +43,7 @@ def compare_definition(first, second, meta=True):
     # It would be better to compare formulas,
     # but this was easier to implement and the performance
     # is still okay.
-    for i in range(-10, 200):
-        if ours(i) != theirs(i):
-            return False
-
-    return True
+    return all(ours(i) == theirs(i) for i in range(-10, 200))
 
 
 # Read the definitions

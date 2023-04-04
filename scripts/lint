@@ -16,7 +16,7 @@ def parse_csv(name):
             if data[0] == "#":
                 continue
             if data[0] in result:
-                raise Exception(f"Duplicate {data[0]} in {name}!")
+                raise ValueError(f"Duplicate {data[0]} in {name}!")
             result[data[0]] = data
     return result
 
@@ -26,12 +26,12 @@ aliases = parse_csv("aliases.csv")
 
 for alias in aliases:
     if not alias.islower():
-        raise Exception(f"Alias {alias} is not lower cased!")
+        raise ValueError(f"Alias {alias} is not lower cased!")
 
 missing = {alias[1] for alias in aliases.values()} - set(languages.keys())
 if missing:
-    raise Exception(f"Missing target for aliases: {missing}")
+    raise ValueError(f"Missing target for aliases: {missing}")
 
 overlap = set(languages.keys()) & set(aliases.keys())
 if overlap:
-    raise Exception(f"Overlaping languages and aliases: {overlap}")
+    raise ValueError(f"Overlaping languages and aliases: {overlap}")

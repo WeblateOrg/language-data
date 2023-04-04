@@ -4,9 +4,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-"""
-Helper script to generate Python code with ambiguous.
-"""
+"""Helper script to generate Python code with ambiguous."""
 
 import csv
 import subprocess
@@ -65,7 +63,7 @@ with open("aliases.csv") as csvfile:
 # we are updating the dict
 for macro in list(result.keys()):
     alias = ALIASES.get(macro)
-    if alias and len(alias) == 2:
+    if alias and len(alias) == 2:  # noqa: PLR2004
         result[ALIASES[macro]] = result[macro]
 
 # Generate output
