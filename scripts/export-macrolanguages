@@ -24,7 +24,8 @@ HEADER = '''# Copyright © Michal Čihař <michal@weblate.org>
 #
 # SPDX-License-Identifier: MIT
 
-"""Language data definitions.
+"""
+Language data definitions.
 
 This is an automatically generated file, see scripts/generate-language-data
 
@@ -55,7 +56,7 @@ for macro, lang, _kind in macrolanguages:
 
 # Read aliases
 with open("aliases.csv") as csvfile:
-    reader = csv.reader(csvfile, delimiter=";")
+    reader = csv.reader(csvfile, delimiter=",")
     next(reader)
     ALIASES = dict([alias for alias in reader if alias[0] != "#"])
 
