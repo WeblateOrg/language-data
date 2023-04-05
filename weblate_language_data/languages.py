@@ -2209,7 +2209,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "gwi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Gwich`in"),
+        _("Gwichʼin"),
         2,
         "n != 1",
     ),
@@ -3361,7 +3361,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "mgo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Meta`"),
+        _("Metaʼ"),
         2,
         "n != 1",
     ),
@@ -3811,7 +3811,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "nqo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("N`Ko"),
+        _("N’Ko"),
         1,
         "0",
     ),
