@@ -163,6 +163,7 @@ ALIASES = {
     "fas_ir": "fa",
     "por_br": "pt_BR",
     "por_pt": "pt",
+    "swe_se": "sv",
     "svk": "sk",
     "ptb": "pt_BR",
     "enu": "en_US",

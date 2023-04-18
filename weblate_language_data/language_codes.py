@@ -881,6 +881,7 @@ LANGUAGES = {
     "sw_tz",
     "swa",
     "swe",
+    "swe_se",
     "swg",
     "sxu",
     "syc",
