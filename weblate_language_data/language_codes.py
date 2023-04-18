@@ -474,6 +474,7 @@ LANGUAGES = {
     "ka",
     "kaa",
     "kab",
+    "kab_kab",
     "kac",
     "kaj",
     "kal",
