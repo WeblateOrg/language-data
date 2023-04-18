@@ -155,6 +155,7 @@ ALIASES = {
     "fra_fr": "fr",
     "glg_es": "gl",
     "deu_de": "de",
+    "ita_it": "it",
     "svk": "sk",
     "ptb": "pt_BR",
     "enu": "en_US",

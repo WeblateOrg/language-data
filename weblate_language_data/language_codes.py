@@ -448,6 +448,7 @@ LANGUAGES = {
     "it@informal",
     "it_ch",
     "ita",
+    "ita_it",
     "its",
     "iu",
     "iw",
