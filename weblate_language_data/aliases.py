@@ -60,6 +60,7 @@ ALIASES = {
     "et_et": "et",
     "fil_fil": "fil",
     "he_he": "he",
+    "ca_ca": "ca",
     "in": "id",
     "iw": "he",
     "iw_il": "he",

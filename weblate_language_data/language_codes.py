@@ -139,6 +139,7 @@ LANGUAGES = {
     "ca",
     "ca@valencia",
     "ca_ad",
+    "ca_ca",
     "ca_es@valencia",
     "ca_ps",
     "ca_valencia",
