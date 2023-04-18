@@ -623,6 +623,8 @@ LANGUAGES = {
     "na",
     "nah",
     "nan",
+    "nan_hant",
+    "nan_latn",
     "nap",
     "naq",
     "nau",

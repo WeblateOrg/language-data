@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2023-03-29 09:07+0100\n"
+"POT-Creation-Date: 2023-04-18 13:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2568,11 +2568,21 @@ msgstr "Kinauru"
 msgid "Nahuatl"
 msgstr ""
 
-#. Translators: Language name for ISO code "nan". The parenthesis clarifies
+#. Translators: Language name for ISO code "nan_Hant". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Chinese (Min Nan)"
-msgstr ""
+#, fuzzy
+#| msgid "Chinese, Mandarin"
+msgid "Chinese (Min Nan, Traditional)"
+msgstr "Kichina sanifu"
+
+#. Translators: Language name for ISO code "nan_Latn". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese, Mandarin"
+msgid "Chinese (Min Nan, Latin)"
+msgstr "Kichina sanifu"
 
 #. Translators: Language name for ISO code "nap". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)

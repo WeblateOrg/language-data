@@ -90,6 +90,7 @@ ALIASES = {
     "uz@latn": "uz_Latn",
     "uz@cyrillic": "uz",
     "yue": "yue_Hant",
+    "nan": "nan_Hant",
     "zh": "zh_Hans",
     "zhcn": "zh_Hans",
     "zh_cn": "zh_Hans",
