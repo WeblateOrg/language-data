@@ -314,6 +314,7 @@ LANGUAGES = {
     "fil",
     "fil_fil",
     "fin",
+    "fin_fi",
     "fj",
     "flemish",
     "fo",

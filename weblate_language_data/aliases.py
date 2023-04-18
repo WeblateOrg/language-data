@@ -150,6 +150,7 @@ ALIASES = {
     "ang@latin": "ang",
     "cz": "cs",
     "eng_gb": "en_GB",
+    "fin_fi": "fi",
     "svk": "sk",
     "ptb": "pt_BR",
     "enu": "en_US",
