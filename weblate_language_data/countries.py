@@ -128,4 +128,5 @@ DEFAULT_LANGS = (
     "gug_py",
     "kab_dz",
     "sc_it",
+    "ug_cn",
 )
