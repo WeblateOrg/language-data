@@ -308,6 +308,7 @@ LANGUAGES = {
     "fan",
     "fao",
     "fas",
+    "fas_ir",
     "fat",
     "ff",
     "fi",

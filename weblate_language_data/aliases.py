@@ -160,6 +160,7 @@ ALIASES = {
     "jpn_jp": "ja",
     "kab_kab": "kab",
     "kor_kr": "ko",
+    "fas_ir": "fa",
     "svk": "sk",
     "ptb": "pt_BR",
     "enu": "en_US",
