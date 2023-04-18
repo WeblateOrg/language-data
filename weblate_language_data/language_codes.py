@@ -957,6 +957,7 @@ LANGUAGES = {
     "ur",
     "ur_in",
     "ur_pk",
+    "ur_ur",
     "urd",
     "us",
     "uz",
