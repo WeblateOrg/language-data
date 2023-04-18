@@ -159,6 +159,7 @@ ALIASES = {
     "ita_it": "it",
     "jpn_jp": "ja",
     "kab_kab": "kab",
+    "kor_kr": "ko",
     "svk": "sk",
     "ptb": "pt_BR",
     "enu": "en_US",

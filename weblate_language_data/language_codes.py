@@ -515,6 +515,7 @@ LANGUAGES = {
     "kom",
     "kon",
     "kor",
+    "kor_kr",
     "kos",
     "kpe",
     "kr",
