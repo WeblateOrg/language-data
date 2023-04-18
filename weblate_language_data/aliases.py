@@ -161,6 +161,8 @@ ALIASES = {
     "kab_kab": "kab",
     "kor_kr": "ko",
     "fas_ir": "fa",
+    "por_br": "pt_BR",
+    "por_pt": "pt",
     "svk": "sk",
     "ptb": "pt_BR",
     "enu": "en_US",

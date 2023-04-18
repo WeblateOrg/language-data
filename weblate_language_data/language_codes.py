@@ -726,6 +726,8 @@ LANGUAGES = {
     "pol",
     "pon",
     "por",
+    "por_br",
+    "por_pt",
     "portuguese_br",
     "portuguese_portugal",
     "pr",
