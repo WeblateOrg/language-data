@@ -999,6 +999,7 @@ LANGUAGES = {
     "zgh",
     "zh",
     "zh_chs",
+    "zh_cht",
     "zh_cmn_hans",
     "zh_cmn_hant",
     "zh_cn",
