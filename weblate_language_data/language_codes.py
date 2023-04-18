@@ -264,6 +264,7 @@ LANGUAGES = {
     "en_za",
     "ena",
     "eng",
+    "eng_gb",
     "english_uk",
     "enm",
     "enp",

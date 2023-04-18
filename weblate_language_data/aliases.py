@@ -149,6 +149,7 @@ ALIASES = {
     "va": "ca@valencia",
     "ang@latin": "ang",
     "cz": "cs",
+    "eng_gb": "en_GB",
     "svk": "sk",
     "ptb": "pt_BR",
     "enu": "en_US",
