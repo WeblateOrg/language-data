@@ -33,6 +33,7 @@ ALIASES = {
     "be_rby": "be_Latn",
     "qz_mm": "my@Zawgyi",
     "es_la": "es",
+    "bp": "pt_BR",
     "val_es": "ca@valencia",
     "no_nb": "nb_NO",
     "nb_nb": "nb_NO",

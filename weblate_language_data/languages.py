@@ -1206,6 +1206,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "dnk",
+        # Translators: Language name for ISO code "dnk". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Dengka"),
+        2,
+        "n != 1",
+    ),
+    (
         "doi",
         # Translators: Language name for ISO code "doi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -5616,6 +5625,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "wo",
+        # Translators: Language name for ISO code "wo". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Wolof"),
+        1,
+        "0",
+    ),
+    (
         "wuu_Hans",
         # Translators: Language name for ISO code "wuu_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -5630,15 +5648,6 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Wu (Traditional)"),
-        1,
-        "0",
-    ),
-    (
-        "wo",
-        # Translators: Language name for ISO code "wo". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Wolof"),
         1,
         "0",
     ),
