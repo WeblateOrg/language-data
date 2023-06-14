@@ -131,6 +131,7 @@ del,Delaware,2,n != 1
 den,Slave (Athapascan),2,n != 1
 dgr,Dogrib,2,n != 1
 din,Dinka,2,n != 1
+dnk,Dengka,2,n != 1
 doi,Dogri,2,n != 1
 dry,Darai,2,n != 1
 dsb,Lower Sorbian,4,(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
@@ -621,9 +622,9 @@ war,Waray (Philippines),2,n != 1
 was,Washo,2,n != 1
 wen,Sorbian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 wep,Westphalien,2,n != 1
+wo,Wolof,1,0
 wuu_Hans,Wu (Simplified),1,0
 wuu_Hant,Wu (Traditional),1,0
-wo,Wolof,1,0
 xal,Kalmyk,2,n != 1
 xh,Xhosa,2,n != 1
 xog,Soga,2,n != 1
