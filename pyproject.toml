@@ -18,6 +18,7 @@ ignore = [
   "T201",  # WONTFIX: using print() (maybe add noqa)
   "T203",  # WONTFIX: using pprint() (maybe add noqa)
   "RUF001",  # WONTFIX: String contains ambiguous unicode character, we are using Unicode
+  "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
   "E501"  # WONTFIX: we accept long strings (rest is formatted by black)
 ]
 select = [
