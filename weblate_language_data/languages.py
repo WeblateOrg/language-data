@@ -652,7 +652,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "bqi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Bakhtiari"),
+        _("Luri (Bakhtiari)"),
         2,
         "n != 1",
     ),
