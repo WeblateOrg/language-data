@@ -70,7 +70,7 @@ repos:
   hooks:
   - id: markdownlint
 - repo: https://github.com/fsfe/reuse-tool
-  rev: v1.1.2
+  rev: v2.1.0
   hooks:
   - id: reuse
 
