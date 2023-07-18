@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2023-06-14 08:55+0200\n"
-"PO-Revision-Date: 2023-02-10 20:35+0000\n"
+"POT-Creation-Date: 2023-07-12 16:31+0200\n"
+"PO-Revision-Date: 2023-07-05 20:53+0000\n"
 "Last-Translator: Simona Iacob <s@zp1.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/weblate/"
 "languages/ro/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -446,7 +446,9 @@ msgstr "Tibetană (China)"
 #. Translators: Language name for ISO code "bqi". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Bakhtiari"
+#, fuzzy
+#| msgid "Bakhtiari"
+msgid "Luri (Bakhtiari)"
 msgstr "Baktiari"
 
 #. Translators: Language name for ISO code "br". The parenthesis clarifies
@@ -818,9 +820,8 @@ msgstr "Dinka"
 #. Translators: Language name for ISO code "dnk". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
 msgid "Dengka"
-msgstr "Baltic"
+msgstr "Dengka"
 
 #. Translators: Language name for ISO code "doi". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
