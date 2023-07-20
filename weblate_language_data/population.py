@@ -225,6 +225,7 @@ POPULATION = {
     "fr_LU": 546691,
     "fr_SN": 6137196,
     "frc": 27941,
+    "frk": 0,
     "frm": 0,
     "fro": 0,
     "frp": 63777,

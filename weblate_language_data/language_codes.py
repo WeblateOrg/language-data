@@ -341,6 +341,7 @@ LANGUAGES = {
     "frb",
     "frc",
     "fre",
+    "frk",
     "frm",
     "fro",
     "frp",
