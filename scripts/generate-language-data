@@ -298,7 +298,9 @@ with open("weblate_language_data/country_codes.py", "w") as output:
 # Apply coding style
 subprocess.run(
     [
-        "black",
+        "pre-commit",
+        "run",
+        "--files",
         "weblate_language_data/countries.py",
         "weblate_language_data/aliases.py",
         "weblate_language_data/plurals.py",
@@ -307,5 +309,6 @@ subprocess.run(
         "weblate_language_data/check_languages.py",
         "weblate_language_data/language_codes.py",
         "weblate_language_data/country_codes.py",
-    ]
+    ],
+    check=False,
 )
