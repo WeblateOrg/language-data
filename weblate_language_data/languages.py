@@ -2659,7 +2659,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "kaa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kara-Kalpak"),
+        _("Karakalpak"),
         2,
         "n != 1",
     ),

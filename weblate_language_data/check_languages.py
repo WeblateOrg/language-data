@@ -5308,6 +5308,7 @@ LANGUAGES = {
     "karajarri",
     "karajá",
     "karak",
+    "karakalpak",
     "karakhanid",
     "karaman",
     "karami",
