@@ -252,6 +252,7 @@ he,Hebrew,4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 he_IL,Hebrew (Israel),4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 hi,Hindi,2,n > 1
 hi_Latn,Hindi (latin),2,n > 1
+hi@hinglish,Hindi (Hinglish),2,n > 1
 hil,Hiligaynon,2,n != 1
 hit,Hittite,2,n != 1
 hmn,Hmong,2,n != 1
