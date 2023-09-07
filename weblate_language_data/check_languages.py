@@ -4323,6 +4323,7 @@ LANGUAGES = {
     "hindko",
     "hinduri",
     "hindustani",
+    "hinglish",
     "hinukh",
     "hiragana",
     "hiri",

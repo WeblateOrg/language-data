@@ -268,6 +268,7 @@ POPULATION = {
     "he_IL": 8675480,
     "hi": 545556054,
     "hi_Latn": 1326090,
+    "hi@hinglish": 545556054,
     "hil": 9171204,
     "hit": 0,
     "hmn": 0,

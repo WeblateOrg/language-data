@@ -403,6 +403,7 @@ LANGUAGES = {
     "heb",
     "her",
     "hi",
+    "hi@hinglish",
     "hi_latn",
     "hil",
     "hin",

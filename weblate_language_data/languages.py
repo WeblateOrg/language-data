@@ -2295,6 +2295,15 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "hi@hinglish",
+        # Translators: Language name for ISO code "hi@hinglish". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Hindi (Hinglish)"),
+        2,
+        "n > 1",
+    ),
+    (
         "hil",
         # Translators: Language name for ISO code "hil". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
