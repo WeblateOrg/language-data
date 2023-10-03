@@ -9,7 +9,6 @@ target-version = ['py37']
 profile = "black"
 
 [tool.ruff]
-format = "github"
 ignore = [
   "D10",  # TODO: we are missing many docstrings
   "D203",  # CONFIG: incompatible with D211
@@ -21,6 +20,7 @@ ignore = [
   "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
   "E501"  # WONTFIX: we accept long strings (rest is formatted by black)
 ]
+output-format = "github"
 select = [
   "E",
   "F",
