@@ -188,6 +188,7 @@ ALIASES = {
     "sky": "sk",
     "srl": "sr_Latn",
     "srb": "sr_Cyrl",
+    "ajp": "apc",
     "aar": "aa",
     "abk": "ab",
     "afr": "af",

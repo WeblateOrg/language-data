@@ -42,6 +42,7 @@ LANGUAGES = {
     "ang",
     "ang@latin",
     "anp",
+    "apc",
     "ar",
     "ar_ar",
     "ar_bh",

@@ -10,7 +10,6 @@ af,Afrikaans,2,n != 1
 afh,Afrihili,2,n != 1
 aii,Assyrian Neo-Aramaic,2,n != 1
 ain,Ainu (Japan),2,n != 1
-ajp,Arabic (South Levantine),2,n != 1
 ak,Akan,2,n > 1
 akk,Akkadian,2,n != 1
 ale,Aleut,2,n != 1
@@ -19,6 +18,7 @@ am,Amharic,2,n > 1
 an,Aragonese,2,n != 1
 ang,English (Old),2,n != 1
 anp,Angika,2,n != 1
+apc,Arabic (Levantine),2,n != 1
 ar,Arabic,6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_BH,Arabic (Bahrain),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_DZ,Arabic (Algeria),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5

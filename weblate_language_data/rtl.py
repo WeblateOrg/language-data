@@ -4,6 +4,8 @@
 
 # List of RTL languages
 RTL_LANGS = {
+    "ajp",
+    "apc",
     "ar",
     "ara",
     "arc",

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2023-09-07 16:22+0200\n"
+"POT-Creation-Date: 2023-10-25 13:14+0200\n"
 "PO-Revision-Date: 2023-09-08 10:06+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/"
@@ -96,16 +96,6 @@ msgstr "アッシリア現代アラム語"
 msgid "Ainu (Japan)"
 msgstr "アイヌ語 (日本)"
 
-# 国国は「Sotho ソト語」
-# USMARCは-SSO
-# マイペディア「レソト」の項に「ソト語」
-# ニッポニカ「ソト族 (Sotho)」の項
-#. Translators: Language name for ISO code "ajp". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-msgid "Arabic (South Levantine)"
-msgstr "アラビア語 (南レバント)"
-
 #. Translators: Language name for ISO code "ak". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -156,6 +146,18 @@ msgstr "古英語"
 #. or other variant.
 msgid "Angika"
 msgstr "アンギカ語"
+
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
+#. Translators: Language name for ISO code "apc". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Arabic (South Levantine)"
+msgid "Arabic (Levantine)"
+msgstr "アラビア語 (南レバント)"
 
 #. Translators: Language name for ISO code "ar". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
