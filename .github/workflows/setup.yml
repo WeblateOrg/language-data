@@ -34,7 +34,7 @@ jobs:
     - name: twine
       run: twine check dist/*
     - name: Publish package
-      if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && matrix.os == 'ubuntu-22.04'
+      if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && matrix.os == 'ubuntu-latest'
       uses: pypa/gh-action-pypi-publish@v1.8.10
       with:
         user: __token__
