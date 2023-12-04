@@ -515,6 +515,7 @@ ses,Koyraboro Senni,1,0
 sg,Sango,1,0
 sga,Irish (Old),2,n != 1
 sgn,Sign Languages,2,n != 1
+sgs,Samogitian,2,n != 1
 shi,Tachelhit,3,(n == 0 || n == 1) ? 0 : ((n >= 2 && n <= 10) ? 1 : 2)
 shn,Shan,2,n != 1
 si,Sinhala,2,n > 1

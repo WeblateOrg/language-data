@@ -811,6 +811,7 @@ LANGUAGES = {
     "sg",
     "sga",
     "sgn",
+    "sgs",
     "sh",
     "shi",
     "shn",

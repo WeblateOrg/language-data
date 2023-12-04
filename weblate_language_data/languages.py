@@ -4662,6 +4662,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "sgs",
+        # Translators: Language name for ISO code "sgs". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Samogitian"),
+        2,
+        "n != 1",
+    ),
+    (
         "shi",
         # Translators: Language name for ISO code "shi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

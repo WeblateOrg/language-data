@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2023-10-25 13:14+0200\n"
+"POT-Creation-Date: 2023-12-04 09:23+0100\n"
 "PO-Revision-Date: 2023-07-10 21:54+0000\n"
 "Last-Translator: Jorge Maldonado Ventura <jorgesumle@freakspot.net>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/weblate/"
@@ -1639,20 +1639,20 @@ msgstr "Hebrea (Israelo)"
 msgid "Hindi"
 msgstr "hinda"
 
-#. Translators: Language name for ISO code "hi_Latn". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-#, fuzzy
-#| msgid "Bosnian (latin)"
-msgid "Hindi (latin)"
-msgstr "Bosna (latina)"
-
 #. Translators: Language name for ISO code "hi@hinglish". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
 #| msgid "Bosnian (latin)"
 msgid "Hindi (Hinglish)"
+msgstr "Bosna (latina)"
+
+#. Translators: Language name for ISO code "hi_Latn". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Bosnian (latin)"
+msgid "Hindi (latin)"
 msgstr "Bosna (latina)"
 
 #. Translators: Language name for ISO code "hil". The parenthesis clarifies
@@ -3325,6 +3325,13 @@ msgstr "irlanda"
 #. or other variant.
 msgid "Sign Languages"
 msgstr "Gestolingvoj"
+
+#. Translators: Language name for ISO code "sgs". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+msgid "Samogitian"
+msgstr "Samoa"
 
 #. Translators: Language name for ISO code "shi". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
