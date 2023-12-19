@@ -121,7 +121,7 @@ for group, languages in LANGUAGES.items():
         else:
             generate(group, language)
 
-os.unlink("qt.json")
+os.unlink("qt.csv")
 
 with open("qt.csv", "w") as handle:
     handle.write("code,name,nplurals,formula\n")

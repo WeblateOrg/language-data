@@ -105,6 +105,12 @@ with open("extraplurals.csv") as csvfile:
     next(reader)
     EXTRAPLURALS = list(reader)
 
+# Read qt plurals
+with open("qt.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    next(reader)
+    QTPLURALS = list(reader)
+
 # Parse extra CLDR plurals
 with open("cldr.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=",")
@@ -156,6 +162,13 @@ with open("weblate_language_data/plurals.py", "w") as output:
     output.write("\n")
     output.write("CLDRPLURALS = (\n")
     for row in CLDRPLURALS:
+        output.write(
+            TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
+        )
+    output.write(")\n")
+    output.write("\n")
+    output.write("QTPLURALS = (\n")
+    for row in QTPLURALS:
         output.write(
             TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
         )
