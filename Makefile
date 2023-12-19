@@ -14,6 +14,9 @@ PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv
 cldr.csv: modules/cldr-to-gettext-plural-rules/bin/export-plural-rules scripts/export-cldr
 	./scripts/export-cldr
 
+qt.csv: modules/qttools/src/linguist/shared/numerus.cpp scripts/export-qt languages.csv
+	./scripts/export-qt
+
 gettext.csv: modules/gettext/gettext-tools/src/plural-table.c scripts/export-gettext
 	./scripts/export-gettext
 
