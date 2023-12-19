@@ -5,6 +5,7 @@
 # SPDX-License-Identifier: MIT
 
 import json
+import csv
 import pprint
 import subprocess
 
@@ -27,6 +28,67 @@ https://github.com/WeblateOrg/language-data
 
 '''
 
+TAG_MAP = {
+    "(n != 1)": ["one", "other"],
+    "(n > 1)": ["one", "other"],
+    "(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : (n%100>=3 && n%100<=10) ? 3 : n%100>=11 ? 4 : 5)": [
+        "zero",
+        "one",
+        "two",
+        "few",
+        "many",
+        "other",
+    ],
+    "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)": [
+        "one",
+        "few",
+        "many",
+    ],
+    "0": ["other"],
+    "((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2)": ["one", "few", "many"],
+    "(n==0 ? 0 : n==1 ? 1 : (n>=2 && n<=5) ? 2 : n==6 ? 3 : 4)": [
+        "zero",
+        "one",
+        "few",
+        "many",
+        "other",
+    ],
+    "(n==1 ? 0 : n==2 ? 1 : 2)": ["one", "two", "other"],
+    "(n==1 ? 0 : (n%10==4 || n%10==6 || n%10== 9) ? 1 : 2)": ["zero", "one", "other"],
+    "(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3": [
+        "one",
+        "two",
+        "few",
+        "other",
+    ],
+    "(n%10==1 && n%100!=11 ? 0 : 1)": ["one", "other"],
+    "(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2)": [
+        "one",
+        "few",
+        "many",
+    ],
+    "(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)": ["one", "other", "zero"],
+    "(n%100==1 ? 0 : n%100==2 ? 1 : 2)": ["one", "two", "other"],
+    "(n==1 ? 0 : (n==0 || (n%100>=1 && n%100<=10)) ? 1 : (n%100>=11 && n%100<=19) ? 2 : 3)": [
+        "one",
+        "zero",
+        "few",
+        "other",
+    ],
+    "(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)": [
+        "one",
+        "few",
+        "many",
+    ],
+    "(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2)": ["one", "few", "other"],
+    "(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)": [
+        "one",
+        "two",
+        "few",
+        "other",
+    ],
+}
+
 result = {}
 decimals = {}
 
@@ -41,12 +103,18 @@ for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
     ]
     decimals[locale] = [name.replace("pluralRule-count-", "") for name in rules]
 
+# Read qt plurals
+with open("qt.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    next(reader)
+    qtplurals = {row[0]: TAG_MAP[row[3]] for row in reader}
 
 # Write plural tags
 with open("weblate_language_data/plural_tags.py", "w") as output:
     output.write(HEADER)
     output.write(f"PLURAL_TAGS = {pprint.pformat(result)}\n\n")
     output.write(f"DECIMAL_PLURAL_TAGS = {pprint.pformat(decimals)}\n")
+    output.write(f"QT_PLURAL_TAGS = {pprint.pformat(qtplurals)}\n")
 
 # Apply coding style
 subprocess.run(
