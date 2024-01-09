@@ -29,6 +29,7 @@ RTL_LANGS = {
     "phn",
     "ps",
     "sam",
+    "sd",
     "skr",
     "syc",
     "syr",
