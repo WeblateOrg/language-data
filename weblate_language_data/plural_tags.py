@@ -549,6 +549,7 @@ QT_PLURAL_TAGS = {
     "pl": ["one", "few", "many"],
     "ps": ["one", "other"],
     "pt": ["one", "other"],
+    "pt_BR": ["one", "other"],
     "qu": ["one", "other"],
     "rm": ["one", "other"],
     "rn": ["one", "other"],

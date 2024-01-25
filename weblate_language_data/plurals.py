@@ -1221,11 +1221,11 @@ QTPLURALS = (
         "(n != 1)",
     ),
     (
-        "pt",
-        # Translators: Language name for ISO code "pt". The parenthesis clarifies
+        "pt_BR",
+        # Translators: Language name for ISO code "pt_BR". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Portuguese"),
+        _("Portuguese (Brazil)"),
         2,
         "(n > 1)",
     ),
