@@ -24,6 +24,7 @@ ALIASES = {
     "Divehi": ("Dhivehi",),
     "Inupiak": ("Inupiaq",),
     "NorthernSami": ("Sami (Northern)",),
+    "PortugueseBrasil": ("Portuguese (Brazil)",),
 }
 
 
@@ -54,6 +55,9 @@ PLURALS = {}
 def handle_language(parts):
     text = "".join(parts).replace("\n", "")[31:]
     name = text.split("[", 1)[0]
+    # Hack to deal with frenchStyleCountries
+    if name == "frenchStyleLanguages":
+        text = text.replace("Portuguese", "PortugueseBrasil")
     LANGUAGES[name] = (
         text.split("{")[1]
         .split("}")[0]
