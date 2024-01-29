@@ -11,7 +11,7 @@ PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv
 	./scripts/list-diff
 	pre-commit run --files PLURALS_DIFF.md || true
 
-cldr.csv: modules/cldr-to-gettext-plural-rules/bin/export-plural-rules scripts/export-cldr
+cldr.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json scripts/export-cldr
 	./scripts/export-cldr
 
 qt.csv: modules/qttools/src/linguist/shared/numerus.cpp scripts/export-qt languages.csv
