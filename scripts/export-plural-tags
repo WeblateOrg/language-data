@@ -99,7 +99,7 @@ for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
     result[locale] = [
         name.replace("pluralRule-count-", "")
         for name, rule in rules.items()
-        if "@integer" in rule or name == "pluralRule-count-other"
+        if "@integer" in rule
     ]
     decimals[locale] = [name.replace("pluralRule-count-", "") for name in rules]
 

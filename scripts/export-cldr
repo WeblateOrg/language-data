@@ -110,6 +110,10 @@ def convert_atom(atom: str) -> str | bool:
 
 
 def convert_formula(cldr_formula_and_examples: str) -> str:
+    # Skip formulas which do not trigger integer
+    if "@integer" not in cldr_formula_and_examples:
+        return False
+
     # Normalize whitespace
     cldr_formula_and_examples = " ".join(cldr_formula_and_examples.split())
 
