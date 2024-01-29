@@ -585,6 +585,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "blo",
+        # Translators: Language name for ISO code "blo". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Anii"),
+        3,
+        "(n == 0) ? 0 : ((n == 1) ? 1 : 2)",
+    ),
+    (
         "bm",
         # Translators: Language name for ISO code "bm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

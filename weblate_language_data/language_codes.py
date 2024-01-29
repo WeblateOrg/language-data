@@ -110,6 +110,7 @@ LANGUAGES = {
     "bin",
     "bis",
     "bla",
+    "blo",
     "bm",
     "bn",
     "bn_bd",

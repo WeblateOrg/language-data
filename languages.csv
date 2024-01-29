@@ -62,6 +62,7 @@ bi,Bislama,2,n != 1
 bik,Bikol,2,n != 1
 bin,Bini,2,n != 1
 bla,Siksika,2,n != 1
+blo,Anii,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 bm,Bambara,1,0
 bn,Bengali,2,n > 1
 bn_BD,Bengali (Bangladesh),2,n != 1

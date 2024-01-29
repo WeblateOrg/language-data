@@ -210,15 +210,6 @@ EXTRAPLURALS = (
 
 CLDRPLURALS = (
     (
-        "be",
-        # Translators: Language name for ISO code "be". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Belarusian"),
-        4,
-        "(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : ((n % 10 == 0 || n % 10 >= 5 && n % 10 <= 9 || n % 100 >= 11 && n % 100 <= 14) ? 2 : 3))",
-    ),
-    (
         "ca",
         # Translators: Language name for ISO code "ca". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -309,15 +300,6 @@ CLDRPLURALS = (
         "(n == 1) ? 0 : ((n == 2) ? 1 : ((n == 0 || n % 100 >= 3 && n % 100 <= 10) ? 2 : ((n % 100 >= 11 && n % 100 <= 19) ? 3 : 4)))",
     ),
     (
-        "pl",
-        # Translators: Language name for ISO code "pl". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Polish"),
-        4,
-        "(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : ((n != 1 && (n % 10 == 0 || n % 10 == 1) || n % 10 >= 5 && n % 10 <= 9 || n % 100 >= 12 && n % 100 <= 14) ? 2 : 3))",
-    ),
-    (
         "pt",
         # Translators: Language name for ISO code "pt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -343,24 +325,6 @@ CLDRPLURALS = (
         _("Portuguese (Portugal)"),
         3,
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
-    ),
-    (
-        "ru",
-        # Translators: Language name for ISO code "ru". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Russian"),
-        4,
-        "(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : ((n % 10 == 0 || n % 10 >= 5 && n % 10 <= 9 || n % 100 >= 11 && n % 100 <= 14) ? 2 : 3))",
-    ),
-    (
-        "uk",
-        # Translators: Language name for ISO code "uk". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Ukrainian"),
-        4,
-        "(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : ((n % 10 == 0 || n % 10 >= 5 && n % 10 <= 9 || n % 100 >= 11 && n % 100 <= 14) ? 2 : 3))",
     ),
     (
         "vec",
