@@ -326,15 +326,6 @@ CLDRPLURALS = (
         3,
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
-    (
-        "vec",
-        # Translators: Language name for ISO code "vec". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Venetian"),
-        3,
-        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
-    ),
 )
 
 QTPLURALS = (

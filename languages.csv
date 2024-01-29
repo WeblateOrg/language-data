@@ -133,7 +133,7 @@ den,Slave (Athapascan),2,n != 1
 dgr,Dogrib,2,n != 1
 din,Dinka,2,n != 1
 dnk,Dengka,2,n != 1
-doi,Dogri,2,n != 1
+doi,Dogri,2,n > 1
 dry,Darai,2,n != 1
 dsb,Lower Sorbian,4,(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 dua,Duala,2,n != 1
@@ -258,6 +258,7 @@ hil,Hiligaynon,2,n != 1
 hit,Hittite,2,n != 1
 hmn,Hmong,2,n != 1
 hne,Chhattisgarhi,2,n != 1
+hnj,Hmong Njua,1,0
 ho,Hiri Motu,2,n != 1
 hr,Croatian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 hrx,Hunsrik,2,n != 1
@@ -344,6 +345,7 @@ lez,Lezghian,2,n != 1
 lfn,Lingua Franca Nova,2,n != 1
 lg,Luganda,2,n != 1
 li,Limburgish,2,n != 1
+lij,Ligurian,2,n != 1
 lki,Laki,2,n != 1
 lkt,Lakota,1,0
 ln,Lingala,2,n > 1
@@ -453,6 +455,7 @@ pam,Pampanga,2,n != 1
 pap,Papiamento,2,n != 1
 pau,Palauan,2,n != 1
 pbb,Páez,2,n != 1
+pcm,Pidgin (Nigeria),2,n > 1
 peo,Persian (Old),2,n != 1
 phn,Phoenician,2,n != 1
 pi,Pali,2,n != 1
@@ -613,7 +616,7 @@ uz,Uzbek,2,n != 1
 uz_Latn,Uzbek (latin),2,n != 1
 vai,Vai,2,n != 1
 ve,Venda,2,n != 1
-vec,Venetian,2,n != 1
+vec,Venetian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 vi,Vietnamese,1,0
 vls,Flemish (West),2,n != 1
 vo,Volapük,2,n != 1

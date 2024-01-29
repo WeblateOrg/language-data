@@ -23,6 +23,8 @@ def parse_csv(name):
 
 languages = parse_csv("languages.csv")
 aliases = parse_csv("aliases.csv")
+cldr = parse_csv("cldr.csv")
+default_countries = parse_csv("default_countries.csv")
 
 for alias in aliases:
     if not alias.islower():
@@ -35,3 +37,24 @@ if missing:
 overlap = set(languages.keys()) & set(aliases.keys())
 if overlap:
     raise ValueError(f"Overlaping languages and aliases: {overlap}")
+
+missing = set(cldr.keys()) - set(languages.keys())
+# Remove aliases (these use lower case)
+missing -= {miss for miss in missing if miss.lower() in aliases}
+# Remove default countries (these use lower case)
+missing -= {miss for miss in missing if miss.lower() in default_countries}
+# Remove unwanted languages
+missing -= {"ar_001"}
+if missing:
+    raise ValueError(f"Missing from CLDR: {missing}")
+
+# Validate CLDR plural rules match
+exceptions = {"es", "it", "ca", "es_MX", "es_419"}
+matching = (set(cldr.keys()) & set(languages.keys())) - exceptions
+for match in matching:
+    plural_our = languages[match][3]
+    plural_cldr = cldr[match][3]
+    if plural_our == "n != 1" and plural_cldr != "n != 1":
+        raise ValueError(
+            f"Mismatching plural form for {match}: {plural_our!r} != {plural_cldr!r}"
+        )

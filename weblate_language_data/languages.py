@@ -1230,7 +1230,7 @@ LANGUAGES = (
         # or other variant.
         _("Dogri"),
         2,
-        "n != 1",
+        "n > 1",
     ),
     (
         "dry",
@@ -2349,6 +2349,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "hnj",
+        # Translators: Language name for ISO code "hnj". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Hmong Njua"),
+        1,
+        "0",
+    ),
+    (
         "ho",
         # Translators: Language name for ISO code "ho". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3119,6 +3128,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Limburgish"),
+        2,
+        "n != 1",
+    ),
+    (
+        "lij",
+        # Translators: Language name for ISO code "lij". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Ligurian"),
         2,
         "n != 1",
     ),
@@ -4102,6 +4120,15 @@ LANGUAGES = (
         _("Páez"),
         2,
         "n != 1",
+    ),
+    (
+        "pcm",
+        # Translators: Language name for ISO code "pcm". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Pidgin (Nigeria)"),
+        2,
+        "n > 1",
     ),
     (
         "peo",
@@ -5549,8 +5576,8 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Venetian"),
-        2,
-        "n != 1",
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
         "vi",

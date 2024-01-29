@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-01-29 12:57+0100\n"
+"POT-Creation-Date: 2024-01-29 13:13+0100\n"
 "PO-Revision-Date: 2023-12-15 20:37+0000\n"
 "Last-Translator: Kyotaro Iijima <kyotaro.eyes@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/"
@@ -1682,6 +1682,15 @@ msgstr "フモング語"
 msgid "Chhattisgarhi"
 msgstr "チャッティースガリー語"
 
+# 中国
+# モング語とも
+#. Translators: Language name for ISO code "hnj". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+msgid "Hmong Njua"
+msgstr "フモング語"
+
 #. Translators: Language name for ISO code "ho". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -2230,6 +2239,17 @@ msgstr "ガンダ語"
 #. or other variant.
 msgid "Limburgish"
 msgstr "リンブルフ語"
+
+# ISOに「Limburgian」という英語名はない
+# 2002-08-02に「Limburgish; Linburger; Linburgan」追加
+# SILのLIMは、カメルーンのLIMBUM語。
+# ニッポニカ「リンブルフ (Limburg)」の項 (オランダ、ベルギー各1項)
+#. Translators: Language name for ISO code "lij". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+msgid "Ligurian"
+msgstr "リンブルク語"
 
 #. Translators: Language name for ISO code "lki". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2938,6 +2958,14 @@ msgstr "パラオ語"
 #. or other variant.
 msgid "Páez"
 msgstr "パエス語"
+
+# 国国
+#. Translators: Language name for ISO code "pcm". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+msgid "Pidgin (Nigeria)"
+msgstr "バルト諸語 (その他)"
 
 #. Translators: Language name for ISO code "peo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
