@@ -3294,6 +3294,24 @@ LANGUAGES = (
         "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)",
     ),
     (
+        "lv@formal",
+        # Translators: Language name for ISO code "lv@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Latvian (formal)"),
+        3,
+        "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)",
+    ),
+    (
+        "lv@informal",
+        # Translators: Language name for ISO code "lv@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Latvian (informal)"),
+        3,
+        "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)",
+    ),
+    (
         "lzh",
         # Translators: Language name for ISO code "lzh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
