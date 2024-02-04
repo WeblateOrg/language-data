@@ -379,6 +379,8 @@ POPULATION = {
     "lus": 0,
     "luz": 1019079,
     "lv": 1147550,
+    "lv@formal": 1147550,
+    "lv@informal": 1147550,
     "lzh": 0,
     "mad": 16822638,
     "mag": 15913080,

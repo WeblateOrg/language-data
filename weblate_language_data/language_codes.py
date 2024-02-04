@@ -582,6 +582,8 @@ LANGUAGES = {
     "lus",
     "luz",
     "lv",
+    "lv@formal",
+    "lv@informal",
     "lzh",
     "mac",
     "mad",
