@@ -304,6 +304,7 @@ LANGUAGES = {
     "es_cl",
     "es_co",
     "es_cr",
+    "es_cu",
     "es_do",
     "es_ec",
     "es_eu",

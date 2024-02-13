@@ -1773,6 +1773,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "es_CU",
+        # Translators: Language name for ISO code "es_CU". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Cuba)"),
+        2,
+        "n != 1",
+    ),
+    (
         "es_DO",
         # Translators: Language name for ISO code "es_DO". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
