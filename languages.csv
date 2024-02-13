@@ -1,11 +1,13 @@
 code,name,nplurals,formula
 aa,Afar,2,n != 1
 ab,Abkhazian,2,n != 1
+abr,Abron,2,n != 1
 ace,Acehnese,1,0
 ach,Acholi,2,n > 1
 ada,Adangme,2,n != 1
 ady,Adyghe,2,n > 1
 ae,Avestan,2,n != 1
+aeb,Arabic (Tunisian),2,n != 1
 af,Afrikaans,2,n != 1
 afh,Afrihili,2,n != 1
 aii,Assyrian Neo-Aramaic,2,n != 1
@@ -13,6 +15,7 @@ ain,Ainu (Japan),2,n != 1
 ak,Akan,2,n > 1
 akk,Akkadian,2,n != 1
 ale,Aleut,2,n != 1
+aln,Albanian (Gheg),2,n != 1
 alt,Altai (Southern),2,n != 1
 am,Amharic,2,n > 1
 an,Aragonese,2,n != 1
@@ -32,8 +35,10 @@ ar_YE,Arabic (Yemen),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 
 arc,Aramaic,2,n != 1
 arn,Mapudungun,2,n > 1
 arp,Arapaho,2,n != 1
+arq,Arabic (Algerian),2,n != 1
 ars,Arabic (Najdi),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 arw,Arawak,2,n != 1
+arz,Arabic (Egyptian),2,n != 1
 as,Assamese,2,n > 1
 asa,Asu,2,n != 1
 ast,Asturian,2,n != 1
@@ -49,18 +54,27 @@ bal,Baluchi,2,n != 1
 ban,Balinese,2,n != 1
 bar,Bavarian,2,n != 1
 bas,Basa (Cameroon),2,n != 1
+bbc,Batak Toba,2,n != 1
+bci,Baoulé,2,n != 1
 be,Belarusian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 be_Latn,Belarusian (latin),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 bej,Beja,2,n != 1
 bem,Bemba,2,n != 1
 ber,Berber,2,n != 1
+bew,Betawi,2,n != 1
 bez,Bena,2,n != 1
 bg,Bulgarian,2,n != 1
+bgc,Haryanvi,2,n != 1
+bgn,Balochi (Western),2,n != 1
 bh,Bihari,2,n > 1
+bhb,Bhili,2,n != 1
+bhi,Bhilali,2,n != 1
 bho,Bhojpuri,2,n > 1
 bi,Bislama,2,n != 1
 bik,Bikol,2,n != 1
 bin,Bini,2,n != 1
+bjj,Kanauji,2,n != 1
+bjn,Banjar,2,n != 1
 bla,Siksika,2,n != 1
 blo,Anii,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 bm,Bambara,1,0
@@ -74,12 +88,14 @@ bqi,Luri (Bakhtiari),2,n != 1
 br,Breton,5,(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)))
 bra,Braj,2,n != 1
 brb,Brao,2,n != 1
+brh,Brahui,2,n != 1
 brx,Bodo,2,n != 1
 bs,Bosnian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 bs_Cyrl,Bosnian (cyrillic),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 bs_Latn,Bosnian (latin),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 bua,Buriat,2,n != 1
 bug,Buginese,2,n != 1
+bum,Bulu (Cameroon),2,n != 1
 byn,Bilen,2,n != 1
 ca,Catalan,2,n != 1
 ca@valencia,Valencian,2,n != 1
@@ -121,6 +137,7 @@ cy,Welsh,6,(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5
 da,Danish,2,n != 1
 dak,Dakota,2,n != 1
 dar,Dargwa,2,n != 1
+dcc,Deccan,2,n != 1
 de,German,2,n != 1
 de@formal,German (formal),2,n != 1
 de@informal,German (informal),2,n != 1
@@ -132,6 +149,8 @@ del,Delaware,2,n != 1
 den,Slave (Athapascan),2,n != 1
 dgr,Dogrib,2,n != 1
 din,Dinka,2,n != 1
+dje,Zarma,2,n != 1
+dnj,Dan,2,n != 1
 dnk,Dengka,2,n != 1
 doi,Dogri,2,n > 1
 dry,Darai,2,n != 1
@@ -194,7 +213,9 @@ fa,Persian,2,n > 1
 fa_AF,Dari,2,n > 1
 fan,Fang (Equatorial Guinea),2,n != 1
 fat,Fanti,2,n != 1
+fbl,Bikol (West Albay),2,n != 1
 ff,Fulah,2,n > 1
+ffm,Fulfulde (Maasina),2,n != 1
 fi,Finnish,2,n != 1
 fil,Filipino,2,n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
 fj,Fijian,2,n != 1
@@ -216,10 +237,14 @@ fro,French (Old),2,n != 1
 frp,Franco-Provençal,2,n > 1
 frr,Frisian (Northern),2,n != 1
 frs,Frisian (Eastern),2,n != 1
+fuq,Fulfulde (Central-Eastern Niger),2,n != 1
 fur,Friulian,2,n != 1
+fuv,Fulfulde (Nigerian),2,n != 1
+fvr,Fur,2,n != 1
 fy,Frisian,2,n != 1
 ga,Irish,5,n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4
 gaa,Ga,2,n != 1
+gan,Chinese (Gan),2,n != 1
 gay,Gayo,2,n != 1
 gba,Gbaya (Central African Republic),2,n != 1
 gbm,Garhwali,2,n != 1
@@ -231,6 +256,7 @@ glk,Gilaki,2,n != 1
 gmh,High German (Middle),2,n != 1
 gn,Guarani,2,n != 1
 goh,High German (Old),2,n != 1
+gom,Konkani (Goan),2,n != 1
 gon,Gondi,2,n != 1
 gor,Gorontalo,2,n != 1
 got,Gothic,2,n != 1
@@ -243,12 +269,16 @@ guc,Wayuu,2,n != 1
 gug,Guaraní (Paraguayan),2,n > 1
 gum,Guambiano,2,n != 1
 gun,Guaraní (Mbyá),2,n > 1
+gur,Farefare,2,n != 1
 guw,Gun,2,n > 1
+guz,Gusii,2,n != 1
 gv,Manx,4,(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))
 gwi,Gwichʼin,2,n != 1
 ha,Hausa,2,n != 1
 hai,Haida,2,n != 1
+hak,Chinese (Hakka),2,n != 1
 haw,Hawaiian,2,n != 1
+haz,Hazaragi,2,n != 1
 he,Hebrew,4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 he_IL,Hebrew (Israel),4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 hi,Hindi,2,n > 1
@@ -259,10 +289,14 @@ hit,Hittite,2,n != 1
 hmn,Hmong,2,n != 1
 hne,Chhattisgarhi,2,n != 1
 hnj,Hmong Njua,1,0
+hno,Hindko (Northern),2,n != 1
 ho,Hiri Motu,2,n != 1
+hoc,Ho,2,n != 1
+hoj,Hadothi,2,n != 1
 hr,Croatian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 hrx,Hunsrik,2,n != 1
 hsb,Upper Sorbian,4,(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
+hsn,Chinese (Xiang),2,n != 1
 ht,Haitian,2,n != 1
 hu,Hungarian,2,n != 1
 hup,Hupa,2,n != 1
@@ -271,6 +305,7 @@ hy,Armenian,2,n > 1
 hz,Herero,2,n != 1
 ia,Interlingua,2,n != 1
 iba,Iban,2,n != 1
+ibb,Ibibio,2,n != 1
 id,Indonesian,1,0
 ie,Occidental,2,n != 1
 ig,Igbo,1,0
@@ -305,8 +340,10 @@ kbd,Kabardian,2,n != 1
 kcg,Tyap,2,n != 1
 kde,Makonde,1,0
 kea,Kabuverdianu,1,0
+kfy,Kumaoni,2,n != 1
 kg,Kongo,2,n != 1
 kha,Khasi,2,n != 1
+khn,Khandesi,2,n != 1
 kho,Khotanese,2,n != 1
 ki,Gikuyu,2,n != 1
 kj,Kwanyama,2,n != 1
@@ -314,6 +351,7 @@ kk,Kazakh,2,n != 1
 kk_Latn,Kazakh (latin),2,n != 1
 kkj,Kako,2,n != 1
 kl,Greenlandic,2,n != 1
+kln,Kalenjin,2,n != 1
 km,Khmer (Central),1,0
 kmb,Kimbundu,2,n != 1
 kmr,Kurdish (Northern),2,n != 1
@@ -325,6 +363,7 @@ kos,Kosraean,1,0
 kpe,Kpelle,2,n != 1
 kr,Kanuri,2,n != 1
 krc,Karachay-Balkar,2,n != 1
+kri,Krio,2,n != 1
 krl,Karelian,2,n != 1
 kru,Kurukh,2,n != 1
 ks,Kashmiri,2,n != 1
@@ -335,10 +374,12 @@ kum,Kumyk,2,n != 1
 kut,Kutenai,2,n != 1
 kv,Komi,2,n != 1
 kw,Cornish,6,(n == 0) ? 0 : ((n == 1) ? 1 : (((n % 100 == 2 || n % 100 == 22 || n % 100 == 42 || n % 100 == 62 || n % 100 == 82) || n % 1000 == 0 && (n % 100000 >= 1000 && n % 100000 <= 20000 || n % 100000 == 40000 || n % 100000 == 60000 || n % 100000 == 80000) || n != 0 && n % 1000000 == 100000) ? 2 : ((n % 100 == 3 || n % 100 == 23 || n % 100 == 43 || n % 100 == 63 || n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 || n % 100 == 21 || n % 100 == 41 || n % 100 == 61 || n % 100 == 81)) ? 4 : 5))))
+kxm,Khmer (Northern),2,n != 1
 ky,Kyrgyz,2,n != 1
 la,Latin,2,n != 1
 lad,Ladino,2,n != 1
 lag,Langi,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)
+laj,Lango (Uganda),2,n != 1
 lam,Lamba,2,n != 1
 lb,Luxembourgish,2,n != 1
 lez,Lezghian,2,n != 1
@@ -346,8 +387,11 @@ lfn,Lingua Franca Nova,2,n != 1
 lg,Luganda,2,n != 1
 li,Limburgish,2,n != 1
 lij,Ligurian,2,n != 1
+ljp,Lampung Api,2,n != 1
 lki,Laki,2,n != 1
 lkt,Lakota,1,0
+lmn,Lambadi,2,n != 1
+lmo,Lombard,2,n != 1
 ln,Lingala,2,n > 1
 lo,Lao,1,0
 lol,Mongo,2,n != 1
@@ -361,6 +405,7 @@ lui,Luiseno,2,n != 1
 lun,Lunda,2,n != 1
 luo,Luo (Kenya and Tanzania),2,n != 1
 lus,Lushai,2,n != 1
+luy,Luyia,2,n != 1
 luz,Luri (Southern),2,n != 1
 lv,Latvian,3,(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 lv@formal,Latvian (formal),3,(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
@@ -373,11 +418,15 @@ mak,Makasar,2,n != 1
 man,Mandingo,2,n != 1
 mas,Masai,2,n != 1
 mdf,Moksha,2,n != 1
+mdh,Maguindanaon,2,n != 1
 mdr,Mandar,2,n != 1
 men,Mende (Sierra Leone),2,n != 1
+mer,Meru,2,n != 1
+mfa,Malay (Pattani),2,n != 1
 mfe,Morisyen,2,n > 1
 mg,Malagasy,2,n > 1
 mga,Irish (Middle),2,n != 1
+mgh,Makhuwa-Meetto,2,n != 1
 mgo,Metaʼ,2,n != 1
 mh,Marshallese,2,n != 1
 mhr,Meadow Mari,2,n != 1
@@ -401,12 +450,15 @@ mrh,Mara,2,n != 1
 ms,Malay,1,0
 ms_Arab,Malay (Jawi),1,0
 mt,Maltese,4,n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3
+mtr,Mewari,2,n != 1
 mus,Creek,2,n != 1
 mwl,Mirandese,2,n != 1
 mwr,Marwari,2,n != 1
 my,Burmese,1,0
 my@Zawgyi,Burmese (Zawgyi),1,0
 myv,Erzya,2,n != 1
+myx,Masaaba,2,n != 1
+mzn,Mazanderani,2,n != 1
 na,Nauru,2,n != 1
 nah,Nahuatl,2,n != 1
 nan_Hant,"Chinese (Min Nan, Traditional)",2,n != 1
@@ -415,10 +467,12 @@ nap,Neapolitan,2,n != 1
 naq,Nama,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 nb_NO,Norwegian Bokmål,2,n != 1
 nd,Ndebele (Northern),2,n != 1
+ndc,Ndau,2,n != 1
 nds,German (Low),2,n != 1
 ne,Nepali,2,n != 1
 new,Newari,2,n != 1
 ng,Ndonga,2,n != 1
+ngl,Lomwe,2,n != 1
 nia,Nias,2,n != 1
 niu,Niuean,2,n != 1
 nl,Dutch,2,n != 1
@@ -427,6 +481,8 @@ nl@informal,Dutch (informal),2,n != 1
 nl_BE,Dutch (Belgium),2,n != 1
 nn,Norwegian Nynorsk,2,n != 1
 nnh,Ngiemboon,2,n != 1
+nod,Thai (Northern),2,n != 1
+noe,Nimadi,2,n != 1
 nog,Nogai,2,n != 1
 non,Norse (Old),2,n != 1
 nqo,N’Ko,1,0
@@ -488,8 +544,14 @@ raj,Rajasthani,2,n != 1
 rap,Rapanui,2,n != 1
 rar,Rarotongan,2,n != 1
 rcf,Réunion Creole,2,n != 1
+rej,Rejang,2,n != 1
+rhg,Rohingya,2,n != 1
+rif,Tarifit,2,n != 1
+rkt,Rangpuri,2,n != 1
 rm,Romansh,2,n != 1
+rmt,Domari,2,n != 1
 rn,Rundi,2,n != 1
+rng,Ronga,2,n != 1
 ro,Romanian,3,n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2
 ro_MD,Moldavian,3,(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2)
 rof,Rombo,2,n != 1
@@ -511,11 +573,13 @@ saq,Samburu,2,n != 1
 sas,Sasak,2,n != 1
 sat,Santali,3,n == 1 ? 0 : n == 2 ? 1 : 2
 sc,Sardinian,2,n != 1
+sck,Sadri,2,n != 1
 scn,Sicilian,2,n != 1
 sco,Scots,2,n != 1
 sd,Sindhi,2,n != 1
 sdh,Kurdish (Southern),2,n != 1
 se,Sami (Northern),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
+sef,Senoufo (Cebaara),2,n != 1
 seh,Sena,2,n != 1
 sel,Selkup,2,n != 1
 ses,Koyraboro Senni,1,0
@@ -543,6 +607,7 @@ snk,Soninke,2,n != 1
 so,Somali,2,n != 1
 sog,Sogdian,2,n != 1
 son,Songhai,1,0
+sou,Thai (Southern),2,n != 1
 sq,Albanian,2,n != 1
 sr,Serbian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 sr@ijekavian,Serbian (Ijekavian),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
@@ -563,12 +628,15 @@ sw,Swahili,2,n != 1
 sw_CD,Swahili (Congo),2,n != 1
 sw_TZ,Swahili (Tanzania),2,n != 1
 swg,Swabian,2,n != 1
+swv,Shekhawati,2,n != 1
 sxu,Saxon (Upper),2,n != 1
 syc,Syriac (Classical),2,n != 1
+syl,Sylheti,2,n != 1
 syr,Syriac,2,n != 1
 szl,Silesian,3,n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 ta,Tamil,2,n != 1
 ta_LK,Tamil (Sri Lanka),2,n != 1
+tcy,Tulu,2,n != 1
 te,Telugu,2,n != 1
 tem,Timne,2,n != 1
 teo,Teso,2,n != 1
@@ -585,6 +653,7 @@ tl,Tagalog,2,n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10
 tlh,Klingon,1,0
 tlh-qaak,Klingon (pIqaD),1,0
 tli,Tlingit,2,n != 1
+tly,Talysh,2,n != 1
 tmh,Tamashek,2,n != 1
 tn,Tswana,2,n != 1
 to,Tongan,1,0
@@ -594,10 +663,12 @@ tpi,Tok Pisin,1,0
 tr,Turkish,2,n != 1
 trv,Taroko,2,n != 1
 ts,Tsonga,2,n != 1
+tsg,Tausug,2,n != 1
 tsi,Tsimshian,2,n != 1
 tsj,Tshangla,2,n != 1
 tt,Tatar,1,0
 tt@iqtelif,Tatar (IQTElif),1,0
+tts,Thai (Northeastern),2,n != 1
 tum,Tumbuka,2,n != 1
 tvl,Tuvalu,2,n != 1
 tw,Twi,2,n != 1
@@ -612,6 +683,7 @@ uga,Ugaritic,2,n != 1
 uk,Ukrainian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 umb,Umbundu,2,n != 1
 und,Undetermined,2,n != 1
+unr,Mundari,2,n != 1
 ur,Urdu,2,n != 1
 ur_IN,Urdu (India),2,n != 1
 ur_PK,Urdu (Pakistan),2,n != 1
@@ -622,6 +694,8 @@ ve,Venda,2,n != 1
 vec,Venetian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 vi,Vietnamese,1,0
 vls,Flemish (West),2,n != 1
+vmf,Mainfränkisch,2,n != 1
+vmw,Makhuwa,2,n != 1
 vo,Volapük,2,n != 1
 vot,Votic,2,n != 1
 vun,Vunjo,2,n != 1
@@ -630,13 +704,18 @@ wae,German (Walser),2,n != 1
 wal,Wolaytta,2,n != 1
 war,Waray (Philippines),2,n != 1
 was,Washo,2,n != 1
+wbq,Waddar,2,n != 1
+wbr,Wagdi,2,n != 1
 wen,Sorbian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 wep,Westphalien,2,n != 1
 wo,Wolof,1,0
+wtm,Mewati,2,n != 1
+wuu,Chinese (Wu),2,n != 1
 wuu_Hans,Wu (Simplified),1,0
 wuu_Hant,Wu (Traditional),1,0
 xal,Kalmyk,2,n != 1
 xh,Xhosa,2,n != 1
+xnr,Kangri,2,n != 1
 xog,Soga,2,n != 1
 yao,Yao,2,n != 1
 yap,Yapese,2,n != 1
