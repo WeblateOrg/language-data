@@ -4149,6 +4149,15 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "pdt",
+        # Translators: Language name for ISO code "pdt". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Plautdietsch"),
+        2,
+        "n != 1",
+    ),
+    (
         "peo",
         # Translators: Language name for ISO code "peo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

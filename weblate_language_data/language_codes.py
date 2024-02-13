@@ -722,6 +722,7 @@ LANGUAGES = {
     "pau",
     "pbb",
     "pcm",
+    "pdt",
     "peo",
     "per",
     "phn",
