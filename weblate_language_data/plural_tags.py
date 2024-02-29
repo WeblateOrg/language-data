@@ -12,7 +12,6 @@ https://github.com/WeblateOrg/language-data
 """
 # pylint: disable=line-too-long,too-many-lines
 
-
 PLURAL_TAGS = {
     "af": ["one", "other"],
     "ak": ["one", "other"],

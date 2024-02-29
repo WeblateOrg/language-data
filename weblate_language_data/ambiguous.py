@@ -12,6 +12,5 @@ https://github.com/WeblateOrg/language-data
 """
 # pylint: disable=line-too-long,too-many-lines
 
-
 # List of ambiguous codes based on ISO-639-3 macrolanguages
 AMBIGUOUS = {"ku": ["ckb", "kmr", "sdh"], "kur": ["ckb", "kmr", "sdh"]}

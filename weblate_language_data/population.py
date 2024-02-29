@@ -12,7 +12,6 @@ https://github.com/WeblateOrg/language-data
 """
 # pylint: disable=line-too-long,too-many-lines
 
-
 # Language definitions
 POPULATION = {
     "aa": 2119662,
