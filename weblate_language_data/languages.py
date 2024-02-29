@@ -12,7 +12,6 @@ https://github.com/WeblateOrg/language-data
 """
 # pylint: disable=line-too-long,too-many-lines
 
-
 from .utils import gettext_noop as _
 
 # Language definitions
