@@ -1066,6 +1066,7 @@ LANGUAGES = {
     "vo",
     "vol",
     "vot",
+    "vro",
     "vun",
     "wa",
     "wae",

@@ -6317,6 +6317,15 @@ LANGUAGES = (
         "n != 1",
     ),
     (
+        "vro",
+        # Translators: Language name for ISO code "vro". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Võro"),
+        2,
+        "n != 1",
+    ),
+    (
         "vun",
         # Translators: Language name for ISO code "vun". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
