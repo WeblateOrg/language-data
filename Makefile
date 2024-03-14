@@ -34,7 +34,7 @@ translate.csv: $(LANG_DATA) scripts/export-translate
 weblate_language_data/plural_tags.py: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json scripts/export-plural-tags modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json
 	./scripts/export-plural-tags
 
-aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json
+aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json
 	./scripts/export-iso-aliases
 	@touch $@
 
