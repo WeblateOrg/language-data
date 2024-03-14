@@ -41,8 +41,9 @@ aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json mo
 population.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json scripts/export-cldr-population
 	./scripts/export-cldr-population
 
-languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages
+languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages scripts/add-iso-population aliases.csv population.csv
 	./scripts/export-iso-languages
+	./scripts/add-iso-population
 	@touch $@
 
 weblate_language_data/locale/django.pot: weblate_language_data/languages.py weblate_language_data/plurals.py
