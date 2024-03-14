@@ -10,6 +10,7 @@ import pprint
 import subprocess
 
 BASE = "modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json"
+ALIASES = "modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json"
 
 HEADER = '''# Copyright © Michal Čihař <michal@weblate.org>
 #
@@ -102,6 +103,22 @@ for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
         if "@integer" in rule
     ]
     decimals[locale] = [name.replace("pluralRule-count-", "") for name in rules]
+
+with open(ALIASES) as handle:
+    aliases = json.load(handle)
+
+for code, alias in aliases["supplemental"]["metadata"]["alias"][
+    "languageAlias"
+].items():
+    # Skip aliases with -
+    if "-" in code:
+        continue
+    replacement = alias["_replacement"]
+    # Remove variant from replacement
+    if replacement not in result and "-" in replacement:
+        replacement = replacement.split("-", 1)[0]
+    if replacement in result:
+        result[code] = result[replacement]
 
 # Read qt plurals
 with open("qt.csv") as csvfile:
