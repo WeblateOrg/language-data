@@ -104,6 +104,7 @@ for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
     ]
     decimals[locale] = [name.replace("pluralRule-count-", "") for name in rules]
 
+# Process CLDR
 with open(ALIASES) as handle:
     aliases = json.load(handle)
 
@@ -118,6 +119,22 @@ for code, alias in aliases["supplemental"]["metadata"]["alias"][
     if replacement not in result and "-" in replacement:
         replacement = replacement.split("-", 1)[0]
     if replacement in result:
+        result[code] = result[replacement]
+
+# Read Weblate aliases
+with open("aliases.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    next(reader)
+    ALIASES = [alias for alias in reader if alias[0] != "#"]
+
+for code, alias in ALIASES:
+    replacement = alias
+    # Remove variant from replacement
+    if replacement not in result and "_" in replacement:
+        replacement = replacement.split("_", 1)[0]
+    if replacement in result:
+        if "_" in code and result.get(code.split("_", 1)[0]) == result[replacement]:
+            continue
         result[code] = result[replacement]
 
 # Read qt plurals
