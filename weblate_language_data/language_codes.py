@@ -847,6 +847,7 @@ LANGUAGES = {
     "pr",
     "prg",
     "pro",
+    "prp",
     "ps",
     "pt",
     "pt@formal",

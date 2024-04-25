@@ -339,6 +339,7 @@ PLURAL_TAGS = {
     "portuguese_br": ["one", "many", "other"],
     "portuguese_portugal": ["one", "many", "other"],
     "prg": ["zero", "one", "other"],
+    "prp": ["one", "other"],
     "prs": ["one", "other"],
     "ps": ["one", "other"],
     "pt": ["one", "many", "other"],
