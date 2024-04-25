@@ -20,7 +20,7 @@ qt.csv: modules/qttools/src/linguist/shared/numerus.cpp scripts/export-qt langua
 gettext.csv: modules/gettext/gettext-tools/src/plural-table.c scripts/export-gettext
 	./scripts/export-gettext
 
-languages-po/cs.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json $(wildcard modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json) scripts/export-languages-po
+languages-po/%.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json $(wildcard modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json) scripts/export-languages-po
 	./scripts/export-languages-po
 
 l10n-guide.csv: modules/l10n-guide/docs/l10n/pluralforms.rst scripts/export-l10n-guide
