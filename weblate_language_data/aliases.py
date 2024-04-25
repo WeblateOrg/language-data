@@ -455,4 +455,5 @@ ALIASES = {
     "zai": "zap",
     "zsm": "ms",
     "zyb": "za",
+    "prp": "gu",
 }
