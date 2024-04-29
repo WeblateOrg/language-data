@@ -5818,8 +5818,8 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Tajik"),
-        1,
-        "0",
+        2,
+        "n > 1",
     ),
     (
         "th",
