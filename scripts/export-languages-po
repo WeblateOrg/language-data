@@ -10,6 +10,7 @@ import glob
 import json
 import os
 import re
+import sys
 
 BASE = "modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json"
 HEADER = """# CLDR language names for {0}
@@ -41,15 +42,18 @@ with open(BASE) as handle:
     data = json.load(handle)
 names = extract_names(data)[1]
 
+# Process all files or only subset?
+match = sys.argv[1] if len(sys.argv) > 1 else "*"
+
 # Remove current files, we overwrite them anyway and this ensures
 # that no stale files are there
-for old in glob.glob("languages-po/*.po"):
+for old in glob.glob(f"languages-po/{match}.po"):
     os.unlink(old)
 
+path = f"modules/cldr-json/cldr-json/cldr-localenames-full/main/{match}/languages.json"
+
 # Process translations
-for lang in glob.glob(
-    "modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json"
-):
+for lang in glob.glob(path):
     if lang == BASE:
         continue
 

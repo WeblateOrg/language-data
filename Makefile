@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md $(wildcard weblate_language_data/locale/*/LC_MESSAGES/django.po)
+all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md $(wildcard weblate_language_data/locale/*/LC_MESSAGES/django.po) $(filter-out $(patsubst modules/cldr-json/cldr-json/cldr-localenames-full/main/%/languages.json,languages-po/%.po,$(wildcard modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json)),languages-po/en.po)
 
 weblate_language_data/languages.py: languages.csv aliases.csv cldr.csv extraplurals.csv default_countries.csv population.csv qt.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
 	./scripts/generate-language-data
@@ -20,8 +20,9 @@ qt.csv: modules/qttools/src/linguist/shared/numerus.cpp scripts/export-qt langua
 gettext.csv: modules/gettext/gettext-tools/src/plural-table.c scripts/export-gettext
 	./scripts/export-gettext
 
-languages-po/%.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json $(wildcard modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json) scripts/export-languages-po
-	./scripts/export-languages-po
+.PRECIOUS: languages-po/%.po
+languages-po/%.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json modules/cldr-json/cldr-json/cldr-localenames-full/main/%/languages.json scripts/export-languages-po
+	./scripts/export-languages-po $*
 
 l10n-guide.csv: modules/l10n-guide/docs/l10n/pluralforms.rst scripts/export-l10n-guide
 	./scripts/export-l10n-guide
@@ -54,8 +55,7 @@ weblate_language_data/locale/django.pot: weblate_language_data/languages.py webl
 	rm $@.1 $@.2
 
 
-.SECONDEXPANSION:
-weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot $$(wildcard modules/iso-codes/iso_639-3/$$*.po modules/iso-codes/iso_639-2/$$*.po languages-po/$$*.po)
+weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot modules/iso-codes/iso_639-3/%.po modules/iso-codes/iso_639-2/%.po languages-po/%.po
 	@echo "Update $@"
 	@ARGS=""; \
 	for file in modules/iso-codes/iso_639-3/$*.po modules/iso-codes/iso_639-2/$*.po languages-po/$*.po ; do \
