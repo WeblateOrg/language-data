@@ -10,7 +10,7 @@ jobs:
   lint:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+    - uses: actions/checkout@v4                                       # v4
     - uses: actions/setup-python@v5
       with:
         python-version: '3.11'

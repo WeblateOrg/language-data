@@ -21,7 +21,7 @@ jobs:
       pull-requests: write
 
     steps:
-    - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+    - uses: actions/checkout@v4                                       # v4
       with:
         submodules: true
     - run: sudo apt-get --option="APT::Acquire::Retries=3" update

@@ -9,7 +9,6 @@ target-version = ['py39']
 profile = "black"
 
 [tool.ruff]
-output-format = "github"
 target-version = "py39"
 
 [tool.ruff.lint]
