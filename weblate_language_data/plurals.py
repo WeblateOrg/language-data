@@ -977,6 +977,15 @@ QTPLURALS = (
         "(n != 1)",
     ),
     (
+        "lg",
+        # Translators: Language name for ISO code "lg". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Luganda"),
+        2,
+        "(n != 1)",
+    ),
+    (
         "ln",
         # Translators: Language name for ISO code "ln". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

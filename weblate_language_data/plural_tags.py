@@ -792,6 +792,7 @@ QT_PLURAL_TAGS = {
     "ky": ["one", "other"],
     "la": ["one", "other"],
     "lb": ["one", "other"],
+    "lg": ["one", "other"],
     "ln": ["one", "other"],
     "lo": ["one", "other"],
     "lt": ["one", "few", "many"],
