@@ -73,7 +73,15 @@ def get_population(code):
     if "_" in code:
         language, variant = code.split("_", 1)
         # This can be really wrong, but better than zero
-        if variant in ("Cyrl", "Latn", "Hans", "Hant", "devel"):
+        if variant in (
+            "Cyrl",
+            "Latn",
+            "Hans",
+            "Hant",
+            "devel",
+            "Latn_pehoeji",
+            "Latn_tailo",
+        ):
             return get_population(language)
     return 0
 

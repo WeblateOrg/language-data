@@ -740,6 +740,8 @@ LANGUAGES = {
     "nan",
     "nan_hant",
     "nan_latn",
+    "nan_latn_pehoeji",
+    "nan_latn_tailo",
     "nap",
     "naq",
     "nau",

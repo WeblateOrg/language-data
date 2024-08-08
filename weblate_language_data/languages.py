@@ -4193,11 +4193,20 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "nan_Latn",
-        # Translators: Language name for ISO code "nan_Latn". The parenthesis clarifies
+        "nan_Latn_pehoeji",
+        # Translators: Language name for ISO code "nan_Latn_pehoeji". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Min Nan, Latin)"),
+        _("Chinese (Min Nan, Pe̍h-ōe-jī)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "nan_Latn_tailo",
+        # Translators: Language name for ISO code "nan_Latn_tailo". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Chinese (Min Nan, Tâi-lô)"),
         2,
         "n != 1",
     ),
