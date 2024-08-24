@@ -9,7 +9,7 @@ import re
 import csv
 
 ALIASES = {
-    "Chinese": ("Chinese (Simplified)", "Chinese (Traditional)"),
+    "Chinese": ("Chinese (Simplified Han script)", "Chinese (Traditional Han script)"),
     "WesternFrisian": ("Frisian",),
     "Interlingue": ("Interlingua",),
     "Khmer": ("Khmer (Central)",),

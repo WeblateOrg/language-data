@@ -1638,7 +1638,7 @@ QTPLURALS = (
         # Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Simplified)"),
+        _("Chinese (Simplified Han script)"),
         1,
         "0",
     ),
@@ -1647,7 +1647,7 @@ QTPLURALS = (
         # Translators: Language name for ISO code "zh_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Traditional)"),
+        _("Chinese (Traditional Han script)"),
         1,
         "0",
     ),

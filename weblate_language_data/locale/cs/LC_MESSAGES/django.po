@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-08-08 14:54+0200\n"
+"POT-Creation-Date: 2024-08-24 16:24+0800\n"
 "PO-Revision-Date: 2023-12-21 04:23+0000\n"
 "Last-Translator: inson1 <vaclav.svarc01@seznam.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/weblate/languages/"
@@ -138,6 +138,12 @@ msgstr "Altai (jižní)"
 #. or other variant.
 msgid "Amharic"
 msgstr "Amharština"
+
+#. Translators: Language name for ISO code "ami". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Amis"
+msgstr ""
 
 #. Translators: Language name for ISO code "an". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -381,7 +387,9 @@ msgstr "Běloruština"
 #. Translators: Language name for ISO code "be_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Belarusian (latin)"
+#, fuzzy
+#| msgid "Belarusian (latin)"
+msgid "Belarusian (Latin script)"
 msgstr "Běloruština (latinkou)"
 
 #. Translators: Language name for ISO code "bej". The parenthesis clarifies
@@ -593,13 +601,17 @@ msgstr "Bosenština"
 #. Translators: Language name for ISO code "bs_Cyrl". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Bosnian (cyrillic)"
+#, fuzzy
+#| msgid "Bosnian (cyrillic)"
+msgid "Bosnian (Cyrillic script)"
 msgstr "Bosenština (cyrilicí)"
 
 #. Translators: Language name for ISO code "bs_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Bosnian (latin)"
+#, fuzzy
+#| msgid "Bosnian (latin)"
+msgid "Bosnian (Latin script)"
 msgstr "Bosenština (latinkou)"
 
 #. Translators: Language name for ISO code "bua". The parenthesis clarifies
@@ -664,6 +676,26 @@ msgstr "Tádžičtina"
 #| msgid "Galician"
 msgid "Galibi Carib"
 msgstr "Galicijština"
+
+#. Translators: Language name for ISO code "cdo_Hans". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Mindong (Simplified Han script)"
+msgstr ""
+
+#. Translators: Language name for ISO code "cdo_Hant". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese (Traditional, Hong Kong)"
+msgid "Mindong (Traditional Han script)"
+msgstr "Čínština (tradiční, Hongkong)"
+
+#. Translators: Language name for ISO code "cdo_Latn". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Mindong (Latin script)"
+msgstr ""
 
 #. Translators: Language name for ISO code "ce". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -772,7 +804,7 @@ msgstr "Černohorština"
 #. or other variant.
 #, fuzzy
 #| msgid "Bosnian (cyrillic)"
-msgid "Montenegrin (cyrillic)"
+msgid "Montenegrin (Cyrillic script)"
 msgstr "Bosenština (cyrilicí)"
 
 #. Translators: Language name for ISO code "co". The parenthesis clarifies
@@ -804,6 +836,24 @@ msgstr "Kreoly a pidžiny (na bázi francouzštiny)"
 #. or other variant.
 msgid "Creoles and pidgins (Portuguese-based)"
 msgstr "Kreoly a pidžiny (na bázi portugalštiny)"
+
+#. Translators: Language name for ISO code "cpx_Hans". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Pu–Xian Min (Simplified Han script)"
+msgstr ""
+
+#. Translators: Language name for ISO code "cpx_Hant". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Pu–Xian Min (Traditional Han script)"
+msgstr ""
+
+#. Translators: Language name for ISO code "cpx_Latn". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Pu–Xian Min (Latin script)"
+msgstr ""
 
 #. Translators: Language name for ISO code "cr". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -975,6 +1025,13 @@ msgstr "Bhútánština"
 msgid "Dogri"
 msgstr "Dógrí"
 
+#. Translators: Language name for ISO code "dru". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+msgid "Rukai"
+msgstr "Kirundi"
+
 #. Translators: Language name for ISO code "dry". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -1130,7 +1187,7 @@ msgstr "Angličtina (Indie)"
 #. or other variant.
 #, fuzzy
 #| msgid "English (United Kingdom)"
-msgid "English (Shavian, United Kingdom)"
+msgid "English (Shavian script, United Kingdom)"
 msgstr "Angličtina (Spojené království)"
 
 #. Translators: Language name for ISO code "en_Shaw_US". The parenthesis clarifies
@@ -1138,7 +1195,7 @@ msgstr "Angličtina (Spojené království)"
 #. or other variant.
 #, fuzzy
 #| msgid "English (United States)"
-msgid "English (Shavian, United States)"
+msgid "English (Shavian script, United States)"
 msgstr "Angličtina (Spojené státy)"
 
 #. Translators: Language name for ISO code "en_US". The parenthesis clarifies
@@ -1546,12 +1603,21 @@ msgstr "Irština"
 msgid "Ga"
 msgstr "ga"
 
-#. Translators: Language name for ISO code "gan". The parenthesis clarifies
+#. Translators: Language name for ISO code "gan_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Chinese (Gan)"
-msgstr "čínština"
+#| msgid "Chinese (Simplified)"
+msgid "Gan (Simplified Han script)"
+msgstr "Čínština (zjednodušená)"
+
+#. Translators: Language name for ISO code "gan_Hant". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese (Traditional)"
+msgid "Gan (Traditional Han script)"
+msgstr "Čínština (tradiční)"
 
 #. Translators: Language name for ISO code "gay". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1753,12 +1819,25 @@ msgstr "Hauština"
 msgid "Haida"
 msgstr "haida"
 
-#. Translators: Language name for ISO code "hak". The parenthesis clarifies
+#. Translators: Language name for ISO code "hak_Hans". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Hakka (Simplified Han script)"
+msgstr ""
+
+#. Translators: Language name for ISO code "hak_Hant". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Chinese (Hakka)"
-msgstr "čínština"
+#| msgid "Chinese (Traditional)"
+msgid "Hakka (Traditional Han script)"
+msgstr "Čínština (tradiční)"
+
+#. Translators: Language name for ISO code "hak_Latn". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Hakka (Latin script)"
+msgstr ""
 
 #. Translators: Language name for ISO code "haw". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1801,7 +1880,9 @@ msgstr "Hindština (latinkou)"
 #. Translators: Language name for ISO code "hi_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Hindi (latin)"
+#, fuzzy
+#| msgid "Hindi (latin)"
+msgid "Hindi (Latin script)"
 msgstr "Hindština (latinkou)"
 
 #. Translators: Language name for ISO code "hil". The parenthesis clarifies
@@ -1882,8 +1963,8 @@ msgstr "Hornolužičtina"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Chinese (Xiang)"
-msgstr "čínština"
+msgid "Xiang"
+msgstr "Sangho"
 
 #. Translators: Language name for ISO code "ht". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2210,7 +2291,7 @@ msgstr "Kazaština"
 #. or other variant.
 #, fuzzy
 #| msgid "Uzbek (latin)"
-msgid "Kazakh (latin)"
+msgid "Kazakh (Latin script)"
 msgstr "Uzbečtina (latinkou)"
 
 #. Translators: Language name for ISO code "kkj". The parenthesis clarifies
@@ -2256,7 +2337,7 @@ msgstr "Centrální kurdština (Írán)"
 #. or other variant.
 #, fuzzy
 #| msgid "Central Kurdish (Iran)"
-msgid "Kurdish (Northern, latin)"
+msgid "Kurdish (Northern, Latin script)"
 msgstr "Centrální kurdština (Írán)"
 
 #. Translators: Language name for ISO code "kn". The parenthesis clarifies
@@ -2606,7 +2687,7 @@ msgstr "Němčina (neformální)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Chinese (Literary)"
+msgid "Literary Chinese"
 msgstr "čínština"
 
 #. Translators: Language name for ISO code "mad". The parenthesis clarifies
@@ -2930,16 +3011,16 @@ msgstr "Nahuatl (Aztéčtina)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Chinese (Traditional)"
-msgid "Chinese (Min Nan, Traditional)"
-msgstr "Čínština (tradiční)"
+#| msgid "Chinese (Traditional, Hong Kong)"
+msgid "Minnan (Traditional Han script)"
+msgstr "Čínština (tradiční, Hongkong)"
 
 #. Translators: Language name for ISO code "nan_Latn_pehoeji". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
 #| msgid "Chinese (Min Nan)"
-msgid "Chinese (Min Nan, Pe̍h-ōe-jī)"
+msgid "Minnan (Pe̍h-ōe-jī)"
 msgstr "Čínština (min-nan)"
 
 #. Translators: Language name for ISO code "nan_Latn_tailo". The parenthesis clarifies
@@ -2947,7 +3028,7 @@ msgstr "Čínština (min-nan)"
 #. or other variant.
 #, fuzzy
 #| msgid "Chinese (Min Nan)"
-msgid "Chinese (Min Nan, Tâi-lô)"
+msgid "Minnan (Tâi-lô)"
 msgstr "Čínština (min-nan)"
 
 #. Translators: Language name for ISO code "nap". The parenthesis clarifies
@@ -3404,6 +3485,13 @@ msgstr "Portugalština (Portugalsko)"
 #. or other variant.
 msgid "Portuguese (Portugal)"
 msgstr "Portugalština (Portugalsko)"
+
+#. Translators: Language name for ISO code "pwn". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+msgid "Paiwan"
+msgstr "italština"
 
 #. Translators: Language name for ISO code "qdt". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3915,13 +4003,17 @@ msgstr "Srbština (latinkou)"
 #. Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Serbian (cyrillic)"
+#, fuzzy
+#| msgid "Serbian (cyrillic)"
+msgid "Serbian (Cyrillic script)"
 msgstr "Srbština (cyrilicí)"
 
 #. Translators: Language name for ISO code "sr_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Serbian (latin)"
+#, fuzzy
+#| msgid "Serbian (latin)"
+msgid "Serbian (Latin script)"
 msgstr "Srbština (latinkou)"
 
 #. Translators: Language name for ISO code "srn". The parenthesis clarifies
@@ -4055,6 +4147,12 @@ msgstr "syrština"
 msgid "Silesian"
 msgstr "Slezština"
 
+#. Translators: Language name for ISO code "szy". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Sakizaya"
+msgstr ""
+
 #. Translators: Language name for ISO code "ta". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
@@ -4066,6 +4164,13 @@ msgstr "Tamilština"
 #. or other variant.
 msgid "Tamil (Sri Lanka)"
 msgstr "Tamilština (Srí Lanka)"
+
+#. Translators: Language name for ISO code "tay". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+msgid "Tayal"
+msgstr "balúčština"
 
 #. Translators: Language name for ISO code "tcy". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4390,7 +4495,9 @@ msgstr "Uzbečtina"
 #. Translators: Language name for ISO code "uz_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Uzbek (latin)"
+#, fuzzy
+#| msgid "Uzbek (latin)"
+msgid "Uzbek (Latin script)"
 msgstr "Uzbečtina (latinkou)"
 
 #. Translators: Language name for ISO code "vai". The parenthesis clarifies
@@ -4529,19 +4636,12 @@ msgstr "Volofština"
 msgid "Mewati"
 msgstr "Siswatština"
 
-#. Translators: Language name for ISO code "wuu". The parenthesis clarifies
-#. variant of the language. It could contain a region, age (Old, Middle, ...)
-#. or other variant.
-#, fuzzy
-msgid "Chinese (Wu)"
-msgstr "čínština"
-
 #. Translators: Language name for ISO code "wuu_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
 #| msgid "Chinese (Simplified)"
-msgid "Wu (Simplified)"
+msgid "Wu (Simplified Han script)"
 msgstr "Čínština (zjednodušená)"
 
 #. Translators: Language name for ISO code "wuu_Hant". The parenthesis clarifies
@@ -4549,7 +4649,7 @@ msgstr "Čínština (zjednodušená)"
 #. or other variant.
 #, fuzzy
 #| msgid "Chinese (Traditional)"
-msgid "Wu (Traditional)"
+msgid "Wu (Traditional Han script)"
 msgstr "Čínština (tradiční)"
 
 #. Translators: Language name for ISO code "xal". The parenthesis clarifies
@@ -4612,14 +4712,18 @@ msgstr ""
 #. Translators: Language name for ISO code "yue_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Yue (Simplified)"
-msgstr "Jüe (zjednodušená)"
+#, fuzzy
+#| msgid "Chinese (Simplified)"
+msgid "Cantonese (Simplified Han script)"
+msgstr "Čínština (zjednodušená)"
 
 #. Translators: Language name for ISO code "yue_Hant". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Yue (Traditional)"
-msgstr "Jüe (tradiční)"
+#, fuzzy
+#| msgid "Chinese (Traditional)"
+msgid "Cantonese (Traditional Han script)"
+msgstr "Čínština (tradiční)"
 
 #. Translators: Language name for ISO code "za". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4656,31 +4760,41 @@ msgstr "standardní marocký tamazight"
 #. Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Chinese (Simplified)"
+#, fuzzy
+#| msgid "Chinese (Simplified)"
+msgid "Chinese (Simplified Han script)"
 msgstr "Čínština (zjednodušená)"
 
 #. Translators: Language name for ISO code "zh_Hans_SG". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Chinese (Simplified, Singapore)"
+#, fuzzy
+#| msgid "Chinese (Simplified, Singapore)"
+msgid "Chinese (Simplified Han script, Singapore)"
 msgstr "Čínština (zjednodušená, Singapur)"
 
 #. Translators: Language name for ISO code "zh_Hant". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Chinese (Traditional)"
+#, fuzzy
+#| msgid "Chinese (Traditional)"
+msgid "Chinese (Traditional Han script)"
 msgstr "Čínština (tradiční)"
 
 #. Translators: Language name for ISO code "zh_Hant_HK". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Chinese (Traditional, Hong Kong)"
+#, fuzzy
+#| msgid "Chinese (Traditional, Hong Kong)"
+msgid "Chinese (Traditional Han script, Hong Kong)"
 msgstr "Čínština (tradiční, Hongkong)"
 
 #. Translators: Language name for ISO code "zh_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Chinese (Pinyin)"
+#, fuzzy
+#| msgid "Chinese (Pinyin)"
+msgid "Chinese (Hanyu Pinyin)"
 msgstr "Čínština (Pinyin)"
 
 #. Translators: Language name for ISO code "zu". The parenthesis clarifies
@@ -4701,6 +4815,52 @@ msgstr "zunijština"
 #, fuzzy
 msgid "Zaza"
 msgstr "Kazachština"
+
+#~ msgid "Chinese"
+#~ msgstr "čínština"
+
+#, fuzzy
+#~ msgid "Gan"
+#~ msgstr "Setswanština"
+
+#, fuzzy
+#~ msgid "Hakka"
+#~ msgstr "dakotština"
+
+#, fuzzy
+#~| msgid "Yue (Simplified)"
+#~ msgid "Yue (Simplified Han script)"
+#~ msgstr "Jüe (zjednodušená)"
+
+#, fuzzy
+#~| msgid "Yue (Traditional)"
+#~ msgid "Yue (Traditional Han script)"
+#~ msgstr "Jüe (tradiční)"
+
+#, fuzzy
+#~ msgid "Chinese (Gan)"
+#~ msgstr "čínština"
+
+#, fuzzy
+#~ msgid "Chinese (Hakka)"
+#~ msgstr "čínština"
+
+#, fuzzy
+#~ msgid "Chinese (Xiang)"
+#~ msgstr "čínština"
+
+#, fuzzy
+#~ msgid "Chinese (Literary)"
+#~ msgstr "čínština"
+
+#, fuzzy
+#~| msgid "Chinese (Traditional)"
+#~ msgid "Chinese (Min Nan, Traditional)"
+#~ msgstr "Čínština (tradiční)"
+
+#, fuzzy
+#~ msgid "Chinese (Wu)"
+#~ msgstr "čínština"
 
 #~ msgid "Khmer"
 #~ msgstr "khmérština"
