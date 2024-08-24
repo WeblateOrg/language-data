@@ -18,6 +18,7 @@ ale,Aleut,2,n != 1
 aln,Albanian (Gheg),2,n != 1
 alt,Altai (Southern),2,n != 1
 am,Amharic,2,n > 1
+ami,Amis,2,n != 1
 an,Aragonese,2,n != 1
 ang,English (Old),2,n != 1
 anp,Angika,2,n != 1
@@ -57,7 +58,7 @@ bas,Basa (Cameroon),2,n != 1
 bbc,Batak Toba,2,n != 1
 bci,Baoulé,2,n != 1
 be,Belarusian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-be_Latn,Belarusian (latin),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+be_Latn,Belarusian (Latin script),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 bej,Beja,2,n != 1
 bem,Bemba,2,n != 1
 ber,Berber,2,n != 1
@@ -91,8 +92,8 @@ brb,Brao,2,n != 1
 brh,Brahui,2,n != 1
 brx,Bodo,2,n != 1
 bs,Bosnian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-bs_Cyrl,Bosnian (cyrillic),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-bs_Latn,Bosnian (latin),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+bs_Cyrl,Bosnian (Cyrillic script),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+bs_Latn,Bosnian (Latin script),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 bua,Buriat,2,n != 1
 bug,Buginese,2,n != 1
 bum,Bulu (Cameroon),2,n != 1
@@ -103,6 +104,9 @@ ca_AD,Catalan (Andorra),2,n != 1
 cad,Caddo,2,n != 1
 cak,Kaqchikel,2,n != 1
 car,Galibi Carib,2,n != 1
+cdo_Hans,Mindong (Simplified Han script),1,0
+cdo_Hant,Mindong (Traditional Han script),1,0
+cdo_Latn,Mindong (Latin script),1,0
 ce,Chechen,2,n != 1
 ceb,Cebuano,2,n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
 cgg,Chiga,2,n != 1
@@ -120,12 +124,15 @@ ckb,Kurdish (Central),2,n != 1
 ckb_IQ,"Kurdish (Central, Iraq)",2,n != 1
 ckb_IR,"Kurdish (Central, Iran)",2,n != 1
 cnr,Montenegrin,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-cnr_Cyrl,Montenegrin (cyrillic),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+cnr_Cyrl,Montenegrin (Cyrillic script),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 co,Corsican,2,n != 1
 cop,Coptic,2,n != 1
 cpe,Creoles and pidgins (English based),2,n != 1
 cpf,Creoles and pidgins (French-based),2,n != 1
 cpp,Creoles and pidgins (Portuguese-based),3,(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
+cpx_Hans,Pu–Xian Min (Simplified Han script),1,0
+cpx_Hant,Pu–Xian Min (Traditional Han script),1,0
+cpx_Latn,Pu–Xian Min (Latin script),1,0
 cr,Cree,2,n != 1
 crh,Crimean Tatar,1,0
 crp,Creoles and pidgins,2,n != 1
@@ -153,6 +160,7 @@ dje,Zarma,2,n != 1
 dnj,Dan,2,n != 1
 dnk,Dengka,2,n != 1
 doi,Dogri,2,n > 1
+dru,Rukai,2,n != 1
 dry,Darai,2,n != 1
 dsb,Lower Sorbian,4,(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 dua,Duala,2,n != 1
@@ -177,8 +185,8 @@ en_IN,English (India),2,n != 1
 en_NZ,English (New Zealand),2,n != 1
 en_PH,English (Philippines),2,n != 1
 en_Shaw,English (Shavian),2,n != 1
-en_Shaw_GB,"English (Shavian, United Kingdom)",2,n != 1
-en_Shaw_US,"English (Shavian, United States)",2,n != 1
+en_Shaw_GB,"English (Shavian script, United Kingdom)",2,n != 1
+en_Shaw_US,"English (Shavian script, United States)",2,n != 1
 en_US,English (United States),2,n != 1
 en_XA,English (XA pseudolocale),2,n != 1
 en_ZA,English (South Africa),2,n != 1
@@ -245,7 +253,8 @@ fvr,Fur,2,n != 1
 fy,Frisian,2,n != 1
 ga,Irish,5,n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4
 gaa,Ga,2,n != 1
-gan,Chinese (Gan),2,n != 1
+gan_Hans,Gan (Simplified Han script),1,0
+gan_Hant,Gan (Traditional Han script),1,0
 gay,Gayo,2,n != 1
 gba,Gbaya (Central African Republic),2,n != 1
 gbm,Garhwali,2,n != 1
@@ -277,14 +286,16 @@ gv,Manx,4,(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 
 gwi,Gwichʼin,2,n != 1
 ha,Hausa,2,n != 1
 hai,Haida,2,n != 1
-hak,Chinese (Hakka),2,n != 1
+hak_Hans,Hakka (Simplified Han script),1,0
+hak_Hant,Hakka (Traditional Han script),1,0
+hak_Latn,Hakka (Latin script),1,0
 haw,Hawaiian,2,n != 1
 haz,Hazaragi,2,n != 1
 he,Hebrew,4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 he_IL,Hebrew (Israel),4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))
 hi,Hindi,2,n > 1
 hi@hinglish,Hindi (Hinglish),2,n > 1
-hi_Latn,Hindi (latin),2,n > 1
+hi_Latn,Hindi (Latin script),2,n > 1
 hil,Hiligaynon,2,n != 1
 hit,Hittite,2,n != 1
 hmn,Hmong,2,n != 1
@@ -297,7 +308,7 @@ hoj,Hadothi,2,n != 1
 hr,Croatian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 hrx,Hunsrik,2,n != 1
 hsb,Upper Sorbian,4,(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
-hsn,Chinese (Xiang),2,n != 1
+hsn,Xiang,1,0
 ht,Haitian,2,n != 1
 hu,Hungarian,2,n != 1
 hup,Hupa,2,n != 1
@@ -349,14 +360,14 @@ kho,Khotanese,2,n != 1
 ki,Gikuyu,2,n != 1
 kj,Kwanyama,2,n != 1
 kk,Kazakh,2,n != 1
-kk_Latn,Kazakh (latin),2,n != 1
+kk_Latn,Kazakh (Latin script),2,n != 1
 kkj,Kako,2,n != 1
 kl,Greenlandic,2,n != 1
 kln,Kalenjin,2,n != 1
 km,Khmer (Central),1,0
 kmb,Kimbundu,2,n != 1
 kmr,Kurdish (Northern),2,n != 1
-kmr_Latn,"Kurdish (Northern, latin)",2,n != 1
+kmr_Latn,"Kurdish (Northern, Latin script)",2,n != 1
 kn,Kannada,2,n > 1
 ko,Korean,1,0
 kok,Konkani,2,n != 1
@@ -411,7 +422,7 @@ luz,Luri (Southern),2,n != 1
 lv,Latvian,3,(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 lv@formal,Latvian (formal),3,(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 lv@informal,Latvian (informal),3,(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
-lzh,Chinese (Literary),2,n != 1
+lzh,Literary Chinese,1,0
 mad,Madurese,2,n != 1
 mag,Magahi,2,n != 1
 mai,Maithili,2,n != 1
@@ -462,9 +473,9 @@ myx,Masaaba,2,n != 1
 mzn,Mazanderani,2,n != 1
 na,Nauru,2,n != 1
 nah,Nahuatl,2,n != 1
-nan_Hant,"Chinese (Min Nan, Traditional)",2,n != 1
-nan_Latn_pehoeji,"Chinese (Min Nan, Pe̍h-ōe-jī)",2,n != 1
-nan_Latn_tailo,"Chinese (Min Nan, Tâi-lô)",2,n != 1
+nan_Hant,"Minnan (Traditional Han script)",1,0
+nan_Latn_pehoeji,"Minnan (Pe̍h-ōe-jī)",1,0
+nan_Latn_tailo,"Minnan (Tâi-lô)",1,0
 nap,Neapolitan,2,n != 1
 naq,Nama,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 nb_NO,Norwegian Bokmål,2,n != 1
@@ -536,6 +547,7 @@ pt_BR,Portuguese (Brazil),2,n > 1
 pt_BR@formal,"Portuguese (Brazil, formal)",2,n > 1
 pt_BR@informal,"Portuguese (Brazil, informal)",2,n > 1
 pt_PT,Portuguese (Portugal),2,n > 1
+pwn,Paiwan,2,n != 1
 qdt,Eskimo (Pacific Coast Alaskan),2,n > 1
 qtp,Gayón,2,n > 1
 qu,Quechua,2,n != 1
@@ -614,8 +626,8 @@ sq,Albanian,2,n != 1
 sr,Serbian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 sr@ijekavian,Serbian (Ijekavian),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 sr@ijekavian_Latn,"Serbian (Ijekavian, latin)",3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-sr_Cyrl,Serbian (cyrillic),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
-sr_Latn,Serbian (latin),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+sr_Cyrl,Serbian (Cyrillic script),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+sr_Latn,Serbian (Latin script),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 srn,Sranan Tongo,2,n != 1
 srr,Serer,2,n != 1
 ss,Swati,2,n != 1
@@ -636,8 +648,10 @@ syc,Syriac (Classical),2,n != 1
 syl,Sylheti,2,n != 1
 syr,Syriac,2,n != 1
 szl,Silesian,3,n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
+szy,Sakizaya,2,n != 1
 ta,Tamil,2,n != 1
 ta_LK,Tamil (Sri Lanka),2,n != 1
+tay,Tayal,2,n != 1
 tcy,Tulu,2,n != 1
 te,Telugu,2,n != 1
 tem,Timne,2,n != 1
@@ -690,7 +704,7 @@ ur,Urdu,2,n != 1
 ur_IN,Urdu (India),2,n != 1
 ur_PK,Urdu (Pakistan),2,n != 1
 uz,Uzbek,2,n != 1
-uz_Latn,Uzbek (latin),2,n != 1
+uz_Latn,Uzbek (Latin script),2,n != 1
 vai,Vai,2,n != 1
 ve,Venda,2,n != 1
 vec,Venetian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
@@ -713,9 +727,8 @@ wen,Sorbian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%10
 wep,Westphalien,2,n != 1
 wo,Wolof,1,0
 wtm,Mewati,2,n != 1
-wuu,Chinese (Wu),2,n != 1
-wuu_Hans,Wu (Simplified),1,0
-wuu_Hant,Wu (Traditional),1,0
+wuu_Hans,Wu (Simplified Han script),1,0
+wuu_Hant,Wu (Traditional Han script),1,0
 xal,Kalmyk,2,n != 1
 xh,Xhosa,2,n != 1
 xnr,Kangri,2,n != 1
@@ -725,18 +738,18 @@ yap,Yapese,2,n != 1
 yi,Yiddish,2,n != 1
 yo,Yoruba,1,0
 yua,Yucateco,2,n != 1
-yue_Hans,Yue (Simplified),1,0
-yue_Hant,Yue (Traditional),1,0
+yue_Hans,Cantonese (Simplified Han script),1,0
+yue_Hant,Cantonese (Traditional Han script),1,0
 za,Zhuang,2,n != 1
 zap,Zapotec,2,n != 1
 zbl,Blissymbols,2,n != 1
 zen,Zenaga,2,n != 1
 zgh,Tamazight (Standard Moroccan),2,n != 1
-zh_Hans,Chinese (Simplified),1,0
-zh_Hans_SG,"Chinese (Simplified, Singapore)",1,0
-zh_Hant,Chinese (Traditional),1,0
-zh_Hant_HK,"Chinese (Traditional, Hong Kong)",1,0
-zh_Latn,Chinese (Pinyin),1,0
+zh_Hans,Chinese (Simplified Han script),1,0
+zh_Hans_SG,"Chinese (Simplified Han script, Singapore)",1,0
+zh_Hant,Chinese (Traditional Han script),1,0
+zh_Hant_HK,"Chinese (Traditional Han script, Hong Kong)",1,0
+zh_Latn,Chinese (Hanyu Pinyin),1,0
 zu,Zulu,2,n > 1
 zun,Zuni,2,n != 1
 zza,Zaza,2,n != 1

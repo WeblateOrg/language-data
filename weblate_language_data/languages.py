@@ -188,6 +188,15 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "ami",
+        # Translators: Language name for ISO code "ami". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Amis"),
+        2,
+        "n != 1",
+    ),
+    (
         "an",
         # Translators: Language name for ISO code "an". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -543,7 +552,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "be_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Belarusian (latin)"),
+        _("Belarusian (Latin script)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
@@ -849,7 +858,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "bs_Cyrl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Bosnian (cyrillic)"),
+        _("Bosnian (Cyrillic script)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
@@ -858,7 +867,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "bs_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Bosnian (latin)"),
+        _("Bosnian (Latin script)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
@@ -951,6 +960,33 @@ LANGUAGES = (
         _("Galibi Carib"),
         2,
         "n != 1",
+    ),
+    (
+        "cdo_Hans",
+        # Translators: Language name for ISO code "cdo_Hans". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Mindong (Simplified Han script)"),
+        1,
+        "0",
+    ),
+    (
+        "cdo_Hant",
+        # Translators: Language name for ISO code "cdo_Hant". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Mindong (Traditional Han script)"),
+        1,
+        "0",
+    ),
+    (
+        "cdo_Latn",
+        # Translators: Language name for ISO code "cdo_Latn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Mindong (Latin script)"),
+        1,
+        "0",
     ),
     (
         "ce",
@@ -1110,7 +1146,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "cnr_Cyrl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Montenegrin (cyrillic)"),
+        _("Montenegrin (Cyrillic script)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
@@ -1158,6 +1194,33 @@ LANGUAGES = (
         _("Creoles and pidgins (Portuguese-based)"),
         3,
         "(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2",
+    ),
+    (
+        "cpx_Hans",
+        # Translators: Language name for ISO code "cpx_Hans". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Pu–Xian Min (Simplified Han script)"),
+        1,
+        "0",
+    ),
+    (
+        "cpx_Hant",
+        # Translators: Language name for ISO code "cpx_Hant". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Pu–Xian Min (Traditional Han script)"),
+        1,
+        "0",
+    ),
+    (
+        "cpx_Latn",
+        # Translators: Language name for ISO code "cpx_Latn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Pu–Xian Min (Latin script)"),
+        1,
+        "0",
     ),
     (
         "cr",
@@ -1403,6 +1466,15 @@ LANGUAGES = (
         "n > 1",
     ),
     (
+        "dru",
+        # Translators: Language name for ISO code "dru". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Rukai"),
+        2,
+        "n != 1",
+    ),
+    (
         "dry",
         # Translators: Language name for ISO code "dry". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1623,7 +1695,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "en_Shaw_GB". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("English (Shavian, United Kingdom)"),
+        _("English (Shavian script, United Kingdom)"),
         2,
         "n != 1",
     ),
@@ -1632,7 +1704,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "en_Shaw_US". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("English (Shavian, United States)"),
+        _("English (Shavian script, United States)"),
         2,
         "n != 1",
     ),
@@ -2231,13 +2303,22 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "gan",
-        # Translators: Language name for ISO code "gan". The parenthesis clarifies
+        "gan_Hans",
+        # Translators: Language name for ISO code "gan_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Gan)"),
-        2,
-        "n != 1",
+        _("Gan (Simplified Han script)"),
+        1,
+        "0",
+    ),
+    (
+        "gan_Hant",
+        # Translators: Language name for ISO code "gan_Hant". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Gan (Traditional Han script)"),
+        1,
+        "0",
     ),
     (
         "gay",
@@ -2519,13 +2600,31 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "hak",
-        # Translators: Language name for ISO code "hak". The parenthesis clarifies
+        "hak_Hans",
+        # Translators: Language name for ISO code "hak_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Hakka)"),
-        2,
-        "n != 1",
+        _("Hakka (Simplified Han script)"),
+        1,
+        "0",
+    ),
+    (
+        "hak_Hant",
+        # Translators: Language name for ISO code "hak_Hant". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Hakka (Traditional Han script)"),
+        1,
+        "0",
+    ),
+    (
+        "hak_Latn",
+        # Translators: Language name for ISO code "hak_Latn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Hakka (Latin script)"),
+        1,
+        "0",
     ),
     (
         "haw",
@@ -2586,7 +2685,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "hi_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Hindi (latin)"),
+        _("Hindi (Latin script)"),
         2,
         "n > 1",
     ),
@@ -2703,9 +2802,9 @@ LANGUAGES = (
         # Translators: Language name for ISO code "hsn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Xiang)"),
-        2,
-        "n != 1",
+        _("Xiang"),
+        1,
+        "0",
     ),
     (
         "ht",
@@ -3171,7 +3270,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "kk_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kazakh (latin)"),
+        _("Kazakh (Latin script)"),
         2,
         "n != 1",
     ),
@@ -3234,7 +3333,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "kmr_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kurdish (Northern, latin)"),
+        _("Kurdish (Northern, Latin script)"),
         2,
         "n != 1",
     ),
@@ -3729,9 +3828,9 @@ LANGUAGES = (
         # Translators: Language name for ISO code "lzh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Literary)"),
-        2,
-        "n != 1",
+        _("Literary Chinese"),
+        1,
+        "0",
     ),
     (
         "mad",
@@ -4188,27 +4287,27 @@ LANGUAGES = (
         # Translators: Language name for ISO code "nan_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Min Nan, Traditional)"),
-        2,
-        "n != 1",
+        _("Minnan (Traditional Han script)"),
+        1,
+        "0",
     ),
     (
         "nan_Latn_pehoeji",
         # Translators: Language name for ISO code "nan_Latn_pehoeji". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Min Nan, Pe̍h-ōe-jī)"),
-        2,
-        "n != 1",
+        _("Minnan (Pe̍h-ōe-jī)"),
+        1,
+        "0",
     ),
     (
         "nan_Latn_tailo",
         # Translators: Language name for ISO code "nan_Latn_tailo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Min Nan, Tâi-lô)"),
-        2,
-        "n != 1",
+        _("Minnan (Tâi-lô)"),
+        1,
+        "0",
     ),
     (
         "nap",
@@ -4848,6 +4947,15 @@ LANGUAGES = (
         _("Portuguese (Portugal)"),
         2,
         "n > 1",
+    ),
+    (
+        "pwn",
+        # Translators: Language name for ISO code "pwn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Paiwan"),
+        2,
+        "n != 1",
     ),
     (
         "qdt",
@@ -5556,7 +5664,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Serbian (cyrillic)"),
+        _("Serbian (Cyrillic script)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
@@ -5565,7 +5673,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "sr_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Serbian (latin)"),
+        _("Serbian (Latin script)"),
         3,
         "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
@@ -5750,6 +5858,15 @@ LANGUAGES = (
         "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
+        "szy",
+        # Translators: Language name for ISO code "szy". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Sakizaya"),
+        2,
+        "n != 1",
+    ),
+    (
         "ta",
         # Translators: Language name for ISO code "ta". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -5764,6 +5881,15 @@ LANGUAGES = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Tamil (Sri Lanka)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "tay",
+        # Translators: Language name for ISO code "tay". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Tayal"),
         2,
         "n != 1",
     ),
@@ -6240,7 +6366,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "uz_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Uzbek (latin)"),
+        _("Uzbek (Latin script)"),
         2,
         "n != 1",
     ),
@@ -6443,20 +6569,11 @@ LANGUAGES = (
         "n != 1",
     ),
     (
-        "wuu",
-        # Translators: Language name for ISO code "wuu". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Chinese (Wu)"),
-        2,
-        "n != 1",
-    ),
-    (
         "wuu_Hans",
         # Translators: Language name for ISO code "wuu_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Wu (Simplified)"),
+        _("Wu (Simplified Han script)"),
         1,
         "0",
     ),
@@ -6465,7 +6582,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "wuu_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Wu (Traditional)"),
+        _("Wu (Traditional Han script)"),
         1,
         "0",
     ),
@@ -6555,7 +6672,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "yue_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Yue (Simplified)"),
+        _("Cantonese (Simplified Han script)"),
         1,
         "0",
     ),
@@ -6564,7 +6681,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "yue_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Yue (Traditional)"),
+        _("Cantonese (Traditional Han script)"),
         1,
         "0",
     ),
@@ -6618,7 +6735,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Simplified)"),
+        _("Chinese (Simplified Han script)"),
         1,
         "0",
     ),
@@ -6627,7 +6744,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "zh_Hans_SG". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Simplified, Singapore)"),
+        _("Chinese (Simplified Han script, Singapore)"),
         1,
         "0",
     ),
@@ -6636,7 +6753,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "zh_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Traditional)"),
+        _("Chinese (Traditional Han script)"),
         1,
         "0",
     ),
@@ -6645,7 +6762,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "zh_Hant_HK". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Traditional, Hong Kong)"),
+        _("Chinese (Traditional Han script, Hong Kong)"),
         1,
         "0",
     ),
@@ -6654,7 +6771,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "zh_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Chinese (Pinyin)"),
+        _("Chinese (Hanyu Pinyin)"),
         1,
         "0",
     ),
