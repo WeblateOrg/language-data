@@ -55,7 +55,8 @@ weblate_language_data/locale/django.pot: weblate_language_data/languages.py webl
 	rm $@.1 $@.2
 
 
-weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot modules/iso-codes/iso_639-3/%.po modules/iso-codes/iso_639-2/%.po languages-po/%.po
+.SECONDEXPANSION:
+weblate_language_data/locale/%/LC_MESSAGES/django.po: weblate_language_data/locale/django.pot $$(wildcard modules/iso-codes/iso_639-3/%.po modules/iso-codes/iso_639-2/%.po languages-po/%.po)
 	@echo "Update $@"
 	@ARGS=""; \
 	for file in modules/iso-codes/iso_639-3/$*.po modules/iso-codes/iso_639-2/$*.po languages-po/$*.po ; do \
