@@ -467,6 +467,7 @@ LANGUAGES = {
     "gya",
     "ha",
     "hai",
+    "hak",
     "hak_hans",
     "hak_hant",
     "hak_latn",

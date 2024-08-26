@@ -91,6 +91,7 @@ ALIASES = {
     "cpx": "cpx_Hant",
     "pr": "en@pirate",
     "gan": "gan_Hant",
+    "hak": "hak_Hant",
     "kk_cyrl": "kk",
     "kk@latin": "kk_Latn",
     "ku_iq": "kmr",
