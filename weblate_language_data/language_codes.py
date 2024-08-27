@@ -1074,6 +1074,7 @@ LANGUAGES = {
     "tl",
     "tlh",
     "tlh-qaak",
+    "tlh_qaak",
     "tli",
     "tly",
     "tmh",

@@ -6029,8 +6029,8 @@ LANGUAGES = (
         "0",
     ),
     (
-        "tlh-qaak",
-        # Translators: Language name for ISO code "tlh-qaak". The parenthesis clarifies
+        "tlh_Qaak",
+        # Translators: Language name for ISO code "tlh_Qaak". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Klingon (pIqaD)"),
