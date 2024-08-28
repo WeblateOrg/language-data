@@ -11404,7 +11404,6 @@ LANGUAGES = {
     "tawoyan",
     "tawr",
     "tay",
-    "tayal",
     "tayart",
     "tayo",
     "taza",
