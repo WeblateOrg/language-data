@@ -5889,7 +5889,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "tay". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Tayal"),
+        _("Atayal"),
         2,
         "n != 1",
     ),
