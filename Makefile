@@ -4,7 +4,7 @@
 
 all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md $(wildcard weblate_language_data/locale/*/LC_MESSAGES/django.po) $(filter-out $(patsubst modules/cldr-json/cldr-json/cldr-localenames-full/main/%/languages.json,languages-po/%.po,$(wildcard modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json)),languages-po/en.po)
 
-weblate_language_data/languages.py: languages.csv aliases.csv cldr.csv extraplurals.csv default_countries.csv population.csv qt.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
+weblate_language_data/languages.py: languages.csv aliases.csv cldr.csv extraplurals.csv default_countries.csv population.csv qt.csv rtl.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
 	./scripts/generate-language-data
 
 PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv scripts/list-diff
@@ -13,6 +13,9 @@ PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv
 
 cldr.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json scripts/export-cldr
 	./scripts/export-cldr
+
+rtl.csv: modules/cldr-json/cldr-json/cldr-misc-full/main/*/layout.json scripts/export-cldr-orientation languages.csv
+	./scripts/export-cldr-orientation
 
 qt.csv: modules/qttools/src/linguist/shared/numerus.cpp scripts/export-qt languages.csv
 	./scripts/export-qt

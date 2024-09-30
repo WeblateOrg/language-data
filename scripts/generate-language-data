@@ -132,11 +132,18 @@ with open("cldr.csv") as csvfile:
         if existing != number:
             CLDRPLURALS.append((code, LANGUAGE_NAMES[code], number, equation))
 
-# Read extra plurals
+# Read default countries
 with open("default_countries.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=",")
     next(reader)
     DEFAULT_COUNTRIES = list(reader)
+
+# Read RTL
+with open("rtl.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    next(reader)
+    RTLS = list(reader)
+    RTL_CODES = {lang[0] for lang in RTLS}
 
 # Write language definitions
 with open("weblate_language_data/languages.py", "w") as output:
@@ -195,6 +202,13 @@ with open("weblate_language_data/countries.py", "w") as output:
     for row in DEFAULT_COUNTRIES:
         output.write("    '{}',\n".format(*row))
     output.write(")\n")
+with open("weblate_language_data/rtl.py", "w") as output:
+    output.write(HEADER)
+    output.write("# List of RTL languages\n")
+    output.write("RTL_LANGS = {\n")
+    for code in sorted(RTL_CODES):
+        output.write(f'    "{code}",\n')
+    output.write("}\n")
 
 # Generate same check blacklist
 words = set()
@@ -322,6 +336,7 @@ subprocess.run(
         "pre-commit",
         "run",
         "--files",
+        "weblate_language_data/rtl.py",
         "weblate_language_data/countries.py",
         "weblate_language_data/aliases.py",
         "weblate_language_data/plurals.py",
