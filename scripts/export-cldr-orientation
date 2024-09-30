@@ -37,9 +37,7 @@ for layout_file in LAYOUTDIR.glob("*/layout.json"):
         elif character_order != "left-to-right":
             print(f"Uknown order for {code}: {character_order})")
 
-print(RTL_CODES)
-
 with open("rtl.csv", "w") as handle:
-    handle.write("code\n")
+    handle.write("code,\n")
     for code in sorted(RTL_CODES):
-        handle.write(f"{code}\n")
+        handle.write(f"{code},\n")
