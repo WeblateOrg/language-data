@@ -20,6 +20,9 @@ jobs:
       with:
         python-version: '3.12'
     - uses: astral-sh/setup-uv@v3
+      with:
+        enable-cache: true
+        cache-dependency-glob: ''
     - name: Install dependencies
       run: uv pip install --system -e .[dev]
     - name: build sdist
