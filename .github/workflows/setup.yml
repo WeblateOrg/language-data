@@ -35,3 +35,13 @@ jobs:
       with:
         user: __token__
         password: ${{ secrets.pypi_password }}
+  release_github:
+    runs-on: ubuntu-22.04
+    name: Create release on GitHub
+    permissions:
+      contents: write
+    if: ${{ startsWith(github.ref, 'refs/tags/')  && github.repository == 'WeblateOrg/language-data' }}
+    steps:
+    - uses: ncipollo/release-action@v1
+      with:
+        generateReleaseNotes: true
