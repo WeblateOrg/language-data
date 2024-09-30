@@ -1,6 +1,66 @@
 [build-system]
+build-backend = "setuptools.build_meta"
 # Minimum requirements for the build system to execute.
-requires = ["setuptools", "wheel", "translate-toolkit"]  # PEP 508 specifications.
+requires = [
+  "setuptools>=61.2",
+  "translate-toolkit"
+]
+
+[project]
+authors = [
+  {name = "Michal Čihař", email = "michal@weblate.org"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Software Development :: Internationalization",
+  "Topic :: Software Development :: Localization",
+  "Topic :: Utilities"
+]
+description = "Language definitions for Weblate"
+keywords = [
+  "i18n l10n gettext git mercurial translate"
+]
+name = "weblate-language-data"
+requires-python = ">=3.9"
+version = "2024.6"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+dev = [
+  "weblate-language-data[django,lint,test]",
+  "translate-toolkit==3.13.4"
+]
+django = [
+  "Django"
+]
+lint = [
+  "pre-commit==3.8.0"
+]
+test = [
+  "build==1.2.2",
+  "twine==5.1.1"
+]
+
+[project.readme]
+content-type = "text/x-rst"
+file = "README.rst"
+
+[project.urls]
+Documentation = "https://docs.weblate.org/"
+Download = "https://github.com/WeblateOrg/language-data"
+Funding = "https://weblate.org/donate/"
+Homepage = "https://weblate.org/"
+"Issue Tracker" = "https://github.com/WeblateOrg/language-data/issues"
+"Source Code" = "https://github.com/WeblateOrg/language-data"
+Twitter = "https://twitter.com/WeblateOrg"
 
 [tool.black]
 target-version = ['py39']
@@ -61,3 +121,18 @@ select = [
 
 [tool.ruff.lint.mccabe]
 max-complexity = 16
+
+[tool.setuptools]
+include-package-data = true
+license-files = [
+  "LICENSE"
+]
+platforms = [
+  "any"
+]
+
+[tool.setuptools.package-dir]
+weblate_language_data = "weblate_language_data"
+
+[tool.setuptools.packages.find]
+namespaces = true
