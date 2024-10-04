@@ -7,7 +7,7 @@
 import os
 from distutils.command.build import build
 from distutils.core import Command
-from distutils.dep_util import newer
+from setuptools import modified
 from glob import glob
 from itertools import chain
 
@@ -32,7 +32,7 @@ class BuildMo(Command):
     def run(self):
         for name in chain.from_iterable(glob(mask) for mask in LOCALE_MASKS):
             output = os.path.splitext(name)[0] + ".mo"
-            if not newer(name, output):
+            if not modified.newer(name, output):
                 continue
             print(f"compiling {name} -> {output}")
             with open(name, "rb") as pofile, open(output, "wb") as mofile:

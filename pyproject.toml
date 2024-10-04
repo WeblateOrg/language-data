@@ -2,7 +2,7 @@
 build-backend = "setuptools.build_meta"
 # Minimum requirements for the build system to execute.
 requires = [
-  "setuptools>=61.2",
+  "setuptools>=70.0",
   "translate-toolkit"
 ]
 
