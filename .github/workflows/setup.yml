@@ -37,22 +37,26 @@ jobs:
         name: dist
 
   lint:
-  - uses: actions/checkout@v4
-  - name: Setup Python
-    uses: actions/setup-python@v5
-    with:
-      python-version: '3.12'
-  - uses: astral-sh/setup-uv@v3
-    with:
-      enable-cache: true
-      cache-dependency-glob: ''
-  - name: Install dependencies
-    run: uv pip install --system -e .[dev]
-  - uses: actions/download-artifact@v4
-    with:
-      name: dist
-  - name: twine
-    run: twine check dist/*
+    runs-on: ubuntu-22.04
+    needs:
+    - setup
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+    - uses: astral-sh/setup-uv@v3
+      with:
+        enable-cache: true
+        cache-dependency-glob: ''
+    - name: Install dependencies
+      run: uv pip install --system -e .[dev]
+    - uses: actions/download-artifact@v4
+      with:
+        name: dist
+    - name: twine
+      run: twine check dist/*
 
   release_pypi:
     if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && github.repository == 'WeblateOrg/language-data'
