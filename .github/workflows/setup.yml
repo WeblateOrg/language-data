@@ -32,21 +32,6 @@ jobs:
         path: dist/*
         name: dist
 
-  lint:
-    runs-on: ubuntu-24.04
-    permissions:
-      # this permission is mandatory for trusted publishing
-      id-token: write
-    needs:
-    - setup
-    steps:
-    - uses: astral-sh/setup-uv@v3
-    - uses: actions/download-artifact@v4
-      with:
-        name: dist
-        path: dist
-    - run: uvx twine check dist/*
-
   release_pypi:
     if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && github.repository == 'WeblateOrg/language-data'
     runs-on: ubuntu-24.04
@@ -64,6 +49,7 @@ jobs:
         path: dist
     - name: Publish package
       run: uv publish --trusted-publishing always
+
   release_github:
     runs-on: ubuntu-24.04
     name: Create release on GitHub
