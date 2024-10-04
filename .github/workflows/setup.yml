@@ -8,6 +8,7 @@ on: [push, pull_request]
 
 jobs:
   setup:
+    name: Build packages
     runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v4
@@ -44,12 +45,12 @@ jobs:
       with:
         name: dist
         path: dist
-    - run: uv pip install --system twine
-    - run: twine check dist/*
+    - run: uvx twine check dist/*
 
   release_pypi:
     if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && github.repository == 'WeblateOrg/language-data'
     runs-on: ubuntu-24.04
+    name: Publish release to PyPI
     permissions:
       # this permission is mandatory for trusted publishing
       id-token: write
