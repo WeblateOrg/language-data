@@ -26,15 +26,12 @@ jobs:
     - name: Install dependencies
       run: uv pip install --system -e .[dev]
     - name: build sdist
-      run: python -m build
+      run: uv build
     - name: twine
       run: twine check dist/*
     - name: Publish package
       if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && matrix.os == 'ubuntu-latest'
-      uses: pypa/gh-action-pypi-publish@v1.10.3
-      with:
-        user: __token__
-        password: ${{ secrets.pypi_password }}
+      run: uv publish
   release_github:
     runs-on: ubuntu-24.04
     name: Create release on GitHub
