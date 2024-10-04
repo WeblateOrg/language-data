@@ -8,7 +8,7 @@ on: [push, pull_request]
 
 jobs:
   setup:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v4
     - name: Setup Python
@@ -32,7 +32,7 @@ jobs:
         name: dist
 
   lint:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     permissions:
       # this permission is mandatory for trusted publishing
       id-token: write
@@ -49,7 +49,7 @@ jobs:
 
   release_pypi:
     if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && github.repository == 'WeblateOrg/language-data'
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     permissions:
       # this permission is mandatory for trusted publishing
       id-token: write
