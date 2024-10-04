@@ -44,7 +44,7 @@ jobs:
       with:
         name: dist
         path: dist
-    - run: uv install twine
+    - run: uv pip install twine
     - run: twine check dist/*
 
   release_pypi:
