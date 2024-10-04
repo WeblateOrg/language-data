@@ -8,11 +8,7 @@ on: [push, pull_request]
 
 jobs:
   setup:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v4
     - name: Setup Python
@@ -31,32 +27,25 @@ jobs:
       run: twine check dist/*
 
     - uses: actions/upload-artifact@v4
-      if: matrix.os == 'ubuntu-latest'
       with:
         path: dist/*
         name: dist
 
   lint:
     runs-on: ubuntu-22.04
+    permissions:
+      # this permission is mandatory for trusted publishing
+      id-token: write
     needs:
     - setup
     steps:
-    - uses: actions/checkout@v4
-    - name: Setup Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.12'
     - uses: astral-sh/setup-uv@v3
-      with:
-        enable-cache: true
-        cache-dependency-glob: ''
-    - name: Install dependencies
-      run: uv pip install --system -e .[dev]
     - uses: actions/download-artifact@v4
       with:
         name: dist
-    - name: twine
-      run: twine check dist/*
+        path: dist
+    - run: uv install twine
+    - run: twine check dist/*
 
   release_pypi:
     if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && github.repository == 'WeblateOrg/language-data'
@@ -65,12 +54,13 @@ jobs:
       # this permission is mandatory for trusted publishing
       id-token: write
     needs:
-    - lint
+    - setup
     steps:
     - uses: astral-sh/setup-uv@v3
     - uses: actions/download-artifact@v4
       with:
         name: dist
+        path: dist
     - name: Publish package
       run: uv publish --trusted-publishing always
   release_github:
@@ -79,12 +69,13 @@ jobs:
     permissions:
       contents: write
     needs:
-    - lint
+    - setup
     if: startsWith(github.ref, 'refs/tags/')  && github.repository == 'WeblateOrg/language-data'
     steps:
     - uses: actions/download-artifact@v4
       with:
         name: dist
+        path: dist
     - uses: ncipollo/release-action@v1
       with:
         generateReleaseNotes: true
