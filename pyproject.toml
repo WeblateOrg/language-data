@@ -42,7 +42,7 @@ django = [
   "Django"
 ]
 lint = [
-  "pre-commit==3.8.0"
+  "pre-commit==4.0.0"
 ]
 test = [
   "twine==5.1.1"
