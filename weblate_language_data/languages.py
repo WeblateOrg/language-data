@@ -1200,7 +1200,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "cpx_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Pu–Xian Min (Simplified Han script)"),
+        _("Puxian (Simplified Han script)"),
         1,
         "0",
     ),
@@ -1209,7 +1209,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "cpx_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Pu–Xian Min (Traditional Han script)"),
+        _("Puxian (Traditional Han script)"),
         1,
         "0",
     ),
@@ -1218,7 +1218,7 @@ LANGUAGES = (
         # Translators: Language name for ISO code "cpx_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Pu–Xian Min (Latin script)"),
+        _("Puxian (Latin script)"),
         1,
         "0",
     ),
