@@ -130,9 +130,9 @@ cop,Coptic,2,n != 1
 cpe,Creoles and pidgins (English based),2,n != 1
 cpf,Creoles and pidgins (French-based),2,n != 1
 cpp,Creoles and pidgins (Portuguese-based),3,(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
-cpx_Hans,Pu–Xian Min (Simplified Han script),1,0
-cpx_Hant,Pu–Xian Min (Traditional Han script),1,0
-cpx_Latn,Pu–Xian Min (Latin script),1,0
+cpx_Hans,Puxian (Simplified Han script),1,0
+cpx_Hant,Puxian (Traditional Han script),1,0
+cpx_Latn,Puxian (Latin script),1,0
 cr,Cree,2,n != 1
 crh,Crimean Tatar,1,0
 crp,Creoles and pidgins,2,n != 1
