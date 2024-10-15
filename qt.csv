@@ -31,7 +31,6 @@ et,Estonian,2,(n != 1)
 eu,Basque,2,(n != 1)
 fa,Persian,1,0
 fi,Finnish,2,(n != 1)
-fil,Filipino,2,(n > 1)
 fil,Filipino,3,(n==1 ? 0 : (n%10==4 || n%10==6 || n%10== 9) ? 1 : 2)
 fj,Fijian,1,0
 fo,Faroese,2,(n != 1)
@@ -50,7 +49,6 @@ hi,Hindi,2,(n != 1)
 hr,Croatian,3,(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)
 hu,Hungarian,1,0
 hy,Armenian,2,(n > 1)
-ia,Interlingua,2,(n != 1)
 ia,Interlingua,2,(n != 1)
 id,Indonesian,1,0
 ik,Inupiaq,3,(n==1 ? 0 : n==2 ? 1 : 2)

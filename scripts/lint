@@ -24,6 +24,7 @@ def parse_csv(name):
 languages = parse_csv("languages.csv")
 aliases = parse_csv("aliases.csv")
 cldr = parse_csv("cldr.csv")
+parse_csv("qt.csv")
 default_countries = parse_csv("default_countries.csv")
 
 for alias in aliases:

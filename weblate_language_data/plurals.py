@@ -622,15 +622,6 @@ QTPLURALS = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Filipino"),
-        2,
-        "(n > 1)",
-    ),
-    (
-        "fil",
-        # Translators: Language name for ISO code "fil". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Filipino"),
         3,
         "(n==1 ? 0 : (n%10==4 || n%10==6 || n%10== 9) ? 1 : 2)",
     ),
@@ -786,15 +777,6 @@ QTPLURALS = (
         _("Armenian"),
         2,
         "(n > 1)",
-    ),
-    (
-        "ia",
-        # Translators: Language name for ISO code "ia". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Interlingua"),
-        2,
-        "(n != 1)",
     ),
     (
         "ia",

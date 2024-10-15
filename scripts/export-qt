@@ -11,7 +11,7 @@ import csv
 ALIASES = {
     "Chinese": ("Chinese (Simplified Han script)", "Chinese (Traditional Han script)"),
     "WesternFrisian": ("Frisian",),
-    "Interlingue": ("Interlingua",),
+    "Interlingue": (),  # Ignore, duplicate for Interlingua
     "Khmer": ("Khmer (Central)",),
     "Kirghiz": ("Kyrgyz",),
     "NorthernSotho": ("Pedi",),
@@ -56,6 +56,9 @@ PLURALS = {}
 def handle_language(parts):
     text = "".join(parts).replace("\n", "")[31:]
     name = text.split("[", 1)[0]
+    # Remove duplicate definition
+    if name == "frenchStyleLanguages":
+        text = text.replace("QLocale::Filipino,", "")
     # Hack to deal with frenchStyleCountries
     if name == "frenchStyleLanguages":
         text = text.replace("Portuguese", "PortugueseBrasil")
@@ -103,11 +106,14 @@ with open("modules/qttools/src/linguist/shared/numerus.cpp") as handle:
             in_table = True
 
 output = []
+processed = set()
 
 
 def generate(group, name):
     definition = DEFINITIONS[name]
     plural = PLURALS[group]
+    if definition[0] in processed:
+        raise ValueError(f"Duplicate definition for {definition[0]}")
     output.append(
         (
             definition[0],
@@ -116,6 +122,7 @@ def generate(group, name):
             plural[1],
         )
     )
+    processed.add(definition[0])
 
 
 for group, languages in LANGUAGES.items():
