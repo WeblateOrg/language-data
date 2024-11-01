@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2024-10-04 23:48+0000\n"
 "Last-Translator: Agnieszka C <aga_04@o2.pl>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/weblate/languages/"
@@ -860,6 +860,14 @@ msgstr "czeski"
 #. or other variant.
 msgid "Kashubian"
 msgstr "kaszubski"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Cree, Swampy"
+msgid "Cree (Swampy)"
+msgstr "kri, bagienny"
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1831,9 +1839,9 @@ msgstr "hmong"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "hindi"
+#| msgid "Hindko, Southern"
+msgid "Hindko (Southern)"
+msgstr "hindko, południowy"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2842,7 +2850,7 @@ msgstr "krik"
 #. or other variant.
 #, fuzzy
 #| msgid "Mandinka"
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr "mandinka"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3395,9 +3403,9 @@ msgstr "kicze"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "keczua"
+#| msgid "Chimborazo Highland Quichua"
+msgid "Quichua (Chimborazo Highland)"
+msgstr "keczua górski (Chimborazo)"
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4598,6 +4606,16 @@ msgstr "zuni"
 #. or other variant.
 msgid "Zaza"
 msgstr "zazaki"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "hindi"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "keczua"
 
 #~ msgid "Chinese"
 #~ msgstr "chiński"

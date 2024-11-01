@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2024-08-31 14:37+0000\n"
 "Last-Translator: Hoseok Seo <ddinghoya@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/languages/"
@@ -859,6 +859,12 @@ msgstr "체코어"
 #. or other variant.
 msgid "Kashubian"
 msgstr "카슈비아어"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Cree (Swampy)"
+msgstr ""
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1830,9 +1836,9 @@ msgstr "몽어"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "힌디어"
+#| msgid "Hindko (Northern)"
+msgid "Hindko (Southern)"
+msgstr "힌드코어 (북부)"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2843,7 +2849,7 @@ msgstr "무스코지어"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr "여백"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3397,10 +3403,8 @@ msgstr "키체어"
 #. Translators: Language name for ISO code "qug". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "케추아어"
+msgid "Quichua (Chimborazo Highland)"
+msgstr ""
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4603,6 +4607,16 @@ msgstr "주니어"
 #. or other variant.
 msgid "Zaza"
 msgstr "자자어"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "힌디어"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "케추아어"
 
 #~ msgid "Chinese"
 #~ msgstr "중국어"

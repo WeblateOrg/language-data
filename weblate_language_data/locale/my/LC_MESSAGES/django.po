@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2021-11-14 00:02+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/weblate/"
@@ -898,6 +898,12 @@ msgstr "ချက်"
 #. or other variant.
 msgid "Kashubian"
 msgstr "ကက်ရှဘီးယား"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Cree (Swampy)"
+msgstr ""
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1945,8 +1951,9 @@ msgstr "မုံ"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Hindko"
-msgstr "ဟိန္ဒီ"
+#| msgid "English (South Africa)"
+msgid "Hindko (Southern)"
+msgstr "အင်္ဂလိပ် (တောင်အာဖရိက)"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3012,7 +3019,7 @@ msgstr "ခရီ"
 #. Translators: Language name for ISO code "mwk". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr ""
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3596,10 +3603,8 @@ msgstr ""
 #. Translators: Language name for ISO code "qug". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "ခီချူဝါအိုဝါ"
+msgid "Quichua (Chimborazo Highland)"
+msgstr ""
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4876,6 +4881,15 @@ msgstr "ဇူနီ"
 #. or other variant.
 msgid "Zaza"
 msgstr "ဇာဇာ"
+
+#, fuzzy
+#~ msgid "Hindko"
+#~ msgstr "ဟိန္ဒီ"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "ခီချူဝါအိုဝါ"
 
 #, fuzzy
 #~| msgid "Chinese (Pinyin)"

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2024-09-19 00:07+0000\n"
 "Last-Translator: amano <amano@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/weblate/"
@@ -931,6 +931,12 @@ msgstr "チェコ語"
 #. or other variant.
 msgid "Kashubian"
 msgstr "カシュビアン語"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Cree (Swampy)"
+msgstr ""
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1959,13 +1965,16 @@ msgstr "ヒッタイト語"
 msgid "Hmong"
 msgstr "フモング語"
 
+# 国国は「Sotho ソト語」
+# USMARCは-SSO
+# マイペディア「レソト」の項に「ソト語」
+# ニッポニカ「ソト族 (Sotho)」の項
 #. Translators: Language name for ISO code "hnd". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "ヒンディー語"
+msgid "Hindko (Southern)"
+msgstr "ソト語, 南"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3083,7 +3092,7 @@ msgstr "マスコギ語"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr "マンディンゴ語"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3675,9 +3684,9 @@ msgstr "キチェ語"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "ケチュア語"
+#| msgid "Chimborazo Highland Quichua"
+msgid "Quichua (Chimborazo Highland)"
+msgstr "チンボラソ高地ケチュア語"
 
 # 国国
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
@@ -4992,6 +5001,16 @@ msgstr "ズニ語"
 #. or other variant.
 msgid "Zaza"
 msgstr "ザザキ語"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "ヒンディー語"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "ケチュア語"
 
 # 国国
 #~ msgid "Chinese"

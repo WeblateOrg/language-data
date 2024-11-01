@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2023-08-03 04:54+0000\n"
 "Last-Translator: Damjan Gerl <damjan@damjan.net>\n"
 "Language-Team: Slovenian <https://hosted.weblate.org/projects/weblate/"
@@ -887,6 +887,12 @@ msgstr "češčina"
 #. or other variant.
 msgid "Kashubian"
 msgstr "kašubščina"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Cree (Swampy)"
+msgstr ""
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1907,9 +1913,8 @@ msgstr "hmonščina, miaojščina"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "hindujščina"
+msgid "Hindko (Southern)"
+msgstr "južni sotho"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2980,7 +2985,7 @@ msgstr "krijščina"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr "aravkanščina"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3572,10 +3577,8 @@ msgstr "kmerščina"
 #. Translators: Language name for ISO code "qug". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "kečuanščina"
+msgid "Quichua (Chimborazo Highland)"
+msgstr ""
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4859,6 +4862,16 @@ msgstr "zunijščina"
 #, fuzzy
 msgid "Zaza"
 msgstr "dajaščina"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "hindujščina"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "kečuanščina"
 
 #~ msgid "Chinese"
 #~ msgstr "kitajščina"

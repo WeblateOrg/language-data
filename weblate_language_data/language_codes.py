@@ -238,6 +238,7 @@ LANGUAGES = {
     "cs",
     "cs_cs",
     "csb",
+    "csw",
     "csy",
     "cu",
     "cv",

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2024-08-28 02:09+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/weblate/languages/"
@@ -858,6 +858,14 @@ msgstr "Tchèque"
 #. or other variant.
 msgid "Kashubian"
 msgstr "Kachoube"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Cree, Swampy"
+msgid "Cree (Swampy)"
+msgstr "Cri des marécages"
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1829,9 +1837,9 @@ msgstr "Hmong"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "Hindi"
+#| msgid "Hindko, Southern"
+msgid "Hindko (Southern)"
+msgstr "Hindko, méridional"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2839,9 +2847,9 @@ msgstr "Creek"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Kita Maninkakan"
-msgid "Maninkakan"
-msgstr "Maninkakan de Kita"
+#| msgid "Maninkakan, Kita"
+msgid "Maninkakan (Kita)"
+msgstr "Maninkakan, Kita"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3393,9 +3401,9 @@ msgstr "Quiché"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "Quechua"
+#| msgid "Quichua, Chimborazo Highland"
+msgid "Quichua (Chimborazo Highland)"
+msgstr "Quichua, Haut-pays du Chimborazo"
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4596,6 +4604,21 @@ msgstr "Zuñi"
 #. or other variant.
 msgid "Zaza"
 msgstr "Zazaki"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "Hindi"
+
+#, fuzzy
+#~| msgid "Kita Maninkakan"
+#~ msgid "Maninkakan"
+#~ msgstr "Maninkakan de Kita"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "Quechua"
 
 #~ msgid "Chinese"
 #~ msgstr "Chinois"

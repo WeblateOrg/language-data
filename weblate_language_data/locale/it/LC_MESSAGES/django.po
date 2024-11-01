@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2024-08-29 04:19+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/weblate/"
@@ -861,6 +861,14 @@ msgstr "Ceco"
 #. or other variant.
 msgid "Kashubian"
 msgstr "Kashubiano"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Cree, Swampy"
+msgid "Cree (Swampy)"
+msgstr "swampy, Cree"
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1832,9 +1840,9 @@ msgstr "Hmong"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "Hindi"
+#| msgid "Hindko, Southern"
+msgid "Hindko (Southern)"
+msgstr "meridionale, Hindko"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2844,7 +2852,8 @@ msgstr "Creek"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Maninkakan"
+#| msgid "Maninkakan, Kita"
+msgid "Maninkakan (Kita)"
 msgstr "Maninkakan (Kita)"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3397,9 +3406,9 @@ msgstr "K'iche'"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "Quechua"
+#| msgid "Quichua, Chimborazo Highland"
+msgid "Quichua (Chimborazo Highland)"
+msgstr "Quichua, Chimborazo Highland"
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4600,6 +4609,20 @@ msgstr "Zuni"
 #. or other variant.
 msgid "Zaza"
 msgstr "Zaza"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "Hindi"
+
+#, fuzzy
+#~ msgid "Maninkakan"
+#~ msgstr "Maninkakan (Kita)"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "Quechua"
 
 #~ msgid "Chinese"
 #~ msgstr "Cinese"

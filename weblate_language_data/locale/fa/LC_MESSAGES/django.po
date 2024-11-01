@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2024-05-22 10:34+0000\n"
 "Last-Translator: Yamin Siahmargooei <yamin8000@yahoo.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/weblate/"
@@ -883,6 +883,12 @@ msgstr "چکی"
 #. or other variant.
 msgid "Kashubian"
 msgstr "کاشوبی"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Cree (Swampy)"
+msgstr ""
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1901,9 +1907,8 @@ msgstr "همونگ"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "هندی"
+msgid "Hindko (Southern)"
+msgstr "سوتویی جنوبی"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2961,7 +2966,7 @@ msgstr "کریایی"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr "ماندینگویی"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3547,10 +3552,8 @@ msgstr "کاچینی"
 #. Translators: Language name for ISO code "qug". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "کچوایی"
+msgid "Quichua (Chimborazo Highland)"
+msgstr ""
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4828,6 +4831,16 @@ msgstr "زونیایی"
 #, fuzzy
 msgid "Zaza"
 msgstr "دوآلایی"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "هندی"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "کچوایی"
 
 #~ msgid "Chinese"
 #~ msgstr "چینی"

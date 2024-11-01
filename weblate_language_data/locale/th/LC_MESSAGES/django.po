@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2024-03-11 03:11+0000\n"
 "Last-Translator: \"A J.\" <ajtnco212@gmail.com>\n"
 "Language-Team: Thai <https://hosted.weblate.org/projects/weblate/languages/"
@@ -880,6 +880,14 @@ msgstr "เช็ค"
 #. or other variant.
 msgid "Kashubian"
 msgstr "คาซูเบียน"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Cree, Swampy"
+msgid "Cree (Swampy)"
+msgstr "ครี, สวอมปี"
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1879,9 +1887,9 @@ msgstr "ม้ง"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "ฮินดี"
+#| msgid "Kurdish (Southern)"
+msgid "Hindko (Southern)"
+msgstr "เคิร์ด (ภาคใต้)"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2915,7 +2923,7 @@ msgstr "ครี"
 #. or other variant.
 #, fuzzy
 #| msgid "Mandinka"
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr "แมนดินกา"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3496,9 +3504,9 @@ msgstr "คีเช่"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "เคชวา"
+#| msgid "Chimborazo Highland Quichua"
+msgid "Quichua (Chimborazo Highland)"
+msgstr "ควิชัวไฮแลนด์ชิมโบราโซ"
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4733,6 +4741,16 @@ msgstr "ซูนิ"
 #. or other variant.
 msgid "Zaza"
 msgstr "ซาซา"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "ฮินดี"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "เคชวา"
 
 #~ msgid "Chinese"
 #~ msgstr "จีน"

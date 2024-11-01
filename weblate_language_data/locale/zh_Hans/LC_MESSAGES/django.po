@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2024-10-28 13:13+0000\n"
 "Last-Translator: Winston Sung <winston21.sung@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
@@ -879,6 +879,12 @@ msgstr "捷克语"
 #. or other variant.
 msgid "Kashubian"
 msgstr "卡舒比语"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Cree (Swampy)"
+msgstr ""
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1850,9 +1856,9 @@ msgstr "苗语"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "印地语"
+#| msgid "Hindko (Northern)"
+msgid "Hindko (Southern)"
+msgstr "巴基斯坦 Hindko 方言（北部）"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2865,7 +2871,7 @@ msgstr "克里克语"
 #. or other variant.
 #, fuzzy
 #| msgid "Mandinka"
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr "曼丁卡语"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3417,10 +3423,8 @@ msgstr "基切语"
 #. Translators: Language name for ISO code "qug". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "克丘亚语"
+msgid "Quichua (Chimborazo Highland)"
+msgstr ""
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4621,6 +4625,16 @@ msgstr "祖尼语"
 #. or other variant.
 msgid "Zaza"
 msgstr "扎扎其语"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "印地语"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "克丘亚语"
 
 #~ msgid "Chinese (Gan)"
 #~ msgstr "中文（赣方言）"

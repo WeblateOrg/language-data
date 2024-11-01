@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2024-11-01 13:01+0000\n"
+"POT-Creation-Date: 2024-11-01 14:10+0100\n"
 "PO-Revision-Date: 2023-12-12 12:51+0000\n"
 "Last-Translator: Nguyễn Ngọc Khánh <ngockhanhnguyen985@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/weblate/"
@@ -891,6 +891,12 @@ msgstr "Tiếng Séc"
 #. or other variant.
 msgid "Kashubian"
 msgstr "Tiếng Kashubia"
+
+#. Translators: Language name for ISO code "csw". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+msgid "Cree (Swampy)"
+msgstr ""
 
 #. Translators: Language name for ISO code "cu". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1962,9 +1968,8 @@ msgstr "Tiếng Miêu"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Hindi"
-msgid "Hindko"
-msgstr "Tiếng Hindi"
+msgid "Hindko (Southern)"
+msgstr "Tiếng Xo-tô, Nam"
 
 #. Translators: Language name for ISO code "hne". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3045,7 +3050,7 @@ msgstr "Tiếng Cree"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-msgid "Maninkakan"
+msgid "Maninkakan (Kita)"
 msgstr "Tiếng Man-đin-gô"
 
 #. Translators: Language name for ISO code "mwl". The parenthesis clarifies
@@ -3642,9 +3647,9 @@ msgstr "Tiếng Ca-chin"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
-#| msgid "Quechua"
-msgid "Quichua"
-msgstr "Tiếng Quechua"
+#| msgid "Chimborazo Highland Quichua"
+msgid "Quichua (Chimborazo Highland)"
+msgstr "Tiếng Quechua ở Cao nguyên Chimborazo"
 
 #. Translators: Language name for ISO code "qya". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4944,6 +4949,16 @@ msgstr "Tiếng Du-ni"
 #, fuzzy
 msgid "Zaza"
 msgstr "Tiếng Đu-a-la"
+
+#, fuzzy
+#~| msgid "Hindi"
+#~ msgid "Hindko"
+#~ msgstr "Tiếng Hindi"
+
+#, fuzzy
+#~| msgid "Quechua"
+#~ msgid "Quichua"
+#~ msgstr "Tiếng Quechua"
 
 #~ msgid "Chinese"
 #~ msgstr "Tiếng Trung Hoa"

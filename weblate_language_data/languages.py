@@ -12,6858 +12,6866 @@ https://github.com/WeblateOrg/language-data
 """
 # pylint: disable=line-too-long,too-many-lines
 
-
 from .utils import gettext_noop as _
 
 # Language definitions
 LANGUAGES = (
     (
-        'aa',
+        "aa",
         # Translators: Language name for ISO code "aa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Afar'),
+        _("Afar"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ab',
+        "ab",
         # Translators: Language name for ISO code "ab". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Abkhazian'),
+        _("Abkhazian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'abr',
+        "abr",
         # Translators: Language name for ISO code "abr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Abron'),
+        _("Abron"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ace',
+        "ace",
         # Translators: Language name for ISO code "ace". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Acehnese'),
+        _("Acehnese"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ach',
+        "ach",
         # Translators: Language name for ISO code "ach". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Acholi'),
+        _("Acholi"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'ada',
+        "ada",
         # Translators: Language name for ISO code "ada". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Adangme'),
+        _("Adangme"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ady',
+        "ady",
         # Translators: Language name for ISO code "ady". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Adyghe'),
+        _("Adyghe"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'ae',
+        "ae",
         # Translators: Language name for ISO code "ae". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Avestan'),
+        _("Avestan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'aeb',
+        "aeb",
         # Translators: Language name for ISO code "aeb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Tunisian)'),
+        _("Arabic (Tunisian)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'af',
+        "af",
         # Translators: Language name for ISO code "af". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Afrikaans'),
+        _("Afrikaans"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'afh',
+        "afh",
         # Translators: Language name for ISO code "afh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Afrihili'),
+        _("Afrihili"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'aii',
+        "aii",
         # Translators: Language name for ISO code "aii". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Assyrian Neo-Aramaic'),
+        _("Assyrian Neo-Aramaic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ain',
+        "ain",
         # Translators: Language name for ISO code "ain". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ainu (Japan)'),
+        _("Ainu (Japan)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ak',
+        "ak",
         # Translators: Language name for ISO code "ak". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Akan'),
+        _("Akan"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'akk',
+        "akk",
         # Translators: Language name for ISO code "akk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Akkadian'),
+        _("Akkadian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ale',
+        "ale",
         # Translators: Language name for ISO code "ale". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Aleut'),
+        _("Aleut"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'aln',
+        "aln",
         # Translators: Language name for ISO code "aln". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Albanian (Gheg)'),
+        _("Albanian (Gheg)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'alt',
+        "alt",
         # Translators: Language name for ISO code "alt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Altai (Southern)'),
+        _("Altai (Southern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'am',
+        "am",
         # Translators: Language name for ISO code "am". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Amharic'),
+        _("Amharic"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'ami',
+        "ami",
         # Translators: Language name for ISO code "ami". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Amis'),
+        _("Amis"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'an',
+        "an",
         # Translators: Language name for ISO code "an". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Aragonese'),
+        _("Aragonese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ang',
+        "ang",
         # Translators: Language name for ISO code "ang". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Old)'),
+        _("English (Old)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'anp',
+        "anp",
         # Translators: Language name for ISO code "anp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Angika'),
+        _("Angika"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'apc',
+        "apc",
         # Translators: Language name for ISO code "apc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Levantine)'),
+        _("Arabic (Levantine)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ar',
+        "ar",
         # Translators: Language name for ISO code "ar". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic'),
+        _("Arabic"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_BH',
+        "ar_BH",
         # Translators: Language name for ISO code "ar_BH". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Bahrain)'),
+        _("Arabic (Bahrain)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_DZ',
+        "ar_DZ",
         # Translators: Language name for ISO code "ar_DZ". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Algeria)'),
+        _("Arabic (Algeria)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_EG',
+        "ar_EG",
         # Translators: Language name for ISO code "ar_EG". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Egypt)'),
+        _("Arabic (Egypt)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_KW',
+        "ar_KW",
         # Translators: Language name for ISO code "ar_KW". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Kuwait)'),
+        _("Arabic (Kuwait)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_LY',
+        "ar_LY",
         # Translators: Language name for ISO code "ar_LY". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Libya)'),
+        _("Arabic (Libya)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_MA',
+        "ar_MA",
         # Translators: Language name for ISO code "ar_MA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Morocco)'),
+        _("Arabic (Morocco)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_SA',
+        "ar_SA",
         # Translators: Language name for ISO code "ar_SA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Saudi Arabia)'),
+        _("Arabic (Saudi Arabia)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_XB',
+        "ar_XB",
         # Translators: Language name for ISO code "ar_XB". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (XB pseudolocale)'),
+        _("Arabic (XB pseudolocale)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'ar_YE',
+        "ar_YE",
         # Translators: Language name for ISO code "ar_YE". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Yemen)'),
+        _("Arabic (Yemen)"),
         6,
-        'n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5',
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
-        'arc',
+        "arc",
         # Translators: Language name for ISO code "arc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Aramaic'),
+        _("Aramaic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'arn',
+        "arn",
         # Translators: Language name for ISO code "arn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mapudungun'),
+        _("Mapudungun"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'arp',
+        "arp",
         # Translators: Language name for ISO code "arp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arapaho'),
+        _("Arapaho"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'arq',
+        "arq",
         # Translators: Language name for ISO code "arq". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Algerian)'),
+        _("Arabic (Algerian)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ars',
+        "ars",
         # Translators: Language name for ISO code "ars". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Najdi)'),
+        _("Arabic (Najdi)"),
         6,
-        '(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))',
+        "(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))",
     ),
     (
-        'arw',
+        "arw",
         # Translators: Language name for ISO code "arw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arawak'),
+        _("Arawak"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'arz',
+        "arz",
         # Translators: Language name for ISO code "arz". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Arabic (Egyptian)'),
+        _("Arabic (Egyptian)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'as',
+        "as",
         # Translators: Language name for ISO code "as". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Assamese'),
+        _("Assamese"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'asa',
+        "asa",
         # Translators: Language name for ISO code "asa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Asu'),
+        _("Asu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ast',
+        "ast",
         # Translators: Language name for ISO code "ast". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Asturian'),
+        _("Asturian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'av',
+        "av",
         # Translators: Language name for ISO code "av". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Avaric'),
+        _("Avaric"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'avk',
+        "avk",
         # Translators: Language name for ISO code "avk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kotava'),
+        _("Kotava"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'awa',
+        "awa",
         # Translators: Language name for ISO code "awa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Awadhi'),
+        _("Awadhi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ay',
+        "ay",
         # Translators: Language name for ISO code "ay". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Aymara'),
+        _("Aymara"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ayc',
+        "ayc",
         # Translators: Language name for ISO code "ayc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Aymara (Southern)'),
+        _("Aymara (Southern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'az',
+        "az",
         # Translators: Language name for ISO code "az". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Azerbaijani'),
+        _("Azerbaijani"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'azb',
+        "azb",
         # Translators: Language name for ISO code "azb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Azerbaijani (Southern)'),
+        _("Azerbaijani (Southern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ba',
+        "ba",
         # Translators: Language name for ISO code "ba". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bashkir'),
+        _("Bashkir"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bal',
+        "bal",
         # Translators: Language name for ISO code "bal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Baluchi'),
+        _("Baluchi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ban',
+        "ban",
         # Translators: Language name for ISO code "ban". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Balinese'),
+        _("Balinese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bar',
+        "bar",
         # Translators: Language name for ISO code "bar". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bavarian'),
+        _("Bavarian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bas',
+        "bas",
         # Translators: Language name for ISO code "bas". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Basa (Cameroon)'),
+        _("Basa (Cameroon)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bbc',
+        "bbc",
         # Translators: Language name for ISO code "bbc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Batak Toba'),
+        _("Batak Toba"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bci',
+        "bci",
         # Translators: Language name for ISO code "bci". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Baoulé'),
+        _("Baoulé"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'be',
+        "be",
         # Translators: Language name for ISO code "be". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Belarusian'),
+        _("Belarusian"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'be_Latn',
+        "be_Latn",
         # Translators: Language name for ISO code "be_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Belarusian (Latin script)'),
+        _("Belarusian (Latin script)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'bej',
+        "bej",
         # Translators: Language name for ISO code "bej". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Beja'),
+        _("Beja"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bem',
+        "bem",
         # Translators: Language name for ISO code "bem". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bemba'),
+        _("Bemba"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ber',
+        "ber",
         # Translators: Language name for ISO code "ber". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Berber'),
+        _("Berber"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bew',
+        "bew",
         # Translators: Language name for ISO code "bew". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Betawi'),
+        _("Betawi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bez',
+        "bez",
         # Translators: Language name for ISO code "bez". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bena'),
+        _("Bena"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bg',
+        "bg",
         # Translators: Language name for ISO code "bg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bulgarian'),
+        _("Bulgarian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bgc',
+        "bgc",
         # Translators: Language name for ISO code "bgc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Haryanvi'),
+        _("Haryanvi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bgn',
+        "bgn",
         # Translators: Language name for ISO code "bgn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Balochi (Western)'),
+        _("Balochi (Western)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bh',
+        "bh",
         # Translators: Language name for ISO code "bh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bihari'),
+        _("Bihari"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'bhb',
+        "bhb",
         # Translators: Language name for ISO code "bhb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bhili'),
+        _("Bhili"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bhi',
+        "bhi",
         # Translators: Language name for ISO code "bhi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bhilali'),
+        _("Bhilali"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bho',
+        "bho",
         # Translators: Language name for ISO code "bho". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bhojpuri'),
+        _("Bhojpuri"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'bi',
+        "bi",
         # Translators: Language name for ISO code "bi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bislama'),
+        _("Bislama"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bik',
+        "bik",
         # Translators: Language name for ISO code "bik". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bikol'),
+        _("Bikol"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bin',
+        "bin",
         # Translators: Language name for ISO code "bin". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bini'),
+        _("Bini"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bjj',
+        "bjj",
         # Translators: Language name for ISO code "bjj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kanauji'),
+        _("Kanauji"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bjn',
+        "bjn",
         # Translators: Language name for ISO code "bjn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Banjar'),
+        _("Banjar"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bla',
+        "bla",
         # Translators: Language name for ISO code "bla". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Siksika'),
+        _("Siksika"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'blo',
+        "blo",
         # Translators: Language name for ISO code "blo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Anii'),
+        _("Anii"),
         3,
-        '(n == 0) ? 0 : ((n == 1) ? 1 : 2)',
+        "(n == 0) ? 0 : ((n == 1) ? 1 : 2)",
     ),
     (
-        'bm',
+        "bm",
         # Translators: Language name for ISO code "bm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bambara'),
+        _("Bambara"),
         1,
-        '0',
+        "0",
     ),
     (
-        'bn',
+        "bn",
         # Translators: Language name for ISO code "bn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bengali'),
+        _("Bengali"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'bn_BD',
+        "bn_BD",
         # Translators: Language name for ISO code "bn_BD". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bengali (Bangladesh)'),
+        _("Bengali (Bangladesh)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bn_IN',
+        "bn_IN",
         # Translators: Language name for ISO code "bn_IN". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bengali (India)'),
+        _("Bengali (India)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bnt',
+        "bnt",
         # Translators: Language name for ISO code "bnt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bantu (Other)'),
+        _("Bantu (Other)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bo',
+        "bo",
         # Translators: Language name for ISO code "bo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tibetan'),
+        _("Tibetan"),
         1,
-        '0',
+        "0",
     ),
     (
-        'bo_CN',
+        "bo_CN",
         # Translators: Language name for ISO code "bo_CN". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tibetan (China)'),
+        _("Tibetan (China)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'bqi',
+        "bqi",
         # Translators: Language name for ISO code "bqi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luri (Bakhtiari)'),
+        _("Luri (Bakhtiari)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'br',
+        "br",
         # Translators: Language name for ISO code "br". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Breton'),
+        _("Breton"),
         5,
-        '(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)))',
+        "(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)))",
     ),
     (
-        'bra',
+        "bra",
         # Translators: Language name for ISO code "bra". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Braj'),
+        _("Braj"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'brb',
+        "brb",
         # Translators: Language name for ISO code "brb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Brao'),
+        _("Brao"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'brh',
+        "brh",
         # Translators: Language name for ISO code "brh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Brahui'),
+        _("Brahui"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'brx',
+        "brx",
         # Translators: Language name for ISO code "brx". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bodo'),
+        _("Bodo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bs',
+        "bs",
         # Translators: Language name for ISO code "bs". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bosnian'),
+        _("Bosnian"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'bs_Cyrl',
+        "bs_Cyrl",
         # Translators: Language name for ISO code "bs_Cyrl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bosnian (Cyrillic script)'),
+        _("Bosnian (Cyrillic script)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'bs_Latn',
+        "bs_Latn",
         # Translators: Language name for ISO code "bs_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bosnian (Latin script)'),
+        _("Bosnian (Latin script)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'bua',
+        "bua",
         # Translators: Language name for ISO code "bua". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Buriat'),
+        _("Buriat"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bug',
+        "bug",
         # Translators: Language name for ISO code "bug". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Buginese'),
+        _("Buginese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'bum',
+        "bum",
         # Translators: Language name for ISO code "bum". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bulu (Cameroon)'),
+        _("Bulu (Cameroon)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'byn',
+        "byn",
         # Translators: Language name for ISO code "byn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bilen'),
+        _("Bilen"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ca',
+        "ca",
         # Translators: Language name for ISO code "ca". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Catalan'),
+        _("Catalan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ca@valencia',
+        "ca@valencia",
         # Translators: Language name for ISO code "ca@valencia". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Valencian'),
+        _("Valencian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ca_AD',
+        "ca_AD",
         # Translators: Language name for ISO code "ca_AD". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Catalan (Andorra)'),
+        _("Catalan (Andorra)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cad',
+        "cad",
         # Translators: Language name for ISO code "cad". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Caddo'),
+        _("Caddo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cak',
+        "cak",
         # Translators: Language name for ISO code "cak". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kaqchikel'),
+        _("Kaqchikel"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'car',
+        "car",
         # Translators: Language name for ISO code "car". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Galibi Carib'),
+        _("Galibi Carib"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cdo_Hans',
+        "cdo_Hans",
         # Translators: Language name for ISO code "cdo_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mindong (Simplified Han script)'),
+        _("Mindong (Simplified Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'cdo_Hant',
+        "cdo_Hant",
         # Translators: Language name for ISO code "cdo_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mindong (Traditional Han script)'),
+        _("Mindong (Traditional Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'cdo_Latn',
+        "cdo_Latn",
         # Translators: Language name for ISO code "cdo_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mindong (Latin script)'),
+        _("Mindong (Latin script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ce',
+        "ce",
         # Translators: Language name for ISO code "ce". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chechen'),
+        _("Chechen"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ceb',
+        "ceb",
         # Translators: Language name for ISO code "ceb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Cebuano'),
+        _("Cebuano"),
         2,
-        'n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)',
+        "n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)",
     ),
     (
-        'cgg',
+        "cgg",
         # Translators: Language name for ISO code "cgg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chiga'),
+        _("Chiga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ch',
+        "ch",
         # Translators: Language name for ISO code "ch". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chamorro'),
+        _("Chamorro"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'chb',
+        "chb",
         # Translators: Language name for ISO code "chb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chibcha'),
+        _("Chibcha"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'chg',
+        "chg",
         # Translators: Language name for ISO code "chg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chagatai'),
+        _("Chagatai"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'chk',
+        "chk",
         # Translators: Language name for ISO code "chk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chuukese'),
+        _("Chuukese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'chm',
+        "chm",
         # Translators: Language name for ISO code "chm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mari'),
+        _("Mari"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'chn',
+        "chn",
         # Translators: Language name for ISO code "chn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chinook jargon'),
+        _("Chinook jargon"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cho',
+        "cho",
         # Translators: Language name for ISO code "cho". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Choctaw'),
+        _("Choctaw"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'chp',
+        "chp",
         # Translators: Language name for ISO code "chp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chipewyan'),
+        _("Chipewyan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'chr',
+        "chr",
         # Translators: Language name for ISO code "chr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Cherokee'),
+        _("Cherokee"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'chy',
+        "chy",
         # Translators: Language name for ISO code "chy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Cheyenne'),
+        _("Cheyenne"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ckb',
+        "ckb",
         # Translators: Language name for ISO code "ckb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kurdish (Central)'),
+        _("Kurdish (Central)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ckb_IQ',
+        "ckb_IQ",
         # Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kurdish (Central, Iraq)'),
+        _("Kurdish (Central, Iraq)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ckb_IR',
+        "ckb_IR",
         # Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kurdish (Central, Iran)'),
+        _("Kurdish (Central, Iran)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cnr',
+        "cnr",
         # Translators: Language name for ISO code "cnr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Montenegrin'),
+        _("Montenegrin"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'cnr_Cyrl',
+        "cnr_Cyrl",
         # Translators: Language name for ISO code "cnr_Cyrl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Montenegrin (Cyrillic script)'),
+        _("Montenegrin (Cyrillic script)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'co',
+        "co",
         # Translators: Language name for ISO code "co". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Corsican'),
+        _("Corsican"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cop',
+        "cop",
         # Translators: Language name for ISO code "cop". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Coptic'),
+        _("Coptic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cpe',
+        "cpe",
         # Translators: Language name for ISO code "cpe". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Creoles and pidgins (English based)'),
+        _("Creoles and pidgins (English based)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cpf',
+        "cpf",
         # Translators: Language name for ISO code "cpf". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Creoles and pidgins (French-based)'),
+        _("Creoles and pidgins (French-based)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cpp',
+        "cpp",
         # Translators: Language name for ISO code "cpp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Creoles and pidgins (Portuguese-based)'),
+        _("Creoles and pidgins (Portuguese-based)"),
         3,
-        '(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2',
+        "(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2",
     ),
     (
-        'cpx_Hans',
+        "cpx_Hans",
         # Translators: Language name for ISO code "cpx_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Puxian (Simplified Han script)'),
+        _("Puxian (Simplified Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'cpx_Hant',
+        "cpx_Hant",
         # Translators: Language name for ISO code "cpx_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Puxian (Traditional Han script)'),
+        _("Puxian (Traditional Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'cpx_Latn',
+        "cpx_Latn",
         # Translators: Language name for ISO code "cpx_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Puxian (Latin script)'),
+        _("Puxian (Latin script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'cr',
+        "cr",
         # Translators: Language name for ISO code "cr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Cree'),
+        _("Cree"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'crh',
+        "crh",
         # Translators: Language name for ISO code "crh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Crimean Tatar'),
+        _("Crimean Tatar"),
         1,
-        '0',
+        "0",
     ),
     (
-        'crp',
+        "crp",
         # Translators: Language name for ISO code "crp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Creoles and pidgins'),
+        _("Creoles and pidgins"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cs',
+        "cs",
         # Translators: Language name for ISO code "cs". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Czech'),
+        _("Czech"),
         3,
-        '(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2',
+        "(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2",
     ),
     (
-        'csb',
+        "csb",
         # Translators: Language name for ISO code "csb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kashubian'),
+        _("Kashubian"),
         3,
-        'n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'cu',
+        "csw",
+        # Translators: Language name for ISO code "csw". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Cree (Swampy)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "cu",
         # Translators: Language name for ISO code "cu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Slavonic (Old Church)'),
+        _("Slavonic (Old Church)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cv',
+        "cv",
         # Translators: Language name for ISO code "cv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chuvash'),
+        _("Chuvash"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'cy',
+        "cy",
         # Translators: Language name for ISO code "cy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Welsh'),
+        _("Welsh"),
         6,
-        '(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5',
+        "(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5",
     ),
     (
-        'da',
+        "da",
         # Translators: Language name for ISO code "da". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Danish'),
+        _("Danish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dak',
+        "dak",
         # Translators: Language name for ISO code "dak". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dakota'),
+        _("Dakota"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dar',
+        "dar",
         # Translators: Language name for ISO code "dar". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dargwa'),
+        _("Dargwa"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dcc',
+        "dcc",
         # Translators: Language name for ISO code "dcc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Deccan'),
+        _("Deccan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'de',
+        "de",
         # Translators: Language name for ISO code "de". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German'),
+        _("German"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'de@formal',
+        "de@formal",
         # Translators: Language name for ISO code "de@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German (formal)'),
+        _("German (formal)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'de@informal',
+        "de@informal",
         # Translators: Language name for ISO code "de@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German (informal)'),
+        _("German (informal)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'de_1901',
+        "de_1901",
         # Translators: Language name for ISO code "de_1901". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German (old spelling)'),
+        _("German (old spelling)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'de_AT',
+        "de_AT",
         # Translators: Language name for ISO code "de_AT". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German (Austria)'),
+        _("German (Austria)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'de_CH',
+        "de_CH",
         # Translators: Language name for ISO code "de_CH". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German (Switzerland)'),
+        _("German (Switzerland)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'de_LU',
+        "de_LU",
         # Translators: Language name for ISO code "de_LU". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German (Luxembourg)'),
+        _("German (Luxembourg)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'del',
+        "del",
         # Translators: Language name for ISO code "del". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Delaware'),
+        _("Delaware"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'den',
+        "den",
         # Translators: Language name for ISO code "den". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Slave (Athapascan)'),
+        _("Slave (Athapascan)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dgr',
+        "dgr",
         # Translators: Language name for ISO code "dgr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dogrib'),
+        _("Dogrib"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'din',
+        "din",
         # Translators: Language name for ISO code "din". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dinka'),
+        _("Dinka"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dje',
+        "dje",
         # Translators: Language name for ISO code "dje". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Zarma'),
+        _("Zarma"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dnj',
+        "dnj",
         # Translators: Language name for ISO code "dnj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dan'),
+        _("Dan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dnk',
+        "dnk",
         # Translators: Language name for ISO code "dnk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dengka'),
+        _("Dengka"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'doi',
+        "doi",
         # Translators: Language name for ISO code "doi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dogri'),
+        _("Dogri"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'dru',
+        "dru",
         # Translators: Language name for ISO code "dru". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rukai'),
+        _("Rukai"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dry',
+        "dry",
         # Translators: Language name for ISO code "dry". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Darai'),
+        _("Darai"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dsb',
+        "dsb",
         # Translators: Language name for ISO code "dsb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lower Sorbian'),
+        _("Lower Sorbian"),
         4,
-        '(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))',
+        "(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))",
     ),
     (
-        'dua',
+        "dua",
         # Translators: Language name for ISO code "dua". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Duala'),
+        _("Duala"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dum',
+        "dum",
         # Translators: Language name for ISO code "dum". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dutch (Middle)'),
+        _("Dutch (Middle)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dv',
+        "dv",
         # Translators: Language name for ISO code "dv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dhivehi'),
+        _("Dhivehi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dyu',
+        "dyu",
         # Translators: Language name for ISO code "dyu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dyula'),
+        _("Dyula"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'dz',
+        "dz",
         # Translators: Language name for ISO code "dz". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dzongkha'),
+        _("Dzongkha"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ee',
+        "ee",
         # Translators: Language name for ISO code "ee". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ewe'),
+        _("Ewe"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'efi',
+        "efi",
         # Translators: Language name for ISO code "efi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Efik'),
+        _("Efik"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'egl',
+        "egl",
         # Translators: Language name for ISO code "egl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Emilian'),
+        _("Emilian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'egy',
+        "egy",
         # Translators: Language name for ISO code "egy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Egyptian (Ancient)'),
+        _("Egyptian (Ancient)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'eka',
+        "eka",
         # Translators: Language name for ISO code "eka". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ekajuk'),
+        _("Ekajuk"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'el',
+        "el",
         # Translators: Language name for ISO code "el". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Greek'),
+        _("Greek"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'elx',
+        "elx",
         # Translators: Language name for ISO code "elx". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Elamite'),
+        _("Elamite"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en',
+        "en",
         # Translators: Language name for ISO code "en". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English'),
+        _("English"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en@pirate',
+        "en@pirate",
         # Translators: Language name for ISO code "en@pirate". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Pirate)'),
+        _("English (Pirate)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_AU',
+        "en_AU",
         # Translators: Language name for ISO code "en_AU". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Australia)'),
+        _("English (Australia)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_CA',
+        "en_CA",
         # Translators: Language name for ISO code "en_CA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Canada)'),
+        _("English (Canada)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_GB',
+        "en_GB",
         # Translators: Language name for ISO code "en_GB". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (United Kingdom)'),
+        _("English (United Kingdom)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_IE',
+        "en_IE",
         # Translators: Language name for ISO code "en_IE". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Ireland)'),
+        _("English (Ireland)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_IN',
+        "en_IN",
         # Translators: Language name for ISO code "en_IN". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (India)'),
+        _("English (India)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_NZ',
+        "en_NZ",
         # Translators: Language name for ISO code "en_NZ". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (New Zealand)'),
+        _("English (New Zealand)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_PH',
+        "en_PH",
         # Translators: Language name for ISO code "en_PH". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Philippines)'),
+        _("English (Philippines)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_Shaw',
+        "en_Shaw",
         # Translators: Language name for ISO code "en_Shaw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Shavian)'),
+        _("English (Shavian)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_Shaw_GB',
+        "en_Shaw_GB",
         # Translators: Language name for ISO code "en_Shaw_GB". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Shavian script, United Kingdom)'),
+        _("English (Shavian script, United Kingdom)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_Shaw_US',
+        "en_Shaw_US",
         # Translators: Language name for ISO code "en_Shaw_US". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Shavian script, United States)'),
+        _("English (Shavian script, United States)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_US',
+        "en_US",
         # Translators: Language name for ISO code "en_US". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (United States)'),
+        _("English (United States)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_XA',
+        "en_XA",
         # Translators: Language name for ISO code "en_XA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (XA pseudolocale)'),
+        _("English (XA pseudolocale)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_ZA',
+        "en_ZA",
         # Translators: Language name for ISO code "en_ZA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (South Africa)'),
+        _("English (South Africa)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'en_devel',
+        "en_devel",
         # Translators: Language name for ISO code "en_devel". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Developer)'),
+        _("English (Developer)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'enm',
+        "enm",
         # Translators: Language name for ISO code "enm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('English (Middle)'),
+        _("English (Middle)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'eo',
+        "eo",
         # Translators: Language name for ISO code "eo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Esperanto'),
+        _("Esperanto"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es',
+        "es",
         # Translators: Language name for ISO code "es". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish'),
+        _("Spanish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es@formal',
+        "es@formal",
         # Translators: Language name for ISO code "es@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (formal)'),
+        _("Spanish (formal)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es@informal',
+        "es@informal",
         # Translators: Language name for ISO code "es@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (informal)'),
+        _("Spanish (informal)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_419',
+        "es_419",
         # Translators: Language name for ISO code "es_419". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Latin America)'),
+        _("Spanish (Latin America)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_AR',
+        "es_AR",
         # Translators: Language name for ISO code "es_AR". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Argentina)'),
+        _("Spanish (Argentina)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_BO',
+        "es_BO",
         # Translators: Language name for ISO code "es_BO". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Bolivia)'),
+        _("Spanish (Bolivia)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_CL',
+        "es_CL",
         # Translators: Language name for ISO code "es_CL". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Chile)'),
+        _("Spanish (Chile)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_CO',
+        "es_CO",
         # Translators: Language name for ISO code "es_CO". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Colombia)'),
+        _("Spanish (Colombia)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_CR',
+        "es_CR",
         # Translators: Language name for ISO code "es_CR". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Costa Rica)'),
+        _("Spanish (Costa Rica)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_CU',
+        "es_CU",
         # Translators: Language name for ISO code "es_CU". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Cuba)'),
+        _("Spanish (Cuba)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_DO',
+        "es_DO",
         # Translators: Language name for ISO code "es_DO". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Dominican Republic)'),
+        _("Spanish (Dominican Republic)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_EC',
+        "es_EC",
         # Translators: Language name for ISO code "es_EC". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Ecuador)'),
+        _("Spanish (Ecuador)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_MX',
+        "es_MX",
         # Translators: Language name for ISO code "es_MX". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Mexico)'),
+        _("Spanish (Mexico)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_NI',
+        "es_NI",
         # Translators: Language name for ISO code "es_NI". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Nicaragua)'),
+        _("Spanish (Nicaragua)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_PA',
+        "es_PA",
         # Translators: Language name for ISO code "es_PA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Panama)'),
+        _("Spanish (Panama)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_PE',
+        "es_PE",
         # Translators: Language name for ISO code "es_PE". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Peru)'),
+        _("Spanish (Peru)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_PR',
+        "es_PR",
         # Translators: Language name for ISO code "es_PR". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Puerto Rico)'),
+        _("Spanish (Puerto Rico)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_SV',
+        "es_SV",
         # Translators: Language name for ISO code "es_SV". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (El Salvador)'),
+        _("Spanish (El Salvador)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_US',
+        "es_US",
         # Translators: Language name for ISO code "es_US". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (American)'),
+        _("Spanish (American)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_UY',
+        "es_UY",
         # Translators: Language name for ISO code "es_UY". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Uruguay)'),
+        _("Spanish (Uruguay)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'es_VE',
+        "es_VE",
         # Translators: Language name for ISO code "es_VE". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Spanish (Venezuela)'),
+        _("Spanish (Venezuela)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'et',
+        "et",
         # Translators: Language name for ISO code "et". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Estonian'),
+        _("Estonian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'eu',
+        "eu",
         # Translators: Language name for ISO code "eu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Basque'),
+        _("Basque"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ewo',
+        "ewo",
         # Translators: Language name for ISO code "ewo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ewondo'),
+        _("Ewondo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ext',
+        "ext",
         # Translators: Language name for ISO code "ext". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Extremaduran'),
+        _("Extremaduran"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fa',
+        "fa",
         # Translators: Language name for ISO code "fa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Persian'),
+        _("Persian"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fa_AF',
+        "fa_AF",
         # Translators: Language name for ISO code "fa_AF". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dari'),
+        _("Dari"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fan',
+        "fan",
         # Translators: Language name for ISO code "fan". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fang (Equatorial Guinea)'),
+        _("Fang (Equatorial Guinea)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fat',
+        "fat",
         # Translators: Language name for ISO code "fat". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fanti'),
+        _("Fanti"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fbl',
+        "fbl",
         # Translators: Language name for ISO code "fbl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Bikol (West Albay)'),
+        _("Bikol (West Albay)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ff',
+        "ff",
         # Translators: Language name for ISO code "ff". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fulah'),
+        _("Fulah"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'ffm',
+        "ffm",
         # Translators: Language name for ISO code "ffm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fulfulde (Maasina)'),
+        _("Fulfulde (Maasina)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fi',
+        "fi",
         # Translators: Language name for ISO code "fi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Finnish'),
+        _("Finnish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fil',
+        "fil",
         # Translators: Language name for ISO code "fil". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Filipino'),
+        _("Filipino"),
         2,
-        'n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)',
+        "n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)",
     ),
     (
-        'fj',
+        "fj",
         # Translators: Language name for ISO code "fj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fijian'),
+        _("Fijian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fo',
+        "fo",
         # Translators: Language name for ISO code "fo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Faroese'),
+        _("Faroese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fon',
+        "fon",
         # Translators: Language name for ISO code "fon". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fon'),
+        _("Fon"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fr',
+        "fr",
         # Translators: Language name for ISO code "fr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French'),
+        _("French"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fr@formal',
+        "fr@formal",
         # Translators: Language name for ISO code "fr@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (formal)'),
+        _("French (formal)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fr@informal',
+        "fr@informal",
         # Translators: Language name for ISO code "fr@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (informal)'),
+        _("French (informal)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fr_AG',
+        "fr_AG",
         # Translators: Language name for ISO code "fr_AG". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Antigua and Barbuda)'),
+        _("French (Antigua and Barbuda)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fr_BE',
+        "fr_BE",
         # Translators: Language name for ISO code "fr_BE". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Belgium)'),
+        _("French (Belgium)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fr_CA',
+        "fr_CA",
         # Translators: Language name for ISO code "fr_CA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Canada)'),
+        _("French (Canada)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fr_CH',
+        "fr_CH",
         # Translators: Language name for ISO code "fr_CH". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Switzerland)'),
+        _("French (Switzerland)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fr_LU',
+        "fr_LU",
         # Translators: Language name for ISO code "fr_LU". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Luxembourg)'),
+        _("French (Luxembourg)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'fr_SN',
+        "fr_SN",
         # Translators: Language name for ISO code "fr_SN". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Senegal)'),
+        _("French (Senegal)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'frc',
+        "frc",
         # Translators: Language name for ISO code "frc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Louisiana)'),
+        _("French (Louisiana)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'frk',
+        "frk",
         # Translators: Language name for ISO code "frk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Frankish'),
+        _("Frankish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'frm',
+        "frm",
         # Translators: Language name for ISO code "frm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Middle)'),
+        _("French (Middle)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fro',
+        "fro",
         # Translators: Language name for ISO code "fro". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('French (Old)'),
+        _("French (Old)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'frp',
+        "frp",
         # Translators: Language name for ISO code "frp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Franco-Provençal'),
+        _("Franco-Provençal"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'frr',
+        "frr",
         # Translators: Language name for ISO code "frr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Frisian (Northern)'),
+        _("Frisian (Northern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'frs',
+        "frs",
         # Translators: Language name for ISO code "frs". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Frisian (Eastern)'),
+        _("Frisian (Eastern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fuq',
+        "fuq",
         # Translators: Language name for ISO code "fuq". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fulfulde (Central-Eastern Niger)'),
+        _("Fulfulde (Central-Eastern Niger)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fur',
+        "fur",
         # Translators: Language name for ISO code "fur". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Friulian'),
+        _("Friulian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fuv',
+        "fuv",
         # Translators: Language name for ISO code "fuv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fulfulde (Nigerian)'),
+        _("Fulfulde (Nigerian)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fvr',
+        "fvr",
         # Translators: Language name for ISO code "fvr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Fur'),
+        _("Fur"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'fy',
+        "fy",
         # Translators: Language name for ISO code "fy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Frisian'),
+        _("Frisian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ga',
+        "ga",
         # Translators: Language name for ISO code "ga". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Irish'),
+        _("Irish"),
         5,
-        'n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4',
+        "n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4",
     ),
     (
-        'gaa',
+        "gaa",
         # Translators: Language name for ISO code "gaa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ga'),
+        _("Ga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gan_Hans',
+        "gan_Hans",
         # Translators: Language name for ISO code "gan_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gan (Simplified Han script)'),
+        _("Gan (Simplified Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'gan_Hant',
+        "gan_Hant",
         # Translators: Language name for ISO code "gan_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gan (Traditional Han script)'),
+        _("Gan (Traditional Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'gay',
+        "gay",
         # Translators: Language name for ISO code "gay". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gayo'),
+        _("Gayo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gba',
+        "gba",
         # Translators: Language name for ISO code "gba". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gbaya (Central African Republic)'),
+        _("Gbaya (Central African Republic)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gbm',
+        "gbm",
         # Translators: Language name for ISO code "gbm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Garhwali'),
+        _("Garhwali"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gd',
+        "gd",
         # Translators: Language name for ISO code "gd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gaelic'),
+        _("Gaelic"),
         4,
-        '(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3',
+        "(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3",
     ),
     (
-        'gez',
+        "gez",
         # Translators: Language name for ISO code "gez". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ge\'ez'),
+        _("Ge'ez"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gil',
+        "gil",
         # Translators: Language name for ISO code "gil". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gilbertese'),
+        _("Gilbertese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gl',
+        "gl",
         # Translators: Language name for ISO code "gl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Galician'),
+        _("Galician"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'glk',
+        "glk",
         # Translators: Language name for ISO code "glk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gilaki'),
+        _("Gilaki"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gmh',
+        "gmh",
         # Translators: Language name for ISO code "gmh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('High German (Middle)'),
+        _("High German (Middle)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gn',
+        "gn",
         # Translators: Language name for ISO code "gn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Guarani'),
+        _("Guarani"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'goh',
+        "goh",
         # Translators: Language name for ISO code "goh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('High German (Old)'),
+        _("High German (Old)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gom',
+        "gom",
         # Translators: Language name for ISO code "gom". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Konkani (Goan)'),
+        _("Konkani (Goan)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gon',
+        "gon",
         # Translators: Language name for ISO code "gon". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gondi'),
+        _("Gondi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gor',
+        "gor",
         # Translators: Language name for ISO code "gor". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gorontalo'),
+        _("Gorontalo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'got',
+        "got",
         # Translators: Language name for ISO code "got". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gothic'),
+        _("Gothic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'grb',
+        "grb",
         # Translators: Language name for ISO code "grb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Grebo'),
+        _("Grebo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'grc',
+        "grc",
         # Translators: Language name for ISO code "grc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Greek (Ancient)'),
+        _("Greek (Ancient)"),
         3,
-        'n==1 ? 0 : n==2 ? 1 : 2',
+        "n==1 ? 0 : n==2 ? 1 : 2",
     ),
     (
-        'gsw',
+        "gsw",
         # Translators: Language name for ISO code "gsw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Alemannic'),
+        _("Alemannic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gu',
+        "gu",
         # Translators: Language name for ISO code "gu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gujarati'),
+        _("Gujarati"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'gu_IN',
+        "gu_IN",
         # Translators: Language name for ISO code "gu_IN". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gujarati (India)'),
+        _("Gujarati (India)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'guc',
+        "guc",
         # Translators: Language name for ISO code "guc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Wayuu'),
+        _("Wayuu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gug',
+        "gug",
         # Translators: Language name for ISO code "gug". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Guaraní (Paraguayan)'),
+        _("Guaraní (Paraguayan)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'gum',
+        "gum",
         # Translators: Language name for ISO code "gum". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Guambiano'),
+        _("Guambiano"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gun',
+        "gun",
         # Translators: Language name for ISO code "gun". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Guaraní (Mbyá)'),
+        _("Guaraní (Mbyá)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'gur',
+        "gur",
         # Translators: Language name for ISO code "gur". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Farefare'),
+        _("Farefare"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'guw',
+        "guw",
         # Translators: Language name for ISO code "guw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gun'),
+        _("Gun"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'guz',
+        "guz",
         # Translators: Language name for ISO code "guz". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gusii'),
+        _("Gusii"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'gv',
+        "gv",
         # Translators: Language name for ISO code "gv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Manx'),
+        _("Manx"),
         4,
-        '(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))',
+        "(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))",
     ),
     (
-        'gwi',
+        "gwi",
         # Translators: Language name for ISO code "gwi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gwichʼin'),
+        _("Gwichʼin"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ha',
+        "ha",
         # Translators: Language name for ISO code "ha". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hausa'),
+        _("Hausa"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hai',
+        "hai",
         # Translators: Language name for ISO code "hai". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Haida'),
+        _("Haida"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hak_Hans',
+        "hak_Hans",
         # Translators: Language name for ISO code "hak_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hakka (Simplified Han script)'),
+        _("Hakka (Simplified Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'hak_Hant',
+        "hak_Hant",
         # Translators: Language name for ISO code "hak_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hakka (Traditional Han script)'),
+        _("Hakka (Traditional Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'hak_Latn',
+        "hak_Latn",
         # Translators: Language name for ISO code "hak_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hakka (Latin script)'),
+        _("Hakka (Latin script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'haw',
+        "haw",
         # Translators: Language name for ISO code "haw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hawaiian'),
+        _("Hawaiian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'haz',
+        "haz",
         # Translators: Language name for ISO code "haz". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hazaragi'),
+        _("Hazaragi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'he',
+        "he",
         # Translators: Language name for ISO code "he". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hebrew'),
+        _("Hebrew"),
         4,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))",
     ),
     (
-        'he_IL',
+        "he_IL",
         # Translators: Language name for ISO code "he_IL". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hebrew (Israel)'),
+        _("Hebrew (Israel)"),
         4,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) ? 2 : 3))",
     ),
     (
-        'hi',
+        "hi",
         # Translators: Language name for ISO code "hi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hindi'),
+        _("Hindi"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'hi@hinglish',
+        "hi@hinglish",
         # Translators: Language name for ISO code "hi@hinglish". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hindi (Hinglish)'),
+        _("Hindi (Hinglish)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'hi_Latn',
+        "hi_Latn",
         # Translators: Language name for ISO code "hi_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hindi (Latin script)'),
+        _("Hindi (Latin script)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'hil',
+        "hil",
         # Translators: Language name for ISO code "hil". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hiligaynon'),
+        _("Hiligaynon"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hit',
+        "hit",
         # Translators: Language name for ISO code "hit". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hittite'),
+        _("Hittite"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hmn',
+        "hmn",
         # Translators: Language name for ISO code "hmn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hmong'),
+        _("Hmong"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hnd',
+        "hnd",
         # Translators: Language name for ISO code "hnd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hindko'),
-         Southern,
-        '2',
+        _("Hindko (Southern)"),
+        2,
+        "n != 1",
     ),
     (
-        'hne',
+        "hne",
         # Translators: Language name for ISO code "hne". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chhattisgarhi'),
+        _("Chhattisgarhi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hnj',
+        "hnj",
         # Translators: Language name for ISO code "hnj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hmong Njua'),
+        _("Hmong Njua"),
         1,
-        '0',
+        "0",
     ),
     (
-        'hno',
+        "hno",
         # Translators: Language name for ISO code "hno". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hindko (Northern)'),
+        _("Hindko (Northern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ho',
+        "ho",
         # Translators: Language name for ISO code "ho". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hiri Motu'),
+        _("Hiri Motu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hoc',
+        "hoc",
         # Translators: Language name for ISO code "hoc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ho'),
+        _("Ho"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hoj',
+        "hoj",
         # Translators: Language name for ISO code "hoj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hadothi'),
+        _("Hadothi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hr',
+        "hr",
         # Translators: Language name for ISO code "hr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Croatian'),
+        _("Croatian"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'hrx',
+        "hrx",
         # Translators: Language name for ISO code "hrx". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hunsrik'),
+        _("Hunsrik"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hsb',
+        "hsb",
         # Translators: Language name for ISO code "hsb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Upper Sorbian'),
+        _("Upper Sorbian"),
         4,
-        '(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))',
+        "(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))",
     ),
     (
-        'hsn',
+        "hsn",
         # Translators: Language name for ISO code "hsn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Xiang'),
+        _("Xiang"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ht',
+        "ht",
         # Translators: Language name for ISO code "ht". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Haitian'),
+        _("Haitian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hu',
+        "hu",
         # Translators: Language name for ISO code "hu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hungarian'),
+        _("Hungarian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hup',
+        "hup",
         # Translators: Language name for ISO code "hup". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Hupa'),
+        _("Hupa"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hus',
+        "hus",
         # Translators: Language name for ISO code "hus". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Huastec'),
+        _("Huastec"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'hy',
+        "hy",
         # Translators: Language name for ISO code "hy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Armenian'),
+        _("Armenian"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'hz',
+        "hz",
         # Translators: Language name for ISO code "hz". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Herero'),
+        _("Herero"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ia',
+        "ia",
         # Translators: Language name for ISO code "ia". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Interlingua'),
+        _("Interlingua"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'iba',
+        "iba",
         # Translators: Language name for ISO code "iba". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Iban'),
+        _("Iban"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ibb',
+        "ibb",
         # Translators: Language name for ISO code "ibb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ibibio'),
+        _("Ibibio"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'id',
+        "id",
         # Translators: Language name for ISO code "id". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Indonesian'),
+        _("Indonesian"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ie',
+        "ie",
         # Translators: Language name for ISO code "ie". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Occidental'),
+        _("Occidental"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ig',
+        "ig",
         # Translators: Language name for ISO code "ig". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Igbo'),
+        _("Igbo"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ii',
+        "ii",
         # Translators: Language name for ISO code "ii". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nuosu'),
+        _("Nuosu"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ik',
+        "ik",
         # Translators: Language name for ISO code "ik". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Inupiaq'),
+        _("Inupiaq"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ilo',
+        "ilo",
         # Translators: Language name for ISO code "ilo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Iloko'),
+        _("Iloko"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'inh',
+        "inh",
         # Translators: Language name for ISO code "inh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ingush'),
+        _("Ingush"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'io',
+        "io",
         # Translators: Language name for ISO code "io". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ido'),
+        _("Ido"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'is',
+        "is",
         # Translators: Language name for ISO code "is". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Icelandic'),
+        _("Icelandic"),
         2,
-        'n % 10 != 1 || n % 100 == 11',
+        "n % 10 != 1 || n % 100 == 11",
     ),
     (
-        'it',
+        "it",
         # Translators: Language name for ISO code "it". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Italian'),
+        _("Italian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'it@formal',
+        "it@formal",
         # Translators: Language name for ISO code "it@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Italian (formal)'),
+        _("Italian (formal)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'it@informal',
+        "it@informal",
         # Translators: Language name for ISO code "it@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Italian (informal)'),
+        _("Italian (informal)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'it_CH',
+        "it_CH",
         # Translators: Language name for ISO code "it_CH". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Italian (Switzerland)'),
+        _("Italian (Switzerland)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'iu',
+        "iu",
         # Translators: Language name for ISO code "iu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Inuktitut'),
+        _("Inuktitut"),
         3,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
-        'ja',
+        "ja",
         # Translators: Language name for ISO code "ja". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Japanese'),
+        _("Japanese"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ja_KS',
+        "ja_KS",
         # Translators: Language name for ISO code "ja_KS". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Japanese (Kansai)'),
+        _("Japanese (Kansai)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'jam',
+        "jam",
         # Translators: Language name for ISO code "jam". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Jamaican Patois'),
+        _("Jamaican Patois"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'jbo',
+        "jbo",
         # Translators: Language name for ISO code "jbo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lojban'),
+        _("Lojban"),
         1,
-        '0',
+        "0",
     ),
     (
-        'jgo',
+        "jgo",
         # Translators: Language name for ISO code "jgo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ngomba'),
+        _("Ngomba"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'jmc',
+        "jmc",
         # Translators: Language name for ISO code "jmc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Machame'),
+        _("Machame"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'jpr',
+        "jpr",
         # Translators: Language name for ISO code "jpr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Judeo-Persian'),
+        _("Judeo-Persian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'jrb',
+        "jrb",
         # Translators: Language name for ISO code "jrb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Judeo-Arabic'),
+        _("Judeo-Arabic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'jv',
+        "jv",
         # Translators: Language name for ISO code "jv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Javanese'),
+        _("Javanese"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ka',
+        "ka",
         # Translators: Language name for ISO code "ka". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Georgian'),
+        _("Georgian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kaa',
+        "kaa",
         # Translators: Language name for ISO code "kaa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Karakalpak'),
+        _("Karakalpak"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kab',
+        "kab",
         # Translators: Language name for ISO code "kab". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kabyle'),
+        _("Kabyle"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'kac',
+        "kac",
         # Translators: Language name for ISO code "kac". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kachin'),
+        _("Kachin"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kaj',
+        "kaj",
         # Translators: Language name for ISO code "kaj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Jju'),
+        _("Jju"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kam',
+        "kam",
         # Translators: Language name for ISO code "kam". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kamba (Kenya)'),
+        _("Kamba (Kenya)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kaw',
+        "kaw",
         # Translators: Language name for ISO code "kaw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kawi'),
+        _("Kawi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kbd',
+        "kbd",
         # Translators: Language name for ISO code "kbd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kabardian'),
+        _("Kabardian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kcg',
+        "kcg",
         # Translators: Language name for ISO code "kcg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tyap'),
+        _("Tyap"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kde',
+        "kde",
         # Translators: Language name for ISO code "kde". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Makonde'),
+        _("Makonde"),
         1,
-        '0',
+        "0",
     ),
     (
-        'kea',
+        "kea",
         # Translators: Language name for ISO code "kea". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kabuverdianu'),
+        _("Kabuverdianu"),
         1,
-        '0',
+        "0",
     ),
     (
-        'kfr',
+        "kfr",
         # Translators: Language name for ISO code "kfr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kachhi'),
+        _("Kachhi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kfy',
+        "kfy",
         # Translators: Language name for ISO code "kfy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kumaoni'),
+        _("Kumaoni"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kg',
+        "kg",
         # Translators: Language name for ISO code "kg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kongo'),
+        _("Kongo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kha',
+        "kha",
         # Translators: Language name for ISO code "kha". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Khasi'),
+        _("Khasi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'khn',
+        "khn",
         # Translators: Language name for ISO code "khn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Khandesi'),
+        _("Khandesi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kho',
+        "kho",
         # Translators: Language name for ISO code "kho". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Khotanese'),
+        _("Khotanese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ki',
+        "ki",
         # Translators: Language name for ISO code "ki". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gikuyu'),
+        _("Gikuyu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kj',
+        "kj",
         # Translators: Language name for ISO code "kj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kwanyama'),
+        _("Kwanyama"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kk',
+        "kk",
         # Translators: Language name for ISO code "kk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kazakh'),
+        _("Kazakh"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kk_Latn',
+        "kk_Latn",
         # Translators: Language name for ISO code "kk_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kazakh (Latin script)'),
+        _("Kazakh (Latin script)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kkj',
+        "kkj",
         # Translators: Language name for ISO code "kkj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kako'),
+        _("Kako"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kl',
+        "kl",
         # Translators: Language name for ISO code "kl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Greenlandic'),
+        _("Greenlandic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kln',
+        "kln",
         # Translators: Language name for ISO code "kln". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kalenjin'),
+        _("Kalenjin"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'km',
+        "km",
         # Translators: Language name for ISO code "km". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Khmer (Central)'),
+        _("Khmer (Central)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'kmb',
+        "kmb",
         # Translators: Language name for ISO code "kmb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kimbundu'),
+        _("Kimbundu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kmr',
+        "kmr",
         # Translators: Language name for ISO code "kmr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kurdish (Northern)'),
+        _("Kurdish (Northern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kmr_Latn',
+        "kmr_Latn",
         # Translators: Language name for ISO code "kmr_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kurdish (Northern, Latin script)'),
+        _("Kurdish (Northern, Latin script)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kn',
+        "kn",
         # Translators: Language name for ISO code "kn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kannada'),
+        _("Kannada"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'ko',
+        "ko",
         # Translators: Language name for ISO code "ko". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Korean'),
+        _("Korean"),
         1,
-        '0',
+        "0",
     ),
     (
-        'kok',
+        "kok",
         # Translators: Language name for ISO code "kok". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Konkani'),
+        _("Konkani"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kos',
+        "kos",
         # Translators: Language name for ISO code "kos". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kosraean'),
+        _("Kosraean"),
         1,
-        '0',
+        "0",
     ),
     (
-        'kpe',
+        "kpe",
         # Translators: Language name for ISO code "kpe". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kpelle'),
+        _("Kpelle"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kr',
+        "kr",
         # Translators: Language name for ISO code "kr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kanuri'),
+        _("Kanuri"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'krc',
+        "krc",
         # Translators: Language name for ISO code "krc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Karachay-Balkar'),
+        _("Karachay-Balkar"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kri',
+        "kri",
         # Translators: Language name for ISO code "kri". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Krio'),
+        _("Krio"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'krl',
+        "krl",
         # Translators: Language name for ISO code "krl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Karelian'),
+        _("Karelian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kru',
+        "kru",
         # Translators: Language name for ISO code "kru". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kurukh'),
+        _("Kurukh"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ks',
+        "ks",
         # Translators: Language name for ISO code "ks". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kashmiri'),
+        _("Kashmiri"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ksb',
+        "ksb",
         # Translators: Language name for ISO code "ksb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Shambala'),
+        _("Shambala"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ksh',
+        "ksh",
         # Translators: Language name for ISO code "ksh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Colognian'),
+        _("Colognian"),
         3,
-        'n==0 ? 0 : n==1 ? 1 : 2',
+        "n==0 ? 0 : n==1 ? 1 : 2",
     ),
     (
-        'ku',
+        "ku",
         # Translators: Language name for ISO code "ku". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kurdish'),
+        _("Kurdish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kum',
+        "kum",
         # Translators: Language name for ISO code "kum". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kumyk'),
+        _("Kumyk"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kut',
+        "kut",
         # Translators: Language name for ISO code "kut". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kutenai'),
+        _("Kutenai"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kv',
+        "kv",
         # Translators: Language name for ISO code "kv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Komi'),
+        _("Komi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'kw',
+        "kw",
         # Translators: Language name for ISO code "kw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Cornish'),
+        _("Cornish"),
         6,
-        '(n == 0) ? 0 : ((n == 1) ? 1 : (((n % 100 == 2 || n % 100 == 22 || n % 100 == 42 || n % 100 == 62 || n % 100 == 82) || n % 1000 == 0 && (n % 100000 >= 1000 && n % 100000 <= 20000 || n % 100000 == 40000 || n % 100000 == 60000 || n % 100000 == 80000) || n != 0 && n % 1000000 == 100000) ? 2 : ((n % 100 == 3 || n % 100 == 23 || n % 100 == 43 || n % 100 == 63 || n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 || n % 100 == 21 || n % 100 == 41 || n % 100 == 61 || n % 100 == 81)) ? 4 : 5))))',
+        "(n == 0) ? 0 : ((n == 1) ? 1 : (((n % 100 == 2 || n % 100 == 22 || n % 100 == 42 || n % 100 == 62 || n % 100 == 82) || n % 1000 == 0 && (n % 100000 >= 1000 && n % 100000 <= 20000 || n % 100000 == 40000 || n % 100000 == 60000 || n % 100000 == 80000) || n != 0 && n % 1000000 == 100000) ? 2 : ((n % 100 == 3 || n % 100 == 23 || n % 100 == 43 || n % 100 == 63 || n % 100 == 83) ? 3 : ((n != 1 && (n % 100 == 1 || n % 100 == 21 || n % 100 == 41 || n % 100 == 61 || n % 100 == 81)) ? 4 : 5))))",
     ),
     (
-        'kxm',
+        "kxm",
         # Translators: Language name for ISO code "kxm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Khmer (Northern)'),
+        _("Khmer (Northern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ky',
+        "ky",
         # Translators: Language name for ISO code "ky". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kyrgyz'),
+        _("Kyrgyz"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'la',
+        "la",
         # Translators: Language name for ISO code "la". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Latin'),
+        _("Latin"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lad',
+        "lad",
         # Translators: Language name for ISO code "lad". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ladino'),
+        _("Ladino"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lag',
+        "lag",
         # Translators: Language name for ISO code "lag". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Langi'),
+        _("Langi"),
         3,
-        '(n == 0) ? 0 : ((n == 1) ? 1 : 2)',
+        "(n == 0) ? 0 : ((n == 1) ? 1 : 2)",
     ),
     (
-        'laj',
+        "laj",
         # Translators: Language name for ISO code "laj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lango (Uganda)'),
+        _("Lango (Uganda)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lam',
+        "lam",
         # Translators: Language name for ISO code "lam". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lamba'),
+        _("Lamba"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lb',
+        "lb",
         # Translators: Language name for ISO code "lb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luxembourgish'),
+        _("Luxembourgish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lez',
+        "lez",
         # Translators: Language name for ISO code "lez". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lezghian'),
+        _("Lezghian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lfn',
+        "lfn",
         # Translators: Language name for ISO code "lfn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lingua Franca Nova'),
+        _("Lingua Franca Nova"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lg',
+        "lg",
         # Translators: Language name for ISO code "lg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luganda'),
+        _("Luganda"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'li',
+        "li",
         # Translators: Language name for ISO code "li". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Limburgish'),
+        _("Limburgish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lij',
+        "lij",
         # Translators: Language name for ISO code "lij". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ligurian'),
+        _("Ligurian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ljp',
+        "ljp",
         # Translators: Language name for ISO code "ljp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lampung Api'),
+        _("Lampung Api"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lki',
+        "lki",
         # Translators: Language name for ISO code "lki". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Laki'),
+        _("Laki"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lkt',
+        "lkt",
         # Translators: Language name for ISO code "lkt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lakota'),
+        _("Lakota"),
         1,
-        '0',
+        "0",
     ),
     (
-        'lld',
+        "lld",
         # Translators: Language name for ISO code "lld". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ladin'),
+        _("Ladin"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lmn',
+        "lmn",
         # Translators: Language name for ISO code "lmn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lambadi'),
+        _("Lambadi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lmo',
+        "lmo",
         # Translators: Language name for ISO code "lmo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lombard'),
+        _("Lombard"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ln',
+        "ln",
         # Translators: Language name for ISO code "ln". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lingala'),
+        _("Lingala"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'lo',
+        "lo",
         # Translators: Language name for ISO code "lo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lao'),
+        _("Lao"),
         1,
-        '0',
+        "0",
     ),
     (
-        'lol',
+        "lol",
         # Translators: Language name for ISO code "lol". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mongo'),
+        _("Mongo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'loz',
+        "loz",
         # Translators: Language name for ISO code "loz". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lozi'),
+        _("Lozi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lrc',
+        "lrc",
         # Translators: Language name for ISO code "lrc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luri (Northern)'),
+        _("Luri (Northern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lt',
+        "lt",
         # Translators: Language name for ISO code "lt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lithuanian'),
+        _("Lithuanian"),
         3,
-        '(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2)',
+        "(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2)",
     ),
     (
-        'ltg',
+        "ltg",
         # Translators: Language name for ISO code "ltg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Latgalian'),
+        _("Latgalian"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2",
     ),
     (
-        'lu',
+        "lu",
         # Translators: Language name for ISO code "lu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luba-Katanga'),
+        _("Luba-Katanga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lua',
+        "lua",
         # Translators: Language name for ISO code "lua". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luba-Lulua'),
+        _("Luba-Lulua"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lui',
+        "lui",
         # Translators: Language name for ISO code "lui". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luiseno'),
+        _("Luiseno"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lun',
+        "lun",
         # Translators: Language name for ISO code "lun". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lunda'),
+        _("Lunda"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'luo',
+        "luo",
         # Translators: Language name for ISO code "luo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luo (Kenya and Tanzania)'),
+        _("Luo (Kenya and Tanzania)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lus',
+        "lus",
         # Translators: Language name for ISO code "lus". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lushai'),
+        _("Lushai"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'luy',
+        "luy",
         # Translators: Language name for ISO code "luy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luyia'),
+        _("Luyia"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'luz',
+        "luz",
         # Translators: Language name for ISO code "luz". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Luri (Southern)'),
+        _("Luri (Southern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'lv',
+        "lv",
         # Translators: Language name for ISO code "lv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Latvian'),
+        _("Latvian"),
         3,
-        '(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)',
+        "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)",
     ),
     (
-        'lv@formal',
+        "lv@formal",
         # Translators: Language name for ISO code "lv@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Latvian (formal)'),
+        _("Latvian (formal)"),
         3,
-        '(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)',
+        "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)",
     ),
     (
-        'lv@informal',
+        "lv@informal",
         # Translators: Language name for ISO code "lv@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Latvian (informal)'),
+        _("Latvian (informal)"),
         3,
-        '(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)',
+        "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)",
     ),
     (
-        'lzh',
+        "lzh",
         # Translators: Language name for ISO code "lzh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Literary Chinese'),
+        _("Literary Chinese"),
         1,
-        '0',
+        "0",
     ),
     (
-        'mad',
+        "mad",
         # Translators: Language name for ISO code "mad". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Madurese'),
+        _("Madurese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mag',
+        "mag",
         # Translators: Language name for ISO code "mag". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Magahi'),
+        _("Magahi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mai',
+        "mai",
         # Translators: Language name for ISO code "mai". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Maithili'),
+        _("Maithili"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mak',
+        "mak",
         # Translators: Language name for ISO code "mak". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Makasar'),
+        _("Makasar"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'man',
+        "man",
         # Translators: Language name for ISO code "man". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mandingo'),
+        _("Mandingo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mas',
+        "mas",
         # Translators: Language name for ISO code "mas". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Masai'),
+        _("Masai"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mdf',
+        "mdf",
         # Translators: Language name for ISO code "mdf". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Moksha'),
+        _("Moksha"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mdh',
+        "mdh",
         # Translators: Language name for ISO code "mdh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Maguindanaon'),
+        _("Maguindanaon"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mdr',
+        "mdr",
         # Translators: Language name for ISO code "mdr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mandar'),
+        _("Mandar"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'men',
+        "men",
         # Translators: Language name for ISO code "men". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mende (Sierra Leone)'),
+        _("Mende (Sierra Leone)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mer',
+        "mer",
         # Translators: Language name for ISO code "mer". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Meru'),
+        _("Meru"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mfa',
+        "mfa",
         # Translators: Language name for ISO code "mfa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Malay (Pattani)'),
+        _("Malay (Pattani)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mfe',
+        "mfe",
         # Translators: Language name for ISO code "mfe". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Morisyen'),
+        _("Morisyen"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'mg',
+        "mg",
         # Translators: Language name for ISO code "mg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Malagasy'),
+        _("Malagasy"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'mga',
+        "mga",
         # Translators: Language name for ISO code "mga". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Irish (Middle)'),
+        _("Irish (Middle)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mgh',
+        "mgh",
         # Translators: Language name for ISO code "mgh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Makhuwa-Meetto'),
+        _("Makhuwa-Meetto"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mgo',
+        "mgo",
         # Translators: Language name for ISO code "mgo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Metaʼ'),
+        _("Metaʼ"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mh',
+        "mh",
         # Translators: Language name for ISO code "mh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Marshallese'),
+        _("Marshallese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mhr',
+        "mhr",
         # Translators: Language name for ISO code "mhr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Meadow Mari'),
+        _("Meadow Mari"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mi',
+        "mi",
         # Translators: Language name for ISO code "mi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Maori'),
+        _("Maori"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'mia',
+        "mia",
         # Translators: Language name for ISO code "mia". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Miami'),
+        _("Miami"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'mic',
+        "mic",
         # Translators: Language name for ISO code "mic". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mi\'kmaq'),
+        _("Mi'kmaq"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'min',
+        "min",
         # Translators: Language name for ISO code "min". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Minangkabau'),
+        _("Minangkabau"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mjw',
+        "mjw",
         # Translators: Language name for ISO code "mjw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Karbi'),
+        _("Karbi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mk',
+        "mk",
         # Translators: Language name for ISO code "mk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Macedonian'),
+        _("Macedonian"),
         2,
-        'n==1 || n%10==1 ? 0 : 1',
+        "n==1 || n%10==1 ? 0 : 1",
     ),
     (
-        'ml',
+        "ml",
         # Translators: Language name for ISO code "ml". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Malayalam'),
+        _("Malayalam"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mn',
+        "mn",
         # Translators: Language name for ISO code "mn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mongolian'),
+        _("Mongolian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mnc',
+        "mnc",
         # Translators: Language name for ISO code "mnc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Manchu'),
+        _("Manchu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mni',
+        "mni",
         # Translators: Language name for ISO code "mni". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Manipuri'),
+        _("Manipuri"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mnk',
+        "mnk",
         # Translators: Language name for ISO code "mnk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mandinka'),
+        _("Mandinka"),
         3,
-        'n==0 ? 0 : n==1 ? 1 : 2',
+        "n==0 ? 0 : n==1 ? 1 : 2",
     ),
     (
-        'mnw',
+        "mnw",
         # Translators: Language name for ISO code "mnw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mon'),
+        _("Mon"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'moe',
+        "moe",
         # Translators: Language name for ISO code "moe". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Innu'),
+        _("Innu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'moh',
+        "moh",
         # Translators: Language name for ISO code "moh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mohawk'),
+        _("Mohawk"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mos',
+        "mos",
         # Translators: Language name for ISO code "mos". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mossi'),
+        _("Mossi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mr',
+        "mr",
         # Translators: Language name for ISO code "mr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Marathi'),
+        _("Marathi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mrh',
+        "mrh",
         # Translators: Language name for ISO code "mrh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mara'),
+        _("Mara"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ms',
+        "ms",
         # Translators: Language name for ISO code "ms". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Malay'),
+        _("Malay"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ms_Arab',
+        "ms_Arab",
         # Translators: Language name for ISO code "ms_Arab". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Malay (Jawi)'),
+        _("Malay (Jawi)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'mt',
+        "mt",
         # Translators: Language name for ISO code "mt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Maltese'),
+        _("Maltese"),
         4,
-        'n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3',
+        "n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3",
     ),
     (
-        'mtr',
+        "mtr",
         # Translators: Language name for ISO code "mtr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mewari'),
+        _("Mewari"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mus',
+        "mus",
         # Translators: Language name for ISO code "mus". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Creek'),
+        _("Creek"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mwk',
+        "mwk",
         # Translators: Language name for ISO code "mwk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Maninkakan'),
-         Kita,
-        '2',
+        _("Maninkakan (Kita)"),
+        2,
+        "n != 1",
     ),
     (
-        'mwl',
+        "mwl",
         # Translators: Language name for ISO code "mwl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mirandese'),
+        _("Mirandese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mwr',
+        "mwr",
         # Translators: Language name for ISO code "mwr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Marwari'),
+        _("Marwari"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mxc',
+        "mxc",
         # Translators: Language name for ISO code "mxc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Manyika'),
+        _("Manyika"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'my',
+        "my",
         # Translators: Language name for ISO code "my". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Burmese'),
+        _("Burmese"),
         1,
-        '0',
+        "0",
     ),
     (
-        'my@Zawgyi',
+        "my@Zawgyi",
         # Translators: Language name for ISO code "my@Zawgyi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Burmese (Zawgyi)'),
+        _("Burmese (Zawgyi)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'myv',
+        "myv",
         # Translators: Language name for ISO code "myv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Erzya'),
+        _("Erzya"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'myx',
+        "myx",
         # Translators: Language name for ISO code "myx". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Masaaba'),
+        _("Masaaba"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'mzn',
+        "mzn",
         # Translators: Language name for ISO code "mzn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mazanderani'),
+        _("Mazanderani"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'na',
+        "na",
         # Translators: Language name for ISO code "na". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nauru'),
+        _("Nauru"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nah',
+        "nah",
         # Translators: Language name for ISO code "nah". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nahuatl'),
+        _("Nahuatl"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nan_Hant',
+        "nan_Hant",
         # Translators: Language name for ISO code "nan_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Minnan (Traditional Han script)'),
+        _("Minnan (Traditional Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'nan_Latn_pehoeji',
+        "nan_Latn_pehoeji",
         # Translators: Language name for ISO code "nan_Latn_pehoeji". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Minnan (Pe̍h-ōe-jī)'),
+        _("Minnan (Pe̍h-ōe-jī)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'nan_Latn_tailo',
+        "nan_Latn_tailo",
         # Translators: Language name for ISO code "nan_Latn_tailo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Minnan (Tâi-lô)'),
+        _("Minnan (Tâi-lô)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'nap',
+        "nap",
         # Translators: Language name for ISO code "nap". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Neapolitan'),
+        _("Neapolitan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'naq',
+        "naq",
         # Translators: Language name for ISO code "naq". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nama'),
+        _("Nama"),
         3,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
-        'nb_NO',
+        "nb_NO",
         # Translators: Language name for ISO code "nb_NO". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Norwegian Bokmål'),
+        _("Norwegian Bokmål"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nd',
+        "nd",
         # Translators: Language name for ISO code "nd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ndebele (Northern)'),
+        _("Ndebele (Northern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ndc',
+        "ndc",
         # Translators: Language name for ISO code "ndc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ndau'),
+        _("Ndau"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nds',
+        "nds",
         # Translators: Language name for ISO code "nds". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German (Low)'),
+        _("German (Low)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ne',
+        "ne",
         # Translators: Language name for ISO code "ne". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nepali'),
+        _("Nepali"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'new',
+        "new",
         # Translators: Language name for ISO code "new". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Newari'),
+        _("Newari"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ng',
+        "ng",
         # Translators: Language name for ISO code "ng". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ndonga'),
+        _("Ndonga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ngl',
+        "ngl",
         # Translators: Language name for ISO code "ngl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Lomwe'),
+        _("Lomwe"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nia',
+        "nia",
         # Translators: Language name for ISO code "nia". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nias'),
+        _("Nias"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nij',
+        "nij",
         # Translators: Language name for ISO code "nij". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ngaju'),
+        _("Ngaju"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'niu',
+        "niu",
         # Translators: Language name for ISO code "niu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Niuean'),
+        _("Niuean"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nl',
+        "nl",
         # Translators: Language name for ISO code "nl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dutch'),
+        _("Dutch"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nl@formal',
+        "nl@formal",
         # Translators: Language name for ISO code "nl@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dutch (formal)'),
+        _("Dutch (formal)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nl@informal',
+        "nl@informal",
         # Translators: Language name for ISO code "nl@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dutch (informal)'),
+        _("Dutch (informal)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nl_BE',
+        "nl_BE",
         # Translators: Language name for ISO code "nl_BE". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Dutch (Belgium)'),
+        _("Dutch (Belgium)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nn',
+        "nn",
         # Translators: Language name for ISO code "nn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Norwegian Nynorsk'),
+        _("Norwegian Nynorsk"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nnh',
+        "nnh",
         # Translators: Language name for ISO code "nnh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ngiemboon'),
+        _("Ngiemboon"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nod',
+        "nod",
         # Translators: Language name for ISO code "nod". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Thai (Northern)'),
+        _("Thai (Northern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'noe',
+        "noe",
         # Translators: Language name for ISO code "noe". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nimadi'),
+        _("Nimadi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nog',
+        "nog",
         # Translators: Language name for ISO code "nog". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nogai'),
+        _("Nogai"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'non',
+        "non",
         # Translators: Language name for ISO code "non". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Norse (Old)'),
+        _("Norse (Old)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nqo',
+        "nqo",
         # Translators: Language name for ISO code "nqo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('N’Ko'),
+        _("N’Ko"),
         1,
-        '0',
+        "0",
     ),
     (
-        'nr',
+        "nr",
         # Translators: Language name for ISO code "nr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ndebele (Southern)'),
+        _("Ndebele (Southern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nso',
+        "nso",
         # Translators: Language name for ISO code "nso". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Pedi'),
+        _("Pedi"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'nuk',
+        "nuk",
         # Translators: Language name for ISO code "nuk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nuu-chah-nulth'),
+        _("Nuu-chah-nulth"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nv',
+        "nv",
         # Translators: Language name for ISO code "nv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Navaho'),
+        _("Navaho"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nwc',
+        "nwc",
         # Translators: Language name for ISO code "nwc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Newari (Classical)'),
+        _("Newari (Classical)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ny',
+        "ny",
         # Translators: Language name for ISO code "ny". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nyanja'),
+        _("Nyanja"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nym',
+        "nym",
         # Translators: Language name for ISO code "nym". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nyamwezi'),
+        _("Nyamwezi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nyn',
+        "nyn",
         # Translators: Language name for ISO code "nyn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nyankole'),
+        _("Nyankole"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nyo',
+        "nyo",
         # Translators: Language name for ISO code "nyo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nyoro'),
+        _("Nyoro"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'nzi',
+        "nzi",
         # Translators: Language name for ISO code "nzi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Nzima'),
+        _("Nzima"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'oc',
+        "oc",
         # Translators: Language name for ISO code "oc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Occitan'),
+        _("Occitan"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'oj',
+        "oj",
         # Translators: Language name for ISO code "oj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ojibwe'),
+        _("Ojibwe"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'om',
+        "om",
         # Translators: Language name for ISO code "om". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Oromo'),
+        _("Oromo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'or',
+        "or",
         # Translators: Language name for ISO code "or". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Odia'),
+        _("Odia"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'os',
+        "os",
         # Translators: Language name for ISO code "os". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ossetian'),
+        _("Ossetian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'osa',
+        "osa",
         # Translators: Language name for ISO code "osa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Osage'),
+        _("Osage"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ota',
+        "ota",
         # Translators: Language name for ISO code "ota". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Turkish (Ottoman)'),
+        _("Turkish (Ottoman)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'otk',
+        "otk",
         # Translators: Language name for ISO code "otk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kokturk'),
+        _("Kokturk"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ovd',
+        "ovd",
         # Translators: Language name for ISO code "ovd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Elfdalian'),
+        _("Elfdalian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pa',
+        "pa",
         # Translators: Language name for ISO code "pa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Punjabi'),
+        _("Punjabi"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pa_PK',
+        "pa_PK",
         # Translators: Language name for ISO code "pa_PK". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Punjabi (Pakistan)'),
+        _("Punjabi (Pakistan)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pag',
+        "pag",
         # Translators: Language name for ISO code "pag". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Pangasinan'),
+        _("Pangasinan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pal',
+        "pal",
         # Translators: Language name for ISO code "pal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Pahlavi'),
+        _("Pahlavi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pam',
+        "pam",
         # Translators: Language name for ISO code "pam". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Pampanga'),
+        _("Pampanga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pap',
+        "pap",
         # Translators: Language name for ISO code "pap". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Papiamento'),
+        _("Papiamento"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pau',
+        "pau",
         # Translators: Language name for ISO code "pau". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Palauan'),
+        _("Palauan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pbb',
+        "pbb",
         # Translators: Language name for ISO code "pbb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Páez'),
+        _("Páez"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pcm',
+        "pcm",
         # Translators: Language name for ISO code "pcm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Pidgin (Nigeria)'),
+        _("Pidgin (Nigeria)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pdt',
+        "pdt",
         # Translators: Language name for ISO code "pdt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Plautdietsch'),
+        _("Plautdietsch"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'peo',
+        "peo",
         # Translators: Language name for ISO code "peo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Persian (Old)'),
+        _("Persian (Old)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'phn',
+        "phn",
         # Translators: Language name for ISO code "phn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Phoenician'),
+        _("Phoenician"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pi',
+        "pi",
         # Translators: Language name for ISO code "pi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Pali'),
+        _("Pali"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pl',
+        "pl",
         # Translators: Language name for ISO code "pl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Polish'),
+        _("Polish"),
         3,
-        'n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'pl@formal',
+        "pl@formal",
         # Translators: Language name for ISO code "pl@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Polish (formal)'),
+        _("Polish (formal)"),
         3,
-        'n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'pl@informal',
+        "pl@informal",
         # Translators: Language name for ISO code "pl@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Polish (informal)'),
+        _("Polish (informal)"),
         3,
-        'n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'pms',
+        "pms",
         # Translators: Language name for ISO code "pms". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Piemontese'),
+        _("Piemontese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pon',
+        "pon",
         # Translators: Language name for ISO code "pon". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Pohnpeian'),
+        _("Pohnpeian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'prg',
+        "prg",
         # Translators: Language name for ISO code "prg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Prussian'),
+        _("Prussian"),
         3,
-        '(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)',
+        "(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)",
     ),
     (
-        'pro',
+        "pro",
         # Translators: Language name for ISO code "pro". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Provençal (Old)'),
+        _("Provençal (Old)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ps',
+        "ps",
         # Translators: Language name for ISO code "ps". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Pashto'),
+        _("Pashto"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'pt',
+        "pt",
         # Translators: Language name for ISO code "pt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Portuguese'),
+        _("Portuguese"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pt@formal',
+        "pt@formal",
         # Translators: Language name for ISO code "pt@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Portuguese (formal)'),
+        _("Portuguese (formal)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pt@informal',
+        "pt@informal",
         # Translators: Language name for ISO code "pt@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Portuguese (informal)'),
+        _("Portuguese (informal)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pt_AO',
+        "pt_AO",
         # Translators: Language name for ISO code "pt_AO". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Portuguese (Angola)'),
+        _("Portuguese (Angola)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pt_BR',
+        "pt_BR",
         # Translators: Language name for ISO code "pt_BR". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Portuguese (Brazil)'),
+        _("Portuguese (Brazil)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pt_BR@formal',
+        "pt_BR@formal",
         # Translators: Language name for ISO code "pt_BR@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Portuguese (Brazil, formal)'),
+        _("Portuguese (Brazil, formal)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pt_BR@informal',
+        "pt_BR@informal",
         # Translators: Language name for ISO code "pt_BR@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Portuguese (Brazil, informal)'),
+        _("Portuguese (Brazil, informal)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pt_PT',
+        "pt_PT",
         # Translators: Language name for ISO code "pt_PT". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Portuguese (Portugal)'),
+        _("Portuguese (Portugal)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'pwn',
+        "pwn",
         # Translators: Language name for ISO code "pwn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Paiwan'),
+        _("Paiwan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'qdt',
+        "qdt",
         # Translators: Language name for ISO code "qdt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Eskimo (Pacific Coast Alaskan)'),
+        _("Eskimo (Pacific Coast Alaskan)"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'qtp',
+        "qtp",
         # Translators: Language name for ISO code "qtp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Gayón'),
+        _("Gayón"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'qu',
+        "qu",
         # Translators: Language name for ISO code "qu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Quechua'),
+        _("Quechua"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'qu_EC',
+        "qu_EC",
         # Translators: Language name for ISO code "qu_EC". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Quechua (Ecuador)'),
+        _("Quechua (Ecuador)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'quc',
+        "quc",
         # Translators: Language name for ISO code "quc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('K\'iche\''),
+        _("K'iche'"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'qug',
+        "qug",
         # Translators: Language name for ISO code "qug". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Quichua'),
-         Chimborazo Highland,
-        '2',
+        _("Quichua (Chimborazo Highland)"),
+        2,
+        "n != 1",
     ),
     (
-        'qya',
+        "qya",
         # Translators: Language name for ISO code "qya". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Quenya'),
+        _("Quenya"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'raj',
+        "raj",
         # Translators: Language name for ISO code "raj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rajasthani'),
+        _("Rajasthani"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rap',
+        "rap",
         # Translators: Language name for ISO code "rap". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rapanui'),
+        _("Rapanui"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rar',
+        "rar",
         # Translators: Language name for ISO code "rar". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rarotongan'),
+        _("Rarotongan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rcf',
+        "rcf",
         # Translators: Language name for ISO code "rcf". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Réunion Creole'),
+        _("Réunion Creole"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rej',
+        "rej",
         # Translators: Language name for ISO code "rej". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rejang'),
+        _("Rejang"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rhg',
+        "rhg",
         # Translators: Language name for ISO code "rhg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rohingya'),
+        _("Rohingya"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rif',
+        "rif",
         # Translators: Language name for ISO code "rif". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tarifit'),
+        _("Tarifit"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rkt',
+        "rkt",
         # Translators: Language name for ISO code "rkt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rangpuri'),
+        _("Rangpuri"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rm',
+        "rm",
         # Translators: Language name for ISO code "rm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Romansh'),
+        _("Romansh"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rmt',
+        "rmt",
         # Translators: Language name for ISO code "rmt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Domari'),
+        _("Domari"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rn',
+        "rn",
         # Translators: Language name for ISO code "rn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rundi'),
+        _("Rundi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rng',
+        "rng",
         # Translators: Language name for ISO code "rng". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ronga'),
+        _("Ronga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ro',
+        "ro",
         # Translators: Language name for ISO code "ro". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Romanian'),
+        _("Romanian"),
         3,
-        'n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2',
+        "n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2",
     ),
     (
-        'ro_MD',
+        "ro_MD",
         # Translators: Language name for ISO code "ro_MD". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Moldavian'),
+        _("Moldavian"),
         3,
-        '(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2)",
     ),
     (
-        'rof',
+        "rof",
         # Translators: Language name for ISO code "rof". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rombo'),
+        _("Rombo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rom',
+        "rom",
         # Translators: Language name for ISO code "rom". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Romany'),
+        _("Romany"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ru',
+        "ru",
         # Translators: Language name for ISO code "ru". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Russian'),
+        _("Russian"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'ru@formal',
+        "ru@formal",
         # Translators: Language name for ISO code "ru@formal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Russian (formal)'),
+        _("Russian (formal)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'ru@informal',
+        "ru@informal",
         # Translators: Language name for ISO code "ru@informal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Russian (informal)'),
+        _("Russian (informal)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'ru_UA',
+        "ru_UA",
         # Translators: Language name for ISO code "ru_UA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Russian (Ukraine)'),
+        _("Russian (Ukraine)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'rue',
+        "rue",
         # Translators: Language name for ISO code "rue". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rusyn'),
+        _("Rusyn"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rup',
+        "rup",
         # Translators: Language name for ISO code "rup". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Macedo-Romanian'),
+        _("Macedo-Romanian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rw',
+        "rw",
         # Translators: Language name for ISO code "rw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kinyarwanda'),
+        _("Kinyarwanda"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'rwk',
+        "rwk",
         # Translators: Language name for ISO code "rwk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Rwa'),
+        _("Rwa"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sa',
+        "sa",
         # Translators: Language name for ISO code "sa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sanskrit'),
+        _("Sanskrit"),
         3,
-        'n==1 ? 0 : n==2 ? 1 : 2',
+        "n==1 ? 0 : n==2 ? 1 : 2",
     ),
     (
-        'sad',
+        "sad",
         # Translators: Language name for ISO code "sad". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sandawe'),
+        _("Sandawe"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sah',
+        "sah",
         # Translators: Language name for ISO code "sah". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Yakut'),
+        _("Yakut"),
         1,
-        '0',
+        "0",
     ),
     (
-        'sai',
+        "sai",
         # Translators: Language name for ISO code "sai". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('South American Indian (Other)'),
+        _("South American Indian (Other)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sam',
+        "sam",
         # Translators: Language name for ISO code "sam". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Samaritan Aramaic'),
+        _("Samaritan Aramaic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'saq',
+        "saq",
         # Translators: Language name for ISO code "saq". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Samburu'),
+        _("Samburu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sas',
+        "sas",
         # Translators: Language name for ISO code "sas". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sasak'),
+        _("Sasak"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sat',
+        "sat",
         # Translators: Language name for ISO code "sat". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Santali'),
+        _("Santali"),
         3,
-        'n == 1 ? 0 : n == 2 ? 1 : 2',
+        "n == 1 ? 0 : n == 2 ? 1 : 2",
     ),
     (
-        'sc',
+        "sc",
         # Translators: Language name for ISO code "sc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sardinian'),
+        _("Sardinian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sck',
+        "sck",
         # Translators: Language name for ISO code "sck". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sadri'),
+        _("Sadri"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'scn',
+        "scn",
         # Translators: Language name for ISO code "scn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sicilian'),
+        _("Sicilian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sco',
+        "sco",
         # Translators: Language name for ISO code "sco". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Scots'),
+        _("Scots"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sd',
+        "sd",
         # Translators: Language name for ISO code "sd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sindhi'),
+        _("Sindhi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sdh',
+        "sdh",
         # Translators: Language name for ISO code "sdh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kurdish (Southern)'),
+        _("Kurdish (Southern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'se',
+        "se",
         # Translators: Language name for ISO code "se". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sami (Northern)'),
+        _("Sami (Northern)"),
         3,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
-        'sef',
+        "sef",
         # Translators: Language name for ISO code "sef". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Senoufo (Cebaara)'),
+        _("Senoufo (Cebaara)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'seh',
+        "seh",
         # Translators: Language name for ISO code "seh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sena'),
+        _("Sena"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sel',
+        "sel",
         # Translators: Language name for ISO code "sel". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Selkup'),
+        _("Selkup"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ses',
+        "ses",
         # Translators: Language name for ISO code "ses". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Koyraboro Senni'),
+        _("Koyraboro Senni"),
         1,
-        '0',
+        "0",
     ),
     (
-        'sg',
+        "sg",
         # Translators: Language name for ISO code "sg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sango'),
+        _("Sango"),
         1,
-        '0',
+        "0",
     ),
     (
-        'sga',
+        "sga",
         # Translators: Language name for ISO code "sga". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Irish (Old)'),
+        _("Irish (Old)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sgn',
+        "sgn",
         # Translators: Language name for ISO code "sgn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sign Languages'),
+        _("Sign Languages"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sgs',
+        "sgs",
         # Translators: Language name for ISO code "sgs". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Samogitian'),
+        _("Samogitian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'shi',
+        "shi",
         # Translators: Language name for ISO code "shi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tachelhit'),
+        _("Tachelhit"),
         3,
-        '(n == 0 || n == 1) ? 0 : ((n >= 2 && n <= 10) ? 1 : 2)',
+        "(n == 0 || n == 1) ? 0 : ((n >= 2 && n <= 10) ? 1 : 2)",
     ),
     (
-        'shn',
+        "shn",
         # Translators: Language name for ISO code "shn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Shan'),
+        _("Shan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'si',
+        "si",
         # Translators: Language name for ISO code "si". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sinhala'),
+        _("Sinhala"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'sid',
+        "sid",
         # Translators: Language name for ISO code "sid". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sidamo'),
+        _("Sidamo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sjd',
+        "sjd",
         # Translators: Language name for ISO code "sjd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sami (Kildin)'),
+        _("Sami (Kildin)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sk',
+        "sk",
         # Translators: Language name for ISO code "sk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Slovak'),
+        _("Slovak"),
         3,
-        '(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2',
+        "(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2",
     ),
     (
-        'skr',
+        "skr",
         # Translators: Language name for ISO code "skr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Saraiki'),
+        _("Saraiki"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sl',
+        "sl",
         # Translators: Language name for ISO code "sl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Slovenian'),
+        _("Slovenian"),
         4,
-        'n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3',
+        "n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3",
     ),
     (
-        'sm',
+        "sm",
         # Translators: Language name for ISO code "sm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Samoan'),
+        _("Samoan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sma',
+        "sma",
         # Translators: Language name for ISO code "sma". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sami (Southern)'),
+        _("Sami (Southern)"),
         3,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
-        'smi',
+        "smi",
         # Translators: Language name for ISO code "smi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sami'),
+        _("Sami"),
         3,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
-        'smj',
+        "smj",
         # Translators: Language name for ISO code "smj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sami (Lule)'),
+        _("Sami (Lule)"),
         3,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
-        'sml',
+        "sml",
         # Translators: Language name for ISO code "sml". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sama (Central)'),
+        _("Sama (Central)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'smn',
+        "smn",
         # Translators: Language name for ISO code "smn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sami (Inari)'),
+        _("Sami (Inari)"),
         3,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
-        'sms',
+        "sms",
         # Translators: Language name for ISO code "sms". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sami (Skolt)'),
+        _("Sami (Skolt)"),
         3,
-        '(n == 1) ? 0 : ((n == 2) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
-        'sn',
+        "sn",
         # Translators: Language name for ISO code "sn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Shona'),
+        _("Shona"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'snk',
+        "snk",
         # Translators: Language name for ISO code "snk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Soninke'),
+        _("Soninke"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'so',
+        "so",
         # Translators: Language name for ISO code "so". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Somali'),
+        _("Somali"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sog',
+        "sog",
         # Translators: Language name for ISO code "sog". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sogdian'),
+        _("Sogdian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'son',
+        "son",
         # Translators: Language name for ISO code "son". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Songhai'),
+        _("Songhai"),
         1,
-        '0',
+        "0",
     ),
     (
-        'sou',
+        "sou",
         # Translators: Language name for ISO code "sou". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Thai (Southern)'),
+        _("Thai (Southern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sq',
+        "sq",
         # Translators: Language name for ISO code "sq". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Albanian'),
+        _("Albanian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sr',
+        "sr",
         # Translators: Language name for ISO code "sr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Serbian'),
+        _("Serbian"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'sr@ijekavian',
+        "sr@ijekavian",
         # Translators: Language name for ISO code "sr@ijekavian". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Serbian (Ijekavian)'),
+        _("Serbian (Ijekavian)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'sr@ijekavian_Latn',
+        "sr@ijekavian_Latn",
         # Translators: Language name for ISO code "sr@ijekavian_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Serbian (Ijekavian, latin)'),
+        _("Serbian (Ijekavian, latin)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'sr_Cyrl',
+        "sr_Cyrl",
         # Translators: Language name for ISO code "sr_Cyrl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Serbian (Cyrillic script)'),
+        _("Serbian (Cyrillic script)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'sr_Latn',
+        "sr_Latn",
         # Translators: Language name for ISO code "sr_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Serbian (Latin script)'),
+        _("Serbian (Latin script)"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'srn',
+        "srn",
         # Translators: Language name for ISO code "srn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sranan Tongo'),
+        _("Sranan Tongo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'srr',
+        "srr",
         # Translators: Language name for ISO code "srr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Serer'),
+        _("Serer"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ss',
+        "ss",
         # Translators: Language name for ISO code "ss". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Swati'),
+        _("Swati"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ssy',
+        "ssy",
         # Translators: Language name for ISO code "ssy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Saho'),
+        _("Saho"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'st',
+        "st",
         # Translators: Language name for ISO code "st". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sotho (Southern)'),
+        _("Sotho (Southern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'su',
+        "su",
         # Translators: Language name for ISO code "su". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sundanese'),
+        _("Sundanese"),
         1,
-        '0',
+        "0",
     ),
     (
-        'suk',
+        "suk",
         # Translators: Language name for ISO code "suk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sukuma'),
+        _("Sukuma"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sus',
+        "sus",
         # Translators: Language name for ISO code "sus". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Susu'),
+        _("Susu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sux',
+        "sux",
         # Translators: Language name for ISO code "sux". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sumerian'),
+        _("Sumerian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sv',
+        "sv",
         # Translators: Language name for ISO code "sv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Swedish'),
+        _("Swedish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sw',
+        "sw",
         # Translators: Language name for ISO code "sw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Swahili'),
+        _("Swahili"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sw_CD',
+        "sw_CD",
         # Translators: Language name for ISO code "sw_CD". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Swahili (Congo)'),
+        _("Swahili (Congo)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sw_TZ',
+        "sw_TZ",
         # Translators: Language name for ISO code "sw_TZ". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Swahili (Tanzania)'),
+        _("Swahili (Tanzania)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'swg',
+        "swg",
         # Translators: Language name for ISO code "swg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Swabian'),
+        _("Swabian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'swv',
+        "swv",
         # Translators: Language name for ISO code "swv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Shekhawati'),
+        _("Shekhawati"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'sxu',
+        "sxu",
         # Translators: Language name for ISO code "sxu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Saxon (Upper)'),
+        _("Saxon (Upper)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'syc',
+        "syc",
         # Translators: Language name for ISO code "syc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Syriac (Classical)'),
+        _("Syriac (Classical)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'syl',
+        "syl",
         # Translators: Language name for ISO code "syl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sylheti'),
+        _("Sylheti"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'syr',
+        "syr",
         # Translators: Language name for ISO code "syr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Syriac'),
+        _("Syriac"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'szl',
+        "szl",
         # Translators: Language name for ISO code "szl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Silesian'),
+        _("Silesian"),
         3,
-        'n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'szy',
+        "szy",
         # Translators: Language name for ISO code "szy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sakizaya'),
+        _("Sakizaya"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ta',
+        "ta",
         # Translators: Language name for ISO code "ta". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tamil'),
+        _("Tamil"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ta_LK',
+        "ta_LK",
         # Translators: Language name for ISO code "ta_LK". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tamil (Sri Lanka)'),
+        _("Tamil (Sri Lanka)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tay',
+        "tay",
         # Translators: Language name for ISO code "tay". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Atayal'),
+        _("Atayal"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tcy',
+        "tcy",
         # Translators: Language name for ISO code "tcy". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tulu'),
+        _("Tulu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'te',
+        "te",
         # Translators: Language name for ISO code "te". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Telugu'),
+        _("Telugu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tem',
+        "tem",
         # Translators: Language name for ISO code "tem". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Timne'),
+        _("Timne"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'teo',
+        "teo",
         # Translators: Language name for ISO code "teo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Teso'),
+        _("Teso"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ter',
+        "ter",
         # Translators: Language name for ISO code "ter". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tereno'),
+        _("Tereno"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tet',
+        "tet",
         # Translators: Language name for ISO code "tet". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tetum'),
+        _("Tetum"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tg',
+        "tg",
         # Translators: Language name for ISO code "tg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tajik'),
+        _("Tajik"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'th',
+        "th",
         # Translators: Language name for ISO code "th". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Thai'),
+        _("Thai"),
         1,
-        '0',
+        "0",
     ),
     (
-        'ti',
+        "ti",
         # Translators: Language name for ISO code "ti". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tigrinya'),
+        _("Tigrinya"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'tig',
+        "tig",
         # Translators: Language name for ISO code "tig". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tigre'),
+        _("Tigre"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tiv',
+        "tiv",
         # Translators: Language name for ISO code "tiv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tiv'),
+        _("Tiv"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tk',
+        "tk",
         # Translators: Language name for ISO code "tk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Turkmen'),
+        _("Turkmen"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tkl',
+        "tkl",
         # Translators: Language name for ISO code "tkl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tokelau'),
+        _("Tokelau"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tl',
+        "tl",
         # Translators: Language name for ISO code "tl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tagalog'),
+        _("Tagalog"),
         2,
-        'n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)',
+        "n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)",
     ),
     (
-        'tlh',
+        "tlh",
         # Translators: Language name for ISO code "tlh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Klingon'),
+        _("Klingon"),
         1,
-        '0',
+        "0",
     ),
     (
-        'tlh_Qaak',
+        "tlh_Qaak",
         # Translators: Language name for ISO code "tlh_Qaak". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Klingon (pIqaD)'),
+        _("Klingon (pIqaD)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'tli',
+        "tli",
         # Translators: Language name for ISO code "tli". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tlingit'),
+        _("Tlingit"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tly',
+        "tly",
         # Translators: Language name for ISO code "tly". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Talysh'),
+        _("Talysh"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tmh',
+        "tmh",
         # Translators: Language name for ISO code "tmh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tamashek'),
+        _("Tamashek"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tn',
+        "tn",
         # Translators: Language name for ISO code "tn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tswana'),
+        _("Tswana"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'to',
+        "to",
         # Translators: Language name for ISO code "to". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tongan'),
+        _("Tongan"),
         1,
-        '0',
+        "0",
     ),
     (
-        'tog',
+        "tog",
         # Translators: Language name for ISO code "tog". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tonga (Nyasa)'),
+        _("Tonga (Nyasa)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tok',
+        "tok",
         # Translators: Language name for ISO code "tok". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Toki Pona'),
+        _("Toki Pona"),
         1,
-        '0',
+        "0",
     ),
     (
-        'tpi',
+        "tpi",
         # Translators: Language name for ISO code "tpi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tok Pisin'),
+        _("Tok Pisin"),
         1,
-        '0',
+        "0",
     ),
     (
-        'tr',
+        "tr",
         # Translators: Language name for ISO code "tr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Turkish'),
+        _("Turkish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'trv',
+        "trv",
         # Translators: Language name for ISO code "trv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Taroko'),
+        _("Taroko"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ts',
+        "ts",
         # Translators: Language name for ISO code "ts". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tsonga'),
+        _("Tsonga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tsg',
+        "tsg",
         # Translators: Language name for ISO code "tsg". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tausug'),
+        _("Tausug"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tsi',
+        "tsi",
         # Translators: Language name for ISO code "tsi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tsimshian'),
+        _("Tsimshian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tsj',
+        "tsj",
         # Translators: Language name for ISO code "tsj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tshangla'),
+        _("Tshangla"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tt',
+        "tt",
         # Translators: Language name for ISO code "tt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tatar'),
+        _("Tatar"),
         1,
-        '0',
+        "0",
     ),
     (
-        'tt@iqtelif',
+        "tt@iqtelif",
         # Translators: Language name for ISO code "tt@iqtelif". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tatar (IQTElif)'),
+        _("Tatar (IQTElif)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'tts',
+        "tts",
         # Translators: Language name for ISO code "tts". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Thai (Northeastern)'),
+        _("Thai (Northeastern)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tum',
+        "tum",
         # Translators: Language name for ISO code "tum". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tumbuka'),
+        _("Tumbuka"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tvl',
+        "tvl",
         # Translators: Language name for ISO code "tvl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tuvalu'),
+        _("Tuvalu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tw',
+        "tw",
         # Translators: Language name for ISO code "tw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Twi'),
+        _("Twi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ty',
+        "ty",
         # Translators: Language name for ISO code "ty". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tahitian'),
+        _("Tahitian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tyv',
+        "tyv",
         # Translators: Language name for ISO code "tyv". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tuvinian'),
+        _("Tuvinian"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tzj',
+        "tzj",
         # Translators: Language name for ISO code "tzj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tz\'utujil'),
+        _("Tz'utujil"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tzl',
+        "tzl",
         # Translators: Language name for ISO code "tzl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Talossan'),
+        _("Talossan"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'tzm',
+        "tzm",
         # Translators: Language name for ISO code "tzm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tamazight (Central Atlas)'),
+        _("Tamazight (Central Atlas)"),
         2,
-        'n >= 2 && (n < 11 || n > 99)',
+        "n >= 2 && (n < 11 || n > 99)",
     ),
     (
-        'udm',
+        "udm",
         # Translators: Language name for ISO code "udm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Udmurt'),
+        _("Udmurt"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ug',
+        "ug",
         # Translators: Language name for ISO code "ug". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Uyghur'),
+        _("Uyghur"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'uga',
+        "uga",
         # Translators: Language name for ISO code "uga". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ugaritic'),
+        _("Ugaritic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'uk',
+        "uk",
         # Translators: Language name for ISO code "uk". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Ukrainian'),
+        _("Ukrainian"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'umb',
+        "umb",
         # Translators: Language name for ISO code "umb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Umbundu'),
+        _("Umbundu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'und',
+        "und",
         # Translators: Language name for ISO code "und". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Undetermined'),
+        _("Undetermined"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'unr',
+        "unr",
         # Translators: Language name for ISO code "unr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mundari'),
+        _("Mundari"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ur',
+        "ur",
         # Translators: Language name for ISO code "ur". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Urdu'),
+        _("Urdu"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ur_IN',
+        "ur_IN",
         # Translators: Language name for ISO code "ur_IN". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Urdu (India)'),
+        _("Urdu (India)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'ur_PK',
+        "ur_PK",
         # Translators: Language name for ISO code "ur_PK". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Urdu (Pakistan)'),
+        _("Urdu (Pakistan)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'uz',
+        "uz",
         # Translators: Language name for ISO code "uz". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Uzbek'),
+        _("Uzbek"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'uz_Latn',
+        "uz_Latn",
         # Translators: Language name for ISO code "uz_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Uzbek (Latin script)'),
+        _("Uzbek (Latin script)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'vai',
+        "vai",
         # Translators: Language name for ISO code "vai". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Vai'),
+        _("Vai"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        've',
+        "ve",
         # Translators: Language name for ISO code "ve". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Venda'),
+        _("Venda"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'vec',
+        "vec",
         # Translators: Language name for ISO code "vec". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Venetian'),
+        _("Venetian"),
         3,
-        '(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)',
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
-        'vi',
+        "vi",
         # Translators: Language name for ISO code "vi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Vietnamese'),
+        _("Vietnamese"),
         1,
-        '0',
+        "0",
     ),
     (
-        'vls',
+        "vls",
         # Translators: Language name for ISO code "vls". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Flemish (West)'),
+        _("Flemish (West)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'vmf',
+        "vmf",
         # Translators: Language name for ISO code "vmf". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mainfränkisch'),
+        _("Mainfränkisch"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'vmw',
+        "vmw",
         # Translators: Language name for ISO code "vmw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Makhuwa'),
+        _("Makhuwa"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'vo',
+        "vo",
         # Translators: Language name for ISO code "vo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Volapük'),
+        _("Volapük"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'vot',
+        "vot",
         # Translators: Language name for ISO code "vot". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Votic'),
+        _("Votic"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'vro',
+        "vro",
         # Translators: Language name for ISO code "vro". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Võro'),
+        _("Võro"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'vun',
+        "vun",
         # Translators: Language name for ISO code "vun". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Vunjo'),
+        _("Vunjo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'wa',
+        "wa",
         # Translators: Language name for ISO code "wa". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Walloon'),
+        _("Walloon"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'wae',
+        "wae",
         # Translators: Language name for ISO code "wae". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('German (Walser)'),
+        _("German (Walser)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'wal',
+        "wal",
         # Translators: Language name for ISO code "wal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Wolaytta'),
+        _("Wolaytta"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'war',
+        "war",
         # Translators: Language name for ISO code "war". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Waray (Philippines)'),
+        _("Waray (Philippines)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'was',
+        "was",
         # Translators: Language name for ISO code "was". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Washo'),
+        _("Washo"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'wbq',
+        "wbq",
         # Translators: Language name for ISO code "wbq". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Waddar'),
+        _("Waddar"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'wbr',
+        "wbr",
         # Translators: Language name for ISO code "wbr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Wagdi'),
+        _("Wagdi"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'wen',
+        "wen",
         # Translators: Language name for ISO code "wen". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Sorbian'),
+        _("Sorbian"),
         3,
-        'n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2',
+        "n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2",
     ),
     (
-        'wep',
+        "wep",
         # Translators: Language name for ISO code "wep". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Westphalien'),
+        _("Westphalien"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'wo',
+        "wo",
         # Translators: Language name for ISO code "wo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Wolof'),
+        _("Wolof"),
         1,
-        '0',
+        "0",
     ),
     (
-        'wtm',
+        "wtm",
         # Translators: Language name for ISO code "wtm". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Mewati'),
+        _("Mewati"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'wuu_Hans',
+        "wuu_Hans",
         # Translators: Language name for ISO code "wuu_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Wu (Simplified Han script)'),
+        _("Wu (Simplified Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'wuu_Hant',
+        "wuu_Hant",
         # Translators: Language name for ISO code "wuu_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Wu (Traditional Han script)'),
+        _("Wu (Traditional Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'xal',
+        "xal",
         # Translators: Language name for ISO code "xal". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kalmyk'),
+        _("Kalmyk"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'xh',
+        "xh",
         # Translators: Language name for ISO code "xh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Xhosa'),
+        _("Xhosa"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'xnr',
+        "xnr",
         # Translators: Language name for ISO code "xnr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Kangri'),
+        _("Kangri"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'xog',
+        "xog",
         # Translators: Language name for ISO code "xog". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Soga'),
+        _("Soga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'yao',
+        "yao",
         # Translators: Language name for ISO code "yao". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Yao'),
+        _("Yao"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'yap',
+        "yap",
         # Translators: Language name for ISO code "yap". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Yapese'),
+        _("Yapese"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'yi',
+        "yi",
         # Translators: Language name for ISO code "yi". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Yiddish'),
+        _("Yiddish"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'yo',
+        "yo",
         # Translators: Language name for ISO code "yo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Yoruba'),
+        _("Yoruba"),
         1,
-        '0',
+        "0",
     ),
     (
-        'yua',
+        "yua",
         # Translators: Language name for ISO code "yua". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Yucateco'),
+        _("Yucateco"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'yue_Hans',
+        "yue_Hans",
         # Translators: Language name for ISO code "yue_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Cantonese (Simplified Han script)'),
+        _("Cantonese (Simplified Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'yue_Hant',
+        "yue_Hant",
         # Translators: Language name for ISO code "yue_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Cantonese (Traditional Han script)'),
+        _("Cantonese (Traditional Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'za',
+        "za",
         # Translators: Language name for ISO code "za". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Zhuang'),
+        _("Zhuang"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'zap',
+        "zap",
         # Translators: Language name for ISO code "zap". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Zapotec'),
+        _("Zapotec"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'zbl',
+        "zbl",
         # Translators: Language name for ISO code "zbl". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Blissymbols'),
+        _("Blissymbols"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'zen',
+        "zen",
         # Translators: Language name for ISO code "zen". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Zenaga'),
+        _("Zenaga"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'zgh',
+        "zgh",
         # Translators: Language name for ISO code "zgh". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Tamazight (Standard Moroccan)'),
+        _("Tamazight (Standard Moroccan)"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'zh_Hans',
+        "zh_Hans",
         # Translators: Language name for ISO code "zh_Hans". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chinese (Simplified Han script)'),
+        _("Chinese (Simplified Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'zh_Hans_SG',
+        "zh_Hans_SG",
         # Translators: Language name for ISO code "zh_Hans_SG". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chinese (Simplified Han script, Singapore)'),
+        _("Chinese (Simplified Han script, Singapore)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'zh_Hant',
+        "zh_Hant",
         # Translators: Language name for ISO code "zh_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chinese (Traditional Han script)'),
+        _("Chinese (Traditional Han script)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'zh_Hant_HK',
+        "zh_Hant_HK",
         # Translators: Language name for ISO code "zh_Hant_HK". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chinese (Traditional Han script, Hong Kong)'),
+        _("Chinese (Traditional Han script, Hong Kong)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'zh_Latn',
+        "zh_Latn",
         # Translators: Language name for ISO code "zh_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Chinese (Hanyu Pinyin)'),
+        _("Chinese (Hanyu Pinyin)"),
         1,
-        '0',
+        "0",
     ),
     (
-        'zu',
+        "zu",
         # Translators: Language name for ISO code "zu". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Zulu'),
+        _("Zulu"),
         2,
-        'n > 1',
+        "n > 1",
     ),
     (
-        'zun',
+        "zun",
         # Translators: Language name for ISO code "zun". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Zuni'),
+        _("Zuni"),
         2,
-        'n != 1',
+        "n != 1",
     ),
     (
-        'zza',
+        "zza",
         # Translators: Language name for ISO code "zza". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('Zaza'),
+        _("Zaza"),
         2,
-        'n != 1',
+        "n != 1",
     ),
 )
