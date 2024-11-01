@@ -5,6 +5,8 @@
 # SPDX-License-Identifier: MIT
 
 import csv
+from gettext import c2py
+from itertools import chain
 
 
 def parse_csv(name):
@@ -58,4 +60,21 @@ for match in matching:
     if plural_our == "n != 1" and plural_cldr != "n != 1":
         raise ValueError(
             f"Mismatching plural form for {match}: {plural_our!r} != {plural_cldr!r}"
+        )
+
+
+# Validate plural count
+for code, _name, plural_count, plural_formula in languages.values():
+    plural = c2py(plural_formula)
+    # Get maximal plural
+    calculated = (
+        max(
+            plural(x)
+            for x in chain(range(-10, 200), [1000, 10000, 100000, 1000000, 10000000])
+        )
+        + 1
+    )
+    if calculated != int(plural_count):
+        raise ValueError(
+            f"Mismatching plural count for {code}: {plural_count} != {calculated}"
         )
