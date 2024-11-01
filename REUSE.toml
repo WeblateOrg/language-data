@@ -1,0 +1,43 @@
+SPDX-PackageDownloadLocation = "https://weblate.org/"
+SPDX-PackageName = "weblate-language-data"
+SPDX-PackageSupplier = "Michal Čihař <michal@weblate.org>"
+version = 1
+
+[[annotations]]
+SPDX-FileCopyrightText = "Michal Čihař <michal@weblate.org>"
+SPDX-License-Identifier = "MIT"
+path = "weblate_language_data/locale/**"
+precedence = "aggregate"
+
+[[annotations]]
+SPDX-FileCopyrightText = "Michal Čihař <michal@weblate.org>"
+SPDX-License-Identifier = "MIT"
+path = "languages-po/**"
+precedence = "aggregate"
+
+[[annotations]]
+SPDX-FileCopyrightText = "Michal Čihař <michal@weblate.org>"
+SPDX-License-Identifier = "MIT"
+path = "**.csv"
+precedence = "aggregate"
+
+[[annotations]]
+SPDX-FileCopyrightText = "Michal Čihař <michal@weblate.org>"
+SPDX-License-Identifier = "MIT"
+path = ["README.rst", "PLURALS_DIFF.md"]
+precedence = "aggregate"
+
+[[annotations]]
+SPDX-FileCopyrightText = "Michal Čihař <michal@weblate.org>"
+SPDX-License-Identifier = "MIT"
+path = [
+  "requirements**.txt",
+  ".gitignore",
+  ".gitmodules",
+  ".weblate",
+  "MANIFEST.in",
+  "pyproject.toml",
+  "setup.cfg",
+  "REUSE.toml"
+]
+precedence = "aggregate"
