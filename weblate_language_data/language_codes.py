@@ -662,6 +662,7 @@ LANGUAGES = {
     "lk",
     "lki",
     "lkt",
+    "lld",
     "lmn",
     "lmo",
     "ln",
