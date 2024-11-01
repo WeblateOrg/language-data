@@ -30,6 +30,7 @@ cgg,Chiga,2,n != 1
 chr,Cherokee,2,n != 1
 ckb,Central Kurdish,2,n != 1
 cs,Czech,3,(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2)
+csw,Swampy Cree,2,n > 1
 cy,Welsh,6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))))
 da,Danish,2,n != 1
 de,German,2,n != 1
@@ -118,6 +119,7 @@ lb,Luxembourgish,2,n != 1
 lg,Ganda,2,n != 1
 lij,Ligurian,2,n != 1
 lkt,Lakota,1,0
+lld,Ladin,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 ln,Lingala,2,n > 1
 lo,Lao,1,0
 lt,Lithuanian,3,(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2)
@@ -171,7 +173,7 @@ sah,Yakut,1,0
 saq,Samburu,2,n != 1
 sat,Santali,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 sc,Sardinian,2,n != 1
-scn,Sicilian,2,n != 1
+scn,Sicilian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 sd,Sindhi,2,n != 1
 sdh,Southern Kurdish,2,n != 1
 se,Northern Sami,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)

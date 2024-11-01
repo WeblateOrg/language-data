@@ -290,6 +290,15 @@ CLDRPLURALS = (
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
+        "lld",
+        # Translators: Language name for ISO code "lld". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Ladin"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
         "mt",
         # Translators: Language name for ISO code "mt". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -322,6 +331,15 @@ CLDRPLURALS = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Portuguese (Portugal)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "scn",
+        # Translators: Language name for ISO code "scn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Sicilian"),
         3,
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),

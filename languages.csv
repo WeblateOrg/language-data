@@ -299,6 +299,7 @@ hi_Latn,Hindi (Latin script),2,n > 1
 hil,Hiligaynon,2,n != 1
 hit,Hittite,2,n != 1
 hmn,Hmong,2,n != 1
+hnd,Hindko, Southern,2,n != 1
 hne,Chhattisgarhi,2,n != 1
 hnj,Hmong Njua,1,0
 hno,Hindko (Northern),2,n != 1
@@ -352,6 +353,7 @@ kbd,Kabardian,2,n != 1
 kcg,Tyap,2,n != 1
 kde,Makonde,1,0
 kea,Kabuverdianu,1,0
+kfr,Kachhi,2,n != 1
 kfy,Kumaoni,2,n != 1
 kg,Kongo,2,n != 1
 kha,Khasi,2,n != 1
@@ -465,8 +467,10 @@ ms_Arab,Malay (Jawi),1,0
 mt,Maltese,4,n==1 ? 0 : n==0 || ( n%100>1 && n%100<11) ? 1 : (n%100>10 && n%100<20 ) ? 2 : 3
 mtr,Mewari,2,n != 1
 mus,Creek,2,n != 1
+mwk,Maninkakan, Kita,2,n != 1
 mwl,Mirandese,2,n != 1
 mwr,Marwari,2,n != 1
+mxc,Manyika,2,n != 1
 my,Burmese,1,0
 my@Zawgyi,Burmese (Zawgyi),1,0
 myv,Erzya,2,n != 1
@@ -488,6 +492,7 @@ new,Newari,2,n != 1
 ng,Ndonga,2,n != 1
 ngl,Lomwe,2,n != 1
 nia,Nias,2,n != 1
+nij,Ngaju,2,n != 1
 niu,Niuean,2,n != 1
 nl,Dutch,2,n != 1
 nl@formal,Dutch (formal),2,n != 1
@@ -554,6 +559,7 @@ qtp,Gayón,2,n > 1
 qu,Quechua,2,n != 1
 qu_EC,Quechua (Ecuador),2,n != 1
 quc,K'iche',2,n != 1
+qug,Quichua, Chimborazo Highland,2,n != 1
 qya,Quenya,2,n != 1
 raj,Rajasthani,2,n != 1
 rap,Rapanui,2,n != 1
