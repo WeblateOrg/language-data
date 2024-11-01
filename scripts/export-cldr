@@ -48,9 +48,9 @@ def reduce_formula(formula: str) -> str:
 
 
 def expand_chunk(what: str, op: str, value: str) -> str:
-    if re.match("^\d+$", value):
+    if re.match(r"^\d+$", value):
         return f"{what} {op} {value}"
-    if match := re.match("^(\d+)\.\.(\d+)$", value):
+    if match := re.match(r"^(\d+)\.\.(\d+)$", value):
         start = int(match.group(1))
         end = int(match.group(2))
         if (end - start) == 1:
@@ -66,7 +66,7 @@ def expand_chunk(what: str, op: str, value: str) -> str:
 
 
 def expand_atom(atom: str) -> str:
-    if match := re.match("^(n(?: % \d+)?) (==|!=) (\d+(?:\.\.\d+|,\d+)+)$", atom):
+    if match := re.match(r"^(n(?: % \d+)?) (==|!=) (\d+(?:\.\.\d+|,\d+)+)$", atom):
         what = match.group(1)
         op = match.group(2)
         if op not in ("==", "!="):
@@ -87,22 +87,22 @@ def expand_atom(atom: str) -> str:
 def convert_atom(atom: str) -> str | bool:
     result = atom.replace(" = ", " == ").replace("i", "n")
 
-    if re.match("^n( % \d+)? (!=|==) \d+$", result):
+    if re.match(r"^n( % \d+)? (!=|==) \d+$", result):
         return result
 
-    if re.match("^n( % \d+)? (!=|==) \d+(,\d+|\.\.\d+)+$", result):
+    if re.match(r"^n( % \d+)? (!=|==) \d+(,\d+|\.\.\d+)+$", result):
         return expand_atom(result)
 
-    if match := re.match("^(?:v|w)(?: % 10+)? == (\d+)(?:\.\.\d+)?$", result):
+    if match := re.match(r"^(?:v|w)(?: % 10+)? == (\d+)(?:\.\.\d+)?$", result):
         # For gettext: v == 0, w == 0
         return int(match.group(1)) == 0
-    if match := re.match("^(?:v|w)(?: % 10+)? != (\d+)(?:\.\.\d+)?$", result):
+    if match := re.match(r"^(?:v|w)(?: % 10+)? != (\d+)(?:\.\.\d+)?$", result):
         # For gettext: v == 0, w == 0
         return int(match.group(1)) != 0
-    if match := re.match("^(?:f|t|c|e)(?: % 10+)? == (\d+)(?:\.\.\d+)?$", result):
+    if match := re.match(r"^(?:f|t|c|e)(?: % 10+)? == (\d+)(?:\.\.\d+)?$", result):
         # For gettext: f == empty, t == empty, c == empty, e == empty
         return int(match.group(1)) == 0
-    if match := re.match("^(?:f|t|c|e)(?: % 10+)? != (\d+)(?:\.\.\d+)?$", result):
+    if match := re.match(r"^(?:f|t|c|e)(?: % 10+)? != (\d+)(?:\.\.\d+)?$", result):
         # For gettext: f == empty, t == empty, c == empty, e == empty
         return int(match.group(1)) != 0
     raise ValueError(
@@ -168,15 +168,15 @@ def convert_formula(cldr_formula_and_examples: str) -> str:
 
 
 def reverse_formula(formula: str) -> str:
-    if re.match("^n( % \d+)? == \d+(\.\.\d+|,\d+)*?$", formula):
+    if re.match(r"^n( % \d+)? == \d+(\.\.\d+|,\d+)*?$", formula):
         return formula.replace(" == ", " != ")
-    if re.match("^n( % \d+)? != \d+(\.\.\d+|,\d+)*?$", formula):
+    if re.match(r"^n( % \d+)? != \d+(\.\.\d+|,\d+)*?$", formula):
         return formula.replace(" != ", " == ")
-    if re.match("^\(?n == \d+ \|\| n == \d+\)?$", formula):
+    if re.match(r"^\(?n == \d+ \|\| n == \d+\)?$", formula):
         return formula.replace(" == ", " != ").replace(" || ", " && ").strip("()")
 
     if match := re.match(
-        "^(n(?: % \d+)?) == (\d+) && (n(?: % \d+)?) != (\d+)$", formula
+        r"^(n(?: % \d+)?) == (\d+) && (n(?: % \d+)?) != (\d+)$", formula
     ):
         return f"{match.group(1)} != {match.group(2)} || {match.group(3)} == {match.group(4)}"
 
