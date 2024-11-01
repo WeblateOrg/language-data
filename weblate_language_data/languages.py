@@ -1274,7 +1274,7 @@ LANGUAGES = (
         # or other variant.
         _("Cree (Swampy)"),
         2,
-        "n != 1",
+        "n > 1",
     ),
     (
         "cu",
@@ -3677,7 +3677,7 @@ LANGUAGES = (
         # or other variant.
         _("Ladin"),
         2,
-        "n != 1",
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
         "lmn",
@@ -5396,7 +5396,7 @@ LANGUAGES = (
         # or other variant.
         _("Sicilian"),
         2,
-        "n != 1",
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
         "sco",
