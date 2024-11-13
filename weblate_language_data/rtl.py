@@ -13,7 +13,7 @@ https://github.com/WeblateOrg/language-data
 # pylint: disable=line-too-long,too-many-lines
 
 # List of RTL languages
-RTL_LANGS = {
+RTL_LANGS: set[str] = {
     "ae",
     "aii",
     "ajp",

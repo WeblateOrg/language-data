@@ -13,7 +13,7 @@ https://github.com/WeblateOrg/language-data
 # pylint: disable=line-too-long,too-many-lines
 
 # Language aliases
-ALIASES = {
+ALIASES: dict[str, str] = {
     "braz_por": "pt_BR",
     "chinese": "zh_Hans",
     "chinese_chs": "zh_Hans",

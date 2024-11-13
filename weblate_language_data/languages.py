@@ -15,7 +15,7 @@ https://github.com/WeblateOrg/language-data
 from .utils import gettext_noop as _
 
 # Language definitions
-LANGUAGES = (
+LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
     (
         "aa",
         # Translators: Language name for ISO code "aa". The parenthesis clarifies

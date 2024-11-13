@@ -13,7 +13,7 @@ https://github.com/WeblateOrg/language-data
 # pylint: disable=line-too-long,too-many-lines
 
 # Language definitions
-POPULATION = {
+POPULATION: dict[str, int] = {
     "aa": 2305971,
     "ab": 111858,
     "abr": 1729455,

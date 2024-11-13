@@ -35,7 +35,7 @@ text = "MIT"
 
 [project.optional-dependencies]
 dev = [
-  "weblate-language-data[lint,test]",
+  "weblate-language-data[lint,test,types]",
   "translate-toolkit==3.14.1"
 ]
 django = [
@@ -46,6 +46,10 @@ lint = [
 ]
 test = [
   "twine==5.1.1"
+]
+types = [
+  "mypy==1.3.0",
+  "django-stubs==5.1.1"
 ]
 
 [project.readme]

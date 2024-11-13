@@ -13,7 +13,7 @@ https://github.com/WeblateOrg/language-data
 # pylint: disable=line-too-long,too-many-lines
 
 # List of defaul languages, omitting country code should be okay
-DEFAULT_LANGS = (
+DEFAULT_LANGS: tuple[str, ...] = (
     "af_za",
     "am_et",
     "ar_aa",

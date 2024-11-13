@@ -15,7 +15,7 @@ https://github.com/WeblateOrg/language-data
 from .utils import gettext_noop as _
 
 # Additional plural rules definitions
-EXTRAPLURALS = (
+EXTRAPLURALS: tuple[tuple[str, str, int, str], ...] = (
     (
         "br",
         # Translators: Language name for ISO code "br". The parenthesis clarifies
@@ -216,7 +216,7 @@ EXTRAPLURALS = (
     ),
 )
 
-CLDRPLURALS = (
+CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
     (
         "ca",
         # Translators: Language name for ISO code "ca". The parenthesis clarifies
@@ -336,7 +336,7 @@ CLDRPLURALS = (
     ),
 )
 
-QTPLURALS = (
+QTPLURALS: tuple[tuple[str, str, int, str], ...] = (
     (
         "aa",
         # Translators: Language name for ISO code "aa". The parenthesis clarifies

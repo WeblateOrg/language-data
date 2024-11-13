@@ -13,7 +13,7 @@ https://github.com/WeblateOrg/language-data
 # pylint: disable=line-too-long,too-many-lines
 
 # Known language codes
-LANGUAGES = {
+LANGUAGES: set[str] = {
     "aa",
     "aar",
     "ab",

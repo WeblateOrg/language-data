@@ -13,7 +13,6 @@ See https://github.com/WeblateOrg/language-data
 import csv
 import json
 import re
-import subprocess
 from itertools import chain
 
 SPLIT_RE = re.compile(
@@ -35,19 +34,25 @@ https://github.com/WeblateOrg/language-data
 """
 # pylint: disable=line-too-long,too-many-lines
 
-
 '''
 
 TEMPLATE = """    (
-        '{0}',
+        "{0}",
         # Translators: Language name for ISO code "{0}". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _('{1}'),
+        _("{1}"),
         {2},
-        '{3}',
+        "{3}",
     ),
 """
+TYPE_HINT = "tuple[tuple[str, str, int, str], ...]"
+
+
+def escape(value: str) -> str:
+    """Escape  string for use in template."""
+    return value.replace('"', r"\"")
+
 
 # Read languages
 with open("languages.csv") as csvfile:
@@ -150,62 +155,54 @@ with open("weblate_language_data/languages.py", "w") as output:
     output.write(HEADER)
     output.write("from .utils import gettext_noop as _\n\n")
     output.write("# Language definitions\n")
-    output.write("LANGUAGES = (\n")
+    output.write(f"LANGUAGES: {TYPE_HINT} = (\n")
     for row in LANGUAGES:
-        output.write(
-            TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
-        )
+        output.write(TEMPLATE.format(row[0], escape(row[1]), row[2], row[3]))
     output.write(")\n")
 with open("weblate_language_data/population.py", "w") as output:
     output.write(HEADER)
     output.write("# Language definitions\n")
-    output.write("POPULATION = {\n")
+    output.write("POPULATION: dict[str, int] = {\n")
     for row in LANGUAGES:
         code = row[0]
-        output.write(f"    {code!r}: {get_population(code)},\n")
+        output.write(f'    "{escape(code)}": {get_population(code)},\n')
     output.write("}\n")
 with open("weblate_language_data/plurals.py", "w") as output:
     output.write(HEADER)
     output.write("from .utils import gettext_noop as _\n\n")
     output.write("# Additional plural rules definitions\n")
-    output.write("EXTRAPLURALS = (\n")
+    output.write(f"EXTRAPLURALS: {TYPE_HINT} = (\n")
     for row in EXTRAPLURALS:
-        output.write(
-            TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
-        )
+        output.write(TEMPLATE.format(row[0], escape(row[1]), row[2], row[3]))
     output.write(")\n")
     output.write("\n")
-    output.write("CLDRPLURALS = (\n")
+    output.write(f"CLDRPLURALS: {TYPE_HINT} = (\n")
     for row in CLDRPLURALS:
-        output.write(
-            TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
-        )
+        output.write(TEMPLATE.format(row[0], escape(row[1]), row[2], row[3]))
     output.write(")\n")
     output.write("\n")
-    output.write("QTPLURALS = (\n")
+    output.write(f"QTPLURALS: {TYPE_HINT} = (\n")
     for row in QTPLURALS:
-        output.write(
-            TEMPLATE.format(row[0], row[1].replace("'", "\\'"), row[2], row[3])
-        )
+        output.write(TEMPLATE.format(row[0], escape(row[1]), row[2], row[3]))
     output.write(")\n")
 with open("weblate_language_data/aliases.py", "w") as output:
     output.write(HEADER)
     output.write("# Language aliases\n")
-    output.write("ALIASES = {\n")
+    output.write("ALIASES: dict[str, str] = {\n")
     for row in ALIASES:
-        output.write("    '{}': '{}',\n".format(*row))
+        output.write("""    "{}": "{}",\n""".format(*row))
     output.write("}\n")
 with open("weblate_language_data/countries.py", "w") as output:
     output.write(HEADER)
     output.write("# List of defaul languages, omitting country code should be okay\n")
-    output.write("DEFAULT_LANGS = (\n")
+    output.write("DEFAULT_LANGS: tuple[str, ...] = (\n")
     for row in DEFAULT_COUNTRIES:
-        output.write("    '{}',\n".format(*row))
+        output.write(f'    "{escape(row[0])}",\n')
     output.write(")\n")
 with open("weblate_language_data/rtl.py", "w") as output:
     output.write(HEADER)
     output.write("# List of RTL languages\n")
-    output.write("RTL_LANGS = {\n")
+    output.write("RTL_LANGS: set[str] = {\n")
     for code in sorted(RTL_CODES):
         output.write(f'    "{code}",\n')
     output.write("}\n")
@@ -302,21 +299,19 @@ words.difference_update(
 with open("weblate_language_data/check_languages.py", "w") as output:
     output.write(HEADER)
     output.write("# Language names to ignore in same check\n")
-    output.write("LANGUAGES = {\n")
-    content = ", ".join(
-        "'{}'".format(word.replace("'", "\\'"))
-        for word in sorted(words)
-        if len(word) > 2  # noqa: PLR2004
-    )
-    output.write(content)
-    output.write("\n}\n")
+    output.write("LANGUAGES: set[str] = {\n")
+    for word in sorted(words):
+        if len(word) <= 2:  # noqa: PLR2004
+            continue
+        output.write(f'    "{escape(word)}",\n')
+    output.write("}\n")
 
 
 # Write language codes
 with open("weblate_language_data/language_codes.py", "w") as output:
     output.write(HEADER)
     output.write("# Known language codes\n")
-    output.write("LANGUAGES = {\n")
+    output.write("LANGUAGES: set[str] = {\n")
     for word in sorted(CODES):
         output.write('    "{}",\n'.format(word.replace('"', '\\"')))
     output.write("}\n")
@@ -325,26 +320,7 @@ with open("weblate_language_data/language_codes.py", "w") as output:
 with open("weblate_language_data/country_codes.py", "w") as output:
     output.write(HEADER)
     output.write("# Known country codes\n")
-    output.write("COUNTRIES = {\n")
+    output.write("COUNTRIES: set[str] = {\n")
     for word in sorted(COUNTRIES):
         output.write('    "{}",\n'.format(word.replace('"', '\\"')))
     output.write("}\n")
-
-# Apply coding style
-subprocess.run(
-    [
-        "pre-commit",
-        "run",
-        "--files",
-        "weblate_language_data/rtl.py",
-        "weblate_language_data/countries.py",
-        "weblate_language_data/aliases.py",
-        "weblate_language_data/plurals.py",
-        "weblate_language_data/languages.py",
-        "weblate_language_data/population.py",
-        "weblate_language_data/check_languages.py",
-        "weblate_language_data/language_codes.py",
-        "weblate_language_data/country_codes.py",
-    ],
-    check=False,
-)
