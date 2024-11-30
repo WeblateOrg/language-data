@@ -45,7 +45,7 @@ lint = [
   "pre-commit==4.0.1"
 ]
 test = [
-  "twine==5.1.1"
+  "twine==6.0.0"
 ]
 types = [
   "mypy==1.13.0",
