@@ -127,9 +127,8 @@ max-complexity = 16
 
 [tool.setuptools]
 include-package-data = true
-license-files = [
-  "LICENSE"
-]
+# Empty as a workaround for https://github.com/pypa/setuptools/issues/4759
+license-files = []
 platforms = [
   "any"
 ]
