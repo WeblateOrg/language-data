@@ -1,5 +1,6 @@
 include LICENSE
 include README.rst
+include *.md
 include requirements-*.txt
 recursive-include weblate_language_data/ *.py
 recursive-include weblate_language_data/locale *.pot
