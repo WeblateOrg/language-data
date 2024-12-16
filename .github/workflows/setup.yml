@@ -25,7 +25,15 @@ jobs:
     - name: build sdist
       run: uv build
     - name: twine
-      run: twine check dist/*
+      run: uvx twine check dist/*
+    - name: pydistcheck
+      run: uvx pydistcheck --inspect dist/*
+    - name: pyroma
+      run: uvx pyroma dist/*.tar.gz
+    - name: check-wheel-contents
+      run: uvx check-wheel-contents dist/*.whl
+    - name: check-manifest
+      run: uvx check-manifest -v
 
     - uses: actions/upload-artifact@v4
       with:

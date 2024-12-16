@@ -50,7 +50,6 @@ lint = [
   "pre-commit==4.0.1"
 ]
 test = [
-  "twine==6.0.1"
 ]
 types = [
   "mypy==1.13.0",
@@ -72,6 +71,29 @@ Twitter = "https://twitter.com/WeblateOrg"
 
 [tool.black]
 target-version = ['py39']
+
+[tool.check-manifest]
+ignore = [
+  "LICENSES/*",
+  "json/*",
+  "modules/**",
+  "scripts/*",
+  ".reuse/dep5",
+  "languages-po/*",
+  "*.csv",
+  "Makefile",
+  ".gitmodules",
+  "scripts/*",
+  "*.toml",
+  "*.yml",
+  "*.yaml",
+  "*.json",
+  ".editorconfig",
+  ".weblate"
+]
+ignore-bad-ideas = [
+  "modules/gettext/gettext-tools/tests/*.mo"
+]
 
 [tool.isort]
 profile = "black"
