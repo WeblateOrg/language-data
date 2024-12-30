@@ -52,7 +52,7 @@ lint = [
 test = [
 ]
 types = [
-  "mypy==1.14.0",
+  "mypy==1.14.1",
   "django-stubs==5.1.1"
 ]
 
