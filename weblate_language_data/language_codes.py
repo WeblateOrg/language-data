@@ -1042,6 +1042,7 @@ LANGUAGES: set[str] = {
     "sw_cd",
     "sw_tz",
     "swa",
+    "swb",
     "swe",
     "swe_se",
     "swg",
