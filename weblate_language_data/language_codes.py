@@ -839,6 +839,7 @@ LANGUAGES: set[str] = {
     "oss",
     "ota",
     "otk",
+    "otq",
     "ovd",
     "pa",
     "pa_arab",

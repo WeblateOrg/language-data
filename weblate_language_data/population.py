@@ -540,6 +540,7 @@ POPULATION: dict[str, int] = {
     "osa": 0,
     "ota": 0,
     "otk": 0,
+    "otq": 0,
     "ovd": 0,
     "pa": 42560431,
     "pa_PK": 0,
