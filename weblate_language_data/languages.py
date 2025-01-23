@@ -3023,6 +3023,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
+        "iu_Latn",
+        # Translators: Language name for ISO code "iu_Latn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Inuktitut (Latin)"),
+        3,
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
+    ),
+    (
         "ja",
         # Translators: Language name for ISO code "ja". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

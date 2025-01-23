@@ -348,6 +348,7 @@ POPULATION: dict[str, int] = {
     "it@informal": 69298348,
     "it_CH": 381004,
     "iu": 46553,
+    "iu_Latn": 46553,
     "ja": 117558321,
     "ja_KS": 0,
     "jam": 2682524,
