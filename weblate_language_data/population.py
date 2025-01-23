@@ -485,6 +485,7 @@ POPULATION: dict[str, int] = {
     "mwk": 1099530,
     "mwl": 0,
     "mwr": 16909560,
+    "mww": 0,
     "mxc": 1114776,
     "my": 37171607,
     "my@Zawgyi": 37171607,

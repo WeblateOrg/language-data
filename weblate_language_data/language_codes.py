@@ -753,6 +753,7 @@ LANGUAGES: set[str] = {
     "mwk",
     "mwl",
     "mwr",
+    "mww",
     "mxc",
     "my",
     "my@zawgyi",
