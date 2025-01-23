@@ -877,6 +877,7 @@ LANGUAGES: set[str] = {
     "prg",
     "pro",
     "prp",
+    "prs",
     "ps",
     "pt",
     "pt@formal",
