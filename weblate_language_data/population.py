@@ -469,6 +469,8 @@ POPULATION: dict[str, int] = {
     "mk": 1612846,
     "ml": 45922589,
     "mn": 3054074,
+    "mn_Cyrl": 3054074,
+    "mn_Mong": 3681704,
     "mnc": 0,
     "mni": 1568599,
     "mnk": 0,

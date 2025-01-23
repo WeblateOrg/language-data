@@ -3027,7 +3027,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # Translators: Language name for ISO code "iu_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Inuktitut (Latin)"),
+        _("Inuktitut (Latin script)"),
         3,
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
@@ -4108,6 +4108,24 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Mongolian"),
+        2,
+        "n != 1",
+    ),
+    (
+        "mn_Cyrl",
+        # Translators: Language name for ISO code "mn_Cyrl". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Mongolian (Cyrillic script)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "mn_Mong",
+        # Translators: Language name for ISO code "mn_Mong". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Mongolian (Traditional script)"),
         2,
         "n != 1",
     ),
