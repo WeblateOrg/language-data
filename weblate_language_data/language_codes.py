@@ -546,6 +546,7 @@ LANGUAGES: set[str] = {
     "ita_it",
     "its",
     "iu",
+    "iu_latn",
     "iw",
     "iw_he",
     "iw_il",
