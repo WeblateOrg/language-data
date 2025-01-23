@@ -220,7 +220,6 @@ eu,Basque,2,n != 1
 ewo,Ewondo,2,n != 1
 ext,Extremaduran,2,n != 1
 fa,Persian,2,n > 1
-fa_AF,Dari,2,n > 1
 fan,Fang (Equatorial Guinea),2,n != 1
 fat,Fanti,2,n != 1
 fbl,Bikol (West Albay),2,n != 1
@@ -545,6 +544,7 @@ pms,Piemontese,2,n != 1
 pon,Pohnpeian,2,n != 1
 prg,Prussian,3,(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 pro,Provençal (Old),2,n != 1
+prs,Dari,2,n != 1
 ps,Pashto,2,n != 1
 pt,Portuguese,2,n > 1
 pt@formal,Portuguese (formal),2,n > 1

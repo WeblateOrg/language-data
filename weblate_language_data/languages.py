@@ -2006,15 +2006,6 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n > 1",
     ),
     (
-        "fa_AF",
-        # Translators: Language name for ISO code "fa_AF". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Dari"),
-        2,
-        "n > 1",
-    ),
-    (
         "fan",
         # Translators: Language name for ISO code "fan". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4927,6 +4918,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Provençal (Old)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "prs",
+        # Translators: Language name for ISO code "prs". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Dari"),
         2,
         "n != 1",
     ),

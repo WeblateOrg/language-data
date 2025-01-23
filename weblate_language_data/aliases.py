@@ -176,6 +176,7 @@ ALIASES: dict[str, str] = {
     "por_pt": "pt",
     "swe_se": "sv",
     "ur_ur": "ur",
+    "fa_af": "prs",
     "svk": "sk",
     "ptb": "pt_BR",
     "enu": "en_US",
