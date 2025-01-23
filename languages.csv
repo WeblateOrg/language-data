@@ -333,7 +333,7 @@ it@formal,Italian (formal),2,n != 1
 it@informal,Italian (informal),2,n != 1
 it_CH,Italian (Switzerland),2,n != 1
 iu,Inuktitut,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
-iu_Latn,Inuktitut (Latin),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
+iu_Latn,Inuktitut (Latin script),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 ja,Japanese,1,0
 ja_KS,Japanese (Kansai),1,0
 jam,Jamaican Patois,2,n != 1
@@ -454,6 +454,8 @@ mjw,Karbi,2,n != 1
 mk,Macedonian,2,n==1 || n%10==1 ? 0 : 1
 ml,Malayalam,2,n != 1
 mn,Mongolian,2,n != 1
+mn_Cyrl,Mongolian (Cyrillic script),2,n != 1
+mn_Mong,Mongolian (Traditional script),2,n != 1
 mnc,Manchu,2,n != 1
 mni,Manipuri,2,n != 1
 mnk,Mandinka,3,n==0 ? 0 : n==1 ? 1 : 2

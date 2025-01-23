@@ -730,6 +730,8 @@ LANGUAGES: set[str] = {
     "mlg",
     "mlt",
     "mn",
+    "mn_cyrl",
+    "mn_mong",
     "mnc",
     "mni",
     "mnk",
