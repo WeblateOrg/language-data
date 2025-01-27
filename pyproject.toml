@@ -41,7 +41,7 @@ text = "MIT"
 [project.optional-dependencies]
 dev = [
   "weblate-language-data[lint,test,types]",
-  "translate-toolkit==3.14.6"
+  "translate-toolkit==3.14.7"
 ]
 django = [
   "Django"
