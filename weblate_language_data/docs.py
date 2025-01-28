@@ -20,4 +20,6 @@ DOCUMENTATION_LANGUAGES = {
     "tr": "tr",
     "ro": "ro",
     "de": "de",
+    "nl": "nl",
+    "ga": "ga",
 }
