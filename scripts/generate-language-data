@@ -150,6 +150,13 @@ with open("rtl.csv") as csvfile:
     RTLS = list(reader)
     RTL_CODES = {lang[0] for lang in RTLS}
 
+# Read case insentive
+with open("case-insensitive.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    next(reader)
+    CASES = list(reader)
+    CASE_INSENSITIVE_CODES = {lang[0] for lang in CASES}
+
 # Write language definitions
 with open("weblate_language_data/languages.py", "w") as output:
     output.write(HEADER)
@@ -204,6 +211,14 @@ with open("weblate_language_data/rtl.py", "w") as output:
     output.write("# List of RTL languages\n")
     output.write("RTL_LANGS: set[str] = {\n")
     for code in sorted(RTL_CODES):
+        output.write(f'    "{code}",\n')
+    output.write("}\n")
+
+with open("weblate_language_data/case_insensitive.py", "w") as output:
+    output.write(HEADER)
+    output.write("# List of case-insentive languages\n")
+    output.write("CASE_INSENSITIVE_LANGS: set[str] = {\n")
+    for code in sorted(CASE_INSENSITIVE_CODES):
         output.write(f'    "{code}",\n')
     output.write("}\n")
 
