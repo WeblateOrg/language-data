@@ -12405,6 +12405,7 @@ LANGUAGES: set[str] = {
     "vinni",
     "vinnytska",
     "vinza",
+    "viossa",
     "vipava",
     "virgin",
     "virginia",

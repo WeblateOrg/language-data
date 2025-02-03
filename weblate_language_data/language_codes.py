@@ -898,6 +898,7 @@ LANGUAGES: set[str] = {
     "pus",
     "pwn",
     "qdt",
+    "qpv",
     "qtp",
     "qu",
     "qu_ec",

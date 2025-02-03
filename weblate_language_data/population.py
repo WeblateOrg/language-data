@@ -576,6 +576,7 @@ POPULATION: dict[str, int] = {
     "pt_PT": 9798912,
     "pwn": 0,
     "qdt": 0,
+    "qpv": 0,
     "qtp": 0,
     "qu": 11942570,
     "qu_EC": 3112700,

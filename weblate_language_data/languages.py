@@ -5075,6 +5075,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n > 1",
     ),
     (
+        "qpv",
+        # Translators: Language name for ISO code "qpv". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Viossa"),
+        1,
+        "0",
+    ),
+    (
         "qtp",
         # Translators: Language name for ISO code "qtp". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
