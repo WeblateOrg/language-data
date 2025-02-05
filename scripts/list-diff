@@ -104,7 +104,7 @@ The Plurals column lists data in languages.csv which is used in Weblate
 
 Code | Name | Plurals | CLDR plurals | Gettext plurals | L10n guide | Translate toolkit
 ---- | ---- | --------| ------------ | --------------- | ---------- | -----------------
-"""
+""",
     )
     for code in sorted(set(LANGUAGES)):
         handle.write(code.replace("_", "\\_"))

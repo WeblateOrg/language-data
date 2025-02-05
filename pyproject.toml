@@ -104,6 +104,11 @@ target-version = "py39"
 [tool.ruff.lint]
 ignore = [
   "D10",  # TODO: we are missing many docstrings
+  "PTH",  # TODO: Not using pathlib
+  "EM",  # TODO: exception literals
+  "PERF401",  # TODO
+  "COM812",  # CONFIG: trailing newlines
+  "FBT",  # TODO: Boolean in function definition
   "D203",  # CONFIG: incompatible with D211
   "D212",  # CONFIG: incompatible with D213
   "ISC001",  # CONFIG: incompatible with formatter
@@ -114,43 +119,13 @@ ignore = [
   "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
   "E501"  # WONTFIX: we accept long strings (rest is formatted by black)
 ]
-select = [
-  "E",
-  "F",
-  "B",
-  "T10",
-  "A",
-  "C4",
-  "C90",
-  "YTT",
-  "DJ",
-  "UP",
-  "D",
-  "PD",
-  "PGH",
-  "PL",
-  "TRY",
-  "RUF",
-  "ERA",
-  "ICN",
-  "ISC",
-  "EXE",
-  "INP",
-  "PIE",
-  "G",
-  "PYI",
-  "Q",
-  "SIM",
-  "TID",
-  "RSE",
-  "T20",
-  "RET",
-  "SLF",
-  "N"
-]
+select = ["ALL"]
 
 [tool.ruff.lint.mccabe]
 max-complexity = 16
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*" = ["S607", "S603", "S310", "ANN"]
 
 [tool.setuptools]
 include-package-data = true

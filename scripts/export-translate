@@ -19,12 +19,14 @@ for code, data in languages.items():
             "name": data[0].split(";")[0],
             "nplurals": data[1],
             "formula": data[2],
-        }
+        },
     )
 
 with open("translate.csv", "w") as handle:
     writer = csv.DictWriter(
-        handle, fieldnames=["code", "name", "nplurals", "formula"], lineterminator="\n"
+        handle,
+        fieldnames=["code", "name", "nplurals", "formula"],
+        lineterminator="\n",
     )
     writer.writeheader()
     writer.writerows(sorted(output, key=lambda x: x["code"]))

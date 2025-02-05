@@ -4,8 +4,8 @@
 #
 # SPDX-License-Identifier: MIT
 
-import json
 import csv
+import json
 
 # Read languages
 with open("languages.csv") as csvfile:
@@ -25,7 +25,7 @@ with open("case-insensitive.csv") as csvfile:
 with open("modules/cldr-json/cldr-json/cldr-core/scriptMetadata.json") as handle:
     SCRIPTS = json.load(handle)["scriptMetadata"]
 with open(
-    "modules/cldr-json/cldr-json/cldr-core/supplemental/languageData.json"
+    "modules/cldr-json/cldr-json/cldr-core/supplemental/languageData.json",
 ) as handle:
     LANGUAGES = json.load(handle)["supplemental"]["languageData"]
 

@@ -29,7 +29,7 @@ for line in content.splitlines():
                     matches[2],
                     int(plural_parts[0].split("=")[1]),
                     plural_parts[1].split("=", 1)[1].rstrip(";"),
-                )
+                ),
             )
 
 with open("l10n-guide.csv", "w") as handle:

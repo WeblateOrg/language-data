@@ -79,7 +79,7 @@ with open(ALIASES) as handle:
         if code in names:
             if names[code] != replacement:
                 print(
-                    f"Conflicting replacement for {code}: {names[code]} != {replacement} {alias}"
+                    f"Conflicting replacement for {code}: {names[code]} != {replacement} {alias}",
                 )
             continue
         names[code] = replacement

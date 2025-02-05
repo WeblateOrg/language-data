@@ -4,6 +4,8 @@
 #
 # SPDX-License-Identifier: MIT
 
+from __future__ import annotations
+
 import json
 import re
 
@@ -106,7 +108,7 @@ def convert_atom(atom: str) -> str | bool:
         # For gettext: f == empty, t == empty, c == empty, e == empty
         return int(match.group(1)) != 0
     raise ValueError(
-        f"Unable to convert the formula chunk '{atom}' from CLDR to gettext"
+        f"Unable to convert the formula chunk '{atom}' from CLDR to gettext",
     )
 
 
@@ -131,7 +133,7 @@ def convert_formula(cldr_formula_and_examples: str) -> str:
     # Sanity checkign
     if "(" in cldr_formula or ")" in cldr_formula:
         raise ValueError(
-            f"Unable to convert the formula '{cldr_formula}': parenthesis handling not implemented"
+            f"Unable to convert the formula '{cldr_formula}': parenthesis handling not implemented",
         )
 
     # Blank formula for other
@@ -176,7 +178,8 @@ def reverse_formula(formula: str) -> str:
         return formula.replace(" == ", " != ").replace(" || ", " && ").strip("()")
 
     if match := re.match(
-        r"^(n(?: % \d+)?) == (\d+) && (n(?: % \d+)?) != (\d+)$", formula
+        r"^(n(?: % \d+)?) == (\d+) && (n(?: % \d+)?) != (\d+)$",
+        formula,
     ):
         return f"{match.group(1)} != {match.group(2)} || {match.group(3)} == {match.group(4)}"
 
@@ -199,7 +202,7 @@ def merge_formulas(formulas: list[str]) -> str:
     for n in range(max_n - 1, -1, -1):
         part = formulas[n]
 
-        if not re.match("^\([^()]+\)$", part):
+        if not re.match(r"^\([^()]+\)$", part):
             part = f"({part})"
         formula = f"{reduce_formula(part)} ? {n} : {formula}"
         if n > 0:
@@ -210,7 +213,7 @@ def merge_formulas(formulas: list[str]) -> str:
 
 # Load language names
 with open(
-    "modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json"
+    "modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json",
 ) as handle:
     data = json.load(handle)
     LANGUAGES = {
@@ -279,5 +282,10 @@ with open("cldr.csv", "w") as handle:
     for code in sorted(LANGUAGES):
         data = LANGUAGES[code]
         handle.write(
-            "{},{},{},{}\n".format(code, data["name"], data["plurals"], data["formula"])
+            "{},{},{},{}\n".format(
+                code,
+                data["name"],
+                data["plurals"],
+                data["formula"],
+            ),
         )

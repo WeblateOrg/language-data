@@ -54,8 +54,11 @@ for code in sys.argv[1:]:
         sys.stderr.write(f"Failed to load data for {code}, using defaults\n")
     lines.append(
         "{},{},{},{}\n".format(
-            code, names[code].split(";")[-1].strip(), plurals, formula
-        )
+            code,
+            names[code].split(";")[-1].strip(),
+            plurals,
+            formula,
+        ),
     )
 
 with open("languages.csv", "w") as handle:

@@ -4,9 +4,9 @@
 #
 # SPDX-License-Identifier: MIT
 
+import csv
 import os
 import re
-import csv
 
 ALIASES = {
     "Chinese": ("Chinese (Simplified Han script)", "Chinese (Traditional Han script)"),
@@ -46,7 +46,7 @@ def parse_csv(name):
 DEFINITIONS = parse_csv("languages.csv")
 
 plural_definition = re.compile(
-    '{\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*"nplurals=([0-9]+); plural=([^"]+);"\s}'
+    r'{\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*"nplurals=([0-9]+); plural=([^"]+);"\s}',
 )
 
 LANGUAGES = {}
@@ -59,7 +59,7 @@ def handle_language(parts):
     # Remove duplicate definition
     if name == "frenchStyleLanguages":
         text = text.replace("QLocale::Filipino,", "")
-    # Hack to deal with frenchStyleCountries
+    # Workaround to deal with frenchStyleCountries
     if name == "frenchStyleLanguages":
         text = text.replace("Portuguese", "PortugueseBrasil")
     LANGUAGES[name] = (
@@ -120,7 +120,7 @@ def generate(group, name):
             definition[1],
             plural[0],
             plural[1],
-        )
+        ),
     )
     processed.add(definition[0])
 

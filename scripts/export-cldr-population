@@ -12,7 +12,7 @@ MAPPING = {
 }
 
 with open(
-    "modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json"
+    "modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json",
 ) as handle:
     languages = defaultdict(int)
     for code, territory in json.load(handle)["supplemental"]["territoryInfo"].items():

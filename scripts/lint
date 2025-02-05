@@ -59,7 +59,7 @@ for match in matching:
     plural_cldr = cldr[match][3]
     if plural_our == "n != 1" and plural_cldr != "n != 1":
         raise ValueError(
-            f"Mismatching plural form for {match}: {plural_our!r} != {plural_cldr!r}"
+            f"Mismatching plural form for {match}: {plural_our!r} != {plural_cldr!r}",
         )
 
 
@@ -76,5 +76,5 @@ for code, _name, plural_count, plural_formula in languages.values():
     )
     if calculated != int(plural_count):
         raise ValueError(
-            f"Mismatching plural count for {code}: {plural_count} != {calculated}"
+            f"Mismatching plural count for {code}: {plural_count} != {calculated}",
         )

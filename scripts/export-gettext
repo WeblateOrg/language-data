@@ -28,7 +28,7 @@ for line in content.splitlines():
                     matches[2],
                     int(matches[3].split(";", 1)[0].split("=")[1]),
                     matches[3].split(";", 1)[1].split("=", 1)[1].rstrip(";"),
-                )
+                ),
             )
 
 with open("gettext.csv", "w") as handle:
