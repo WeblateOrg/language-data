@@ -16,3 +16,5 @@ jobs:
         python-version: '3.13'
     - name: Lint
       run: ./scripts/lint
+permissions:
+  contents: read

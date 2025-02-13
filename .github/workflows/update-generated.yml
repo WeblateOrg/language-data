@@ -52,3 +52,5 @@ jobs:
         labels: |
           dependencies
           automerge
+permissions:
+  contents: read
