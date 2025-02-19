@@ -12,7 +12,7 @@ https://github.com/WeblateOrg/language-data
 """
 # pylint: disable=line-too-long,too-many-lines
 
-# Language names to ignore in same check
+# Language names to ignore in the same check
 LANGUAGES: set[str] = {
     "aak",
     "aakkâr",

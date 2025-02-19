@@ -39,7 +39,7 @@ if missing:
 
 overlap = set(languages.keys()) & set(aliases.keys())
 if overlap:
-    raise ValueError(f"Overlaping languages and aliases: {overlap}")
+    raise ValueError(f"Overlapping languages and aliases: {overlap}")
 
 missing = set(cldr.keys()) - set(languages.keys())
 # Remove aliases (these use lower case)
