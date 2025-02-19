@@ -104,7 +104,7 @@ l10n-guide.csv
 languages-po
 ------------
 
-* Directory containing PO files with langauge names translations
+* Directory containing PO files with language names translations
 * Extracted from CLDR data
 
 .. _Weblate: https://weblate.org/
