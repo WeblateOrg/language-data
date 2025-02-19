@@ -150,7 +150,7 @@ with open("rtl.csv") as csvfile:
     RTLS = list(reader)
     RTL_CODES = {lang[0] for lang in RTLS}
 
-# Read case insentive
+# Read case-insensitive
 with open("case-insensitive.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=",")
     next(reader)
@@ -201,7 +201,7 @@ with open("weblate_language_data/aliases.py", "w") as output:
     output.write("}\n")
 with open("weblate_language_data/countries.py", "w") as output:
     output.write(HEADER)
-    output.write("# List of defaul languages, omitting country code should be okay\n")
+    output.write("# List of default languages, omitting country code should be okay\n")
     output.write("DEFAULT_LANGS: tuple[str, ...] = (\n")
     for row in DEFAULT_COUNTRIES:
         output.write(f'    "{escape(row[0])}",\n')
@@ -216,13 +216,13 @@ with open("weblate_language_data/rtl.py", "w") as output:
 
 with open("weblate_language_data/case_insensitive.py", "w") as output:
     output.write(HEADER)
-    output.write("# List of case-insentive languages\n")
+    output.write("# List of case-insensitive languages\n")
     output.write("CASE_INSENSITIVE_LANGS: set[str] = {\n")
     for code in sorted(CASE_INSENSITIVE_CODES):
         output.write(f'    "{code}",\n')
     output.write("}\n")
 
-# Generate same check blacklist
+# Generate same check exception list
 words = set()
 
 
@@ -310,10 +310,10 @@ words.difference_update(
     },
 )
 
-# Write same check blacklist
+# Write same check exclude list
 with open("weblate_language_data/check_languages.py", "w") as output:
     output.write(HEADER)
-    output.write("# Language names to ignore in same check\n")
+    output.write("# Language names to ignore in the same check\n")
     output.write("LANGUAGES: set[str] = {\n")
     for word in sorted(words):
         if len(word) <= 2:  # noqa: PLR2004

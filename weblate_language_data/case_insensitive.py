@@ -12,7 +12,7 @@ https://github.com/WeblateOrg/language-data
 """
 # pylint: disable=line-too-long,too-many-lines
 
-# List of case-insentive languages
+# List of case-insensitive languages
 CASE_INSENSITIVE_LANGS: set[str] = {
     "aeb",
     "am",

@@ -71,7 +71,7 @@ with open(ALIASES) as handle:
             continue
         replacement = alias["_replacement"]
         if code in LANGUAGE_CODES:
-            print(f"Exising language {code}: {alias}")
+            print(f"Existing language {code}: {alias}")
             continue
         if replacement not in LANGUAGE_CODES:
             print(f"Missing target {code}: {alias}")

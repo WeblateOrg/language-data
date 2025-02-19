@@ -35,7 +35,7 @@ for layout_file in LAYOUTDIR.glob("*/layout.json"):
         if character_order == "right-to-left":
             RTL_CODES.add(code)
         elif character_order != "left-to-right":
-            print(f"Uknown order for {code}: {character_order})")
+            print(f"Unknown order for {code}: {character_order})")
 
 with open("rtl.csv", "w") as handle:
     handle.write("code,\n")
