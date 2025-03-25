@@ -131,7 +131,6 @@ max-complexity = 16
 
 [tool.setuptools]
 include-package-data = true
-# Empty as a workaround for https://github.com/pypa/setuptools/issues/4759
 platforms = [
   "any"
 ]
