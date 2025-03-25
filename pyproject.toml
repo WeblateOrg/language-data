@@ -31,12 +31,10 @@ description = "Language definitions for Weblate"
 keywords = [
   "i18n l10n gettext git mercurial translate"
 ]
+license = {text = "MIT"}
 name = "weblate-language-data"
 requires-python = ">=3.9"
 version = "2025.3"
-
-[project.license]
-text = "MIT"
 
 [project.optional-dependencies]
 dev = [
