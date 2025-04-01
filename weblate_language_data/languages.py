@@ -233,6 +233,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
+        "apd",
+        # Translators: Language name for ISO code "apd". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Arabic (Sudanese)"),
+        2,
+        "n != 1",
+    ),
+    (
         "ar",
         # Translators: Language name for ISO code "ar". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -6223,6 +6232,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Tonga (Nyasa)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "toi",
+        # Translators: Language name for ISO code "toi". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Tonga (Zambia)"),
         2,
         "n != 1",
     ),
