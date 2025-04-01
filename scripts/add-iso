@@ -4,11 +4,21 @@
 #
 # SPDX-License-Identifier: MIT
 
+import csv
 import json
 import sys
+from operator import itemgetter
 from urllib.request import urlopen
 
 names = {}
+
+
+def convert_name(name: str) -> str:
+    if "," in name:
+        base, extra = name.split(",", 1)
+        return f"{base.strip()} ({extra.strip()})"
+    return name
+
 
 # See https://github.com/WeblateOrg/language-data/issues/103
 PLURALDATA = "https://jibecfed.fedorapeople.org/partage/languages-data/{}.json"
@@ -17,18 +27,22 @@ with open("modules/iso-codes/data/iso_639-2.json") as handle:
     for item in json.load(handle)["639-2"]:
         for value in ("alpha_2", "alpha_3"):
             if value in item:
-                names[item[value]] = item.get("inverted_name", item["name"])
+                names[item[value]] = convert_name(
+                    item.get("inverted_name", item["name"])
+                )
 
 with open("modules/iso-codes/data/iso_639-3.json") as handle:
     for item in json.load(handle)["639-3"]:
         for value in ("alpha_2", "alpha_3"):
             if value in item:
-                names[item[value]] = item.get("inverted_name", item["name"])
+                names[item[value]] = convert_name(
+                    item.get("inverted_name", item["name"])
+                )
 
-with open("languages.csv") as handle:
-    lines = handle.readlines()
-    header = lines[:1]
-    lines = lines[1:]
+with open("languages.csv", newline="") as handle:
+    reader = csv.reader(handle, delimiter=",")
+    header = next(reader)
+    lines = list(reader)
 
 for code in sys.argv[1:]:
     plurals = 2
@@ -53,14 +67,15 @@ for code in sys.argv[1:]:
     except (OSError, KeyError):
         sys.stderr.write(f"Failed to load data for {code}, using defaults\n")
     lines.append(
-        "{},{},{},{}\n".format(
+        [
             code,
             names[code].split(";")[-1].strip(),
             plurals,
             formula,
-        ),
+        ],
     )
 
-with open("languages.csv", "w") as handle:
-    handle.writelines(header)
-    handle.writelines(sorted(lines))
+with open("languages.csv", "w", newline="") as handle:
+    writer = csv.writer(handle, delimiter=",", lineterminator="\n")
+    writer.writerow(header)
+    writer.writerows(sorted(lines, key=itemgetter(0)))
