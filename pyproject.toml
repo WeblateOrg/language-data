@@ -139,7 +139,7 @@ platforms = [
 weblate_language_data = "weblate_language_data"
 
 [tool.setuptools.packages.find]
-exclude = ["modules*"]
+exclude = ["modules*", "scripts*"]
 namespaces = true
 
 [tool.tomlsort]

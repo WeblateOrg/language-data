@@ -4,59 +4,59 @@
 
 all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLURALS_DIFF.md $(wildcard weblate_language_data/locale/*/LC_MESSAGES/django.po) $(filter-out $(patsubst modules/cldr-json/cldr-json/cldr-localenames-full/main/%/languages.json,languages-po/%.po,$(wildcard modules/cldr-json/cldr-json/cldr-localenames-full/main/*/languages.json)),languages-po/en.po)
 
-weblate_language_data/languages.py: languages.csv aliases.csv cldr.csv extraplurals.csv default_countries.csv population.csv qt.csv rtl.csv case-insensitive.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data
-	./scripts/generate-language-data
+weblate_language_data/languages.py: languages.csv aliases.csv cldr.csv extraplurals.csv default_countries.csv population.csv qt.csv rtl.csv case-insensitive.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data.py
+	./scripts/generate-language-data.py
 
-PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv scripts/list-diff
-	./scripts/list-diff
+PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv scripts/list-diff.py
+	./scripts/list-diff.py
 	pre-commit run --files PLURALS_DIFF.md || true
 
-cldr.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json scripts/export-cldr
-	./scripts/export-cldr
+cldr.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json scripts/export-cldr.py
+	./scripts/export-cldr.py
 
-rtl.csv: modules/cldr-json/cldr-json/cldr-misc-full/main/*/layout.json scripts/export-cldr-orientation languages.csv
-	./scripts/export-cldr-orientation
+rtl.csv: modules/cldr-json/cldr-json/cldr-misc-full/main/*/layout.json scripts/export-cldr-orientation.py languages.csv
+	./scripts/export-cldr-orientation.py
 
-case-insensitive.csv: modules/cldr-json/cldr-json/cldr-core/scriptMetadata.json modules/cldr-json/cldr-json/cldr-core/supplemental/languageData.json scripts/export-cldr-case languages.csv
-	./scripts/export-cldr-case
+case-insensitive.csv: modules/cldr-json/cldr-json/cldr-core/scriptMetadata.json modules/cldr-json/cldr-json/cldr-core/supplemental/languageData.json scripts/export-cldr-case.py languages.csv
+	./scripts/export-cldr-case.py
 
-qt.csv: modules/qttools/src/linguist/shared/numerus.cpp scripts/export-qt languages.csv
-	./scripts/export-qt
+qt.csv: modules/qttools/src/linguist/shared/numerus.cpp scripts/export-qt.py languages.csv
+	./scripts/export-qt.py
 
-gettext.csv: modules/gettext/gettext-tools/src/plural-table.c scripts/export-gettext
-	./scripts/export-gettext
+gettext.csv: modules/gettext/gettext-tools/src/plural-table.c scripts/export-gettext.py
+	./scripts/export-gettext.py
 
 .PRECIOUS: languages-po/%.po
-languages-po/%.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json modules/cldr-json/cldr-json/cldr-localenames-full/main/%/languages.json scripts/export-languages-po
-	./scripts/export-languages-po $*
+languages-po/%.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json modules/cldr-json/cldr-json/cldr-localenames-full/main/%/languages.json scripts/export-languages-po.py
+	./scripts/export-languages-po.py $*
 
-l10n-guide.csv: modules/l10n-guide/docs/l10n/pluralforms.rst scripts/export-l10n-guide
-	./scripts/export-l10n-guide
+l10n-guide.csv: modules/l10n-guide/docs/l10n/pluralforms.rst scripts/export-l10n-guide.py
+	./scripts/export-l10n-guide.py
 
 LANG_DATA = $(shell python -c 'from pkg_resources import Requirement, resource_filename; print(resource_filename(Requirement.parse("translate-toolkit"), "translate/lang/data.py"))')
 
-translate.csv: $(LANG_DATA) scripts/export-translate
-	./scripts/export-translate
+translate.csv: $(LANG_DATA) scripts/export-translate.py
+	./scripts/export-translate.py
 
-weblate_language_data/plural_tags.py: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json scripts/export-plural-tags modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json aliases.csv
-	./scripts/export-plural-tags
+weblate_language_data/plural_tags.py: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json scripts/export-plural-tags.py modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json aliases.csv
+	./scripts/export-plural-tags.py
 
-aliases.csv: scripts/export-iso-aliases modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json
-	./scripts/export-iso-aliases
+aliases.csv: scripts/export-iso-aliases.py modules/iso-codes/data/iso_639-2.json modules/iso-codes/data/iso_639-3.json modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json
+	./scripts/export-iso-aliases.py
 	@touch $@
 
-population.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json scripts/export-cldr-population
-	./scripts/export-cldr-population
+population.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json scripts/export-cldr-population.py
+	./scripts/export-cldr-population.py
 
-languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages scripts/add-iso-population aliases.csv population.csv
-	./scripts/export-iso-languages
-	./scripts/add-iso-population
+languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages.py scripts/add-iso-population.py aliases.csv population.csv
+	./scripts/export-iso-languages.py
+	./scripts/add-iso-population.py
 	@touch $@
 
 weblate_language_data/locale/django.pot: weblate_language_data/languages.py weblate_language_data/plurals.py
 	xgettext --add-comments=Translators: --msgid-bugs-address=https://github.com/WeblateOrg/language-data/issues/ --from-code=utf-8 --language=python --no-location --package-name="Weblate Language Data" --output=$@.1 weblate_language_data/*.py
 	cp $@.1 $@.2
-	./scripts/copy-pot-date $@ $@.2
+	./scripts/copy-pot-date.sh $@ $@.2
 	if cmp $@ $@.2 ; then touch $@ ; else cp $@.1 $@; fi
 	rm $@.1 $@.2
 

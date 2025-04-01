@@ -19,7 +19,7 @@ HEADER = '''# Copyright © Michal Čihař <michal@weblate.org>
 """
 Language data definitions.
 
-This is an automatically generated file, see scripts/generate-language-data
+This is an automatically generated file, see scripts/export-plural-tags.py
 
 Do not edit, please adjust language definitions in following repository:
 https://github.com/WeblateOrg/language-data
