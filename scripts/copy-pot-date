@@ -7,7 +7,7 @@
 REGX='^"POT-Creation-Date:.*'
 
 # Grab date from other branch
-REPL=`grep "$REGX" "$1" | sed -e 's/\\\\/\\\\\\\\/'`
+REPL=$(grep "$REGX" "$1" | sed -e 's/\\\\/\\\\\\\\/')
 
 # Push it into other files
 sed -i -e "s/$REGX/$REPL/" "$2"
