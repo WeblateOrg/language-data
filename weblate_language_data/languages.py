@@ -94,8 +94,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Arabic (Tunisian)"),
-        2,
-        "n != 1",
+        6,
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
         "af",
@@ -229,8 +229,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Arabic (Levantine)"),
-        2,
-        "n != 1",
+        6,
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
         "apd",
@@ -238,8 +238,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Arabic (Sudanese)"),
-        2,
-        "n != 1",
+        6,
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
         "ar",
@@ -364,8 +364,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Arabic (Algerian)"),
-        2,
-        "n != 1",
+        6,
+        "(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))",
     ),
     (
         "ars",
@@ -391,8 +391,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Arabic (Egyptian)"),
-        2,
-        "n != 1",
+        6,
+        "(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))",
     ),
     (
         "as",
