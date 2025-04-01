@@ -42,8 +42,6 @@ repos:
   hooks:
   - id: pretty-format-yaml
     args: [--autofix, --indent, '2']
-  - id: pretty-format-toml
-    args: [--autofix]
 - repo: https://github.com/executablebooks/mdformat
   rev: 0.7.22
   hooks:
@@ -61,7 +59,20 @@ repos:
   rev: v5.0.2
   hooks:
   - id: reuse
-
+- repo: https://github.com/shellcheck-py/shellcheck-py
+  rev: v0.10.0.1
+  hooks:
+  - id: shellcheck
+    require_serial: true
+    args: [-x]
+- repo: https://github.com/abravalheri/validate-pyproject
+  rev: v0.24.1
+  hooks:
+  - id: validate-pyproject
+- repo: https://github.com/pappasam/toml-sort
+  rev: v0.24.2
+  hooks:
+  - id: toml-sort-fix
 - repo: https://github.com/codespell-project/codespell
   rev: v2.4.1
   hooks:

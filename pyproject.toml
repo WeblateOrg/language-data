@@ -8,20 +8,20 @@ requires = [
 
 [project]
 authors = [
-  {name = "Michal Čihař", email = "michal@weblate.org"}
+  {email = "michal@weblate.org", name = "Michal Čihař"}
 ]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
-  "Programming Language :: Python",
-  "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python",
   "Topic :: Software Development :: Internationalization",
   "Topic :: Software Development :: Localization",
   "Topic :: Utilities"
@@ -38,8 +38,8 @@ version = "2025.3"
 
 [project.optional-dependencies]
 dev = [
-  "weblate-language-data[lint,test,types]",
-  "translate-toolkit==3.15.1"
+  "translate-toolkit==3.15.1",
+  "weblate-language-data[lint,test,types]"
 ]
 django = [
   "Django"
@@ -50,8 +50,8 @@ lint = [
 test = [
 ]
 types = [
-  "mypy==1.15.0",
-  "django-stubs==5.1.3"
+  "django-stubs==5.1.3",
+  "mypy==1.15.0"
 ]
 
 [project.readme]
@@ -72,22 +72,22 @@ target-version = ['py39']
 
 [tool.check-manifest]
 ignore = [
-  "LICENSES/*",
+  "*.csv",
+  "*.json",
+  "*.toml",
+  "*.yaml",
+  "*.yml",
+  ".editorconfig",
+  ".gitmodules",
+  ".reuse/dep5",
+  ".weblate",
   "json/*",
+  "languages-po/*",
+  "LICENSES/*",
+  "Makefile",
   "modules/**",
   "scripts/*",
-  ".reuse/dep5",
-  "languages-po/*",
-  "*.csv",
-  "Makefile",
-  ".gitmodules",
-  "scripts/*",
-  "*.toml",
-  "*.yml",
-  "*.yaml",
-  "*.json",
-  ".editorconfig",
-  ".weblate"
+  "scripts/*"
 ]
 ignore-bad-ideas = [
   "modules/gettext/gettext-tools/tests/*.mo"
@@ -105,21 +105,21 @@ target-version = "py39"
 
 [tool.ruff.lint]
 ignore = [
-  "D10",  # TODO: we are missing many docstrings
-  "PTH",  # TODO: Not using pathlib
-  "EM",  # TODO: exception literals
-  "PERF401",  # TODO
   "COM812",  # CONFIG: trailing newlines
-  "FBT",  # TODO: Boolean in function definition
+  "D10",  # TODO: we are missing many docstrings
   "D203",  # CONFIG: incompatible with D211
   "D212",  # CONFIG: incompatible with D213
+  "E501",  # WONTFIX: we accept long strings (rest is formatted by black)
+  "EM",  # TODO: exception literals
+  "FBT",  # TODO: Boolean in function definition
   "ISC001",  # CONFIG: incompatible with formatter
-  "TRY003",  # WONTFIX: Avoid specifying long messages outside the exception class
-  "T201",  # WONTFIX: using print() (maybe add noqa)
-  "T203",  # WONTFIX: using pprint() (maybe add noqa)
+  "PERF401",  # TODO
+  "PTH",  # TODO: Not using pathlib
   "RUF001",  # WONTFIX: String contains ambiguous unicode character, we are using Unicode
   "RUF012",  # TODO: Mutable class attributes should be annotated with `typing.ClassVar`
-  "E501"  # WONTFIX: we accept long strings (rest is formatted by black)
+  "T201",  # WONTFIX: using print() (maybe add noqa)
+  "T203",  # WONTFIX: using pprint() (maybe add noqa)
+  "TRY003"  # WONTFIX: Avoid specifying long messages outside the exception class
 ]
 select = ["ALL"]
 
@@ -127,7 +127,7 @@ select = ["ALL"]
 max-complexity = 16
 
 [tool.ruff.lint.per-file-ignores]
-"scripts/*" = ["S607", "S603", "S310", "ANN"]
+"scripts/*" = ["ANN", "S310", "S603", "S607"]
 
 [tool.setuptools]
 include-package-data = true
@@ -141,3 +141,10 @@ weblate_language_data = "weblate_language_data"
 [tool.setuptools.packages.find]
 exclude = ["modules*"]
 namespaces = true
+
+[tool.tomlsort]
+ignore_case = true
+sort_inline_arrays = true
+sort_inline_tables = true
+sort_table_keys = true
+spaces_before_inline_comment = 2
