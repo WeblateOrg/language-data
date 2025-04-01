@@ -469,4 +469,5 @@ ALIASES: dict[str, str] = {
     "zyb": "za",
     "prp": "gu",
     "ais": "szy",
+    "cls": "sa",
 }

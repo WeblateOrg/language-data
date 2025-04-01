@@ -23,6 +23,7 @@ an,Aragonese,2,n != 1
 ang,English (Old),2,n != 1
 anp,Angika,2,n != 1
 apc,Arabic (Levantine),2,n != 1
+apd,Arabic (Sudanese),2,n != 1
 ar,Arabic,6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_BH,Arabic (Bahrain),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_DZ,Arabic (Algeria),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
@@ -689,6 +690,7 @@ tmh,Tamashek,2,n != 1
 tn,Tswana,2,n != 1
 to,Tongan,1,0
 tog,Tonga (Nyasa),2,n != 1
+toi,Tonga (Zambia),2,n != 1
 tok,Toki Pona,1,0
 tpi,Tok Pisin,1,0
 tr,Turkish,2,n != 1
