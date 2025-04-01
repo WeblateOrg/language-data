@@ -38,6 +38,6 @@ with open("modules/iso-codes/data/iso_639-2.json") as handle:
             continue
         if "alpha_2" in item:
             if item["alpha_2"] not in IGNORE and item["alpha_2"] not in languages:
-                subprocess.run(["./scripts/add-iso", item["alpha_2"]], check=True)
+                subprocess.run(["./scripts/add-iso.py", item["alpha_2"]], check=True)
         elif item["alpha_3"] not in IGNORE and item["alpha_3"] not in languages:
-            subprocess.run(["./scripts/add-iso", item["alpha_3"]], check=True)
+            subprocess.run(["./scripts/add-iso.py", item["alpha_3"]], check=True)

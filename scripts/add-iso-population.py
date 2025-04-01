@@ -37,6 +37,6 @@ for code, population in POPULATION.items():
     if code not in LANGUAGE_CODES and code not in ALIASES:
         print(f"Adding {code} ({population})")
         subprocess.run(
-            ["./scripts/add-iso", code],
+            ["./scripts/add-iso.py", code],
             check=False,
         )
