@@ -39,6 +39,8 @@ with open("modules/iso-codes/data/iso_639-3.json") as handle:
                     item.get("inverted_name", item["name"])
                 )
 
+lines: list[list[str]]
+
 with open("languages.csv", newline="") as handle:
     reader = csv.reader(handle, delimiter=",")
     header = next(reader)
@@ -70,7 +72,7 @@ for code in sys.argv[1:]:
         [
             code,
             names[code].split(";")[-1].strip(),
-            plurals,
+            str(plurals),
             formula,
         ],
     )
@@ -78,4 +80,9 @@ for code in sys.argv[1:]:
 with open("languages.csv", "w", newline="") as handle:
     writer = csv.writer(handle, delimiter=",", lineterminator="\n")
     writer.writerow(header)
-    writer.writerows(sorted(lines, key=itemgetter(0)))
+    writer.writerows(
+        sorted(
+            lines,
+            key=itemgetter(0),  # type: ignore[arg-type]
+        )
+    )

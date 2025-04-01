@@ -4,6 +4,8 @@
 #
 # SPDX-License-Identifier: MIT
 
+from __future__ import annotations
+
 import csv
 import json
 
@@ -11,8 +13,7 @@ import json
 with open("languages.csv") as csvfile:
     reader = csv.reader(csvfile, delimiter=",")
     next(reader)
-    LANGUAGES = list(reader)
-    LANGUAGE_CODES = {lang[0] for lang in LANGUAGES}
+    LANGUAGE_CODES = {lang[0] for lang in reader}
 
 # Read
 with open("case-insensitive.csv") as csvfile:
@@ -27,8 +28,12 @@ with open("modules/cldr-json/cldr-json/cldr-core/scriptMetadata.json") as handle
 with open(
     "modules/cldr-json/cldr-json/cldr-core/supplemental/languageData.json",
 ) as handle:
-    LANGUAGES = json.load(handle)["supplemental"]["languageData"]
+    LANGUAGES: dict[str, dict[str, str]] = json.load(handle)["supplemental"][
+        "languageData"
+    ]
 
+base: str
+script: str | None
 for code in LANGUAGE_CODES:
     if "_" in code:
         base, script = code.split("_", 1)

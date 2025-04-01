@@ -38,5 +38,5 @@ jobs:
     - name: Run mypy
       run: |
         echo "::add-matcher::.github/matchers/mypy.json"
-        mypy --show-column-numbers weblate_language_data
+        mypy --show-column-numbers weblate_language_data scripts/*.py
         echo "::remove-matcher owner=mypy::"

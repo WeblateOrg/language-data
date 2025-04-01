@@ -9,8 +9,8 @@ import json
 import pprint
 import subprocess
 
-BASE = "modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json"
-ALIASES = "modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json"
+BASE_FILE = "modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json"
+ALIASES_FILE = "modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json"
 
 HEADER = '''# Copyright © Michal Čihař <michal@weblate.org>
 #
@@ -93,7 +93,7 @@ TAG_MAP = {
 result = {}
 decimals = {}
 
-with open(BASE) as handle:
+with open(BASE_FILE) as handle:
     data = json.load(handle)
 
 for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
@@ -105,7 +105,7 @@ for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
     decimals[locale] = [name.replace("pluralRule-count-", "") for name in rules]
 
 # Process CLDR
-with open(ALIASES) as handle:
+with open(ALIASES_FILE) as handle:
     aliases = json.load(handle)
 
 for code, alias in aliases["supplemental"]["metadata"]["alias"][
