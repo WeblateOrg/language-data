@@ -7,7 +7,7 @@ ach,Acholi,2,n > 1
 ada,Adangme,2,n != 1
 ady,Adyghe,2,n > 1
 ae,Avestan,2,n != 1
-aeb,Arabic (Tunisian),2,n != 1
+aeb,Arabic (Tunisian),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 af,Afrikaans,2,n != 1
 afh,Afrihili,2,n != 1
 aii,Assyrian Neo-Aramaic,2,n != 1
@@ -22,8 +22,8 @@ ami,Amis,2,n != 1
 an,Aragonese,2,n != 1
 ang,English (Old),2,n != 1
 anp,Angika,2,n != 1
-apc,Arabic (Levantine),2,n != 1
-apd,Arabic (Sudanese),2,n != 1
+apc,Arabic (Levantine),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
+apd,Arabic (Sudanese),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar,Arabic,6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_BH,Arabic (Bahrain),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_DZ,Arabic (Algeria),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
@@ -37,10 +37,10 @@ ar_YE,Arabic (Yemen),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 
 arc,Aramaic,2,n != 1
 arn,Mapudungun,2,n > 1
 arp,Arapaho,2,n != 1
-arq,Arabic (Algerian),2,n != 1
+arq,Arabic (Algerian),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 ars,Arabic (Najdi),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 arw,Arawak,2,n != 1
-arz,Arabic (Egyptian),2,n != 1
+arz,Arabic (Egyptian),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 as,Assamese,2,n > 1
 asa,Asu,2,n != 1
 ast,Asturian,2,n != 1
