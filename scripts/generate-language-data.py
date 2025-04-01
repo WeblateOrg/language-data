@@ -135,7 +135,7 @@ with open("cldr.csv") as csvfile:
         except KeyError:
             continue
         if existing != number:
-            CLDRPLURALS.append((code, LANGUAGE_NAMES[code], number, equation))
+            CLDRPLURALS.append([code, LANGUAGE_NAMES[code], number, equation])
 
 # Read default countries
 with open("default_countries.csv") as csvfile:

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import re
+from typing import Literal, TypedDict
 
 MAPPINGS = {
     "ar_001": "ar",
@@ -112,7 +113,7 @@ def convert_atom(atom: str) -> str | bool:
     )
 
 
-def convert_formula(cldr_formula_and_examples: str) -> str:
+def convert_formula(cldr_formula_and_examples: str) -> str | bool:
     # Skip formulas which do not trigger integer
     if "@integer" not in cldr_formula_and_examples:
         return False
@@ -169,7 +170,9 @@ def convert_formula(cldr_formula_and_examples: str) -> str:
     return " || ".join(chunks)
 
 
-def reverse_formula(formula: str) -> str:
+def reverse_formula(formula: str | bool) -> str:
+    if isinstance(formula, bool):
+        raise TypeError(f"Unable to reverse the formula {formula!r}")
     if re.match(r"^n( % \d+)? == \d+(\.\.\d+|,\d+)*?$", formula):
         return formula.replace(" == ", " != ")
     if re.match(r"^n( % \d+)? != \d+(\.\.\d+|,\d+)*?$", formula):
@@ -193,14 +196,16 @@ def reverse_formula(formula: str) -> str:
     if formula == "(n == 0 || n == 1) || n >= 11 && n <= 99":
         return "n >= 2 && (n < 11 || n > 99)"
 
-    raise ValueError(f"Unable to reverse the formula '{formula}'")
+    raise ValueError(f"Unable to reverse the formula {formula!r}")
 
 
-def merge_formulas(formulas: list[str]) -> str:
+def merge_formulas(formulas: list[str | Literal[True]]) -> str:
     max_n = len(formulas) - 1
     formula = f"{max_n}"
     for n in range(max_n - 1, -1, -1):
         part = formulas[n]
+        if isinstance(part, bool):
+            raise TypeError(f"Not supported part {part!r}")
 
         if not re.match(r"^\([^()]+\)$", part):
             part = f"({part})"
@@ -211,6 +216,14 @@ def merge_formulas(formulas: list[str]) -> str:
     return formula
 
 
+class LanguageDict(TypedDict, total=False):
+    code: str
+    name: str
+    plurals: int
+    formula: str
+
+
+LANGUAGES: dict[str, LanguageDict]
 # Load language names
 with open(
     "modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json",

@@ -14,7 +14,7 @@ MAPPING = {
 with open(
     "modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json",
 ) as handle:
-    languages = defaultdict(int)
+    languages: dict[str, float] = defaultdict(float)
     for code, territory in json.load(handle)["supplemental"]["territoryInfo"].items():
         population = int(territory["_population"])
         if "languagePopulation" not in territory:
