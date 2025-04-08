@@ -103,6 +103,9 @@ profile = "black"
 [tool.ruff]
 target-version = "py39"
 
+[tool.ruff.format]
+docstring-code-format = true
+
 [tool.ruff.lint]
 ignore = [
   "COM812",  # CONFIG: trailing newlines
