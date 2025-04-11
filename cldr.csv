@@ -5,6 +5,15 @@ am,Amharic,2,n > 1
 an,Aragonese,2,n != 1
 ar,Arabic,6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 ar_001,Modern Standard Arabic,6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_BH,Arabic (Bahrain),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_DZ,Arabic (Algeria),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_EG,Arabic (Egypt),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_KW,Arabic (Kuwait),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_LY,Arabic (Libya),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_MA,Arabic (Morocco),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_SA,Arabic (Saudi Arabia),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_XB,Arabic (XB pseudolocale),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
+ar_YE,Arabic (Yemen),6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 ars,Najdi Arabic,6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))))
 as,Assamese,2,n > 1
 asa,Asu,2,n != 1
@@ -12,6 +21,7 @@ ast,Asturian,2,n != 1
 az,Azerbaijani,2,n != 1
 bal,Baluchi,2,n != 1
 be,Belarusian,3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
+be_Latn,Belarusian (Latin script),3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 bem,Bemba,2,n != 1
 bez,Bena,2,n != 1
 bg,Bulgarian,2,n != 1
@@ -19,23 +29,33 @@ bho,Bhojpuri,2,n > 1
 blo,Anii,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 bm,Bambara,1,0
 bn,Bangla,2,n > 1
+bn_BD,Bengali (Bangladesh),2,n > 1
+bn_IN,Bengali (India),2,n > 1
 bo,Tibetan,1,0
+bo_CN,Tibetan (China),1,0
 br,Breton,5,(n % 10 == 1 && n % 100 != 11 && n % 100 != 71 && n % 100 != 91) ? 0 : ((n % 10 == 2 && n % 100 != 12 && n % 100 != 72 && n % 100 != 92) ? 1 : ((((n % 10 == 3 || n % 10 == 4) || n % 10 == 9) && (n % 100 < 10 || n % 100 > 19) && (n % 100 < 70 || n % 100 > 79) && (n % 100 < 90 || n % 100 > 99)) ? 2 : ((n != 0 && n % 1000000 == 0) ? 3 : 4)))
 brx,Bodo,2,n != 1
 bs,Bosnian,3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
+bs_Cyrl,Bosnian (Cyrillic script),3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
+bs_Latn,Bosnian (Latin script),3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 ca,Catalan,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+ca_AD,Catalan (Andorra),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 ce,Chechen,2,n != 1
 ceb,Cebuano,2,n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
 cgg,Chiga,2,n != 1
 chr,Cherokee,2,n != 1
 ckb,Central Kurdish,2,n != 1
+ckb_IQ,"Kurdish (Central, Iraq)",2,n != 1
+ckb_IR,"Kurdish (Central, Iran)",2,n != 1
 cs,Czech,3,(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2)
 csw,Swampy Cree,2,n > 1
 cy,Welsh,6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))))
 da,Danish,2,n != 1
 de,German,2,n != 1
-de_AT,Austrian German,2,n != 1
-de_CH,Swiss High German,2,n != 1
+de_1901,German (old spelling),2,n != 1
+de_AT,German (Austria),2,n != 1
+de_CH,German (Switzerland),2,n != 1
+de_LU,German (Luxembourg),2,n != 1
 doi,Dogri,2,n > 1
 dsb,Lower Sorbian,4,(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
 dv,Divehi,2,n != 1
@@ -43,26 +63,54 @@ dz,Dzongkha,1,0
 ee,Ewe,2,n != 1
 el,Greek,2,n != 1
 en,English,2,n != 1
-en_AU,Australian English,2,n != 1
-en_CA,Canadian English,2,n != 1
-en_GB,British English,2,n != 1
-en_US,American English,2,n != 1
+en_AU,English (Australia),2,n != 1
+en_CA,English (Canada),2,n != 1
+en_GB,English (United Kingdom),2,n != 1
+en_IE,English (Ireland),2,n != 1
+en_IN,English (India),2,n != 1
+en_NZ,English (New Zealand),2,n != 1
+en_PH,English (Philippines),2,n != 1
+en_Shaw,English (Shavian),2,n != 1
+en_Shaw_GB,"English (Shavian script, United Kingdom)",2,n != 1
+en_Shaw_US,"English (Shavian script, United States)",2,n != 1
+en_US,English (United States),2,n != 1
+en_XA,English (XA pseudolocale),2,n != 1
+en_ZA,English (South Africa),2,n != 1
+en_devel,English (Developer),2,n != 1
 eo,Esperanto,2,n != 1
 es,Spanish,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 es_419,Latin American Spanish,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
-es_ES,European Spanish,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
-es_MX,Mexican Spanish,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_AR,Spanish (Argentina),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_BO,Spanish (Bolivia),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_CL,Spanish (Chile),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_CO,Spanish (Colombia),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_CR,Spanish (Costa Rica),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_CU,Spanish (Cuba),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_DO,Spanish (Dominican Republic),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_EC,Spanish (Ecuador),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_MX,Spanish (Mexico),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_NI,Spanish (Nicaragua),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_PA,Spanish (Panama),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_PE,Spanish (Peru),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_PR,Spanish (Puerto Rico),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_SV,Spanish (El Salvador),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_US,Spanish (American),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_UY,Spanish (Uruguay),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+es_VE,Spanish (Venezuela),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 et,Estonian,2,n != 1
 eu,Basque,2,n != 1
 fa,Persian,2,n > 1
-fa_AF,Dari,2,n > 1
 ff,Fula,2,n > 1
 fi,Finnish,2,n != 1
 fil,Filipino,2,n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 10 == 9)
 fo,Faroese,2,n != 1
 fr,French,3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
-fr_CA,Canadian French,3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
-fr_CH,Swiss French,3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+fr_AG,French (Antigua and Barbuda),3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+fr_BE,French (Belgium),3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+fr_CA,French (Canada),3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+fr_CH,French (Switzerland),3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+fr_LU,French (Luxembourg),3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+fr_SN,French (Senegal),3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 fur,Friulian,2,n != 1
 fy,Western Frisian,2,n != 1
 ga,Irish,5,(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)))
@@ -70,13 +118,15 @@ gd,Scottish Gaelic,4,(n == 1 || n == 11) ? 0 : ((n == 2 || n == 12) ? 1 : ((n >=
 gl,Galician,2,n != 1
 gsw,Swiss German,2,n != 1
 gu,Gujarati,2,n > 1
+gu_IN,Gujarati (India),2,n > 1
 guw,Gun,2,n > 1
 gv,Manx,4,(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 || n % 100 == 20 || n % 100 == 40 || n % 100 == 60 || n % 100 == 80) ? 2 : 3))
 ha,Hausa,2,n != 1
 haw,Hawaiian,2,n != 1
 he,Hebrew,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
+he_IL,Hebrew (Israel),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 hi,Hindi,2,n > 1
-hi_Latn,Hindi (Latin),2,n > 1
+hi_Latn,Hindi (Latin script),2,n > 1
 hnj,Hmong Njua,1,0
 hr,Croatian,3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 hsb,Upper Sorbian,4,(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3))
@@ -89,8 +139,11 @@ ii,Sichuan Yi,1,0
 io,Ido,2,n != 1
 is,Icelandic,2,n % 10 != 1 || n % 100 == 11
 it,Italian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+it_CH,Italian (Switzerland),3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 iu,Inuktitut,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
+iu_Latn,Inuktitut (Latin script),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 ja,Japanese,1,0
+ja_KS,Japanese (Kansai),1,0
 jbo,Lojban,1,0
 jgo,Ngomba,2,n != 1
 jmc,Machame,2,n != 1
@@ -103,6 +156,7 @@ kcg,Tyap,2,n != 1
 kde,Makonde,1,0
 kea,Kabuverdianu,1,0
 kk,Kazakh,2,n != 1
+kk_Latn,Kazakh (Latin script),2,n != 1
 kkj,Kako,2,n != 1
 kl,Kalaallisut,2,n != 1
 km,Khmer,1,0
@@ -130,18 +184,22 @@ mgo,Metaʼ,2,n != 1
 mk,Macedonian,2,n % 10 != 1 || n % 100 == 11
 ml,Malayalam,2,n != 1
 mn,Mongolian,2,n != 1
+mn_Cyrl,Mongolian (Cyrillic script),2,n != 1
+mn_Mong,Mongolian (Traditional script),2,n != 1
 mo,Moldavian,3,(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
 mr,Marathi,2,n != 1
 ms,Malay,1,0
+ms_Arab,Malay (Jawi),1,0
 mt,Maltese,5,(n == 1) ? 0 : ((n == 2) ? 1 : ((n == 0 || n % 100 >= 3 && n % 100 <= 10) ? 2 : ((n % 100 >= 11 && n % 100 <= 19) ? 3 : 4)))
 my,Burmese,1,0
 nah,Nahuatl,2,n != 1
 naq,Nama,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 nb,Norwegian Bokmål,2,n != 1
+nb_NO,Norwegian Bokmål,2,n != 1
 nd,North Ndebele,2,n != 1
 ne,Nepali,2,n != 1
 nl,Dutch,2,n != 1
-nl_BE,Flemish,2,n != 1
+nl_BE,Dutch (Belgium),2,n != 1
 nn,Norwegian Nynorsk,2,n != 1
 nnh,Ngiemboon,2,n != 1
 no,Norwegian,2,n != 1
@@ -155,19 +213,24 @@ or,Odia,2,n != 1
 os,Ossetic,2,n != 1
 osa,Osage,1,0
 pa,Punjabi,2,n > 1
+pa_PK,Punjabi (Pakistan),2,n > 1
 pap,Papiamento,2,n != 1
 pcm,Nigerian Pidgin,2,n > 1
 pl,Polish,3,(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 prg,Prussian,3,(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2)
 ps,Pashto,2,n != 1
-pt,Portuguese,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
-pt_BR,Brazilian Portuguese,3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+pt,Portuguese,3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+pt_AO,Portuguese (Angola),3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+pt_BR,Portuguese (Brazil),3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+pt_BR@formal,"Portuguese (Brazil, formal)",3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
+pt_BR@informal,"Portuguese (Brazil, informal)",3,(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 pt_PT,European Portuguese,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 rm,Romansh,2,n != 1
 ro,Romanian,3,(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
 ro_MD,Moldavian,3,(n == 1) ? 0 : ((n == 0 || n != 1 && n % 100 >= 1 && n % 100 <= 19) ? 1 : 2)
 rof,Rombo,2,n != 1
 ru,Russian,3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
+ru_UA,Russian (Ukraine),3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 rwk,Rwa,2,n != 1
 sah,Yakut,1,0
 saq,Samburu,2,n != 1
@@ -194,16 +257,19 @@ sn,Shona,2,n != 1
 so,Somali,2,n != 1
 sq,Albanian,2,n != 1
 sr,Serbian,3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
-sr_ME,Montenegrin,3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
+sr_Cyrl,Serbian (Cyrillic script),3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
+sr_Latn,Serbian (Latin script),3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 ss,Swati,2,n != 1
 ssy,Saho,2,n != 1
 st,Southern Sotho,2,n != 1
 su,Sundanese,1,0
 sv,Swedish,2,n != 1
 sw,Swahili,2,n != 1
-sw_CD,Congo Swahili,2,n != 1
+sw_CD,Swahili (Congo),2,n != 1
+sw_TZ,Swahili (Tanzania),2,n != 1
 syr,Syriac,2,n != 1
 ta,Tamil,2,n != 1
+ta_LK,Tamil (Sri Lanka),2,n != 1
 te,Telugu,2,n != 1
 teo,Teso,2,n != 1
 th,Thai,1,0
@@ -220,7 +286,10 @@ tzm,Central Atlas Tamazight,2,n >= 2 && (n < 11 || n > 99)
 ug,Uyghur,2,n != 1
 uk,Ukrainian,3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 ur,Urdu,2,n != 1
+ur_IN,Urdu (India),2,n != 1
+ur_PK,Urdu (Pakistan),2,n != 1
 uz,Uzbek,2,n != 1
+uz_Latn,Uzbek (Latin script),2,n != 1
 ve,Venda,2,n != 1
 vec,Venetian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 vi,Vietnamese,1,0
@@ -234,7 +303,12 @@ xog,Soga,2,n != 1
 yi,Yiddish,2,n != 1
 yo,Yoruba,1,0
 yue,Cantonese,1,0
+yue_Hans,Cantonese (Simplified Han script),1,0
+yue_Hant,Cantonese (Traditional Han script),1,0
 zh,Chinese,1,0
-zh_Hans,Simplified Chinese,1,0
-zh_Hant,Traditional Chinese,1,0
+zh_Hans,Chinese (Simplified Han script),1,0
+zh_Hans_SG,"Chinese (Simplified Han script, Singapore)",1,0
+zh_Hant,Chinese (Traditional Han script),1,0
+zh_Hant_HK,"Chinese (Traditional Han script, Hong Kong)",1,0
+zh_Latn,Chinese (Hanyu Pinyin),1,0
 zu,Zulu,2,n > 1

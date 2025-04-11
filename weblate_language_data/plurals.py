@@ -227,6 +227,15 @@ CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
+        "ca_AD",
+        # Translators: Language name for ISO code "ca_AD". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Catalan (Andorra)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
         "es",
         # Translators: Language name for ISO code "es". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -245,6 +254,78 @@ CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
+        "es_AR",
+        # Translators: Language name for ISO code "es_AR". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Argentina)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_BO",
+        # Translators: Language name for ISO code "es_BO". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Bolivia)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_CL",
+        # Translators: Language name for ISO code "es_CL". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Chile)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_CO",
+        # Translators: Language name for ISO code "es_CO". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Colombia)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_CR",
+        # Translators: Language name for ISO code "es_CR". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Costa Rica)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_CU",
+        # Translators: Language name for ISO code "es_CU". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Cuba)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_DO",
+        # Translators: Language name for ISO code "es_DO". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Dominican Republic)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_EC",
+        # Translators: Language name for ISO code "es_EC". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Ecuador)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
         "es_MX",
         # Translators: Language name for ISO code "es_MX". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -254,11 +335,101 @@ CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
+        "es_NI",
+        # Translators: Language name for ISO code "es_NI". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Nicaragua)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_PA",
+        # Translators: Language name for ISO code "es_PA". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Panama)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_PE",
+        # Translators: Language name for ISO code "es_PE". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Peru)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_PR",
+        # Translators: Language name for ISO code "es_PR". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Puerto Rico)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_SV",
+        # Translators: Language name for ISO code "es_SV". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (El Salvador)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_US",
+        # Translators: Language name for ISO code "es_US". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (American)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_UY",
+        # Translators: Language name for ISO code "es_UY". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Uruguay)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "es_VE",
+        # Translators: Language name for ISO code "es_VE". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Venezuela)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
         "fr",
         # Translators: Language name for ISO code "fr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("French"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "fr_AG",
+        # Translators: Language name for ISO code "fr_AG". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (Antigua and Barbuda)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "fr_BE",
+        # Translators: Language name for ISO code "fr_BE". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (Belgium)"),
         3,
         "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
@@ -281,6 +452,24 @@ CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
         "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
+        "fr_LU",
+        # Translators: Language name for ISO code "fr_LU". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (Luxembourg)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "fr_SN",
+        # Translators: Language name for ISO code "fr_SN". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("French (Senegal)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
         "he",
         # Translators: Language name for ISO code "he". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -290,11 +479,29 @@ CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
     ),
     (
+        "he_IL",
+        # Translators: Language name for ISO code "he_IL". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Hebrew (Israel)"),
+        3,
+        "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
+    ),
+    (
         "it",
         # Translators: Language name for ISO code "it". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Italian"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "it_CH",
+        # Translators: Language name for ISO code "it_CH". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Italian (Switzerland)"),
         3,
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
@@ -314,7 +521,16 @@ CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
         # or other variant.
         _("Portuguese"),
         3,
-        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "pt_AO",
+        # Translators: Language name for ISO code "pt_AO". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (Angola)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
         "pt_BR",
@@ -322,6 +538,24 @@ CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Portuguese (Brazil)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "pt_BR@formal",
+        # Translators: Language name for ISO code "pt_BR@formal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (Brazil, formal)"),
+        3,
+        "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
+        "pt_BR@informal",
+        # Translators: Language name for ISO code "pt_BR@informal". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Portuguese (Brazil, informal)"),
         3,
         "(n == 0 || n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),

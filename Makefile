@@ -11,7 +11,7 @@ PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv
 	./scripts/list-diff.py
 	pre-commit run --files PLURALS_DIFF.md || true
 
-cldr.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json scripts/export-cldr.py
+cldr.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json scripts/export-cldr.py languages.csv
 	./scripts/export-cldr.py
 
 rtl.csv: modules/cldr-json/cldr-json/cldr-misc-full/main/*/layout.json scripts/export-cldr-orientation.py languages.csv
