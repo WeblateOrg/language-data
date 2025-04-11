@@ -6,33 +6,14 @@
 
 from __future__ import annotations
 
+import csv
 import json
 import re
 from typing import Literal, TypedDict
 
 MAPPINGS = {
     "ar_001": "ar",
-    "de_AT": "de",
-    "de_CH": "de",
-    "en_AU": "en",
-    "en_CA": "en",
-    "en_GB": "en",
-    "en_US": "en",
     "es_419": "es",
-    "es_ES": "es",
-    "es_MX": "es",
-    "fa_AF": "fa",
-    "fr_CA": "fr",
-    "fr_CH": "fr",
-    "hi_Latn": "hi",
-    "nl_BE": "nl",
-    "pt_BR": "pt",
-    "pt": "pt_PT",
-    "ro_MD": "ro",
-    "sr_ME": "sr",
-    "sw_CD": "sw",
-    "zh_Hans": "zh",
-    "zh_Hant": "zh",
 }
 
 SIMPLIFICATIONS = {
@@ -40,6 +21,11 @@ SIMPLIFICATIONS = {
     "n != 0 && n != 1": "n > 1",
     "(n == 0 || n == 1) && n != 0": "n == 1",
 }
+
+with open("languages.csv") as csvfile:
+    reader = csv.reader(csvfile, delimiter=",")
+    next(reader)
+    ALL_LANGUAGE_CODES = {lang[0]: lang for lang in reader}
 
 
 def map_code(code: str) -> str:
@@ -276,9 +262,11 @@ with open("modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json") as 
             LANGUAGES[code]["plurals"] = len(cleaned_up_formula)
             LANGUAGES[code]["formula"] = merge_formulas(cleaned_up_formula)
 
-# Add aliases
+# Map some plurals to alternate names
 for new, old in MAPPINGS.items():
     for key in ("plurals", "formula"):
+        if existing := LANGUAGES[new].get(key):
+            raise ValueError(f"{new} already has {key}: {existing}")
         LANGUAGES[new][key] = LANGUAGES[old][key]
 
 # Remove the languages for which we don't have plurals
@@ -286,19 +274,34 @@ for code in sorted(LANGUAGES.keys()):
     if "plurals" not in LANGUAGES[code]:
         del LANGUAGES[code]
 
+# Add aliases to the base language
+for code, existing in ALL_LANGUAGE_CODES.items():
+    # Skip existing and base codes
+    if "_" not in code or code in LANGUAGES:
+        continue
+    base = code.split("_", 1)[0]
+    if data := LANGUAGES.get(base):
+        LANGUAGES[code] = {
+            "name": existing[1],
+            "plurals": data["plurals"],
+            "formula": data["formula"],
+        }
+
+
 # Remove languages we do not want
 del LANGUAGES["und"]  # Unknown language
 
 # Dump as CSV
 with open("cldr.csv", "w") as handle:
-    handle.write("code,name,nplurals,formula\n")
+    writer = csv.writer(handle, delimiter=",", lineterminator="\n")
+    writer.writerow(["code", "name", "nplurals", "formula"])
     for code in sorted(LANGUAGES):
         data = LANGUAGES[code]
-        handle.write(
-            "{},{},{},{}\n".format(
+        writer.writerow(
+            [
                 code,
                 data["name"],
                 data["plurals"],
                 data["formula"],
-            ),
+            ],
         )

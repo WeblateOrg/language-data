@@ -761,7 +761,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # or other variant.
         _("Bengali (Bangladesh)"),
         2,
-        "n != 1",
+        "n > 1",
     ),
     (
         "bn_IN",
@@ -770,7 +770,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # or other variant.
         _("Bengali (India)"),
         2,
-        "n != 1",
+        "n > 1",
     ),
     (
         "bnt",

@@ -81,8 +81,8 @@ bla,Siksika,2,n != 1
 blo,Anii,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 bm,Bambara,1,0
 bn,Bengali,2,n > 1
-bn_BD,Bengali (Bangladesh),2,n != 1
-bn_IN,Bengali (India),2,n != 1
+bn_BD,Bengali (Bangladesh),2,n > 1
+bn_IN,Bengali (India),2,n > 1
 bnt,Bantu (Other),2,n != 1
 bo,Tibetan,1,0
 bo_CN,Tibetan (China),1,0

@@ -52,14 +52,16 @@ if missing:
     raise ValueError(f"Missing from CLDR: {missing}")
 
 # Validate CLDR plural rules match
-exceptions = {"es", "it", "ca", "es_MX", "es_419"}
-matching = (set(cldr.keys()) & set(languages.keys())) - exceptions
+exceptions = {"es", "it", "ca"}
+matching = set(cldr.keys()) & set(languages.keys())
 for match in matching:
+    if match.split("_")[0] in exceptions:
+        continue
     plural_our = languages[match][3]
     plural_cldr = cldr[match][3]
     if plural_our == "n != 1" and plural_cldr != "n != 1":
         raise ValueError(
-            f"Mismatching plural form for {match}: {plural_our!r} != {plural_cldr!r}",
+            f"Mismatching plural form for {match} between CLDR and languages: {plural_our!r} != {plural_cldr!r}"
         )
 
 
