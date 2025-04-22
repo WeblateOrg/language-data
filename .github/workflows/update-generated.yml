@@ -24,6 +24,7 @@ jobs:
     - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         submodules: true
+        persist-credentials: false
     - run: sudo apt-get update
     - run: sudo apt-get install -y gettext
     - name: Setup Python
