@@ -50,8 +50,5 @@ jobs:
         branch: create-pull-request/submodule-update
         title: 'chore: Updates from submodules'
         commit-message: 'chore: Updates from submodules'
-        labels: |
-          dependencies
-          automerge
 permissions:
   contents: read
