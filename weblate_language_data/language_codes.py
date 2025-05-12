@@ -1092,6 +1092,7 @@ LANGUAGES: set[str] = {
     "tl",
     "tlh",
     "tlh-qaak",
+    "tlh_piqd",
     "tlh_qaak",
     "tli",
     "tly",

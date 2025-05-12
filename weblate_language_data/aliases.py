@@ -104,6 +104,7 @@ ALIASES: dict[str, str] = {
     "sr_rs@latin": "sr_Latn",
     "sr@latin": "sr_Latn",
     "tlh-qaak": "tlh_Piqd",
+    "tlh_qaak": "tlh_Piqd",
     "uz@cyrillic": "uz",
     "uz@latin": "uz_Latn",
     "uz@latn": "uz_Latn",
