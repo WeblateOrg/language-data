@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2025-04-01 06:38+0000\n"
+"POT-Creation-Date: 2025-05-12 17:36+0800\n"
 "PO-Revision-Date: 2025-05-03 17:30+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/weblate/languages/"
@@ -2953,10 +2953,34 @@ msgstr "נאורית"
 msgid "Nahuatl"
 msgstr "נאוואטל"
 
+#. Translators: Language name for ISO code "nan_Hans". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Mindong (Simplified Han script)"
+msgid "Minnan (Simplified Han script)"
+msgstr "מין מזרחית בכתב האן מפושט"
+
 #. Translators: Language name for ISO code "nan_Hant". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Minnan (Traditional Han script)"
+msgstr "מין של האי נאן בכתב האן מסורתי"
+
+#. Translators: Language name for ISO code "nan_Hntl_pehoeji". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Minnan (Traditional Han script)"
+msgid "Minnan (Traditional Hàn-lô script, Pe̍h-ōe-jī)"
+msgstr "מין של האי נאן בכתב האן מסורתי"
+
+#. Translators: Language name for ISO code "nan_Hntl_tailo". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Minnan (Traditional Han script)"
+msgid "Minnan (Traditional Hàn-lô script, Tâi-lô)"
 msgstr "מין של האי נאן בכתב האן מסורתי"
 
 #. Translators: Language name for ISO code "nan_Latn_pehoeji". The parenthesis clarifies
@@ -2970,6 +2994,22 @@ msgstr "מין של האי נאן (פיי-וה-ז׳י)"
 #. or other variant.
 msgid "Minnan (Tâi-lô)"
 msgstr "מין של האי נאן (טאי-לו)"
+
+#. Translators: Language name for ISO code "nan_Qabs_pehoeji". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Minnan (Traditional Han script)"
+msgid "Minnan (Simplified Hàn-lô script, Pe̍h-ōe-jī)"
+msgstr "מין של האי נאן בכתב האן מסורתי"
+
+#. Translators: Language name for ISO code "nan_Qabs_tailo". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Mindong (Simplified Han script)"
+msgid "Minnan (Simplified Hàn-lô script, Tâi-lô)"
+msgstr "מין מזרחית בכתב האן מפושט"
 
 #. Translators: Language name for ISO code "nap". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4687,6 +4727,11 @@ msgstr "זוני"
 #. or other variant.
 msgid "Zaza"
 msgstr "זאזאקי"
+
+#, fuzzy
+#~| msgid "Mindong (Simplified Han script)"
+#~ msgid "Minnan (Simplified Hàn-lô script"
+#~ msgstr "מין מזרחית בכתב האן מפושט"
 
 #, fuzzy
 #~| msgid "Hindi"

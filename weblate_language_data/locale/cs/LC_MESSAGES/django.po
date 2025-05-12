@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2025-04-01 06:38+0000\n"
+"POT-Creation-Date: 2025-05-12 17:36+0800\n"
 "PO-Revision-Date: 2025-05-06 09:06+0000\n"
 "Last-Translator: Michal Čihař <michal@weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/weblate/languages/"
@@ -3057,12 +3057,36 @@ msgstr "Naurština"
 msgid "Nahuatl"
 msgstr "Nahuatl (Aztéčtina)"
 
+#. Translators: Language name for ISO code "nan_Hans". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese (Simplified)"
+msgid "Minnan (Simplified Han script)"
+msgstr "Čínština (zjednodušená)"
+
 #. Translators: Language name for ISO code "nan_Hant". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 #, fuzzy
 #| msgid "Chinese (Traditional, Hong Kong)"
 msgid "Minnan (Traditional Han script)"
+msgstr "Čínština (tradiční, Hongkong)"
+
+#. Translators: Language name for ISO code "nan_Hntl_pehoeji". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese (Traditional, Hong Kong)"
+msgid "Minnan (Traditional Hàn-lô script, Pe̍h-ōe-jī)"
+msgstr "Čínština (tradiční, Hongkong)"
+
+#. Translators: Language name for ISO code "nan_Hntl_tailo". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese (Traditional, Hong Kong)"
+msgid "Minnan (Traditional Hàn-lô script, Tâi-lô)"
 msgstr "Čínština (tradiční, Hongkong)"
 
 #. Translators: Language name for ISO code "nan_Latn_pehoeji". The parenthesis clarifies
@@ -3080,6 +3104,22 @@ msgstr "Čínština (min-nan)"
 #| msgid "Chinese (Min Nan)"
 msgid "Minnan (Tâi-lô)"
 msgstr "Čínština (min-nan)"
+
+#. Translators: Language name for ISO code "nan_Qabs_pehoeji". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese (Traditional, Hong Kong)"
+msgid "Minnan (Simplified Hàn-lô script, Pe̍h-ōe-jī)"
+msgstr "Čínština (tradiční, Hongkong)"
+
+#. Translators: Language name for ISO code "nan_Qabs_tailo". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Chinese (Simplified)"
+msgid "Minnan (Simplified Hàn-lô script, Tâi-lô)"
+msgstr "Čínština (zjednodušená)"
 
 #. Translators: Language name for ISO code "nap". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4911,6 +4951,11 @@ msgstr "zunijština"
 #, fuzzy
 msgid "Zaza"
 msgstr "Kazachština"
+
+#, fuzzy
+#~| msgid "Chinese (Simplified)"
+#~ msgid "Minnan (Simplified Hàn-lô script"
+#~ msgstr "Čínština (zjednodušená)"
 
 #, fuzzy
 #~| msgid "Hindi"
