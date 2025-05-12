@@ -4461,6 +4461,7 @@ LANGUAGES: set[str] = {
     "hyam",
     "hyogo",
     "hyolmo",
+    "hàn",
     "hãe",
     "häme",
     "häädemeeste",

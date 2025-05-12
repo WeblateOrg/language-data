@@ -127,6 +127,7 @@ CASE_INSENSITIVE_LANGS: set[str] = {
     "my",
     "mzn",
     "nan",
+    "nan_Hans",
     "nan_Hant",
     "ne",
     "new",

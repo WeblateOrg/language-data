@@ -4373,11 +4373,38 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
+        "nan_Hans",
+        # Translators: Language name for ISO code "nan_Hans". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Minnan (Simplified Han script)"),
+        1,
+        "0",
+    ),
+    (
         "nan_Hant",
         # Translators: Language name for ISO code "nan_Hant". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Minnan (Traditional Han script)"),
+        1,
+        "0",
+    ),
+    (
+        "nan_Hntl_pehoeji",
+        # Translators: Language name for ISO code "nan_Hntl_pehoeji". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Minnan (Traditional Hàn-lô script, Pe̍h-ōe-jī)"),
+        1,
+        "0",
+    ),
+    (
+        "nan_Hntl_tailo",
+        # Translators: Language name for ISO code "nan_Hntl_tailo". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Minnan (Traditional Hàn-lô script, Tâi-lô)"),
         1,
         "0",
     ),
@@ -4396,6 +4423,24 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Minnan (Tâi-lô)"),
+        1,
+        "0",
+    ),
+    (
+        "nan_Qabs_pehoeji",
+        # Translators: Language name for ISO code "nan_Qabs_pehoeji". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Minnan (Simplified Hàn-lô script, Pe̍h-ōe-jī)"),
+        1,
+        "0",
+    ),
+    (
+        "nan_Qabs_tailo",
+        # Translators: Language name for ISO code "nan_Qabs_tailo". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Minnan (Simplified Hàn-lô script, Tâi-lô)"),
         1,
         "0",
     ),
