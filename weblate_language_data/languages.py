@@ -6173,8 +6173,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "0",
     ),
     (
-        "tlh_Qaak",
-        # Translators: Language name for ISO code "tlh_Qaak". The parenthesis clarifies
+        "tlh_Piqd",
+        # Translators: Language name for ISO code "tlh_Piqd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Klingon (pIqaD)"),
