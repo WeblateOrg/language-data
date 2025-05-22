@@ -22,4 +22,5 @@ DOCUMENTATION_LANGUAGES = {
     "de": "de",
     "nl": "nl",
     "ga": "ga",
+    "hu": "hu",
 }
