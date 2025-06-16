@@ -1238,6 +1238,8 @@ LANGUAGES: set[str] = {
     "zh_latn@pinyin",
     "zh_latn_pinyin",
     "zh_sg",
+    "zh_simplified",
+    "zh_traditional",
     "zh_tw",
     "zha",
     "zhcn",
