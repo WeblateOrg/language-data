@@ -131,6 +131,8 @@ ALIASES: dict[str, str] = {
     "zh_hk": "zh_Hant_HK",
     "zh_latn_pinyin": "zh_Latn",
     "zh_latn@pinyin": "zh_Latn",
+    "zh_simplified": "zh_Hans",
+    "zh_traditional": "zh_Hant",
     "sr@ije": "sr@ijekavian",
     "sr@ijekavianlatin": "sr@ijekavian_Latn",
     "base": "en",
