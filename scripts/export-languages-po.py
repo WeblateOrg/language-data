@@ -76,5 +76,6 @@ for lang in glob.glob(path):
 
     with open(f"languages-po/{language_code}.po", "w") as handle:
         handle.write(HEADER.format(language_code))
-        for msgid, msgstr in sorted(result.items()):
-            handle.write(ROW.format(msgid, msgstr))
+        handle.writelines(
+            ROW.format(msgid, msgstr) for msgid, msgstr in sorted(result.items())
+        )
