@@ -163,8 +163,9 @@ with open("weblate_language_data/languages.py", "w") as output:
     output.write("from .utils import gettext_noop as _\n\n")
     output.write("# Language definitions\n")
     output.write(f"LANGUAGES: {TYPE_HINT} = (\n")
-    for row in LANGUAGES:
-        output.write(TEMPLATE.format(row[0], escape(row[1]), row[2], row[3]))
+    output.writelines(
+        TEMPLATE.format(row[0], escape(row[1]), row[2], row[3]) for row in LANGUAGES
+    )
     output.write(")\n")
 with open("weblate_language_data/population.py", "w") as output:
     output.write(HEADER)
