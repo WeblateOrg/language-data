@@ -81,6 +81,7 @@ ignore = [
   ".gitmodules",
   ".reuse/dep5",
   ".weblate",
+  ".well-known/*",
   "json/*",
   "languages-po/*",
   "LICENSES/*",
