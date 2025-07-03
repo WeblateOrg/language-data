@@ -15,9 +15,11 @@ https://github.com/WeblateOrg/language-data
 # List of RTL languages
 RTL_LANGS: set[str] = {
     "ae",
+    "aeb",
     "aii",
     "ajp",
     "apc",
+    "apd",
     "ar",
     "ar_BH",
     "ar_DZ",
@@ -29,6 +31,9 @@ RTL_LANGS: set[str] = {
     "ar_YE",
     "ara",
     "arc",
+    "arq",
+    "ars",
+    "arz",
     "ave",
     "bal",
     "bgn",
