@@ -55,6 +55,7 @@ RTL_LANGS: set[str] = {
     "ms_Arab",
     "mzn",
     "nqo",
+    "pa_PK",
     "pal",
     "per",
     "phn",
