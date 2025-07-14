@@ -92,6 +92,7 @@ TAG_MAP = {
 
 result = {}
 decimals = {}
+decimal_extras = {}
 
 with open(BASE_FILE) as handle:
     data = json.load(handle)
@@ -103,6 +104,9 @@ for locale, rules in data["supplemental"]["plurals-type-cardinal"].items():
         if "@integer" in rule
     ]
     decimals[locale] = [name.replace("pluralRule-count-", "") for name in rules]
+    only_decimals = set(decimals[locale]) - set(result[locale])
+    if only_decimals:
+        decimal_extras[locale] = list(only_decimals)
 
 # Process CLDR
 with open(ALIASES_FILE) as handle:
@@ -148,6 +152,7 @@ with open("weblate_language_data/plural_tags.py", "w") as output:
     output.write(HEADER)
     output.write(f"PLURAL_TAGS = {pprint.pformat(result)}\n\n")
     output.write(f"DECIMAL_PLURAL_TAGS = {pprint.pformat(decimals)}\n")
+    output.write(f"DECIMAL_EXTRA_TAGS = {pprint.pformat(decimal_extras)}\n")
     output.write(f"QT_PLURAL_TAGS = {pprint.pformat(qtplurals)}\n")
 
 # Apply coding style
