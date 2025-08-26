@@ -466,6 +466,7 @@ POPULATION: dict[str, int] = {
     "mia": 0,
     "mic": 9310,
     "min": 8446860,
+    "mis": 0,
     "mjw": 0,
     "mk": 1612846,
     "ml": 45922589,

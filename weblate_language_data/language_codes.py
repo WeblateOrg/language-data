@@ -725,6 +725,7 @@ LANGUAGES: set[str] = {
     "mia",
     "mic",
     "min",
+    "mis",
     "mjw",
     "mk",
     "mkd",

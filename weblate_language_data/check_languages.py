@@ -7574,6 +7574,7 @@ LANGUAGES: set[str] = {
     "mil",
     "mila",
     "miladhunmadulu",
+    "milang",
     "milano",
     "mili",
     "milne",
