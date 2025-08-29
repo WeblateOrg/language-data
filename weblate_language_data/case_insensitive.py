@@ -82,6 +82,7 @@ CASE_INSENSITIVE_LANGS: set[str] = {
     "hoc",
     "hoj",
     "hsn",
+    "hy",
     "ii",
     "iu",
     "ja",
