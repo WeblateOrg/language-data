@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2025-08-26 07:51+0200\n"
-"PO-Revision-Date: 2025-08-20 04:02+0000\n"
-"Last-Translator: Junghyuk Kwon <kwon@junghy.uk>\n"
+"PO-Revision-Date: 2025-09-24 13:01+0000\n"
+"Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/weblate/languages/"
 "ko/>\n"
 "Language: ko\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -170,14 +170,13 @@ msgstr "안기카어"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Arabic (Levantine)"
-msgstr "아랍어 (레반트어)"
+msgstr "아랍어 (레반트)"
 
 #. Translators: Language name for ISO code "apd". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
 msgid "Arabic (Sudanese)"
-msgstr "페로스어"
+msgstr "아랍어 (수단)"
 
 #. Translators: Language name for ISO code "ar". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2745,9 +2744,8 @@ msgstr "미낭카바우어"
 #. Translators: Language name for ISO code "mis". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
 msgid "Milang"
-msgstr "Balsa"
+msgstr "밀랑어"
 
 #. Translators: Language name for ISO code "mjw". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2944,10 +2942,8 @@ msgstr "나우아틀어"
 #. Translators: Language name for ISO code "nan_Hans". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Mindong (Simplified Han script)"
 msgid "Minnan (Simplified Han script)"
-msgstr "민둥어 (간체 한자)"
+msgstr "민난어 (간체 한자)"
 
 #. Translators: Language name for ISO code "nan_Hant". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2958,18 +2954,14 @@ msgstr "민난어 (번체 한자)"
 #. Translators: Language name for ISO code "nan_Hntl_pehoeji". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Minnan (Traditional Han script)"
 msgid "Minnan (Traditional Hàn-lô script, Pe̍h-ōe-jī)"
-msgstr "민난어 (번체 한자)"
+msgstr "민난어 (번체 한라, 백화자)"
 
 #. Translators: Language name for ISO code "nan_Hntl_tailo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Minnan (Traditional Han script)"
 msgid "Minnan (Traditional Hàn-lô script, Tâi-lô)"
-msgstr "민난어 (번체 한자)"
+msgstr "민난어 (번체 한라, 타이완어)"
 
 #. Translators: Language name for ISO code "nan_Latn_pehoeji". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2986,18 +2978,14 @@ msgstr "민난어 (대만 로마자)"
 #. Translators: Language name for ISO code "nan_Qabs_pehoeji". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Minnan (Traditional Han script)"
 msgid "Minnan (Simplified Hàn-lô script, Pe̍h-ōe-jī)"
-msgstr "민난어 (번체 한자)"
+msgstr "민난어 (간체 한라, 백화자)"
 
 #. Translators: Language name for ISO code "nan_Qabs_tailo". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Mindong (Simplified Han script)"
 msgid "Minnan (Simplified Hàn-lô script, Tâi-lô)"
-msgstr "민둥어 (간체 한자)"
+msgstr "민난어 (간체 한라, 타이완어)"
 
 #. Translators: Language name for ISO code "nap". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4228,7 +4216,7 @@ msgstr "통가어 (니아사)"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Tonga (Zambia)"
-msgstr ""
+msgstr "통가어 (잠비아)"
 
 #. Translators: Language name for ISO code "tok". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
