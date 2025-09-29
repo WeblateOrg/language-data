@@ -20,6 +20,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      if: github.event_name != 'pull_request'
+      with:
+        token: ${{ secrets.WEBLATE_CI_TOKEN }}
+        submodules: true
+        persist-credentials: true
+    - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      if: github.event_name == 'pull_request'
       with:
         submodules: true
         persist-credentials: false
@@ -30,9 +37,6 @@ jobs:
       with:
         python-version: '3.13'
     - uses: astral-sh/setup-uv@b75a909f75acd358c2196fb9a5f1299a9a8868a4 # v6.7.0
-      with:
-        enable-cache: true
-        cache-dependency-glob: ''
     - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
       with:
         path: ~/.cache/pre-commit
@@ -54,10 +58,17 @@ jobs:
         commit_message: 'chore: update generated files'
 
     - name: Create Pull Request
-      if: github.ref == 'refs/heads/main'
+      id: cpr
+      if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.ref_name == 'main'
       uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
       with:
         branch: create-pull-request/submodule-update
         title: 'chore: update generated files'
         commit-message: 'chore: update generated files'
         token: ${{ secrets.WEBLATE_CI_TOKEN }}
+    - name: Enable Pull Request Automerge
+      if: steps.cpr.outputs.pull-request-operation && steps.cpr.outputs.pull-request-operation != 'none'
+      run: gh pr merge --rebase --auto "$PR_NUMBER"
+      env:
+        GH_TOKEN: ${{ secrets.WEBLATE_CI_TOKEN }}
+        PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
