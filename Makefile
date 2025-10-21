@@ -33,7 +33,7 @@ languages-po/%.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/lan
 l10n-guide.csv: modules/l10n-guide/docs/l10n/pluralforms.rst scripts/export-l10n-guide.py
 	./scripts/export-l10n-guide.py
 
-LANG_DATA = $(shell python -c 'from pkg_resources import Requirement, resource_filename; print(resource_filename(Requirement.parse("translate-toolkit"), "translate/lang/data.py"))')
+LANG_DATA = $(shell python ./scripts/get-lang-data-path.py)
 
 translate.csv: $(LANG_DATA) scripts/export-translate.py
 	./scripts/export-translate.py
