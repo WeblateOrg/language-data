@@ -38,7 +38,6 @@ jobs:
         python-version: '3.14'
     - uses: astral-sh/setup-uv@2ddd2b9cb38ad8efd50337e8ab201519a34c9f24 # v7.1.1
       with:
-        # renovate: datasource=pypi depName=uv versioning=pep440
         version: 0.9.4
     - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
       with:
