@@ -4638,6 +4638,7 @@ LANGUAGES: set[str] = {
     "interlingua",
     "interlingue",
     "international",
+    "interslavic",
     "intha",
     "intibucá",
     "inuinnaqtun",

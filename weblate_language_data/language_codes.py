@@ -540,6 +540,7 @@ LANGUAGES: set[str] = {
     "ipk",
     "is",
     "isl",
+    "isv",
     "it",
     "it@formal",
     "it@informal",

@@ -2987,6 +2987,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n % 10 != 1 || n % 100 == 11",
     ),
     (
+        "isv",
+        # Translators: Language name for ISO code "isv". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Interslavic"),
+        2,
+        "n != 1",
+    ),
+    (
         "it",
         # Translators: Language name for ISO code "it". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

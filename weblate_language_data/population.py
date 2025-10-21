@@ -344,6 +344,7 @@ POPULATION: dict[str, int] = {
     "inh": 225313,
     "io": 0,
     "is": 364036,
+    "isv": 0,
     "it": 70475318,
     "it@formal": 70475318,
     "it@informal": 70475318,
