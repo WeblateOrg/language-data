@@ -838,6 +838,7 @@ LANGUAGES: set[str] = {
     "nyo",
     "nzi",
     "oc",
+    "oc_es",
     "oci",
     "oj",
     "ojg",

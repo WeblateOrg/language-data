@@ -597,6 +597,7 @@ LANGUAGES: set[str] = {
     "aranama",
     "aranda",
     "arandai",
+    "aranese",
     "araona",
     "arapaho",
     "arapaso",
