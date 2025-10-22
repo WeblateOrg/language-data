@@ -4778,6 +4778,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n > 1",
     ),
     (
+        "oc_ES",
+        # Translators: Language name for ISO code "oc_ES". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Aranese"),
+        2,
+        "n > 1",
+    ),
+    (
         "oj",
         # Translators: Language name for ISO code "oj". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
