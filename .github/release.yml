@@ -1,0 +1,20 @@
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+changelog:
+  categories:
+  - title: Changes and improvements
+    labels:
+    - '*'
+    exclude:
+      labels:
+      - dependencies
+      authors:
+      - weblate
+  - title: Dependency updates
+    labels:
+    - dependencies
+  - title: Translation updates
+    authors:
+    - weblate
