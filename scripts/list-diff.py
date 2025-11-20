@@ -107,7 +107,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | L10n guide | Translate 
 """,
     )
     for code in sorted(set(LANGUAGES)):
-        handle.write(code.replace("_", "\\_"))
+        handle.write(f"`{code}`")
         handle.write(" | ")
         handle.write(LANGUAGES[code][1])
         handle.write(" | ")
