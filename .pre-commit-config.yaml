@@ -83,7 +83,7 @@ repos:
   - id: shfmt
     args: [--write]
 - repo: https://github.com/zizmorcore/zizmor-pre-commit
-  rev: v1.16.3
+  rev: v1.17.0
   hooks:
   - id: zizmor
 - repo: https://github.com/gitleaks/gitleaks
