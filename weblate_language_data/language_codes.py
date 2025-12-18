@@ -619,6 +619,7 @@ LANGUAGES: set[str] = {
     "ko",
     "ko_ko",
     "kok",
+    "kok_latn",
     "kom",
     "kon",
     "kor",
