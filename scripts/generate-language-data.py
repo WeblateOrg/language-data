@@ -17,7 +17,7 @@ from itertools import chain
 
 SPLIT_RE = re.compile(
     r"(?:\&(?:nbsp|rsaquo|lt|gt|amp|ldquo|rdquo|times|quot);|"
-    r'[() ,.^`"\'\\/_<>!?;:|{}*^@%#&~=+\r\n✓—-…\[\]0-9-])+',
+    r'[() ,.^`"\'\\/_<>!?;:|{}*@%#&~=+\r\n✓—-…\[\]0-9-])+',
 )
 
 HEADER = '''# Copyright © Michal Čihař <michal@weblate.org>
