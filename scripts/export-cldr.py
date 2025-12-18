@@ -45,7 +45,7 @@ def expand_chunk(what: str, op: str, value: str) -> str:
         if (end - start) == 1:
             if op == "==":
                 return f"({what} == {start} || {what} == {end})"
-            return f"{what} != {start} && {what} == {end}"
+            return f"{what} != {start} && {what} != {end}"
         if op == "==":
             return f"{what} >= {start} && {what} <= {end}"
         if what == "n" and start <= 0:
@@ -117,7 +117,7 @@ def convert_formula(cldr_formula_and_examples: str) -> str | bool:
         raise ValueError(f"Invalid CLDR category rule: {cldr_formula_and_examples}")
     cldr_formula = match.group(1).strip()
 
-    # Sanity checkign
+    # Sanity checking
     if "(" in cldr_formula or ")" in cldr_formula:
         raise ValueError(
             f"Unable to convert the formula '{cldr_formula}': parenthesis handling not implemented",
@@ -242,6 +242,8 @@ LANGUAGES["mo"]["name"] = "Moldavian"
 
 
 # Parse plurals
+NON_MERGE_PLURALS = 2
+
 with open("modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json") as handle:
     data = json.load(handle)
     for cldr_code, categories in data["supplemental"]["plurals-type-cardinal"].items():
@@ -255,8 +257,8 @@ with open("modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json") as 
             LANGUAGES[code]["formula"] = "0"
             continue
         formulas = [convert_formula(category) for category in categories.values()]
-        if len(categories) == 2:  # noqa: PLR2004
-            LANGUAGES[code]["plurals"] = 2
+        if len(categories) == NON_MERGE_PLURALS:
+            LANGUAGES[code]["plurals"] = NON_MERGE_PLURALS
             LANGUAGES[code]["formula"] = reduce_formula(reverse_formula(formulas[0]))
         else:
             cleaned_up_formula = [
