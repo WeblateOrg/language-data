@@ -246,6 +246,9 @@ with open("modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json") as 
     data = json.load(handle)
     for cldr_code, categories in data["supplemental"]["plurals-type-cardinal"].items():
         code = map_code(cldr_code)
+        # Copy language data from basic
+        if code not in LANGUAGES and "_" in code:
+            LANGUAGES[code] = LANGUAGES[code.split("_", 1)[0]]
         if len(categories) == 1:
             # Just one category
             LANGUAGES[code]["plurals"] = 1
