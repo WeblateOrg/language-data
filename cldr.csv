@@ -49,6 +49,7 @@ ckb_IQ,"Kurdish (Central, Iraq)",2,n != 1
 ckb_IR,"Kurdish (Central, Iran)",2,n != 1
 cs,Czech,3,(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2)
 csw,Swampy Cree,2,n > 1
+cv,Chuvash,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 cy,Welsh,6,(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n == 3) ? 3 : ((n == 6) ? 4 : 5))))
 da,Danish,2,n != 1
 de,German,2,n != 1
@@ -134,6 +135,7 @@ hu,Hungarian,2,n != 1
 hy,Armenian,2,n > 1
 ia,Interlingua,2,n != 1
 id,Indonesian,1,0
+ie,Interlingue,2,n != 1
 ig,Igbo,1,0
 ii,Sichuan Yi,1,0
 io,Ido,2,n != 1
@@ -162,6 +164,8 @@ kl,Kalaallisut,2,n != 1
 km,Khmer,1,0
 kn,Kannada,2,n > 1
 ko,Korean,1,0
+kok,Konkani,2,n > 1
+kok_Latn,Konkani,2,n > 1
 ks,Kashmiri,2,n != 1
 ksb,Shambala,2,n != 1
 ksh,Colognian,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)
@@ -243,6 +247,7 @@ se,Northern Sami,3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 seh,Sena,2,n != 1
 ses,Koyraboro Senni,1,0
 sg,Sango,1,0
+sgs,Samogitian,4,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n == 2) ? 1 : ((n != 2 && n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 2 : 3))
 sh,Serbo-Croatian,3,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2)
 shi,Tachelhit,3,(n == 0 || n == 1) ? 0 : ((n >= 2 && n <= 10) ? 1 : 2)
 si,Sinhala,2,n > 1
