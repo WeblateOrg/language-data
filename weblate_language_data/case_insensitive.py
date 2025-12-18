@@ -114,6 +114,7 @@ CASE_INSENSITIVE_LANGS: set[str] = {
     "mag",
     "mai",
     "man",
+    "mey",
     "mfa",
     "ml",
     "mn_Mong",
