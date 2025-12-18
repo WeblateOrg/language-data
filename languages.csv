@@ -141,7 +141,7 @@ cs,Czech,3,(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2
 csb,Kashubian,3,n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 csw,Cree (Swampy),2,n > 1
 cu,Slavonic (Old Church),2,n != 1
-cv,Chuvash,2,n != 1
+cv,Chuvash,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)
 cy,Welsh,6,(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5
 da,Danish,2,n != 1
 dak,Dakota,2,n != 1
@@ -375,7 +375,7 @@ kmr,Kurdish (Northern),2,n != 1
 kmr_Latn,"Kurdish (Northern, Latin script)",2,n != 1
 kn,Kannada,2,n > 1
 ko,Korean,1,0
-kok,Konkani,2,n != 1
+kok,Konkani,2,n > 1
 kok_Latn,Konkani (Latin script),2,n > 1
 kos,Kosraean,1,0
 kpe,Kpelle,2,n != 1
@@ -624,7 +624,7 @@ ses,Koyraboro Senni,1,0
 sg,Sango,1,0
 sga,Irish (Old),2,n != 1
 sgn,Sign Languages,2,n != 1
-sgs,Samogitian,2,n != 1
+sgs,Samogitian,4,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n == 2) ? 1 : ((n != 2 && n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 2 : 3))
 shi,Tachelhit,3,(n == 0 || n == 1) ? 0 : ((n >= 2 && n <= 10) ? 1 : 2)
 shn,Shan,2,n != 1
 si,Sinhala,2,n > 1
