@@ -1300,8 +1300,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Chuvash"),
-        2,
-        "n != 1",
+        3,
+        "(n == 0) ? 0 : ((n == 1) ? 1 : 2)",
     ),
     (
         "cy",
@@ -3407,7 +3407,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # or other variant.
         _("Konkani"),
         2,
-        "n != 1",
+        "n > 1",
     ),
     (
         "kok_Latn",
@@ -5647,8 +5647,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Samogitian"),
-        2,
-        "n != 1",
+        4,
+        "(n % 10 == 1 && n % 100 != 11) ? 0 : ((n == 2) ? 1 : ((n != 2 && n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 2 : 3))",
     ),
     (
         "shi",
