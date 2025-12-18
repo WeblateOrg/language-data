@@ -391,6 +391,7 @@ POPULATION: dict[str, int] = {
     "kn": 52137810,
     "ko": 79278717,
     "kok": 4509216,
+    "kok_Latn": 4509216,
     "kos": 7968,
     "kpe": 1292690,
     "kr": 0,

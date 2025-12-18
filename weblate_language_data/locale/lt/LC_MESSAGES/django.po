@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2025-10-22 09:45+0200\n"
+"POT-Creation-Date: 2025-12-18 10:38+0100\n"
 "PO-Revision-Date: 2025-12-09 17:00+0000\n"
 "Last-Translator: Vaclovas Intas <Gateway_31@protonmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/weblate/"
@@ -18,8 +18,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n%100>"
-"=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 "X-Generator: Weblate 5.15-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
@@ -2403,6 +2403,14 @@ msgstr "korėjiečių"
 #. or other variant.
 msgid "Konkani"
 msgstr "konkanių"
+
+#. Translators: Language name for ISO code "kok_Latn". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Canadian English"
+msgid "Konkani (Latin script)"
+msgstr "Kanados anglų"
 
 #. Translators: Language name for ISO code "kos". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
