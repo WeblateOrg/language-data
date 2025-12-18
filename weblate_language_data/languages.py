@@ -4784,7 +4784,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # or other variant.
         _("Aranese"),
         2,
-        "n > 1",
+        "n != 1",
     ),
     (
         "oj",
