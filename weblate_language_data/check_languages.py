@@ -6494,7 +6494,6 @@ LANGUAGES: set[str] = {
     "leti",
     "letzeburgesch",
     "leu",
-    "lev",
     "levantine",
     "levuka",
     "lewisham",
