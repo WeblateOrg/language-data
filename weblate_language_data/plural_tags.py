@@ -24,6 +24,8 @@ PLURAL_TAGS = {
     "amh": ["one", "other"],
     "an": ["one", "other"],
     "ar": ["zero", "one", "two", "few", "many", "other"],
+    "ar@latin": ["zero", "one", "two", "few", "many", "other"],
+    "ar@latn": ["zero", "one", "two", "few", "many", "other"],
     "ara": ["zero", "one", "two", "few", "many", "other"],
     "arb": ["zero", "one", "two", "few", "many", "other"],
     "arg": ["one", "other"],

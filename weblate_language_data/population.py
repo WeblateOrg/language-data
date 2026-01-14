@@ -49,6 +49,7 @@ POPULATION: dict[str, int] = {
     "ar_SA": 36544400,
     "ar_XB": 0,
     "ar_YE": 23783896,
+    "ar_Latn": 378792526,
     "arc": 0,
     "arn": 279970,
     "arp": 0,
