@@ -973,6 +973,7 @@ LANGUAGES: set[str] = {
     "sat@deva",
     "sat@olchiki",
     "sat@olck",
+    "sat_deva",
     "sat_olck",
     "sc",
     "scc",

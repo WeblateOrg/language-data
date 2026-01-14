@@ -630,6 +630,7 @@ POPULATION: dict[str, int] = {
     "sas": 2731151,
     "sat": 7750215,
     "sat_Olck": 0,
+    "sat_Deva": 0,
     "sc": 1036403,
     "sck": 2536434,
     "scn": 499912,
