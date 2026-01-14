@@ -151,6 +151,7 @@ CASE_INSENSITIVE_LANGS: set[str] = {
     "rkt",
     "rmt",
     "sat",
+    "sat_Olck",
     "sck",
     "sd",
     "sdh",
