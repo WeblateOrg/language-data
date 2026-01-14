@@ -136,6 +136,8 @@ ALIASES: dict[str, str] = {
     "sat@deva": "sat_Olck",
     "sat@olchiki": "sat_Olck",
     "sat@olck": "sat_Olck",
+    "ar@latin": "ar_Latn",
+    "ar@latn": "ar_Latn",
     "sr@ije": "sr@ijekavian",
     "sr@ijekavianlatin": "sr@ijekavian_Latn",
     "base": "en",
