@@ -1,12 +1,16 @@
 [submodule "modules/gettext"]
 	path = modules/gettext
-	url = https://git.savannah.gnu.org/git/gettext.git
+	url = https://github.com/autotools-mirror/gettext.git
+    branch = v0.25
 [submodule "modules/iso-codes"]
 	path = modules/iso-codes
 	url = https://salsa.debian.org/iso-codes-team/iso-codes.git
+    branch = v4.20.1
 [submodule "modules/cldr-json"]
 	path = modules/cldr-json
 	url = https://github.com/unicode-org/cldr-json.git
+    branch = 48.0.0
 [submodule "modules/qttools"]
 	path = modules/qttools
 	url = https://github.com/qt/qttools.git
+    branch = v6.10.0
