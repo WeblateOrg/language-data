@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2022, 2023, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2022, 2023, 2025, 2026.
 # MESUT AKCAN <makcan@gmail.com>, 2018.
 # Mesut Akcan <makcan@gmail.com>, 2019.
 # Ali Demirtas <alidemirtas94@gmail.com>, 2019.
@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2026-01-14 11:15+0100\n"
-"PO-Revision-Date: 2025-10-27 02:48+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2026-01-14 20:22+0000\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/weblate/"
 "languages/tr/>\n"
 "Language: tr\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.1-dev\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -241,10 +241,8 @@ msgstr "Arapça (Yemen)"
 #. Translators: Language name for ISO code "ar_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Serbian (Latin script)"
 msgid "Arabic (Latin script)"
-msgstr "Sırpça (Latin alfabesi)"
+msgstr "Arapça (Latin alfabesi)"
 
 #. Translators: Language name for ISO code "arc". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2310,10 +2308,8 @@ msgstr "Konkani"
 #. Translators: Language name for ISO code "kok_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Bosnian (Latin script)"
 msgid "Konkani (Latin script)"
-msgstr "Boşnakça (Latin alfabesi)"
+msgstr "Konkani dili (Latin alfabesi)"
 
 #. Translators: Language name for ISO code "kos". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2486,10 +2482,8 @@ msgstr "Ligurian"
 #. Translators: Language name for ISO code "lir". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "English, Liberian"
 msgid "English (Liberian)"
-msgstr "English, Liberian"
+msgstr "İngilizce (Liberya)"
 
 # src/toolbar.c:237
 #. Translators: Language name for ISO code "ljp". The parenthesis clarifies
@@ -3739,18 +3733,14 @@ msgstr "Santali"
 #. Translators: Language name for ISO code "sat_Olck". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Serbian (Cyrillic script)"
 msgid "Santali (Ol Chiki script)"
-msgstr "Sırpça (Kiril alfabesi)"
+msgstr "Santalice (Ol Chiki alfabesi)"
 
 #. Translators: Language name for ISO code "sat_Deva". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Serbian (Cyrillic script)"
 msgid "Santali (Devanagari script)"
-msgstr "Sırpça (Kiril alfabesi)"
+msgstr "Santalice (Devanagari alfabesi)"
 
 #. Translators: Language name for ISO code "sc". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
