@@ -7,7 +7,7 @@ all: weblate_language_data/languages.py weblate_language_data/plural_tags.py PLU
 weblate_language_data/languages.py: languages.csv aliases.csv cldr.csv extraplurals.csv default_countries.csv population.csv qt.csv rtl.csv case-insensitive.csv $(wildcard modules/iso-codes/data/iso_*.json) scripts/generate-language-data.py
 	./scripts/generate-language-data.py
 
-PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv l10n-guide.csv translate.csv scripts/list-diff.py
+PLURALS_DIFF.md: languages.csv cldr.csv gettext.csv translate.csv scripts/list-diff.py
 	./scripts/list-diff.py
 	pre-commit run --files PLURALS_DIFF.md || true
 
@@ -29,9 +29,6 @@ gettext.csv: modules/gettext/gettext-tools/src/plural-table.c scripts/export-get
 .PRECIOUS: languages-po/%.po
 languages-po/%.po: modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json modules/cldr-json/cldr-json/cldr-localenames-full/main/%/languages.json scripts/export-languages-po.py
 	./scripts/export-languages-po.py $*
-
-l10n-guide.csv: modules/l10n-guide/docs/l10n/pluralforms.rst scripts/export-l10n-guide.py
-	./scripts/export-l10n-guide.py
 
 LANG_DATA = $(shell python ./scripts/get-lang-data-path.py)
 
