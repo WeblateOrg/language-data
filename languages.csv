@@ -613,6 +613,7 @@ sam,Samaritan Aramaic,2,n != 1
 saq,Samburu,2,n != 1
 sas,Sasak,2,n != 1
 sat,Santali,3,n == 1 ? 0 : n == 2 ? 1 : 2
+sat_Olck,Santali (Ol Chiki script),3,n == 1 ? 0 : n == 2 ? 1 : 2
 sc,Sardinian,2,n != 1
 sck,Sadri,2,n != 1
 scn,Sicilian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
