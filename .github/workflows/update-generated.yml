@@ -45,7 +45,19 @@ jobs:
         key: ${{ runner.os }}-pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
     - name: Install dependencies
       run: uv pip install --system -e .[dev]
-    - run: make
+    - run: |
+        # Touch all the files to make sure timestamps are more recent
+        touch modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json
+        touch modules/gettext/gettext-tools/src/plural-table.c
+        touch modules/qttools/src/linguist/shared/numerus.cpp
+        touch modules/cldr-json/cldr-json/cldr-core/scriptMetadata.json
+        touch modules/cldr-json/cldr-json/cldr-misc-full/main/*/layout.json
+        touch modules/cldr-json/cldr-json/cldr-core/supplemental/plurals.json
+        touch modules/iso-codes/data/iso_*.json
+        touch modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json
+        touch  modules/iso-codes/iso_*/*.po
+        # Trigger update
+        make
     - run: git diff
 
     - uses: pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43 # v1.1.0
