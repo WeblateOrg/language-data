@@ -9,6 +9,12 @@
         "https://github.com/autotools-mirror/gettext.git"
       ],
       "versioning": "loose"
+    },
+    {
+      "matchPackageNames": [
+        "https://github.com/autotools-mirror/gettext.git"
+      ],
+      "allowedVersions": "/^v[0-9.]+$/"
     }
   ]
 }
