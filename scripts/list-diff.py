@@ -79,19 +79,16 @@ def show_missing(name, data):
 LANGUAGES = parse_csv("languages.csv")
 CLDR = parse_csv("cldr.csv")
 GETTEXT = parse_csv("gettext.csv")
-L10N = parse_csv("l10n-guide.csv")
 TRANSLATE = parse_csv("translate.csv")
 
 # List differences
 show_diff("CLDR", CLDR)
 show_diff("Gettext", GETTEXT)
-show_diff("L10n guide", L10N)
 show_diff("Translate", TRANSLATE)
 
 # List missing ones
 show_missing("CLDR", CLDR)
 show_missing("Gettext", GETTEXT)
-show_missing("L10n guide", L10N)
 show_missing("Translate", TRANSLATE)
 
 with open("PLURALS_DIFF.md", "w") as handle:
@@ -102,8 +99,8 @@ with open("PLURALS_DIFF.md", "w") as handle:
 This table lists differences in plurals between various sources.
 The Plurals column lists data in languages.csv which is used in Weblate
 
-Code | Name | Plurals | CLDR plurals | Gettext plurals | L10n guide | Translate toolkit
----- | ---- | --------| ------------ | --------------- | ---------- | -----------------
+Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit
+---- | ---- | --------| ------------ | --------------- | -----------------
 """,
     )
     for code in sorted(set(LANGUAGES)):
@@ -122,12 +119,6 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | L10n guide | Translate 
         if code in GETTEXT:
             if not compare_definition(LANGUAGES[code], GETTEXT[code], False):
                 handle.write(fmt_plural(GETTEXT[code]))
-            else:
-                handle.write("✔")
-        handle.write(" | ")
-        if code in L10N:
-            if not compare_definition(LANGUAGES[code], L10N[code], False):
-                handle.write(fmt_plural(L10N[code]))
             else:
                 handle.write("✔")
         handle.write(" | ")

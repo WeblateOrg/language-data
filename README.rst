@@ -95,12 +95,6 @@ translate.csv
 * Extracted from `translate-toolkit`_
 * Generated using export-translate
 
-l10n-guide.csv
---------------
-
-* Extracted from the `l10n guide`_
-* Generated using export-l10n-guide
-
 languages-po
 ------------
 
