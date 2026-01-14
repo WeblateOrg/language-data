@@ -39,7 +39,7 @@ version = "2026.1"
 
 [project.optional-dependencies]
 dev = [
-  "translate-toolkit==3.18.0",
+  "translate-toolkit==3.18.1",
   "weblate-language-data[lint,test,types]"
 ]
 django = [
