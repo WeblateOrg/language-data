@@ -5561,6 +5561,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n == 1 ? 0 : n == 2 ? 1 : 2",
     ),
     (
+        "sat_Deva",
+        # Translators: Language name for ISO code "sat_Deva". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Santali (Devanagari script)"),
+        3,
+        "n == 1 ? 0 : n == 2 ? 1 : 2",
+    ),
+    (
         "sc",
         # Translators: Language name for ISO code "sc". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

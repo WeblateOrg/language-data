@@ -133,7 +133,7 @@ ALIASES: dict[str, str] = {
     "zh_latn@pinyin": "zh_Latn",
     "zh_simplified": "zh_Hans",
     "zh_traditional": "zh_Hant",
-    "sat@deva": "sat_Olck",
+    "sat@deva": "sat_Deva",
     "sat@olchiki": "sat_Olck",
     "sat@olck": "sat_Olck",
     "ar@latin": "ar_Latn",
