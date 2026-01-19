@@ -15,7 +15,7 @@
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2021.
 # S3aBreeze <paperwork@evilcorp.ltd>, 2021, 2022.
 # Ivan <goz9ae93qun@temp.mailbox.org>, 2021.
-# Blueberry <igory.ygr200@gmail.com>, 2021, 2024.
+# Blueberry <igory.ygr200@gmail.com>, 2021, 2024, 2026.
 # Viktor <xasertop@gmail.com>, 2022.
 # Vin <k3kelm4vw@mozmail.com>, 2022, 2023.
 # S3aBreeze <S3aBreeze@users.noreply.hosted.weblate.org>, 2023.
@@ -31,8 +31,8 @@ msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
 "POT-Creation-Date: 2026-01-14 11:15+0100\n"
-"PO-Revision-Date: 2025-11-22 20:00+0000\n"
-"Last-Translator: liilliil <liilliil@liilliil.net>\n"
+"PO-Revision-Date: 2026-01-20 13:04+0000\n"
+"Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/"
 "languages/ru/>\n"
 "Language: ru\n"
@@ -41,7 +41,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #. Translators: Language name for ISO code "aa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -256,10 +256,8 @@ msgstr "Арабский (Йемен)"
 #. Translators: Language name for ISO code "ar_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Serbian (Latin script)"
 msgid "Arabic (Latin script)"
-msgstr "Сербский (латинский алфавит)"
+msgstr "Арабский (латинский алфавит)"
 
 #. Translators: Language name for ISO code "arc". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2197,7 +2195,7 @@ msgstr "Кабувердьяну"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Kekchí"
-msgstr ""
+msgstr "Кекчи"
 
 #. Translators: Language name for ISO code "kfr". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2322,10 +2320,8 @@ msgstr "Конкани"
 #. Translators: Language name for ISO code "kok_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Bosnian (Latin script)"
 msgid "Konkani (Latin script)"
-msgstr "Боснийский (латинский алфавит)"
+msgstr "Конкани (латинский алфавит)"
 
 #. Translators: Language name for ISO code "kos". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2498,10 +2494,8 @@ msgstr "Лигурийский"
 #. Translators: Language name for ISO code "lir". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "English (Pirate)"
 msgid "English (Liberian)"
-msgstr "Английский (пиратский)"
+msgstr "Английский (либерийский)"
 
 #. Translators: Language name for ISO code "ljp". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -2723,7 +2717,7 @@ msgstr "меру"
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
 msgid "Hassaniyya"
-msgstr ""
+msgstr "Хассания"
 
 #. Translators: Language name for ISO code "mfa". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -3742,18 +3736,14 @@ msgstr "Сантали"
 #. Translators: Language name for ISO code "sat_Olck". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Serbian (Cyrillic script)"
 msgid "Santali (Ol Chiki script)"
-msgstr "Сербский (кириллический алфавит)"
+msgstr "Сантали (алфавит ол-чики)"
 
 #. Translators: Language name for ISO code "sat_Deva". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-#, fuzzy
-#| msgid "Serbian (Cyrillic script)"
 msgid "Santali (Devanagari script)"
-msgstr "Сербский (кириллический алфавит)"
+msgstr "Сантали (алфавит деванагари)"
 
 #. Translators: Language name for ISO code "sc". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
