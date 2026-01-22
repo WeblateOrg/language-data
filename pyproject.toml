@@ -2,8 +2,8 @@
 build-backend = "setuptools.build_meta"
 # Minimum requirements for the build system to execute.
 requires = [
-  "setuptools>=78.0.2",
-  "translate-toolkit"
+  "setuptools-gettext==0.1.14",
+  "setuptools>=78.0.2"
 ]
 
 [project]
@@ -146,6 +146,10 @@ weblate_language_data = "weblate_language_data"
 [tool.setuptools.packages.find]
 exclude = ["modules*", "scripts*"]
 namespaces = true
+
+[tool.setuptools-gettext]
+build_dir = "weblate_language_data/locale"
+source_dir = "weblate_language_data/locale"
 
 [tool.tomlsort]
 ignore_case = true
