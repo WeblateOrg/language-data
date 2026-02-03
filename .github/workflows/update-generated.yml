@@ -39,10 +39,23 @@ jobs:
     - uses: astral-sh/setup-uv@803947b9bd8e9f986429fa0c5a41c367cd732b41 # v7.2.1
       with:
         version: 0.9.28
+    - name: Get cache tag
+      id: get-date
+      run: |
+        echo "cache_tag=$(/bin/date --utc '+%Y%m')" >> "$GITHUB_OUTPUT"
+        echo "previous_cache_tag=$(/bin/date --date='1 month ago' --utc '+%Y%m')" >> "$GITHUB_OUTPUT"
+      shell: bash
     - uses: actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306 # v5.0.3
+      id: pre-commit-cache
       with:
-        path: ~/.cache/pre-commit
-        key: ${{ runner.os }}-pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
+        path: |
+          ~/.cache/prek
+          ~/.cache/kingfisher
+        key: ${{ runner.os }}-prek-${{ steps.get-date.outputs.cache_tag }}-${{ hashFiles('.pre-commit-config.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-prek-${{ steps.get-date.outputs.cache_tag }}
+          ${{ runner.os }}-prek-${{ steps.get-date.outputs.previous_cache_tag }}
+          ${{ runner.os }}-prek-
     - name: Install dependencies
       run: uv pip install --system -e .[dev]
     - run: |

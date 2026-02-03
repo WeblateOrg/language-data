@@ -77,6 +77,6 @@ with open("weblate_language_data/ambiguous.py", "w") as output:
 
 # Black format code
 subprocess.run(
-    ["pre-commit", "run", "--files", "weblate_language_data/ambiguous.py"],
+    ["prek", "run", "--files", "weblate_language_data/ambiguous.py"],
     check=False,
 )

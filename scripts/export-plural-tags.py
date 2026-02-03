@@ -157,6 +157,6 @@ with open("weblate_language_data/plural_tags.py", "w") as output:
 
 # Apply coding style
 subprocess.run(
-    ["pre-commit", "run", "--files", "weblate_language_data/plural_tags.py"],
+    ["prek", "run", "--files", "weblate_language_data/plural_tags.py"],
     check=False,
 )
