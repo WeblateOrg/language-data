@@ -29,7 +29,7 @@ jobs:
         enable-cache: true
         cache-dependency-glob: ''
         cache-suffix: '3.13'
-        version: 0.9.29
+        version: 0.9.30
     - name: Setup Python
       uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
       with:
