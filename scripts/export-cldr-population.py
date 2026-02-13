@@ -9,6 +9,7 @@ from collections import defaultdict
 
 MAPPING = {
     "zh": "zh_Hans",
+    "pa_Arab": "pa",
 }
 
 with open(
