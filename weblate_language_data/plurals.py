@@ -245,6 +245,15 @@ CLDRPLURALS: tuple[tuple[str, str, int, str], ...] = (
         "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
     ),
     (
+        "es_150",
+        # Translators: Language name for ISO code "es_150". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Europe)"),
+        3,
+        "(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)",
+    ),
+    (
         "es_419",
         # Translators: Language name for ISO code "es_419". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

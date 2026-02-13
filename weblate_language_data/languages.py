@@ -1646,6 +1646,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
+        "en_150",
+        # Translators: Language name for ISO code "en_150". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("English (Europe)"),
+        2,
+        "n != 1",
+    ),
+    (
         "en_AU",
         # Translators: Language name for ISO code "en_AU". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -1813,6 +1822,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Spanish (informal)"),
+        2,
+        "n != 1",
+    ),
+    (
+        "es_150",
+        # Translators: Language name for ISO code "es_150". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Spanish (Europe)"),
         2,
         "n != 1",
     ),

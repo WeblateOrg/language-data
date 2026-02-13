@@ -3352,6 +3352,7 @@ LANGUAGES: set[str] = {
     "eurco",
     "eure",
     "euro",
+    "europe",
     "european",
     "eustatius",
     "evant",
