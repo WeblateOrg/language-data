@@ -169,6 +169,7 @@ ALIASES: dict[str, str] = {
     "ca_es@valencia": "ca@valencia",
     "ca_xv": "ca@valencia",
     "ca_valencia": "ca@valencia",
+    "oc_aranes": "oc_ES",
     "va": "ca@valencia",
     "ang@latin": "ang",
     "cz": "cs",
