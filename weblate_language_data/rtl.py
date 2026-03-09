@@ -38,6 +38,7 @@ RTL_LANGS: set[str] = {
     "bal",
     "bgn",
     "bqi",
+    "brh",
     "ckb",
     "ckb_IR",
     "dv",
