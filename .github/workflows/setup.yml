@@ -78,6 +78,7 @@ jobs:
         path: dist
     - env:
         VERSION: ${{ github.ref_name }}
+        GH_TOKEN: ${{ github.token }}
       run: |
         gh release create "$VERSION" --verify-tag --generate-notes dist/*
 permissions:
