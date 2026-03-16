@@ -16,12 +16,10 @@ classifiers = [
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
-  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python",
   "Topic :: Software Development :: Internationalization",
   "Topic :: Software Development :: Localization",
@@ -39,7 +37,7 @@ keywords = [
 license = "MIT"
 license-files = ["LICENSE"]
 name = "weblate-language-data"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 version = "2026.3"
 
 [project.optional-dependencies]
