@@ -24,7 +24,7 @@ jobs:
         cache-dependency-glob: ''
         version: 0.10.10
     - name: Install dependencies
-      run: uv pip install --system -e .[dev]
+      run: uv sync --all-extras --dev
     - name: build sdist
       run: uv build
     - name: twine

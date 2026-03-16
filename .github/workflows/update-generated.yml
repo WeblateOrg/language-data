@@ -57,8 +57,9 @@ jobs:
           ${{ runner.os }}-prek-${{ steps.get-date.outputs.previous_cache_tag }}
           ${{ runner.os }}-prek-
     - name: Install dependencies
-      run: uv pip install --system -e .[dev]
+      run: uv sync --all-extras --dev
     - run: |
+        source .venv/bin/activate
         # Touch all the files to make sure timestamps are more recent
         touch modules/cldr-json/cldr-json/cldr-localenames-full/main/en/languages.json
         touch modules/gettext/gettext-tools/src/plural-table.c

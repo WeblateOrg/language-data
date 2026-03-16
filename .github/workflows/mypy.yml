@@ -34,11 +34,9 @@ jobs:
       uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
       with:
         python-version: '3.14'
-    - name: Install pip dependencies
-      run: uv pip install --system -e .[dev]
 
     - name: Run mypy
       run: |
         echo "::add-matcher::.github/matchers/mypy.json"
-        mypy --show-column-numbers weblate_language_data scripts/*.py
+        uv run --all-extras mypy --show-column-numbers weblate_language_data scripts/*.py
         echo "::remove-matcher owner=mypy::"
