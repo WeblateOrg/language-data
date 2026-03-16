@@ -6,6 +6,30 @@ requires = [
   "translate-toolkit"
 ]
 
+[dependency-groups]
+build = [
+  "translate-toolkit==3.19.3"
+]
+dev = [
+  {include-group = "build"},
+  {include-group = "lint"},
+  {include-group = "test"},
+  {include-group = "types"}
+]
+lint = [
+  {include-group = "pre-commit"}
+]
+pre-commit = [
+  "prek==0.3.6"
+]
+test = [
+]
+types = [
+  "django-types==0.23.0",
+  "mypy==1.19.1",
+  "types-setuptools==82.0.0.20260210"
+]
+
 [project]
 authors = [
   {email = "michal@weblate.org", name = "Michal Čihař"}
@@ -41,21 +65,8 @@ requires-python = ">=3.11"
 version = "2026.3"
 
 [project.optional-dependencies]
-dev = [
-  "translate-toolkit==3.19.3",
-  "weblate-language-data[lint,test,types]"
-]
 django = [
   "Django"
-]
-lint = [
-  "prek==0.3.6"
-]
-test = [
-]
-types = [
-  "django-stubs==5.2.9",
-  "mypy==1.19.1"
 ]
 
 [project.readme]
