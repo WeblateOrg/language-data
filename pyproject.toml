@@ -102,7 +102,7 @@ ignore-bad-ideas = [
 
 [tool.codespell]
 builtin = "clear,rare,informal,usage"
-skip = '*.po,*.pot,*.csv,weblate_language_data/aliases.py,weblate_language_data/population.py,weblate_language_data/plurals.py,weblate_language_data/language_codes.py,weblate_language_data/languages.py,weblate_language_data/check_languages.py,weblate_language_data/plural_tags.py,PLURALS_DIFF.md,weblate_language_data/case_insensitive.py,weblate_language_data/country_codes.py'
+skip = '*.po,*.pot,*.csv,weblate_language_data/aliases.py,weblate_language_data/population.py,weblate_language_data/plurals.py,weblate_language_data/language_codes.py,weblate_language_data/languages.py,weblate_language_data/check_languages.py,weblate_language_data/plural_tags.py,PLURALS_DIFF.md,weblate_language_data/case_insensitive.py,weblate_language_data/country_codes.py,weblate_language_data/rtl.py'
 
 [tool.isort]
 profile = "black"
