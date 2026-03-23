@@ -20,7 +20,7 @@ lint = [
   {include-group = "pre-commit"}
 ]
 pre-commit = [
-  "prek==0.3.6"
+  "prek==0.3.8"
 ]
 test = [
 ]
