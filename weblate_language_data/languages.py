@@ -1137,7 +1137,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # Translators: Language name for ISO code "ckb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kurdish (Central)"),
+        _("Kurdish (Sorani)"),
         2,
         "n != 1",
     ),
@@ -1146,7 +1146,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kurdish (Central, Iraq)"),
+        _("Kurdish (Sorani, Iraq)"),
         2,
         "n != 1",
     ),
@@ -1155,7 +1155,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kurdish (Central, Iran)"),
+        _("Kurdish (Sorani, Iran)"),
         2,
         "n != 1",
     ),
@@ -3423,7 +3423,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # Translators: Language name for ISO code "kmr". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kurdish (Northern)"),
+        _("Kurdish (Kurmanji)"),
         2,
         "n != 1",
     ),
@@ -3432,7 +3432,7 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # Translators: Language name for ISO code "kmr_Latn". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
-        _("Kurdish (Northern, Latin script)"),
+        _("Kurdish (Kurmanji, Latin script)"),
         2,
         "n != 1",
     ),
