@@ -95,6 +95,20 @@ translate.csv
 * Extracted from `translate-toolkit`_
 * Generated using export-translate
 
+population.csv
+--------------
+
+* Based on CLDR territory population data
+* Supplemented by `population-fallback.csv` for base language codes missing or zero in CLDR
+* Generated using `scripts/export-cldr-population.py`
+
+population-fallback.csv
+-----------------------
+
+* Reviewed fallback speaker counts for language codes missing or zero in CLDR
+* Currently sourced from Wikidata speaker-count statements (CC0)
+* Includes source URLs and dates to keep the imported values auditable
+
 languages-po
 ------------
 
