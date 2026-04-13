@@ -12,6 +12,7 @@ af,Afrikaans,2,n != 1
 afh,Afrihili,2,n != 1
 aii,Assyrian Neo-Aramaic,2,n != 1
 ain,Ainu (Japan),2,n != 1
+agr,Aguaruna,2,n != 1
 ak,Akan,2,n > 1
 akk,Akkadian,2,n != 1
 ale,Aleut,2,n != 1
@@ -300,6 +301,7 @@ he_IL,Hebrew (Israel),4,(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && n % 10 == 0) 
 hi,Hindi,2,n > 1
 hi@hinglish,Hindi (Hinglish),2,n > 1
 hi_Latn,Hindi (Latin script),2,n > 1
+hif,Hindi (Fiji),2,n != 1
 hil,Hiligaynon,2,n != 1
 hit,Hittite,2,n != 1
 hmn,Hmong,2,n != 1
@@ -459,6 +461,7 @@ mi,Maori,2,n > 1
 mia,Miami,2,n > 1
 mic,Mi'kmaq,2,n != 1
 min,Minangkabau,2,n != 1
+miq,Mískito,2,n != 1
 mis,Milang,1,0
 mjw,Karbi,2,n != 1
 mk,Macedonian,2,n==1 || n%10==1 ? 0 : 1
@@ -510,6 +513,7 @@ ne,Nepali,2,n != 1
 new,Newari,2,n != 1
 ng,Ndonga,2,n != 1
 ngl,Lomwe,2,n != 1
+nhn,Nahuatl (Central),2,n != 1
 nia,Nias,2,n != 1
 nij,Ngaju,2,n != 1
 niu,Niuean,2,n != 1
@@ -648,6 +652,7 @@ smj,Sami (Lule),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 sml,Sama (Central),2,n != 1
 smn,Sami (Inari),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 sms,Sami (Skolt),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
+shs,Shuswap,2,n != 1
 sn,Shona,2,n != 1
 snk,Soninke,2,n != 1
 so,Somali,2,n != 1
@@ -710,6 +715,7 @@ tog,Tonga (Nyasa),2,n != 1
 toi,Tonga (Zambia),2,n != 1
 tok,Toki Pona,1,0
 tpi,Tok Pisin,1,0
+the,Tharu (Chitwania),2,n != 1
 tr,Turkish,2,n != 1
 trv,Taroko,2,n != 1
 ts,Tsonga,2,n != 1
@@ -733,6 +739,7 @@ uga,Ugaritic,2,n != 1
 uk,Ukrainian,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 umb,Umbundu,2,n != 1
 und,Undetermined,2,n != 1
+unm,Unami,2,n != 1
 unr,Mundari,2,n != 1
 ur,Urdu,2,n != 1
 ur_IN,Urdu (India),2,n != 1
@@ -770,6 +777,7 @@ xog,Soga,2,n != 1
 yao,Yao,2,n != 1
 yap,Yapese,2,n != 1
 yi,Yiddish,2,n != 1
+yuw,Yau (Morobe Province),2,n != 1
 yo,Yoruba,1,0
 yua,Yucateco,2,n != 1
 yue_Hans,Cantonese (Simplified Han script),1,0

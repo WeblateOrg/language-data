@@ -5,6 +5,7 @@
 # SPDX-License-Identifier: MIT
 
 import csv
+import os
 from gettext import c2py
 from itertools import chain
 
@@ -21,6 +22,59 @@ def parse_csv(name):
                 raise ValueError(f"Duplicate {data[0]} in {name}!")
             result[data[0]] = data
     return result
+
+
+def normalize_supported_locale(locale):
+    return locale.split(".", 1)[0].lower()
+
+
+def is_supported_locale(locale, languages, aliases, default_countries):
+    candidates = [locale]
+    normalized = locale
+
+    if "@" in normalized:
+        base, modifier = normalized.split("@", 1)
+        if modifier == "euro":
+            candidates.append(base)
+            normalized = base
+        else:
+            language = base.split("_", 1)[0]
+            candidates.extend((f"{language}@{modifier}", base))
+            normalized = base
+
+    if "_" in normalized:
+        language = normalized.split("_", 1)[0]
+        candidates.append(language)
+        if normalized in default_countries:
+            candidates.append(language)
+
+    return any(
+        candidate in languages or candidate in aliases for candidate in candidates
+    )
+
+
+def validate_supported_locales(languages, aliases, default_countries):
+    supported_path = "/usr/share/i18n/SUPPORTED"
+    if not os.path.exists(supported_path):
+        return
+
+    missing = set()
+
+    with open(supported_path) as handle:
+        for line in handle:
+            if not line.strip():
+                continue
+            locale = normalize_supported_locale(line.split()[0])
+            if locale in {"c", "posix"}:
+                continue
+            if not is_supported_locale(locale, languages, aliases, default_countries):
+                missing.add(locale)
+
+    if missing:
+        raise ValueError(
+            "Missing locales from /usr/share/i18n/SUPPORTED: "
+            + ", ".join(sorted(missing))
+        )
 
 
 languages = parse_csv("languages.csv")
@@ -80,3 +134,7 @@ for code, _name, plural_count, plural_formula in languages.values():
         raise ValueError(
             f"Mismatching plural count for {code}: {plural_count} != {calculated}",
         )
+
+validate_supported_locales(
+    set(languages.keys()), aliases, set(default_countries.keys())
+)
