@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2026-04-13 10:08+0000\n"
+"POT-Creation-Date: 2026-04-13 14:05+0200\n"
 "PO-Revision-Date: 2026-02-14 16:09+0000\n"
 "Last-Translator: Blueberry <igory.ygr200@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/weblate/"
@@ -790,19 +790,25 @@ msgstr "Шайенский"
 #. Translators: Language name for ISO code "ckb". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Kurdish (Central)"
-msgstr "Центральнокурдский"
+#, fuzzy
+#| msgid "Kurdish (Southern)"
+msgid "Kurdish (Sorani)"
+msgstr "Курдский (южный)"
 
 #. Translators: Language name for ISO code "ckb_IQ". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Kurdish (Central, Iraq)"
+#, fuzzy
+#| msgid "Kurdish (Central, Iraq)"
+msgid "Kurdish (Sorani, Iraq)"
 msgstr "Центральнокурдский (Ирак)"
 
 #. Translators: Language name for ISO code "ckb_IR". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Kurdish (Central, Iran)"
+#, fuzzy
+#| msgid "Kurdish (Central, Iran)"
+msgid "Kurdish (Sorani, Iran)"
 msgstr "Центральнокурдский (Иран)"
 
 #. Translators: Language name for ISO code "cnr". The parenthesis clarifies
@@ -2315,13 +2321,17 @@ msgstr "Кимбунду"
 #. Translators: Language name for ISO code "kmr". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Kurdish (Northern)"
-msgstr "Курдский (северный)"
+#, fuzzy
+#| msgid "Kurdish (Southern)"
+msgid "Kurdish (Kurmanji)"
+msgstr "Курдский (южный)"
 
 #. Translators: Language name for ISO code "kmr_Latn". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
 #. or other variant.
-msgid "Kurdish (Northern, Latin script)"
+#, fuzzy
+#| msgid "Kurdish (Northern, Latin script)"
+msgid "Kurdish (Kurmanji, Latin script)"
 msgstr "Курдский (северный, латинский алфавит)"
 
 #. Translators: Language name for ISO code "kn". The parenthesis clarifies
@@ -4822,6 +4832,12 @@ msgstr "Зуньи"
 #. or other variant.
 msgid "Zaza"
 msgstr "Зазаки"
+
+#~ msgid "Kurdish (Central)"
+#~ msgstr "Центральнокурдский"
+
+#~ msgid "Kurdish (Northern)"
+#~ msgstr "Курдский (северный)"
 
 #, fuzzy
 #~| msgid "Mindong (Simplified Han script)"
