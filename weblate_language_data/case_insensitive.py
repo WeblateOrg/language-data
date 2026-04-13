@@ -74,6 +74,7 @@ CASE_INSENSITIVE_LANGS: set[str] = {
     "haz",
     "he",
     "hi",
+    "hif",
     "hit",
     "hnd",
     "hne",
