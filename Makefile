@@ -42,7 +42,7 @@ aliases.csv: scripts/export-iso-aliases.py modules/iso-codes/data/iso_639-2.json
 	./scripts/export-iso-aliases.py
 	@touch $@
 
-population.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json scripts/export-cldr-population.py
+population.csv: modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json population-fallback.csv scripts/export-cldr-population.py
 	./scripts/export-cldr-population.py
 
 languages.csv: modules/iso-codes/data/iso_639-2.json scripts/export-iso-languages.py scripts/add-iso-population.py aliases.csv population.csv

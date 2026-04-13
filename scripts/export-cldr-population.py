@@ -4,9 +4,11 @@
 #
 # SPDX-License-Identifier: MIT
 
+import csv
 import json
 from collections import defaultdict
 from collections.abc import Generator
+from pathlib import Path
 
 MAPPING = {
     "zh": "zh_Hans",
@@ -37,6 +39,16 @@ for code in REGIONS:
     for country in get_region_countries(code):
         REGION_COUNTRIES[country] = code
 
+
+def load_fallback_populations() -> dict[str, int]:
+    fallback_file = Path("population-fallback.csv")
+    if not fallback_file.exists():
+        return {}
+    with fallback_file.open() as handle:
+        reader = csv.DictReader(handle)
+        return {row["code"]: int(row["population"]) for row in reader}
+
+
 with open(
     "modules/cldr-json/cldr-json/cldr-core/supplemental/territoryInfo.json",
 ) as handle:
@@ -53,6 +65,10 @@ with open(
             languages[f"{language}_{code}"] += population * factor
             if code in REGION_COUNTRIES and language in REGION_LANGUAGES:
                 languages[f"{language}_{REGION_COUNTRIES[code]}"] += population * factor
+
+for code, population in load_fallback_populations().items():
+    if int(languages.get(code, 0)) == 0:
+        languages[code] = population
 
 with open("population.csv", "w") as handle:
     handle.write("code,population\n")
