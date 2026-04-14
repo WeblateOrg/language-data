@@ -46,8 +46,8 @@ ceb,Cebuano,2,n != 1 && n != 2 && n != 3 && (n % 10 == 4 || n % 10 == 6 || n % 1
 cgg,Chiga,2,n != 1
 chr,Cherokee,2,n != 1
 ckb,Central Kurdish,2,n != 1
-ckb_IQ,"Kurdish (Central, Iraq)",2,n != 1
-ckb_IR,"Kurdish (Central, Iran)",2,n != 1
+ckb_IQ,"Kurdish (Sorani, Iraq)",2,n != 1
+ckb_IR,"Kurdish (Sorani, Iran)",2,n != 1
 cs,Czech,3,(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2)
 csw,Swampy Cree,2,n > 1
 cv,Chuvash,3,(n == 0) ? 0 : ((n == 1) ? 1 : 2)

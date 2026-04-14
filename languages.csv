@@ -123,9 +123,9 @@ cho,Choctaw,2,n != 1
 chp,Chipewyan,2,n != 1
 chr,Cherokee,2,n != 1
 chy,Cheyenne,2,n != 1
-ckb,Kurdish (Central),2,n != 1
-ckb_IQ,"Kurdish (Central, Iraq)",2,n != 1
-ckb_IR,"Kurdish (Central, Iran)",2,n != 1
+ckb,Kurdish (Sorani),2,n != 1
+ckb_IQ,"Kurdish (Sorani, Iraq)",2,n != 1
+ckb_IR,"Kurdish (Sorani, Iran)",2,n != 1
 cnr,Montenegrin,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 cnr_Cyrl,Montenegrin (Cyrillic script),3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 co,Corsican,2,n != 1
@@ -377,8 +377,8 @@ kl,Greenlandic,2,n != 1
 kln,Kalenjin,2,n != 1
 km,Khmer (Central),1,0
 kmb,Kimbundu,2,n != 1
-kmr,Kurdish (Northern),2,n != 1
-kmr_Latn,"Kurdish (Northern, Latin script)",2,n != 1
+kmr,Kurdish (Kurmanji),2,n != 1
+kmr_Latn,"Kurdish (Kurmanji, Latin script)",2,n != 1
 kn,Kannada,2,n > 1
 ko,Korean,1,0
 kok,Konkani,2,n > 1
