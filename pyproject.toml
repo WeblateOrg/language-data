@@ -148,6 +148,20 @@ max-complexity = 16
 [tool.ruff.lint.per-file-ignores]
 "scripts/*" = ["ANN", "S310", "S603", "S607"]
 
+[tool.rumdl]
+disable = [
+  # We do not enforce heading
+  "first-line-heading",
+  # Avoid length limit checks
+  "line-length"
+]
+
+[tool.rumdl.per-file-ignores]
+"README.md" = [
+  # Allow HTML
+  "MD033"
+]
+
 [tool.setuptools]
 include-package-data = true
 platforms = [
@@ -167,17 +181,3 @@ sort_inline_arrays = true
 sort_inline_tables = true
 sort_table_keys = true
 spaces_before_inline_comment = 2
-
-[tool.rumdl]
-disable = [
-  # We do not enforce heading
-  "first-line-heading",
-  # Avoid length limit checks
-  "line-length"
-]
-
-[tool.rumdl.per-file-ignores]
-"README.md" = [
-  # Allow HTML
-  "MD033"
-]
