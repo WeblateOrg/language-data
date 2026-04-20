@@ -99,12 +99,12 @@ with open("PLURALS_DIFF.md", "w") as handle:
 This table lists differences in plurals between various sources.
 The Plurals column lists data in languages.csv which is used in Weblate
 
-Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit
----- | ---- | --------| ------------ | --------------- | -----------------
+Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
+---- | ---- | --------| ------------ | --------------- | ----------------- |
 """,
     )
     for code in sorted(set(LANGUAGES)):
-        handle.write(f"`{code}`")
+        handle.write(f" `{code}`")
         handle.write(" | ")
         handle.write(LANGUAGES[code][1])
         handle.write(" | ")
@@ -127,4 +127,4 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit
                 handle.write(fmt_plural(TRANSLATE[code]))
             else:
                 handle.write("✔")
-        handle.write("\n")
+        handle.write(" |\n")
