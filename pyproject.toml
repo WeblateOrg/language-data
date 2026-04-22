@@ -25,7 +25,7 @@ pre-commit = [
 test = [
 ]
 types = [
-  "django-types==0.23.0",
+  "django-types==0.24.0",
   "mypy==1.20.2",
   "types-setuptools==82.0.0.20260408"
 ]
