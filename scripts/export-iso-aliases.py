@@ -9,7 +9,7 @@ import json
 
 ALIASES = "modules/cldr-json/cldr-json/cldr-core/supplemental/aliases.json"
 
-names = {}
+names: dict[str, str] = {}
 
 EXCEPTIONS = {
     "zh": "zh_Hans",

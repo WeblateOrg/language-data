@@ -224,7 +224,7 @@ with open("weblate_language_data/case_insensitive.py", "w") as output:
     output.write("}\n")
 
 # Generate same check exception list
-words = set()
+words: set[str] = set()
 
 
 def add_word(word):

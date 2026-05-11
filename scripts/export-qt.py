@@ -49,8 +49,8 @@ plural_definition = re.compile(
     r'{\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*([^,]+)\s*,\s*"nplurals=([0-9]+); plural=([^"]+);"\s}',
 )
 
-LANGUAGES = {}
-PLURALS = {}
+LANGUAGES: dict[str, list[str]] = {}
+PLURALS: dict[str, tuple[int, str]] = {}
 
 
 def handle_language(parts):
@@ -105,8 +105,8 @@ with open("modules/qttools/src/linguist/shared/numerus.cpp") as handle:
             parts = [line]
             in_table = True
 
-output = []
-processed = set()
+output: list[tuple[str, str, int, str]] = []
+processed: set[str] = set()
 
 
 def generate(group, name):
@@ -137,5 +137,4 @@ os.unlink("qt.csv")
 
 with open("qt.csv", "w") as handle:
     handle.write("code,name,nplurals,formula\n")
-    for line in sorted(output):
-        handle.write("{},{},{},{}\n".format(*line))
+    handle.writelines("{},{},{},{}\n".format(*row) for row in sorted(output))
