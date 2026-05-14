@@ -626,6 +626,7 @@ sc,Sardinian,2,n != 1
 sck,Sadri,2,n != 1
 scn,Sicilian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 sco,Scots,2,n != 1
+sco-ulster,Scots (Ulster),2,n != 1
 sd,Sindhi,2,n != 1
 sdh,Kurdish (Southern),2,n != 1
 se,Sami (Northern),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
