@@ -8,7 +8,7 @@ requires = [
 
 [dependency-groups]
 build = [
-  "translate-toolkit==3.19.9"
+  "translate-toolkit==3.19.10"
 ]
 dev = [
   {include-group = "build"},
