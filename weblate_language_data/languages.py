@@ -5660,6 +5660,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
+        "sco-ulster",
+        # Translators: Language name for ISO code "sco-ulster". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Scots (Ulster)"),
+        2,
+        "n != 1",
+    ),
+    (
         "sd",
         # Translators: Language name for ISO code "sd". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)

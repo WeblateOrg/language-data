@@ -633,6 +633,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `sck` | Sadri | nplurals=2; plural=n != 1; |  |  |  |
  `scn` | Sicilian | nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2); | ✔ |  | nplurals=2; plural=(n != 1); |
  `sco` | Scots | nplurals=2; plural=n != 1; |  |  | ✔ |
+ `sco-ulster` | Scots (Ulster) | nplurals=2; plural=n != 1; |  |  |  |
  `sd` | Sindhi | nplurals=2; plural=n != 1; | ✔ |  | ✔ |
  `sdh` | Kurdish (Southern) | nplurals=2; plural=n != 1; | ✔ |  |  |
  `se` | Sami (Northern) | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  | nplurals=2; plural=(n != 1); |

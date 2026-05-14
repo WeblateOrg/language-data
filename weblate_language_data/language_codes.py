@@ -988,6 +988,7 @@ LANGUAGES: set[str] = {
     "sck",
     "scn",
     "sco",
+    "sco-ulster",
     "scr",
     "sd",
     "sdh",

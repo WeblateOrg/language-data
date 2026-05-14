@@ -641,6 +641,7 @@ POPULATION: dict[str, int] = {
     "sck": 2536434,
     "scn": 499912,
     "sco": 1711477,
+    "sco-ulster": 0,
     "sd": 41518338,
     "sdh": 3977410,
     "se": 52950,
