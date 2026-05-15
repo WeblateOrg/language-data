@@ -305,6 +305,7 @@ POPULATION: dict[str, int] = {
     "gv": 1660,
     "gwi": 310,
     "ha": 41875124,
+    "hac": 0,
     "hai": 90,
     "hak_Hans": 32568920,
     "hak_Hant": 2595483,

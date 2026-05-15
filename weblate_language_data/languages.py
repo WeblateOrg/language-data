@@ -2636,6 +2636,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
+        "hac",
+        # Translators: Language name for ISO code "hac". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Gorani"),
+        2,
+        "n != 1",
+    ),
+    (
         "hai",
         # Translators: Language name for ISO code "hai". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
