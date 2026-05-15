@@ -1,0 +1,71 @@
+# Copyright © Michal Čihař <michal@weblate.org>
+#
+# SPDX-License-Identifier: CC0-1.0
+
+name: New language request
+description: Request adding a new language
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thank you for requesting a new language.
+      This form guides you in providing the language data needed by Weblate.
+- type: input
+  id: language-code
+  attributes:
+    label: Language code
+    description: The BCP 47 or ISO 639 language code to add.
+    placeholder: tok
+  validations:
+    required: true
+- type: input
+  id: language-name
+  attributes:
+    label: English language name
+    description: The English name to use for this language.
+    placeholder: Toki Pona
+  validations:
+    required: true
+- type: input
+  id: plural-count
+  attributes:
+    label: Number of plural forms
+    description: The number of plural forms for this language.
+    placeholder: '2'
+  validations:
+    required: true
+- type: textarea
+  id: plural-formula
+  attributes:
+    label: Plural formula
+    description: The gettext plural expression using n.
+    placeholder: n != 1
+  validations:
+    required: true
+- type: textarea
+  id: sources
+  attributes:
+    label: Sources
+    description: Please provide source links for the language code, English name, and plural data.
+    placeholder: https://...
+  validations:
+    required: true
+- type: textarea
+  id: aliases
+  attributes:
+    label: Aliases or legacy codes
+    description: List any non-standard, legacy, or common alternate codes that should map to this language.
+    placeholder: |
+      old_code -> tok
+- type: textarea
+  id: population
+  attributes:
+    label: Speaker or population source
+    description: If available, provide a speaker count and source link.
+    placeholder: |
+      12345 speakers, source:
+- type: textarea
+  id: additional
+  attributes:
+    label: Additional context
+    description: Add any other contextual info about the language request here.
