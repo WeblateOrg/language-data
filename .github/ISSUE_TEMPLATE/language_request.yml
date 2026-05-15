@@ -58,13 +58,6 @@ body:
     placeholder: |
       old_code -> tok
 - type: textarea
-  id: population
-  attributes:
-    label: Speaker or population source
-    description: If available, provide a speaker count and source link.
-    placeholder: |
-      12345 speakers, source:
-- type: textarea
   id: additional
   attributes:
     label: Additional context
