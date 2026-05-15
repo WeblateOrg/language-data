@@ -34,7 +34,7 @@ body:
     placeholder: '2'
   validations:
     required: true
-- type: textarea
+- type: input
   id: plural-formula
   attributes:
     label: Plural formula
