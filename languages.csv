@@ -10,9 +10,9 @@ ae,Avestan,2,n != 1
 aeb,Arabic (Tunisian),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 af,Afrikaans,2,n != 1
 afh,Afrihili,2,n != 1
+agr,Aguaruna,2,n != 1
 aii,Assyrian Neo-Aramaic,2,n != 1
 ain,Ainu (Japan),2,n != 1
-agr,Aguaruna,2,n != 1
 ak,Akan,2,n > 1
 akk,Akkadian,2,n != 1
 ale,Aleut,2,n != 1
@@ -31,11 +31,11 @@ ar_DZ,Arabic (Algeria),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 
 ar_EG,Arabic (Egypt),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_KW,Arabic (Kuwait),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_LY,Arabic (Libya),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
+ar_Latn,Arabic (Latin script),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_MA,Arabic (Morocco),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_SA,Arabic (Saudi Arabia),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_XB,Arabic (XB pseudolocale),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 ar_YE,Arabic (Yemen),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
-ar_Latn,Arabic (Latin script),6,n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5
 arc,Aramaic,2,n != 1
 arn,Mapudungun,2,n > 1
 arp,Arapaho,2,n != 1
@@ -620,8 +620,8 @@ sam,Samaritan Aramaic,2,n != 1
 saq,Samburu,2,n != 1
 sas,Sasak,2,n != 1
 sat,Santali,3,n == 1 ? 0 : n == 2 ? 1 : 2
-sat_Olck,Santali (Ol Chiki script),3,n == 1 ? 0 : n == 2 ? 1 : 2
 sat_Deva,Santali (Devanagari script),3,n == 1 ? 0 : n == 2 ? 1 : 2
+sat_Olck,Santali (Ol Chiki script),3,n == 1 ? 0 : n == 2 ? 1 : 2
 sc,Sardinian,2,n != 1
 sck,Sadri,2,n != 1
 scn,Sicilian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
@@ -640,6 +640,7 @@ sgn,Sign Languages,2,n != 1
 sgs,Samogitian,4,(n % 10 == 1 && n % 100 != 11) ? 0 : ((n == 2) ? 1 : ((n != 2 && n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 2 : 3))
 shi,Tachelhit,3,(n == 0 || n == 1) ? 0 : ((n >= 2 && n <= 10) ? 1 : 2)
 shn,Shan,2,n != 1
+shs,Shuswap,2,n != 1
 si,Sinhala,2,n > 1
 sid,Sidamo,2,n != 1
 sjd,Sami (Kildin),2,n != 1
@@ -653,7 +654,6 @@ smj,Sami (Lule),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 sml,Sama (Central),2,n != 1
 smn,Sami (Inari),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
 sms,Sami (Skolt),3,(n == 1) ? 0 : ((n == 2) ? 1 : 2)
-shs,Shuswap,2,n != 1
 sn,Shona,2,n != 1
 snk,Soninke,2,n != 1
 so,Somali,2,n != 1
@@ -699,6 +699,7 @@ ter,Tereno,2,n != 1
 tet,Tetum,2,n != 1
 tg,Tajik,2,n > 1
 th,Thai,1,0
+the,Tharu (Chitwania),2,n != 1
 ti,Tigrinya,2,n > 1
 tig,Tigre,2,n != 1
 tiv,Tiv,2,n != 1
@@ -716,7 +717,6 @@ tog,Tonga (Nyasa),2,n != 1
 toi,Tonga (Zambia),2,n != 1
 tok,Toki Pona,1,0
 tpi,Tok Pisin,1,0
-the,Tharu (Chitwania),2,n != 1
 tr,Turkish,2,n != 1
 trv,Taroko,2,n != 1
 ts,Tsonga,2,n != 1
@@ -778,11 +778,11 @@ xog,Soga,2,n != 1
 yao,Yao,2,n != 1
 yap,Yapese,2,n != 1
 yi,Yiddish,2,n != 1
-yuw,Yau (Morobe Province),2,n != 1
 yo,Yoruba,1,0
 yua,Yucateco,2,n != 1
 yue_Hans,Cantonese (Simplified Han script),1,0
 yue_Hant,Cantonese (Traditional Han script),1,0
+yuw,Yau (Morobe Province),2,n != 1
 za,Zhuang,2,n != 1
 zap,Zapotec,2,n != 1
 zbl,Blissymbols,2,n != 1

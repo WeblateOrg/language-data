@@ -116,6 +116,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
+        "agr",
+        # Translators: Language name for ISO code "agr". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Aguaruna"),
+        2,
+        "n != 1",
+    ),
+    (
         "aii",
         # Translators: Language name for ISO code "aii". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -130,15 +139,6 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Ainu (Japan)"),
-        2,
-        "n != 1",
-    ),
-    (
-        "agr",
-        # Translators: Language name for ISO code "agr". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Aguaruna"),
         2,
         "n != 1",
     ),
@@ -305,6 +305,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
     (
+        "ar_Latn",
+        # Translators: Language name for ISO code "ar_Latn". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Arabic (Latin script)"),
+        6,
+        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
+    ),
+    (
         "ar_MA",
         # Translators: Language name for ISO code "ar_MA". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -337,15 +346,6 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Arabic (Yemen)"),
-        6,
-        "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
-    ),
-    (
-        "ar_Latn",
-        # Translators: Language name for ISO code "ar_Latn". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Arabic (Latin script)"),
         6,
         "n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5",
     ),
@@ -5606,20 +5606,20 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n == 1 ? 0 : n == 2 ? 1 : 2",
     ),
     (
-        "sat_Olck",
-        # Translators: Language name for ISO code "sat_Olck". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Santali (Ol Chiki script)"),
-        3,
-        "n == 1 ? 0 : n == 2 ? 1 : 2",
-    ),
-    (
         "sat_Deva",
         # Translators: Language name for ISO code "sat_Deva". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Santali (Devanagari script)"),
+        3,
+        "n == 1 ? 0 : n == 2 ? 1 : 2",
+    ),
+    (
+        "sat_Olck",
+        # Translators: Language name for ISO code "sat_Olck". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Santali (Ol Chiki script)"),
         3,
         "n == 1 ? 0 : n == 2 ? 1 : 2",
     ),
@@ -5786,6 +5786,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
+        "shs",
+        # Translators: Language name for ISO code "shs". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Shuswap"),
+        2,
+        "n != 1",
+    ),
+    (
         "si",
         # Translators: Language name for ISO code "si". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -5901,15 +5910,6 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         _("Sami (Skolt)"),
         3,
         "(n == 1) ? 0 : ((n == 2) ? 1 : 2)",
-    ),
-    (
-        "shs",
-        # Translators: Language name for ISO code "shs". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Shuswap"),
-        2,
-        "n != 1",
     ),
     (
         "sn",
@@ -6317,6 +6317,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "0",
     ),
     (
+        "the",
+        # Translators: Language name for ISO code "the". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Tharu (Chitwania)"),
+        2,
+        "n != 1",
+    ),
+    (
         "ti",
         # Translators: Language name for ISO code "ti". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -6468,15 +6477,6 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         _("Tok Pisin"),
         1,
         "0",
-    ),
-    (
-        "the",
-        # Translators: Language name for ISO code "the". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Tharu (Chitwania)"),
-        2,
-        "n != 1",
     ),
     (
         "tr",
@@ -7028,15 +7028,6 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
-        "yuw",
-        # Translators: Language name for ISO code "yuw". The parenthesis clarifies
-        # variant of the language. It could contain a region, age (Old, Middle, ...)
-        # or other variant.
-        _("Yau (Morobe Province)"),
-        2,
-        "n != 1",
-    ),
-    (
         "yo",
         # Translators: Language name for ISO code "yo". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -7071,6 +7062,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         _("Cantonese (Traditional Han script)"),
         1,
         "0",
+    ),
+    (
+        "yuw",
+        # Translators: Language name for ISO code "yuw". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Yau (Morobe Province)"),
+        2,
+        "n != 1",
     ),
     (
         "za",

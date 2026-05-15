@@ -52,6 +52,7 @@ RTL_LANGS: set[str] = {
     "fas",
     "glk",
     "ha",
+    "hac",
     "haz",
     "he",
     "heb",
