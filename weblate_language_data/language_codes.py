@@ -475,6 +475,7 @@ LANGUAGES: set[str] = {
     "gwi",
     "gya",
     "ha",
+    "hac",
     "hai",
     "hak",
     "hak_hans",

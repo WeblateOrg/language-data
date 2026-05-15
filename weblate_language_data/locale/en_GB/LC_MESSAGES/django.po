@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate 4.3\n"
 "Report-Msgid-Bugs-To: https://github.com/WeblateOrg/language-data/issues/\n"
-"POT-Creation-Date: 2026-05-15 13:56+0200\n"
+"POT-Creation-Date: 2026-05-15 13:58+0200\n"
 "PO-Revision-Date: 2026-04-22 18:09+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom) <https://hosted.weblate.org/projects/"
@@ -1766,6 +1766,14 @@ msgstr "Gwichʼin"
 #. or other variant.
 msgid "Hausa"
 msgstr "Hausa"
+
+#. Translators: Language name for ISO code "hac". The parenthesis clarifies
+#. variant of the language. It could contain a region, age (Old, Middle, ...)
+#. or other variant.
+#, fuzzy
+#| msgid "Sorani"
+msgid "Gorani"
+msgstr "Sorani"
 
 #. Translators: Language name for ISO code "hai". The parenthesis clarifies
 #. variant of the language. It could contain a region, age (Old, Middle, ...)
@@ -4926,9 +4934,6 @@ msgstr "Zaza"
 
 #~ msgid "Old Church Slavonic"
 #~ msgstr "Old Church Slavonic"
-
-#~ msgid "Sorani"
-#~ msgstr "Sorani"
 
 #, fuzzy
 #~ msgid "Sorani (Iran)"

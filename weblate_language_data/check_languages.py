@@ -3869,6 +3869,7 @@ LANGUAGES: set[str] = {
     "gora",
     "gorakor",
     "goranboy",
+    "gorani",
     "goranska",
     "gorap",
     "goreng",

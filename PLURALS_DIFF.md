@@ -297,6 +297,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `gv` | Manx | nplurals=4; plural=(n % 10 == 1) ? 0 : ((n % 10 == 2) ? 1 : ((n % 100 == 0 \|\| n % 100 == 20 \|\| n % 100 == 40 \|\| n % 100 == 60 \|\| n % 100 == 80) ? 2 : 3)); | ✔ |  |  |
  `gwi` | Gwichʼin | nplurals=2; plural=n != 1; |  |  |  |
  `ha` | Hausa | nplurals=2; plural=n != 1; | ✔ |  | ✔ |
+ `hac` | Gorani | nplurals=2; plural=n != 1; |  |  |  |
  `hai` | Haida | nplurals=2; plural=n != 1; |  |  |  |
  `hak_Hans` | Hakka (Simplified Han script) | nplurals=1; plural=0; |  |  |  |
  `hak_Hant` | Hakka (Traditional Han script) | nplurals=1; plural=0; |  |  |  |
