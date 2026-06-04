@@ -465,7 +465,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `mgo` | Metaʼ | nplurals=2; plural=n != 1; | ✔ |  |  |
  `mh` | Marshallese | nplurals=2; plural=n != 1; |  |  |  |
  `mhr` | Meadow Mari | nplurals=2; plural=n != 1; |  |  |  |
- `mi` | Maori | nplurals=2; plural=n > 1; |  |  | ✔ |
+ `mi` | Maori | nplurals=3; plural=n == 1 ? 0 : n < 10 ? 1 : 2; |  |  | ✔ |
  `mia` | Miami | nplurals=2; plural=n > 1; |  |  |  |
  `mic` | Mi'kmaq | nplurals=2; plural=n != 1; |  |  |  |
  `min` | Minangkabau | nplurals=2; plural=n != 1; |  |  |  |

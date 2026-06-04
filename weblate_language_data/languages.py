@@ -4153,8 +4153,8 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Maori"),
-        2,
-        "n > 1",
+        3,
+        "n == 1 ? 0 : n < 10 ? 1 : 2",
     ),
     (
         "mia",
