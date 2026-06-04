@@ -88,7 +88,7 @@ mai,Maithili,2,(n != 1)
 me,Montenegrin,3,n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2
 mfe,Morisyen,2,(n > 1)
 mg,Malagasy,2,(n > 1)
-mi,Maori,2,(n == 1 ? 0 : n < 10 ? 1 : 2)
+mi,Maori,2,(n > 1)
 mk,Macedonian,2,(n==1 || n%10==1 ? 0 : 1)
 ml,Malayalam,2,(n != 1)
 mn,Mongolian,2,(n != 1)
