@@ -458,7 +458,7 @@ mgh,Makhuwa-Meetto,2,n != 1
 mgo,Metaʼ,2,n != 1
 mh,Marshallese,2,n != 1
 mhr,Meadow Mari,2,n != 1
-mi,Maori,2,n > 1
+mi,Maori,3,n == 1 ? 0 : n < 10 ? 1 : 2;
 mia,Miami,2,n > 1
 mic,Mi'kmaq,2,n != 1
 min,Minangkabau,2,n != 1
