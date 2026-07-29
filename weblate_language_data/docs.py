@@ -4,14 +4,19 @@
 
 # List of Weblate documentation languages
 DOCUMENTATION_LANGUAGES = {
+    "ca": "ca",
     "de": "de",
     "en": "en",
     "es": "es",
     "fr": "fr",
     "ga": "ga",
+    "hr": "hr",
     "hu": "hu",
     "id": "id",
+    "it": "it",
+    "ko": "ko",
     "ja": "ja",
+    "la": "la",
     "nb": "no",
     "nl": "nl",
     "pl": "pl",
@@ -19,6 +24,7 @@ DOCUMENTATION_LANGUAGES = {
     "pt": "pt",
     "ro": "ro",
     "ru": "ru",
+    "sk": "sk",
     "sq": "sq",
     "sv": "sv",
     "ta": "ta",
