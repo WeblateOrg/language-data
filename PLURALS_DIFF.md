@@ -684,6 +684,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `sus` | Susu | nplurals=2; plural=n != 1; |  |  |  |
  `sux` | Sumerian | nplurals=2; plural=n != 1; |  |  |  |
  `sv` | Swedish | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ |
+ `sv-FI` | Swedish (Finland) | nplurals=2; plural=n != 1; |  |  |  |
  `sw` | Swahili | nplurals=2; plural=n != 1; | ✔ |  | ✔ |
  `sw_CD` | Swahili (Congo) | nplurals=2; plural=n != 1; | ✔ |  |  |
  `sw_TZ` | Swahili (Tanzania) | nplurals=2; plural=n != 1; | ✔ |  |  |
