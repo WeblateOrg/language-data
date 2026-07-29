@@ -1077,6 +1077,7 @@ LANGUAGES: set[str] = {
     "sus",
     "sux",
     "sv",
+    "sv-fi",
     "sve",
     "svk",
     "sw",

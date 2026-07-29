@@ -692,6 +692,7 @@ POPULATION: dict[str, int] = {
     "sus": 1538482,
     "sux": 0,
     "sv": 13338376,
+    "sv-FI": 0,
     "sw": 194102079,
     "sw_CD": 57701500,
     "sw_TZ": 60715890,

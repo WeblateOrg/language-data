@@ -6119,6 +6119,15 @@ LANGUAGES: tuple[tuple[str, str, int, str], ...] = (
         "n != 1",
     ),
     (
+        "sv-FI",
+        # Translators: Language name for ISO code "sv-FI". The parenthesis clarifies
+        # variant of the language. It could contain a region, age (Old, Middle, ...)
+        # or other variant.
+        _("Swedish (Finland)"),
+        2,
+        "n != 1",
+    ),
+    (
         "sw",
         # Translators: Language name for ISO code "sw". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
