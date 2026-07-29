@@ -16,7 +16,7 @@ DOCUMENTATION_LANGUAGES = {
     "it": "it",
     "ko": "ko",
     "ja": "ja",
-    "la": "la",
+    "lo": "lo",
     "nb": "no",
     "nl": "nl",
     "pl": "pl",
