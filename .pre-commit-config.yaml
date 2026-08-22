@@ -49,7 +49,7 @@ repos:
   - id: shellcheck
     require_serial: true
 - repo: https://github.com/abravalheri/validate-pyproject
-  rev: v0.25
+  rev: 0.26
   hooks:
   - id: validate-pyproject
 - repo: https://github.com/pappasam/toml-sort
