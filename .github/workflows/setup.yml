@@ -19,7 +19,7 @@ permissions:
 jobs:
   setup:
     name: Build packages
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
     - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
@@ -54,7 +54,7 @@ jobs:
 
   release_pypi:
     if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags') && github.repository == 'WeblateOrg/language-data'
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     name: Publish release to PyPI
     permissions:
       # this permission is mandatory for trusted publishing
@@ -74,7 +74,7 @@ jobs:
       run: uv publish --trusted-publishing always
 
   release_github:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     name: Create release on GitHub
     permissions:
       contents: write
