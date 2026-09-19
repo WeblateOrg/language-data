@@ -11,13 +11,13 @@ build = [
   "translate-toolkit==3.20.0"
 ]
 dev = [
-  {include-group = "build"},
-  {include-group = "lint"},
-  {include-group = "test"},
-  {include-group = "types"}
+  { include-group = "build" },
+  { include-group = "lint" },
+  { include-group = "test" },
+  { include-group = "types" }
 ]
 lint = [
-  {include-group = "pre-commit"}
+  { include-group = "pre-commit" }
 ]
 pre-commit = [
   "prek==0.5.3"
@@ -32,19 +32,19 @@ types = [
 
 [project]
 authors = [
-  {email = "michal@weblate.org", name = "Michal Čihař"}
+  { email = "michal@weblate.org", name = "Michal Čihař" }
 ]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
-  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: 3.13",
   "Programming Language :: Python :: 3.14",
-  "Programming Language :: Python",
   "Topic :: Software Development :: Internationalization",
   "Topic :: Software Development :: Localization",
   "Topic :: Utilities"
