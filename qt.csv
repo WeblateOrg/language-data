@@ -84,7 +84,7 @@ ms,Malay,1,0
 mt,Maltese,4,(n==1 ? 0 : (n==0 || (n%100>=1 && n%100<=10)) ? 1 : (n%100>=11 && n%100<=19) ? 2 : 3)
 my,Burmese,1,0
 na,Nauru,1,0
-nb_NO,Norwegian Bokmål,2,(n != 1)
+nb,Norwegian Bokmål,2,(n != 1)
 ne,Nepali,2,(n != 1)
 nl,Dutch,2,(n != 1)
 nn,Norwegian Nynorsk,2,(n != 1)

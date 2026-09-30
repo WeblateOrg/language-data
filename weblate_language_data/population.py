@@ -521,7 +521,7 @@ POPULATION: dict[str, int] = {
     "nan_Qabs_tailo": 0,
     "nap": 591359,
     "naq": 308402,
-    "nb_NO": 5509730,
+    "nb": 5511222,
     "nd": 2058048,
     "ndc": 4347923,
     "nds": 12049256,
