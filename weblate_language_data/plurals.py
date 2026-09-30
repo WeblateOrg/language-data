@@ -1346,8 +1346,8 @@ QTPLURALS: tuple[tuple[str, str, int, str], ...] = (
         "0",
     ),
     (
-        "nb_NO",
-        # Translators: Language name for ISO code "nb_NO". The parenthesis clarifies
+        "nb",
+        # Translators: Language name for ISO code "nb". The parenthesis clarifies
         # variant of the language. It could contain a region, age (Old, Middle, ...)
         # or other variant.
         _("Norwegian Bokmål"),

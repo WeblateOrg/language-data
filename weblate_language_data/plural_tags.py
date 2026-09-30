@@ -841,7 +841,7 @@ QT_PLURAL_TAGS = {
     "mt": ["one", "zero", "few", "other"],
     "my": ["other"],
     "na": ["other"],
-    "nb_NO": ["one", "other"],
+    "nb": ["one", "other"],
     "ne": ["one", "other"],
     "nl": ["one", "other"],
     "nn": ["one", "other"],

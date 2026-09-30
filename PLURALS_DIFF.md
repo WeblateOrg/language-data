@@ -513,7 +513,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `nan_Qabs_tailo` | Minnan (Simplified Hàn-lô script, Tâi-lô) | nplurals=1; plural=0; |  |  |  |
  `nap` | Neapolitan | nplurals=2; plural=n != 1; |  |  | ✔ |
  `naq` | Nama | nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2); | ✔ |  |  |
- `nb_NO` | Norwegian Bokmål | nplurals=2; plural=n != 1; | ✔ |  |  |
+ `nb` | Norwegian Bokmål | nplurals=2; plural=n != 1; | ✔ | ✔ | ✔ |
  `nd` | Ndebele (Northern) | nplurals=2; plural=n != 1; | ✔ |  |  |
  `ndc` | Ndau | nplurals=2; plural=n != 1; |  |  |  |
  `nds` | German (Low) | nplurals=2; plural=n != 1; |  |  |  |
