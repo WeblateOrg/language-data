@@ -33,7 +33,7 @@ Maintained by `Weblate <https://weblate.org/>`_ — a privacy-respecting localiz
 Usage
 =====
 
-The Python module can be installed from the PyPI:
+The Python module can be installed from PyPI:
 
 .. code-block:: sh
 
