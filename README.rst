@@ -41,7 +41,7 @@ The Python module can be installed from PyPI:
 
 It contains several modules containing language definitions and Gettext
 translations for them (in a way that they would be discovered by Django when
-used as an Django application).
+used as a Django application).
 
 CSV Files
 =========
