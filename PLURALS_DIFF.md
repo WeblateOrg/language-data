@@ -273,7 +273,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `gd` | Gaelic | nplurals=4; plural=(n==1 \|\| n==11) ? 0 : (n==2 \|\| n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3; | ✔ |  | ✔ |
  `gez` | Ge'ez | nplurals=2; plural=n != 1; |  |  |  |
  `gil` | Gilbertese | nplurals=2; plural=n != 1; |  |  |  |
- `gl` | Galician | nplurals=2; plural=n != 1; | ✔ |  | ✔ |
+ `gl` | Galician | nplurals=2; plural=n != 1; | nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2); |  | ✔ |
  `glk` | Gilaki | nplurals=2; plural=n != 1; |  |  |  |
  `gmh` | High German (Middle) | nplurals=2; plural=n != 1; |  |  |  |
  `gn` | Guarani | nplurals=2; plural=n != 1; |  |  |  |
@@ -706,7 +706,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `teo` | Teso | nplurals=2; plural=n != 1; | ✔ |  |  |
  `ter` | Tereno | nplurals=2; plural=n != 1; |  |  |  |
  `tet` | Tetum | nplurals=2; plural=n != 1; |  |  |  |
- `tg` | Tajik | nplurals=2; plural=n > 1; |  |  | nplurals=1; plural=0; |
+ `tg` | Tajik | nplurals=2; plural=n > 1; | ✔ |  | nplurals=1; plural=0; |
  `th` | Thai | nplurals=1; plural=0; | ✔ |  | ✔ |
  `the` | Tharu (Chitwania) | nplurals=2; plural=n != 1; |  |  |  |
  `ti` | Tigrinya | nplurals=2; plural=n > 1; | ✔ |  | ✔ |
@@ -759,7 +759,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `vai` | Vai | nplurals=2; plural=n != 1; |  |  |  |
  `ve` | Venda | nplurals=2; plural=n != 1; | ✔ |  | ✔ |
  `vec` | Venetian | nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2); | ✔ |  |  |
- `vi` | Vietnamese | nplurals=1; plural=0; | ✔ | ✔ | ✔ |
+ `vi` | Vietnamese | nplurals=1; plural=0; | nplurals=2; plural=n > 1; | ✔ | ✔ |
  `vls` | Flemish (West) | nplurals=2; plural=n != 1; |  |  |  |
  `vmf` | Mainfränkisch | nplurals=2; plural=n != 1; |  |  |  |
  `vmw` | Makhuwa | nplurals=2; plural=n != 1; |  |  |  |
