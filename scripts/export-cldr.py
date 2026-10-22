@@ -226,7 +226,6 @@ missing = {
     "guw": "Gun",
     "nah": "Nahuatl",
     "smi": "Sami",
-    "lld": "Ladin",
 }
 
 for code, name in missing.items():

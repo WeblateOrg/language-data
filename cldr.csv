@@ -119,7 +119,7 @@ fur,Friulian,2,n != 1
 fy,Western Frisian,2,n != 1
 ga,Irish,5,(n == 1) ? 0 : ((n == 2) ? 1 : ((n >= 3 && n <= 6) ? 2 : ((n >= 7 && n <= 10) ? 3 : 4)))
 gd,Scottish Gaelic,4,(n == 1 || n == 11) ? 0 : ((n == 2 || n == 12) ? 1 : ((n >= 3 && n <= 10 || n >= 13 && n <= 19) ? 2 : 3))
-gl,Galician,2,n != 1
+gl,Galician,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
 gsw,Swiss German,2,n != 1
 gu,Gujarati,2,n > 1
 gu_IN,Gujarati (India),2,n > 1
@@ -281,6 +281,7 @@ ta,Tamil,2,n != 1
 ta_LK,Tamil (Sri Lanka),2,n != 1
 te,Telugu,2,n != 1
 teo,Teso,2,n != 1
+tg,Tajik,2,n > 1
 th,Thai,1,0
 ti,Tigrinya,2,n > 1
 tig,Tigre,2,n != 1
@@ -301,7 +302,7 @@ uz,Uzbek,2,n != 1
 uz_Latn,Uzbek (Latin script),2,n != 1
 ve,Venda,2,n != 1
 vec,Venetian,3,(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2)
-vi,Vietnamese,1,0
+vi,Vietnamese,2,n > 1
 vo,Volapük,2,n != 1
 vun,Vunjo,2,n != 1
 wa,Walloon,2,n > 1
