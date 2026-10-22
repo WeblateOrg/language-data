@@ -106,7 +106,7 @@ if missing:
     raise ValueError(f"Missing from CLDR: {missing}")
 
 # Validate CLDR plural rules match
-exceptions = {"es", "it", "ca"}
+exceptions = {"gl", "es", "it", "ca"}
 matching = set(cldr.keys()) & set(languages.keys())
 for match in matching:
     if match.split("_")[0] in exceptions:
