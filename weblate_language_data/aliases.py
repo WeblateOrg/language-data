@@ -481,4 +481,6 @@ ALIASES: dict[str, str] = {
     "prp": "gu",
     "ais": "szy",
     "cls": "sa",
+    "shl": "mrh",
+    "yol": "enm",
 }
