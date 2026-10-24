@@ -31,7 +31,7 @@ jobs:
     - uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
       with:
         enable-cache: false
-        version: 0.13.1
+        version: 0.13.5
     - name: Install dependencies
       run: uv sync --all-extras --dev
     - name: build sdist
@@ -64,7 +64,7 @@ jobs:
     steps:
     - uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
       with:
-        version: 0.13.1
+        version: 0.13.5
         enable-cache: false
     - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
       with:
