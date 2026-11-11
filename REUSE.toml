@@ -37,7 +37,8 @@ path = [
   "pyproject.toml",
   "requirements**.txt",
   "REUSE.toml",
-  "setup.cfg"
+  "setup.cfg",
+  "uv.lock"
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Michal Čihař <michal@weblate.org>"
