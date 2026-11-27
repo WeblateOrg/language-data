@@ -62,7 +62,7 @@ hu,Hungarian,2,(n != 1)
 hy,Armenian,2,n > 1
 ia,Interlingua (International Auxiliary Language Association),2,(n != 1)
 id,Indonesian,1,0
-is,Icelandic,2,(n != 1)
+is,Icelandic,2,(n%10!=1 || n%100==11)
 it,Italian,2,(n != 1)
 ja,Japanese,1,0
 jbo,Lojban,1,0
