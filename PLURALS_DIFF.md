@@ -341,7 +341,7 @@ Code | Name | Plurals | CLDR plurals | Gettext plurals | Translate toolkit |
  `ilo` | Iloko | nplurals=2; plural=n != 1; |  |  |  |
  `inh` | Ingush | nplurals=2; plural=n != 1; |  |  |  |
  `io` | Ido | nplurals=2; plural=n != 1; | ✔ |  |  |
- `is` | Icelandic | nplurals=2; plural=n % 10 != 1 \|\| n % 100 == 11; | ✔ |  | nplurals=2; plural=(n != 1); |
+ `is` | Icelandic | nplurals=2; plural=n % 10 != 1 \|\| n % 100 == 11; | ✔ |  | ✔ |
  `isv` | Interslavic | nplurals=2; plural=n != 1; |  |  |  |
  `it` | Italian | nplurals=2; plural=n != 1; | nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0) ? 1 : 2); | ✔ | ✔ |
  `it@formal` | Italian (formal) | nplurals=2; plural=n != 1; |  |  |  |
