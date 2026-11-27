@@ -1343,15 +1343,15 @@ wheels = [
 
 [[package]]
 name = "translate-toolkit"
-version = "3.20.6"
+version = "3.21.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "lxml" },
     { name = "unicode-segmentation-rs" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e7/ec/c4572b49fdb9246f0610b6efcc6169d331f650dfdf2670e1a96c756c468c/translate_toolkit-3.20.6.tar.gz", hash = "sha256:232a2043c438a390fb911eb6b4124e01a983fa8f193e58c422e72cd34bac6a05", size = 655934, upload-time = "2026-11-10T12:49:51.617Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ee/4b/ef63ccdcd80657889b2402aca38e1be854e16c02e847faa0b6c7e9c5d2ef/translate_toolkit-3.21.0.tar.gz", hash = "sha256:55c3a87bc59260c2043e6c2e9f1a87a16bfe374a0d6ac7f8bdc6afa8d3d155ba", size = 676681, upload-time = "2026-11-26T15:05:38.865Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5d/69/e3c2c729dc5513931e7ddda382d4b3a60d297e44427be0018e67772b0ba6/translate_toolkit-3.20.6-py3-none-any.whl", hash = "sha256:f67aa96dc90f274f4715bfe9f72610db7ee39469c5743105148ff7b545fa3f92", size = 880877, upload-time = "2026-11-10T12:49:49.75Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/72/242e998c15206f09df9a57f5c3c430ebc0bd1d8e8022d098587dd67a4379/translate_toolkit-3.21.0-py3-none-any.whl", hash = "sha256:681302c17a5cf947cdb278616f8cf0def27b64e210e122951f30710d7444f8b3", size = 901662, upload-time = "2026-11-26T15:05:36.099Z" },
 ]
 
 [[package]]
@@ -1539,12 +1539,12 @@ requires-dist = [{ name = "django", marker = "extra == 'django'" }]
 provides-extras = ["django"]
 
 [package.metadata.requires-dev]
-build = [{ name = "translate-toolkit", specifier = "==3.20.6" }]
+build = [{ name = "translate-toolkit", specifier = "==3.21.0" }]
 dev = [
     { name = "django-types", specifier = "==0.24.0" },
     { name = "mypy", specifier = "==2.4.1" },
     { name = "prek", specifier = "==0.5.11" },
-    { name = "translate-toolkit", specifier = "==3.20.6" },
+    { name = "translate-toolkit", specifier = "==3.21.0" },
     { name = "types-setuptools", specifier = "==84.2.0.20261122" },
 ]
 lint = [{ name = "prek", specifier = "==0.5.11" }]
